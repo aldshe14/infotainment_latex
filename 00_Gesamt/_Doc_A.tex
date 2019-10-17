@@ -1,0 +1,59 @@
+
+\newcommand{\datitle}{Titel der Diplomarbeit}
+\newcommand{\daort}{Shkoder}
+\newcommand{\dabetreuer}{Titel Betreuer}
+\newcommand{\dadate}{\today}
+\newcommand{\daschoolyear}{2019/20}
+\newcommand{\danumber}{17.xx}
+\newcommand{\daclass}{5X}
+\newcommand{\daschuelereins}{SchülerName1} %Nur wenn der Name verwendet wird Ändern -> bei der Eidesstattlichen Erkärung werden automatisch die nötigen Zeilen eingeblendet !
+\newcommand{\daschuelerzwei}{SchülerName2}
+\newcommand{\daschuelerdrei}{SchülerName3}
+\newcommand{\daschuelervier}{SchülerName4}
+\newcommand{\daschuelerfuenf}{SchülerName5}
+\newcommand{\dabetreuereins}{Lehrer1}
+\newcommand{\dabetreuerzwei}{Lehrer2}
+\newcommand{\dabetreuerdrei}{Lehrer3}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%Base ordner for all other ordners (figures, appendix, ....)
+\ifdefined\bordner
+\renewcommand{\bordner}{./../00_Gesamt/}
+\else
+\newcommand{\bordner}{./../00_Gesamt/}
+\fi
+
+
+%Check Ordner for Figures
+\ifdefined\ordnerfigures
+\renewcommand{\ordnerfigures}{\bordner figures/}
+\else
+\newcommand{\ordnerfigures}{\bordner figures/}
+\fi
+
+%Check Ordner for Appendix
+\ifdefined\ordnerappendix
+\renewcommand{\ordnerappendix}{\bordner appendix/}
+\else
+\newcommand{\ordnerappendix}{\bordner appendix/}
+\fi
+
+%Check Ordner for Sourcecode
+\ifdefined\ordnersource
+\renewcommand{\ordnersource}{\bordner source/}
+\else
+\newcommand{\ordnersource}{\bordner source/}
+\fi
+
