@@ -2,12 +2,205 @@
 \label{\docname}
 
 \section{Projektziele}
+\subsection{Muss-Ziele}
 
-\color{red}
-inklusive optionale und nicht Ziele
-\color{black}
+\begin{itemize}
+	
+	
+	\item Es werden Bilder auf der Webseite hochgeladen und automatisch angezeigt.  
+	
+	\item Es werden Kalenderinformationen wie Feiertage, wichtige Termine (Olympiaden usw.) auf dem Bildschirm dargestellt.  
+	
+	\item Der Stundenplan der Klassen wird angezeigt.   
+	
+	Der aktuelle Supplierplan wird angezeigt.   
+	
+	\item Das System soll ein flexibles Layout haben. Ein Vollbild, zwei oder mehr Panels, Gr\"{o}\ss{}en und Platzierungen wie Informationen auf Bildschirmen werden angezeigt.  
+	
+	\item Der t\"{a}gliche Wetterbericht wird angezeigt.   
+	
+	\item Die aktuelle Uhrzeit und das Datum werden auf dem Bildschirm dargestellt.   
+	
+	\item Die leeren Klassen werden angezeigt.   
+	
+	\item Verschiedene Bildschirmgr\"{o}\ss{}en werden unterst\"{u}tzt.  
+	
+	\item Ein SSL Zertifikat f\"{u}r die Client-Serververbindung wird eingerichtet.   
+	
+	\item Es werden mehrere Anzeigen mit verschiedenen Inhalten angeboten.  
+	
+	\item Chatbot wird auch implementiert, um die Bilder hochzuladen und sperren.  
+	
+	\item Es werden unterschiedliche Anzeigezeiten f\"{u}r die unterschiedlichen GUI Bereiche unterst\"{u}tzt.  
+	
+	\item Es wird ein funktionierendes System auch im offline Betrieb erreicht. 
+	
+\end{itemize}
+
+\subsection{Optionale-Ziele}
+
+\begin{itemize}
+	
+	\item Videos k\"{o}nnen hochgeladen und freigegeben werden. Die g\"{a}ngigsten Videoformate werden unterst\"{u}tzt.  
+	
+	\item Das System kann auf mehrere Sprachen angeboten werden.  
+	
+	\item Die Notfallwarnungen k\"{o}nnen dargestellt werden.  
+	
+\end{itemize}
+
+\subsection{Nicht-Ziele}
+
+\begin{itemize}
+	
+	\item Es wird Interaktion des Benutzers mit dem Bildschirm geben.   
+	
+	\item Der Login auf die Webseite mit Gesichtserkennung und Office365 wird nicht m\"{o}glich sein.  
+	
+	\item Die Dateien k\"{o}nnen nicht von anderen Plattformen geholt werden.   
+	
+	
+	\item Es wird Audiounterst\"{u}tzung geben. 
+	
+	
+\end{itemize}
+
+
 
 \section{Projektplanung}
 
+\subsection{Meilensteine}
+Die Meilensteine sind Orientierungspunkte, die am Ende der Projektplanung definiert werden. Durch diese Punkte wird der Weg vom Beginn bis zum Ende des Projekts in strukturierter Form beschrieben. Die Meilensteine sind sehr wichtig, weil sie die Weiterf\"{u}hrung des Projekts bestimmen.
+
+\label{tb:meilensteine}
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		Datum      & Meilenstein                                        \\ \hline
+		04.10.2019 & Implementierung der Anzeige-Struktur               \\ \hline
+		18.10.2019 & Initialisierung des Systems (Datenbank)            \\ \hline
+		31.10.2019 & Raspberry PI Konfiguration (Server, Client)        \\ \hline
+		29.11.2019 & Erstellung der Admin-Webseite                      \\ \hline
+		29.11.2019 & Bilder-Verwaltung                                  \\ \hline
+		05.12.2019 & Chatbot Implementierung                            \\ \hline
+		20.12.2019 & Verschlüsselung der Webseite durch SSL-Zertifikate \\ \hline
+	\end{tabular}
+	\caption{Meilensteine}
+\end{table}
+
+
+\subsection{Projektstrukturplan}
+Bei einem Projektstrukturplan ist das Projekt in Teilaufgaben und Arbeitspaketen unterteilt.  
+Jedes Arbeitspaket gibt eine Aufgabe an, f\"{u}r die einer von der Gruppe verantwortlich ist. 
+Der Projektstrukturplan ist ein sehr wichtiger Teil der Projektplanung, weil es bei der Definition der Ziele und bei der Darstellung der Arbeitspakete in strukturierter Form hilft.
+
+\label{fi:Projektstrukturplan}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{\ordnerfigures
+		psp.png}
+	\caption{Projektstrukturplan}
+\end{figure}
+
+\subsection{Arbeitspakete}
+Die Arbeitspakete sind die Hauptelemente eines Projekts, die ein definiertes Ergebnis, Start-und Endzeitpunkt haben. Sie werden nicht weiter unterteilt. Jedes Mitglied des Projektteams ist f\"{u}r einige Arbeitspakete zust\"{a}ndig.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+% Please add the following required packages to your document preamble:
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{ll}
+	\hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 1.1: Brainstorming} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\endfirsthead
+	%
+	\endhead
+	%
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 16/10/2019\\ \\ Ende: 22/10/2019\\ \\ Mitarbeit: Irena\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - Idee suchen\\ - Idee Generierung\\ - Idee sammeln\\ - Idee bearbeiten\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 1.2: Recherche} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 24/10/2019\\ \\ Ende: 29/10/2019\\ \\ Mitarbeit: Aldo\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - Informationen für ähnliche Systeme suchen\\ - Informationen finden\\ - Informationen bearbeiten\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 1.3: Big Picture} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 30/09/2019\\ \\ Ende: 03/10/2019\\ \\ Mitarbeit: Irena\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - Umwelt und Rahmenbedingungen definieren\\ - Daten bzw. Steuerungsanweisungsbeschreibungen\\ - Iterationen\\ - Digitalisierung\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 1.4: Structured Design} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 03/10/2019\\ Ende: 06/10/2019\\ Mitarbeit: Aldo\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - Festlegung der Schnittstellen und Grenzen jedes Modules\\ - Schnittstellenbeschreibung\\ - Funktionsbeschreibung\\ - Modes\\ - Iterationen\\ - Digitalisierung\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 2.1: DB einrichten} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 07/10/2019\\ \\ Ende: 13/10/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - DB erstellen\\ - User anlegen\\ - Rechte vergeben\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 2.2: DB Entwurf} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 14/10/2019\\ \\ Ende: 18/10/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - Konzeptueller Entwurf\\ - Implementationsentwurf\\ - Physischer Entwurf\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 2.3: DB-Design} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 22/10/2019 \\ \\ \\ Ende: 26/10/2019 \\ \\ Mitarbeit: Aldo\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung:  \\ Entwurf der Tabellen für: \\ - Administrator \\ - Bilder \\ - Klassenplan \\ - Lehrerplan \\ - Supplierplan  \\ - Stundenplan\\ - Lehrer \\ - Wetter\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 2.4: API Integration} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 10/12/2019 \\ \\ Ende: 13/12/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung:  \\ - API Dokumentation lesen \\ - API Funktionalität anschauen \\ - API als Schnittstelle verwenden \\ - Daten aus vorhandenen und älteren Datenquellen durch API bekommen\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 2.5: Test Daten} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 02/12/2019 \\ \\ Ende: 22/12/2019 \\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung:  \\ - Dummy Daten erzeugen \\ - Tabelle füllen \\ - Proben durchführen\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 3.1: Admin Panel} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 01/11/2019\\ \\ Ende: 28/11/2019\\ \\ Mitarbeit:  Irena\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung:\\ - Login\\ - Einstellungen\\ - Gewünschte\\ - Informationen selektieren\\ - Informationen anzeigen lassen\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 3.2: Logo} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 09/10/2019\\ \\ Ende: 13/10/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung:  \\ - W ortmarke finden\\ - Symbol Marke finden\\ - Kombination (Wort und Symbol) auswählen\\ - Entwicklung\\ - Entwurf\\ - Digitalisierung\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 3.3: SSL Zertifikate} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 11/12/2019\\ \\ Ende: 13/12/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - SSL Zertifikate Keys anlegen\\ - SSL Zertifikate einrichten\\ - HTTPS verwenden\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 3.4: Layout} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 16/12/2019\\ \\ Ende: 22/12/2019\\ \\ Mitarbeit: Aldo\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung:\\ - Bootstrap\\ - Responsives\\ - Webdesign\\ - Navigationsleiste\\ - Bilder\\ - Typographie\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 3.5: Wetterdaten} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 25/11/2019\\ \\ Ende: 30/11/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - API Integration\\ - Format wählen (XML, JSON)\\ - Datenbank erstellen\\ - Daten auf die Webseite anzeigen lassen\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket  AP 4.1: Server} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 30/10/2019\\ \\ \\ Ende: 3/11/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - Betriebssystem installieren\\ - Programme herunterladen und installieren\\ - Apache Server einrichten\\ - MySQL Datenbank anlegen\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 4.2: Client} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 21/10/2019\\ \\ Ende: 2/11/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - Betriebssystem installieren\\ - Programme herunterladen und installieren\\ - Apache Server einrichten\\ - MySQL Datenbank anlegen\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 4.3: Aufbau} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 04/11/2019\\ \\ Ende: 08/11/2019\\ \\ Mitarbeit: Irena\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - RaspberryPi Gehäuse \\ - RaspberryPi am Bildschirm anbringen\\ - Bildschirm an die Wand hängen\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 4.4: Einrichtung des Systems} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 11/11/2019\\ \\ Ende: 30/11/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - WLAN Verbindung\\ - Verbindung mit der Datenbank\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 5.1: Chatbot Einrichten} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 18/11/2019\\ \\ Ende: 24/11/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - API Dokumentation anschauen\\ - Account anlegen\\ - Registrieren\\ - Bilder, Videos posten\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 5.2: Bilder Funktionalität} & \multicolumn{1}{l|}{Verantwortung: Aldo} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 25/11/2019\\ \\ Ende: 01/12/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - Bilder hochladen\\ - Bilder in der Datenbank speichern\\ - Bilder von der Datenbank selektieren und auf\\ der Website anzeigen lassen\end{tabular}} \\ \hline
+	\multicolumn{1}{|l|}{Arbeitspaket AP 5.3: Sperr-Funktion} & \multicolumn{1}{l|}{Verantwortung: Irena} \\ \hline
+	\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Beginn: 03/12/2019\\ \\ Ende: 07/12/2019\\ \\ Mitarbeit:\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Beschreibung: \\ - ID des Bildes schicken\\ - Das Telefonnummer sperren, damit er keine\\ - Bilder mehr hochladen kann\\ - Das Bild am Bildschirm löschen\\ - Das Bild aus der Datenbank entfernen\end{tabular}} \\ \hline
+	\caption{Arbeitspakete}
+	\label{tb:arbeitspakete}\\
+\end{longtable}
 
 \section{Projektmanagementmethode}
+
+\subsection{Structed Design}
+Structed Design ist eine systematische Methode, die verwendet wird, um eine Software so gut wie m\"{o}glich zu beschreiben. Mit dieser Methode wird das Architekturdesign, die flie\ss{}enden Daten und Signale, sowie alle Schnittstellen sehr leicht und deutlich beschrieben. Ein weiterer Vorteil dieser Methode ist, dass es sehr leicht zu verstehen ist. In diesem Projekt wurde Structed Design verwendet, aufgrund der guten M\"{o}glichkeit, dass sie bietet, Iterationen zu verwenden und tiefer in die wichtigsten Ebenen der Arbeit zu gehen. 
+
+\label{fi:sd-client }
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.45]{\ordnerfigures
+		client.png}
+	\caption{Structed Design - Client}
+\end{figure}
+
+\label{fi:sd-server }
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.35]{\ordnerfigures
+		server.png}
+	\caption{Structed Design - Server}
+\end{figure}
+
+
+.\subsection{Wasserfall}
+Das Wasserfall Modell(Abbildung \ref{fi:wasserfall }) ist die zweite Projektmanagement Methode, die von uns gew\"{a}hlt wurde. Diese Methode teilt die wichtigsten Prozesse und Phasen des Projekts so, dass sie sequenziell nacheinander bearbeitet werden und dass jede Phase von der vorherigen Phase abh\"{a}ngig ist. Die wichtigsten Schritte eines Wasserfallmodells sind: Anforderung, Analyse, Entwurf, Realisierung, Test, Systemintegration und Systemabnahme. Das Projekt geht durch diese sieben Schritte bzw. Phasen sequentiell durch, bis die Arbeit abgeschlossen ist. Der Name dieses Modells leitet sich aufgrund des Flie\ss{}ens des Projektes durch alle Phasen ab.  Das Modell wird sehr gerne bei der Erstellung von Webseiten oder bei Entwurf von Datenbanken angewendet. Obwohl diese Methode sehr langwierig sein kann und nicht sehr flexibel ist (Fehlerkorrektur), erm\"{o}glicht es eine sehr klare und leichte Planung und Organisation der Arbeit, sowie eine gute Zielabgrenzung und Aufwandsabsch\"{a}tzung.Die oben genannten Merkmale sind der Grund, warum diese Methode f\"{u}r dieses Projekt ausgew\"{a}hlt wurde. 
+
+\label{fi:wasserfall }
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=2.2]{\ordnerfigures
+		wasserfall.jpg}
+	\caption{Wasserfallmodell}
+\end{figure}
+
+
+
