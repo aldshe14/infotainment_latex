@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  18 OCT 2019 08:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  18 OCT 2019 08:29
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -873,7 +873,11 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count416
 \@quotereset=\count417
-(Master.aux)
+(Master.aux
+
+LaTeX Warning: Label `Name' multiply defined.
+
+)
 \openout1 = `Master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
@@ -890,8 +894,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
-
-(C:\Users\Aldo\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\Aldo\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count418
 \scratchdimen=\dimen180
@@ -1081,14 +1084,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 86.
  (_Doc_A.tex) (01_title.tex
-<./figures/Header_Seite.png, id=115, 137.01187pt x 48.18pt>
+<./figures/Header_Seite.png, id=79, 137.01187pt x 48.18pt>
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 6.
 (pdftex.def)             Requested size: 137.01154pt x 48.17986pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 49.
-<./../00_Gesamt/figures/Frontpage_back.png, id=116, 716.6775pt x 403.5075pt>
+<./../00_Gesamt/figures/Frontpage_back.png, id=80, 716.6775pt x 403.5075pt>
 File: ./../00_Gesamt/figures/Frontpage_back.png Graphic file (type png)
 <use ./../00_Gesamt/figures/Frontpage_back.png>
 Package pdftex.def Info: ./../00_Gesamt/figures/Frontpage_back.png  used on inp
@@ -1128,19 +1131,7 @@ No file Master.nls.
 
  [6
 
-]
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 119.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 28.43996pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[7] (../10_allgemein/_Doc_A.tex) (../10_allgemein/_Doc.tex
+] (../10_allgemein/_Doc_A.tex) (../10_allgemein/_Doc.tex
 Kapitel 1.
 
 Overfull \hbox (20.01909pt too wide) in paragraph at lines 9--11
@@ -1166,7 +1157,14 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 1.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [2]
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 28.43996pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2]
 Kapitel 2.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
@@ -1177,7 +1175,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [3
 
 ]
-<./../20_planung/figures/psp.png, id=205, 659.46375pt x 305.64188pt>
+<./../20_planung/figures/psp.png, id=156, 659.46375pt x 305.64188pt>
 File: ./../20_planung/figures/psp.png Graphic file (type png)
 <use ./../20_planung/figures/psp.png>
 Package pdftex.def Info: ./../20_planung/figures/psp.png  used on input line 10
@@ -1239,7 +1237,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 173.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [8]
-<./../20_planung/figures/client.png, id=237, 1020.81375pt x 786.94pt>
+<./../20_planung/figures/client.png, id=188, 1020.81375pt x 786.94pt>
 File: ./../20_planung/figures/client.png Graphic file (type png)
 <use ./../20_planung/figures/client.png>
 Package pdftex.def Info: ./../20_planung/figures/client.png  used on input line
@@ -1250,7 +1248,7 @@ Overfull \hbox (18.34421pt too wide) in paragraph at lines 178--180
  [][] 
  []
 
-<./../20_planung/figures/server.png, id=238, 1258.7025pt x 1152.305pt>
+<./../20_planung/figures/server.png, id=189, 1258.7025pt x 1152.305pt>
 File: ./../20_planung/figures/server.png Graphic file (type png)
 <use ./../20_planung/figures/server.png>
 Package pdftex.def Info: ./../20_planung/figures/server.png  used on input line
@@ -1264,7 +1262,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 195.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [9 <./../20_planung/figures/client.png>]
-<./../20_planung/figures/wasserfall.jpg, id=247, 144.54pt x 101.178pt>
+<./../20_planung/figures/wasserfall.jpg, id=198, 144.54pt x 101.178pt>
 File: ./../20_planung/figures/wasserfall.jpg Graphic file (type jpg)
 <use ./../20_planung/figures/wasserfall.jpg>
 Package pdftex.def Info: ./../20_planung/figures/wasserfall.jpg  used on input 
@@ -1290,58 +1288,28 @@ Kapitel 3.
 
 ]
 Kapitel 4.
-[13
+) [13
 
-]
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 43.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [14])
-Overfull \hbox (8.17159pt too wide) in paragraph at lines 46--137
-[]\OT1/cmr/m/n/12 Er un-ter-such-te auch ganz all-ge-mein ha-mil-ton-sche Sys-t
-e-me mit []cons-traints\ (Zwangs-
- []
-
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 137.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[15] (../50_yy/_Doc_A.tex) (../50_yy/_Doc.tex
+] (../50_yy/_Doc_A.tex) (../50_yy/_Doc.tex
 Kapitel 5.
-[16
+) [14
 
-]
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 38.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [17]
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 54.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [18])
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 139.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [19] (../10_allgemein/_Doc_A.tex) (../10_allgemein/_Doc_App.tex) (../20_planun
-g/_Doc_A.tex) (../20_planung/_Doc_App.tex)
-(../30_doku/_Doc_A.tex) (../30_doku/_Doc_App.tex) (../40_xx/_Doc_A.tex)
-(../40_xx/_Doc_App.tex) (../50_yy/_Doc_A.tex) (../50_yy/_Doc_App.tex)
-(Master.lof)
+] (../10_allgemein/_Doc_A.tex) (../10_allgemein/_Doc_App.tex)
+(../20_planung/_Doc_A.tex) (../20_planung/_Doc_App.tex) (../30_doku/_Doc_A.tex)
+(../30_doku/_Doc_App.tex) (../40_xx/_Doc_A.tex) (../40_xx/_Doc_App.tex)
+(../50_yy/_Doc_A.tex) (../50_yy/_Doc_App.tex) (Master.lof)
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
- [20
+ [15
 
 
 ] (Master.lot)
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [21
+
+[16
 
 ]
 
@@ -1373,7 +1341,7 @@ LaTeX Warning: Empty bibliography on input line 169.
 
 
 AED: lastpage setting LastPage
-[22
+[17
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
@@ -1382,27 +1350,31 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 87EAC689786DC09024528962C66C5219;1703.
+(rerunfilecheck)             Checksum: 29D86598AED42BD370F4FFC419D9941C;1143.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'Master.run.xml'.
 \openout1 = `Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29124 strings out of 492895
- 557801 string characters out of 3133482
- 1057654 words of memory out of 3000000
- 32609 multiletter control sequences out of 15000+200000
+ 29091 strings out of 492895
+ 557426 string characters out of 3133482
+ 1057668 words of memory out of 3000000
+ 32591 multiletter control sequences out of 15000+200000
  541131 words of font info for 55 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 57i,17n,100p,1188b,2279s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,16n,100p,1188b,2279s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Master.pdf (30 pages, 1014196 bytes).
+Output written on Master.pdf (24 pages, 983571 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
