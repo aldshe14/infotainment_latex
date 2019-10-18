@@ -1,14 +1,30 @@
 \chapter{\docname}
 \label{\docname}
 
-\color{red}
-Aufgabenstellung, Idee und Thema
-\begin{itemize}
-	\item Beschreibung Ausgangssituation
-	\item Motivation für die Diplomarbeit - warum gerade dieses Thema
-	\item Wenn eine besondere Idee dahinter steckt - kurze Erklärung 
-	\item Abgrenzung der Arbeit
-	\item Zielsetzung der Arbeit
-\end{itemize}
+\section{Idee, Thema, Aufgabenstellung}
+Diese Diplomarbeit wird von zwei Sch\"{u}lerinnen der \"{O}sterreichischen Schule \textquotedblleft{}Peter Mahringer\textquotedblright{} in Shkodra geschrieben. Die Idee des Projekts ist, ein System zu entwickeln, wo die wichtigsten Benachrichtigungen des Tages f\"{u}r unsere Schule auf einem Bildschirm dargestellt werden. Das war notwendig, weil die fr\"{u}here Arbeit sehr aufwendig und ung\"{u}nstig war.  
 
-\color{black}
+Dieses Thema ist sehr wichtig, weil in der heutigen Zeit es eine weitverbreitete Umgebung f\"{u}r die Anwendungen dieses Systems gibt. Bei vielen Unternehmen ist es erforderlich, die Informationen so schnell wie m\"{o}glich darzustellen, damit die Kunden immer auf dem Laufenden sind. Momentan wird dieses System f\"{u}r die Schule angepasst.  
+
+Es wird eine Webseite mit Login programmiert, wobei der Administrator die M\"{o}glichkeit hat, verschiedene Informationen mit dem passenden Layout auf dem Bildschirm anzeigen zu lassen. Diese Informationen werden direkt aus einer selbsterstellen Datenbank selektiert. Zus\"{a}tzlich, werden auch Kalenderinformationen wie z.B Olympiaden, wichtige Termine aber auch Wetterdaten oder der letzte Post von der Webseite dargestellt. Die Wetterdaten und der letzte Post von der Webseite werden vom Internet mithilfe von APIs geholt.  
+Dieses System bietet viele Bildschirme mit unterschiedlichen Inhalten an. Der Administrator kann die Inhalte von fern f\"{u}r jeden Bildschirm \"{a}ndern. 
+
+Eine weitere Funktionalit\"{a}t des Systems wird Chatbot sein. Chatbot ist ein sehr wichtiger Teil von k\"{u}nstlicher Intelligenz, deswegen war es wichtig, diesen Komponent zu involvieren. 
+
+
+\section{Team}
+
+Das Projektteam besteht aus zwei Personen: Irena Bala und Aldo Sheldija. Irena Bala ist die Projektleiterin und Aldo Sheldija ist stellvertretender Projektleiter. Seit zwei Jahren sind sie in einer Klasse zusammen. Sie haben aber auch fr\"{u}her zusammengearbeitet, deswegen kennen sie sich gut. Die Mitglieder dieses Teams haben sich in der vierten Klasse f\"{u}r denselben Schwerpunkt entschlossen; n\"{a}mlich f\"{u}r den Schwerpunkt Systemtechnik. Sie haben gemeinsame Interesse an Softwareprogrammierung und an eingebettete Systeme. Allgemein haben sie auch andere F\"{a}higkeiten. Aldo Sheldija hat in der Vergangenheit viele Websites erstellt, w\"{a}hrend Irena Bala viel Erfahrung mit Datenbanken hat. Auf diese Weise erg\"{a}nzen sie ihre Kompetenzen gegenseitig, um das Projekt erfolgreich abzuschlie\ss{}en. Sie verfolgen den gleichen Zweck, um dieses Projekt optimal durchzuf\"{u}hren.
+\\\\
+Die Aufgabenteilung in dieser Diplomarbeit ist folgende: \\
+
+\textbf{Irena Bala} f\"{u}hrt unter Zuhilfenahme eines Structed Design die Planung des Systems durch. Sie wird f\"{u}r die Konfiguration vom Raspberry PI Server, sowie f\"{u}r die Erstellung der SSL-Zertifikate und f\"{u}r die Einrichtung von der Datenbank verantwortlich sein. Das Design von der Datenbank, die Einrichtung des Systems und die API-Integration f\"{u}r Wetterdaten werden auch von ihr durchgef\"{u}hrt. Zus\"{a}tzlich wird sie Chatbot einrichten und die Sperr-Funktion von unpassenden Bildern programmieren. 
+
+\textbf{Aldo Sheldija} ist zust\"{a}ndig f\"{u}r die Planung des Systems mithilfe von einem Big Picture und f\"{u}r die Entwicklung von dem Logo. Er wird f\"{u}r die Konfiguration vom Raspberry PI Client, sowie f\"{u}r die Erstellung des Admin-Panels und f\"{u}r die Erstellung von Bilder-Funktionalit\"{a}t beim Chatbot verantwortlich sein. Der Entwurf der Datenbank und die API-Integration f\"{u}r den letzten Post von der Webseite der Schule wird von ihm durchgef\"{u}hrt. Zus\"{a}tzlich wird er das System aufbauen und testen.
+
+\section{Allgemeines}
+
+Damit das Projekt optimal umgesetzt werden kann, werden einige zus\"{a}tzliche Funktionen ber\"{u}cksichtigt. Beispielsweise wird die Website mit einem SSL-Zertifikat verschl\"{u}sselt. Bei einer Unterbrechung der Netzwerkverbindung werden anstelle eines schwarzen Bildes, die zuletzt dargestellten Informationen f\"{u}r die Dauer dieser Unterbrechung am Bildschirm dargestellt. Die L\"{o}sungen daf\"{u}r werden in den folgenden Kapiteln beschrieben. 
+
+
+
