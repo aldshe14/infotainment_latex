@@ -17,5 +17,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Structed Design}{9}{subsection.2.3.1}% 
 \contentsline {subsection}{\numberline {2.3.2}Wasserfall}{9}{subsection.2.3.2}% 
 \contentsline {chapter}{\numberline {3}Dokumentation des Projektverlaufs}{12}{chapter.3}% 
-\contentsline {chapter}{\numberline {4}Name}{13}{chapter.4}% 
-\contentsline {chapter}{\numberline {5}Name}{14}{chapter.5}% 
+\contentsline {section}{\numberline {3.1}Beschreibungen des Arbeitsverlaufs}{12}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Aldo Sheldija}{12}{subsection.3.1.1}% 
+\contentsline {chapter}{\numberline {4}Name}{16}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}Admin Webseite - Aldo Sheldija}{17}{chapter.5}% 

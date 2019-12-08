@@ -1,0 +1,5 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Dokumentation des Projektverlaufs}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Beschreibungen des Arbeitsverlaufs}{1}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Aldo Sheldija}{1}{subsection.1.1.1}% 
