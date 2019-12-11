@@ -1,14 +1,13 @@
-\BOOKMARK [0][-]{chapter.1}{Admin Webseite - Aldo Sheldija}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Umsetzung - Aldo Sheldija}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Allgemeine Beschreibung}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Technologien}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.2.1}{Bootstrap}{section.1.2}% 4
-\BOOKMARK [2][-]{subsection.1.2.2}{PHP}{section.1.2}% 5
-\BOOKMARK [2][-]{subsection.1.2.3}{MySQL}{section.1.2}% 6
-\BOOKMARK [2][-]{subsection.1.2.4}{JavaScript}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.5}{Visual Studio Code}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.6}{Datatables}{section.1.2}% 9
-\BOOKMARK [1][-]{section.1.3}{Rechte in die Webseite}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.4}{Basis Seite}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.5}{Displays}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.6}{Layouts}{chapter.1}% 13
-\BOOKMARK [1][-]{section.1.7}{Webseite auf mehrere Sprachen}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.1.1}{Admin Webseite}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Client}{section.1.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Technologien}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.2.1}{Admin Webseite}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.2}{Client}{section.1.2}% 7
+\BOOKMARK [1][-]{section.1.3}{Technische L\366sung}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{Basis Seite}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.2}{Displays}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.3}{Layouts}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.4}{Rechte in die Webseite}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.5}{Webseite auf mehrere Sprachen}{section.1.3}% 13

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  9 DEC 2019 01:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  11 DEC 2019 00:41
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1081,7 +1081,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 39.
  (_Doc_A.tex) (01_title.tex
-<./figures/Header_Seite.png, id=59, 137.01187pt x 48.18pt>
+<./figures/Header_Seite.png, id=55, 137.01187pt x 48.18pt>
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 7.
@@ -1091,7 +1091,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 7.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 27.
 
-<./../50_aldosheldija/figures/Frontpage_back.png, id=60, 716.6775pt x 403.5075p
+<./../50_aldosheldija/figures/Frontpage_back.png, id=56, 716.6775pt x 403.5075p
 t>
 File: ./../50_aldosheldija/figures/Frontpage_back.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/Frontpage_back.png>
@@ -1118,54 +1118,94 @@ l.66 \mainmatter
 
 ] (_Doc.tex
 Kapitel 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-! You can't use `macro parameter character #' in horizontal mode.
-<recently read> ##
-                  
-l.7 ...n angebetet, so dass noch leichter wird.\\#
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-) (_Doc_App.tex) [1
+[1
 
 
 
 ]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 22.
+<./../50_aldosheldija/figures/bootstrap.png, id=91, 1027.84pt x 863.225pt>
+File: ./../50_aldosheldija/figures/bootstrap.png Graphic file (type png)
+<use ./../50_aldosheldija/figures/bootstrap.png>
+Package pdftex.def Info: ./../50_aldosheldija/figures/bootstrap.png  used on in
+put line 39.
+(pdftex.def)             Requested size: 132.30666pt x 111.11676pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 86.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 46.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 28.43996pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2] (Master.lof)
+[2]
+<./../50_aldosheldija/figures/php.png, id=107, 713.66624pt x 385.44pt>
+File: ./../50_aldosheldija/figures/php.png Graphic file (type png)
+<use ./../50_aldosheldija/figures/php.png>
+Package pdftex.def Info: ./../50_aldosheldija/figures/php.png  used on input li
+ne 49.
+(pdftex.def)             Requested size: 132.30666pt x 71.45232pt.
+<./../50_aldosheldija/figures/js.jpg, id=109, 903.375pt x 1124.2pt>
+File: ./../50_aldosheldija/figures/js.jpg Graphic file (type jpg)
+<use ./../50_aldosheldija/figures/js.jpg>
+Package pdftex.def Info: ./../50_aldosheldija/figures/js.jpg  used on input lin
+e 62.
+(pdftex.def)             Requested size: 132.30666pt x 164.64302pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 78.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+[3 <./../50_aldosheldija/figures/bootstrap.png> <./../50_aldosheldija/figures/p
+hp.png>]
+<./../50_aldosheldija/figures/mysql.png, id=122, 271.0125pt x 187.70125pt>
+File: ./../50_aldosheldija/figures/mysql.png Graphic file (type png)
+<use ./../50_aldosheldija/figures/mysql.png>
+Package pdftex.def Info: ./../50_aldosheldija/figures/mysql.png  used on input 
+line 81.
+(pdftex.def)             Requested size: 132.30666pt x 91.63644pt.
+<./../50_aldosheldija/figures/apache.png, id=123, 301.125pt x 114.4275pt>
+File: ./../50_aldosheldija/figures/apache.png Graphic file (type png)
+<use ./../50_aldosheldija/figures/apache.png>
+Package pdftex.def Info: ./../50_aldosheldija/figures/apache.png  used on input
+ line 92.
+(pdftex.def)             Requested size: 132.30666pt x 50.27841pt.
+) (_Doc_App.tex)
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 86.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [4 <./../50_aldosheldija/figures/js.jpg> <./../50_aldosheldija/figures/mysql.p
+ng> <./../50_aldosheldija/figures/apache.png>]
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 86.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [5]
+(Master.lof)
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
- [3
+ [6
 
 
 ] (Master.lot)
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [4
+ [7
 
 ]
 
@@ -1197,7 +1237,7 @@ LaTeX Warning: Empty bibliography on input line 99.
 
 
 AED: lastpage setting LastPage
-[5
+[8
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
@@ -1206,7 +1246,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: E41929028BD64DEF22663364225A14C5;877.
+(rerunfilecheck)             Checksum: 3A2B230ABFF701B307F0CD0BECC5E88E;851.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1216,20 +1256,23 @@ Package logreq Info: Writing requests to 'Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28894 strings out of 492895
- 550119 string characters out of 3133482
- 1034064 words of memory out of 3000000
- 32498 multiletter control sequences out of 15000+200000
- 539871 words of font info for 50 fonts, out of 3000000 for 9000
+ 28955 strings out of 492895
+ 551487 string characters out of 3133482
+ 1037299 words of memory out of 3000000
+ 32539 multiletter control sequences out of 15000+200000
+ 541280 words of font info for 56 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 57i,16n,100p,852b,2279s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,16n,100p,1306b,2279s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
-Output written on Master.pdf (7 pages, 637850 bytes).
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsl12.pfb>
+Output written on Master.pdf (10 pages, 900998 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
