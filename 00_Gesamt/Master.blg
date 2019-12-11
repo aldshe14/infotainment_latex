@@ -1,5 +1,11 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Master.aux
-I found no \citation commands---while reading file Master.aux
-I found no \bibdata command---while reading file Master.aux
-I found no \bibstyle command---while reading file Master.aux
-(There were 3 error messages)
+[0] Config.pm:304> INFO - This is Biber 2.13
+[1] Config.pm:307> INFO - Logfile is 'Master.blg'
+[97] biber-MSWIN64:315> INFO - === 
+[[234] Biber.pm:375> INFO - Reading 'Master.bcf'[[526] Biber.pm:905> INFO - Found 1 citekeys in bib section 0[[586] Biber.pm:4196> INFO - Processing section 0
+[590] Utils.pm:75> INFO - Globbing data source './../literatur.bib'[[645] Utils.pm:91> INFO - Globbed data source './../literatur.bib' to ./../literatur.bib[[681] Biber.pm:4373> INFO - Looking for bibtex format file './../literatur.bib' for section 0[[695] bibtex.pm:1462> INFO - LaTeX decoding ...[[979] bibtex.pm:1281> INFO - Found BibTeX data source './../literatur.bib'[1009] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1009] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1009] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[1009] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
+[1025] bbl.pm:648> INFO - Writing 'Master.bbl' with encoding 'UTF-8'
+[1027] bbl.pm:751> INFO - Output to Master.bbl
+
