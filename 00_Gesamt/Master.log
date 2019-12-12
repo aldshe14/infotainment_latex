@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  11 DEC 2019 10:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  12 DEC 2019 18:50
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -923,14 +923,18 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `Master.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Master.bbl' found.
- (Master.bbl)
+Package biblatex Info: ... file 'Master.bbl' not found.
+
+No file Master.bbl.
+
+Package biblatex Warning: citation 'test' was not found at all in the .bbl, bib
+liography labels cannot be generated, please correct the citation.
+
 Package biblatex Info: Reference section=0 on input line 88.
 Package biblatex Info: Reference segment=0 on input line 88.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
-
 (C:\Users\Aldo\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
@@ -1410,7 +1414,33 @@ File: ./../50_aldosheldija/figures/mysql.png Graphic file (type png)
 Package pdftex.def Info: ./../50_aldosheldija/figures/mysql.png  used on input 
 line 81.
 (pdftex.def)             Requested size: 132.30666pt x 91.63644pt.
-<./../50_aldosheldija/figures/apache.png, id=370, 301.125pt x 114.4275pt>
+
+! Undefined control sequence.
+<argument> \textasciiacute 
+                           
+l.86 ´
+       ´Das \textbf{Apache} Apache HTTP Server-Projekt ist ein Versuch, ein...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \textasciiacute 
+                           
+l.86 ´´
+         Das \textbf{Apache} Apache HTTP Server-Projekt ist ein Versuch, ein...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'test' on page 20 undefined on input line 86.
+
+<./../50_aldosheldija/figures/apache.png, id=369, 301.125pt x 114.4275pt>
 File: ./../50_aldosheldija/figures/apache.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/apache.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/apache.png  used on input
@@ -1471,6 +1501,9 @@ Package biblatex Warning: Type 'online' not found on input line 170.
 LaTeX Warning: Empty bibliography on input line 170.
 
 
+LaTeX Warning: Empty bibliography on input line 171.
+
+
 AED: lastpage setting LastPage
 [24
 
@@ -1482,31 +1515,38 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `Master.out' has not changed.
 (rerunfilecheck)             Checksum: E3B5E2990468CF99877A74653912A2D2;2111.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Master
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Master.run.xml'.
 \openout1 = `Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29401 strings out of 492895
- 564025 string characters out of 3133482
- 1057954 words of memory out of 3000000
- 32856 multiletter control sequences out of 15000+200000
- 542715 words of font info for 61 fonts, out of 3000000 for 9000
+ 29374 strings out of 492895
+ 563297 string characters out of 3133482
+ 1057912 words of memory out of 3000000
+ 32835 multiletter control sequences out of 15000+200000
+ 542067 words of font info for 59 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,19n,100p,1314b,2372s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Master.pdf (32 pages, 1317938 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy10.pfb>
+Output written on Master.pdf (32 pages, 1289408 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
+ 458 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
  350 words of extra memory for PDF output out of 10000 (max. 10000000)
 
