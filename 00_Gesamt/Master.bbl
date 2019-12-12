@@ -48,7 +48,7 @@
       \verb http://dx.doi.org/10.1002/andp.19053221004
       \endverb
     \endentry
-    \entry{knuthwebsite}{misc}{}
+    \entry{test}{misc}{}
       \name{author}{1}{}{%
         {{hash=1dd533466eb3313074d496394d319407}{%
            family={Knuth},
@@ -75,6 +75,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{knuthwebsite}
 \endrefsection
 \endinput
 

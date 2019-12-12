@@ -2129,12 +2129,9 @@
     <bcf:datasource type="file" datatype="bibtex">./../literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-<<<<<<< HEAD
     <bcf:citekey order="1">einstein</bcf:citekey>
     <bcf:citekey order="1">knuthwebsite</bcf:citekey>
-=======
-    <bcf:citekey order="1">test</bcf:citekey>
->>>>>>> 73e1bbe1d8ed4901a975f62a984c2077af168092
+    <bcf:citekey order="2">test</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
