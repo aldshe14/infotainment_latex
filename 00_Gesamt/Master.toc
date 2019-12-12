@@ -19,6 +19,7 @@
 \contentsline {chapter}{\numberline {3}Dokumentation des Projektverlaufs}{12}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Beschreibungen des Arbeitsverlaufs}{12}{section.3.1}% 
 \contentsline {subsection}{\numberline {3.1.1}Aldo Sheldija}{12}{subsection.3.1.1}% 
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {4}Umsetzung - Irena Bala}{16}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Allgemeine Beschreibungen}{16}{section.4.1}% 
 \contentsline {subsection}{\numberline {4.1.1}Chatbot}{17}{subsection.4.1.1}% 
@@ -49,3 +50,19 @@
 \contentsline {subsubsection}{Konfiguration von Raspberry PI Server}{23}{section*.37}% 
 \contentsline {subsubsection}{Datenbank}{23}{section*.38}% 
 \contentsline {subsubsection}{SSL Verschlüsselung}{24}{section*.39}% 
+=======
+\contentsline {chapter}{\numberline {4}Name}{16}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{17}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Allgemeine Beschreibung}{17}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Admin Webseite}{17}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Client}{18}{subsection.5.1.2}% 
+\contentsline {section}{\numberline {5.2}Technologien}{18}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Admin Webseite}{18}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Client}{19}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}Technische L\"osung}{21}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}Basis Seite}{21}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}Displays}{21}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {5.3.3}Layouts}{21}{subsection.5.3.3}% 
+\contentsline {subsection}{\numberline {5.3.4}Rechte in die Webseite}{21}{subsection.5.3.4}% 
+\contentsline {subsection}{\numberline {5.3.5}Webseite auf mehrere Sprachen}{21}{subsection.5.3.5}% 
+>>>>>>> 73e1bbe1d8ed4901a975f62a984c2077af168092
