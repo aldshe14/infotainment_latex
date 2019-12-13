@@ -87,8 +87,8 @@ MySQL\footnote{My Structured Query Language}F\"{u}r die Relationale Datenbank Ma
 	\caption{MySQL Logo\cite{40_mysql_img}}
 	\label{fi:mysql}
 \end{figure}
-
-Das \textbf{Apache} Apache HTTP Server-Projekt ist ein Versuch, einen Open-Source-HTTP-Server f\"{u}r moderne Betriebssysteme wie UNIX und Windows zu entwickeln und zu warten. Ziel dieses Projekts ist es, einen sicheren, effizienten und erweiterbaren Server bereitzustellen, der HTTP-Dienste synchron mit den aktuellen HTTP-Standards bereitstellt. Dieser Server verwendet die Port 80 f\"{u}r HTTP und Port 443 f\"{u}r HTTPS. Die erste Version wurde im Jahr 1995 und der letzte stabile Version ist 2.4.41, der im August 2019 ver\"{o}ffentlicht wurde.\cite{40_apache}
+\subsection{Apache}
+Das Apache HTTP Server-Projekt ist ein Versuch, einen Open-Source-HTTP-Server f\"{u}r moderne Betriebssysteme wie UNIX und Windows zu entwickeln und zu warten. Ziel dieses Projekts ist es, einen sicheren, effizienten und erweiterbaren Server bereitzustellen, der HTTP-Dienste synchron mit den aktuellen HTTP-Standards bereitstellt. Dieser Server verwendet die Port 80 f\"{u}r HTTP und Port 443 f\"{u}r HTTPS. Die erste Version wurde im Jahr 1995 und der letzte stabile Version ist 2.4.41, der im August 2019 ver\"{o}ffentlicht wurde.\cite{40_apache}
 
 
 
@@ -172,7 +172,7 @@ Damit nicht alle unsere Webseite verwenden können, müssen sie die Benutzer sic
 \end{figure}
 
 \subsection{Passwort Zurücksetzen}
-Ab und zu passiert, dass die Benutzer das Passwort vergessen, egal auf welche Gründe. So muss diese Webseite die Möglichkeit anbieten das Passwort zurückzusetzen. Der Benutzer muss das E-Mail zwei Mal schreiben und auf Zurücksetzen draufklicken. Wenn die E-Mail-Adressen nicht überein stimmen wird ein Error Meldung angezeigt. Stimmen die E-Mail-Adresse überein, wird eine Eintrag auf der Datenbank gespeichert damit der Admin das zurücksetzen kann.
+Ab und zu passiert, dass die Benutzer das Passwort vergessen, egal auf welche Gründe. So muss diese Webseite die Möglichkeit anbieten das Passwort zurückzusetzen .Das ist auf die Abbildung \ref{fi:reset} dargestellt Der Benutzer muss das E-Mail zwei Mal schreiben und auf Zurücksetzen draufklicken. Wenn die E-Mail-Adressen nicht überein stimmen wird ein Error Meldung angezeigt. Stimmen die E-Mail-Adresse überein, wird eine Eintrag auf der Datenbank gespeichert damit der Admin das zurücksetzen kann.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{\ordnerfigures reset.png}
@@ -180,16 +180,52 @@ Ab und zu passiert, dass die Benutzer das Passwort vergessen, egal auf welche Gr
 	\label{fi:reset}
 \end{figure}
 
-\subsection{Displays}
+\subsection{Menü}
+
+Das Menü wird ganz oben als Header sein. Für das Das Menü ist unterschiedlich für den Admin und für normale Users. Der Admin hat mehrere Möglichkeiten zu wählen und das ist auf der Abbildung \ref{fi:menu} ersichtlich. Normaler Users werden weniger Wahl Möglichkeiten haben und die haben auch beschränke Zugriff (Abb. \ref{fi:normalerUser}). Die Seiten Settings und Users werden nur für Benutzer mit Adminrechte erreichbar.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{\ordnerfigures header.png}
+	\caption{Menu der Admin Panel}
+	\label{fi:menu}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{\ordnerfigures normalUser.png}
+	\caption{Menu für normaler User}
+	\label{fi:normalerUser}
+\end{figure}
 
 
+\definecolor{dkgreen}{rgb}{0,.6,0}
+\definecolor{dkblue}{rgb}{0,0,.6}
+\definecolor{dkyellow}{cmyk}{0,0,.8,.3}
 
-\subsection{Layouts}
-
+\lstset{
+	language        = php,
+	basicstyle      = \small\ttfamily,
+	keywordstyle    = \color{dkblue},
+	stringstyle     = \color{red},
+	identifierstyle = \color{dkgreen},
+	commentstyle    = \color{gray},
+	emph            =[1]{php},
+	emphstyle       =[1]\color{black},
+	emph            =[2]{if,and,or,else},
+	emphstyle       =[2]\color{dkyellow}}
 
 
 \subsection{Rechte in die Webseite}
+Wie es vorher erwähnt wurde, wird die Webseite unterschiedliche Benutzer Rechte haben. Die zwei Hauptrollen sind Admin und normaler User. Die unterschied zwischen den beiden Benutzern wird von die Rolle Attribut in der Tabelle Rolle gemacht (Siehe Abb. \ref{fi:erd}). Diese Attribute werden in den Sessionen gespeichert. Es wurden Sessions gewählt, weil sie sicherer als Cookies sind.\cite{40_sessions_cookies}
 
+\begin{lstlisting}[frame=single]
+$_SESSION['user_id'] = $user['u_id'];
+$_SESSION['loggedin'] = true;
+$_SESSION['email'] = $user['u_email'];
+$_SESSION['role'] = $user['u_role'];
+\end{lstlisting}
+\captionof{lstlisting}{Speicherung der Benutzer Informationen in Sessions}
 
 
 \subsection{Webseite auf mehrere Sprachen}
