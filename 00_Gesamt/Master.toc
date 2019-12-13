@@ -53,14 +53,14 @@
 \contentsline {subsubsection}{Anzeige}{24}{section*.41}% 
 \contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{25}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Allgemeine Beschreibung}{25}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}Admin Webseite}{25}{subsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.1.2}Client}{26}{subsection.5.1.2}% 
-\contentsline {section}{\numberline {5.2}Technologien}{26}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Admin Webseite}{26}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}Client}{27}{subsection.5.2.2}% 
-\contentsline {section}{\numberline {5.3}Technische L\"osung}{29}{section.5.3}% 
-\contentsline {subsection}{\numberline {5.3.1}Basis Seite}{29}{subsection.5.3.1}% 
-\contentsline {subsection}{\numberline {5.3.2}Displays}{29}{subsection.5.3.2}% 
-\contentsline {subsection}{\numberline {5.3.3}Layouts}{29}{subsection.5.3.3}% 
-\contentsline {subsection}{\numberline {5.3.4}Rechte in die Webseite}{29}{subsection.5.3.4}% 
-\contentsline {subsection}{\numberline {5.3.5}Webseite auf mehrere Sprachen}{29}{subsection.5.3.5}% 
+\contentsline {section}{\numberline {5.2}Technologien}{25}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Bootstrap}{25}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}PHP}{26}{subsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.2.3}Client}{27}{subsection.5.2.3}% 
+\contentsline {section}{\numberline {5.3}Admin Webseite}{27}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Client}{28}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}Basis Seite}{29}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.2}Displays}{29}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {5.4.3}Layouts}{29}{subsection.5.4.3}% 
+\contentsline {subsection}{\numberline {5.4.4}Rechte in die Webseite}{29}{subsection.5.4.4}% 
+\contentsline {subsection}{\numberline {5.4.5}Webseite auf mehrere Sprachen}{29}{subsection.5.4.5}% 

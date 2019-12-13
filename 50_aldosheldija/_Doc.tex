@@ -4,100 +4,181 @@ In diesem Kapitel wird die Vorgehensweise der Technische L\"{o}sung bei der Admi
 
 \section{Allgemeine Beschreibung}
 
-\subsection{Admin Webseite}
-Ein sehr wichtiger Teil dieser Diplomarbeit ist auch die Admin Webseite. In dieser Webseite hat der Admin die M\"{o}glichkeit, alle Anzeigen zu verwalten und denen mit unterschiedlichen Inhalten zu bef\"{u}llen. Durch diese Webseite wird die Verwaltung einfacher und \"{u}bersichtlicher gemacht. Dort wird die Gelegenheit zu dem Admin gegeben, Anzeige hinzuf\"{u}gen, \"{a}ndern und l\"{o}schen, verschiedenen Layouts f\"{u}r unterschiedliche Anzeigen anzuordnen, Bilder zu verwalten und Benutzer zu administrieren. Ein anderes Feature zu dieser Webseite ist auch der Supplierplan. Hier kann der Stundeplan f\"{u}r bestimmte Tagen gemacht werden, damit er in die Anzeige dargestellte werden kann. Es wurde so gemacht, dass der Admin nur in ein paar Klicks das erledigen kann. Da unser Diploma nicht nur aus dieser Webseite besteht, wird unsere Webseite eine Schnittstelle sein, um die API-Key von Wetterbericht, URL der Webseite, von dem die letzten Posts gespeichert werden, und Chatbot Token zu verwalten.
-
-Diese Webseite wurde so konzipiert, dass der Benutzer, der das verwenden wird, die Informationen und die Bedienung dieser Webseite sehr leicht und ohne Probleme folgt. Die Website ist auch in mehrere Sprachen angebetet, so dass noch leichter wird.
-
-Wie gesehen, der Inhalt in dieser Webseite \"{a}ndert st\"{a}ndig und deshalb ist unsere Webseite, eine dynamische Website, die mit PHP und MySQL gemacht wird. F\"{u}r die Darstellung und das Design wurde Bootstrap verwendet. Um die Tabellen am besten darzustellen wurde auch Datables, ein JavaScript Plugin, verwendet. Regex wurde verwendet um die Validierung von unterschiedlichen User Input zu \"{u}berpr\"{u}fen und sicherstellen, dass der Input richtig ist.
- 
-
-Damit nicht jeder diesen Inhalten \"{a}ndern und l\"{o}schen kann, ist diese Webseite auch mit einen Login Bereich gesch\"{u}tzt. Nur bestimmte Personen, abh\"{a}ngig von welchem Rechten sie haben k\"{o}nnen dann die zugeh\"{o}rigen \"{A}nderungen machen. Falls ein Benutzer das Passwort vergisst, hat er die M\"{o}glichkeit das Passwort zur\"{u}ckzusetzen und wartet bis der Admin das best\"{a}tigt hat.
-
-
-Der Zugriff auf dieser Webseite ist auf jedes Ger\"{a}t und von jedem Ort aus m\"{o}glich. Um diese Webseite anzuschauen ist nur ein Internet Verbindung notwendig.
-
-\subsection{Client}
-
-Zu diese Diplomarbeit geh\"{o}rt auch der Client dazu. Als Client wird bezeichnet die Anzeige, in dem die Informationen dargestellt werden. Der Client besteht aus einem RaspberryPi, der mit Internet verbindet wird (WLAN\footnote{Wireless LAN} oder LAN\footnote{Local Area Network} Verbindung), und mit dem Server kommunizieren wird. Der RaspberryPi hat einen HDMI\footnote{High Definition Multimedia Interface} Anschluss, der mit einem Bildschirm verbindet wird. Um das System mehr kompatibel und umfassend, werden unterschiedliche Bildschirmgr\"{o}\ss{}en unterst\"{u}tzt. Der Anzeige wird automatisch registriert in der Datenbank mithilfe von einem Skript, der die Informationen beim Hochfahren des Ger\"{a}ts zu Datenbank schickt. Diese Anzeige wird beim Hochfahren des Betriebssystems die Webseite von der Anzeige \"{o}ffnen und das Anzeigen lassen. Diese Webseite wird im Vollbild ge\"{o}ffnet. Zus\"{a}tzlich werden die Bildschirmaustastung, Bildschirmschoner und Energieverwaltungssystem ausgeschaltet, damit die Anzeige immer eingeschaltet bleibt. Damit das System nicht abh\"{a}ngig von dem Internet ist, werden die Informationen f\"{u}r diese Anzeige von der Datenbank, die im Server liegt, kopiert und auf der lokalen Datenbank gespeichert. 
-
-In dem Client laufen eine Apache Server, MySQL Datenbank und PHP, die f\"{u}r die Anzeige notwendig sind um die Informationen anzuzeigen. Falls der Anzeige noch nicht von der Admin freigegeben wurde, wird die Anzeige zu eine Welcome Seite umgeleitet, in dem nur die MAC-Adresse der Anzeige dargestellt wird.
-
+Dieser Diplomarbeit besteht aus mehreren unterschiedlichen Teilen, die am Ende zusammengef\"{u}hrt werden um das ganze Infotainmentsystem zu geben. Admin Webseite oder als Admin Panel genannt ist eine von diesen Komponenten. Bei dieser Webseite wird die ganze Verwaltung des Systems gemacht. Es werden alle Informationen geschrieben und gew\"{a}hlt, die bei verschiedenen Anzeigen dargestellt werden sollen. Anderseits ist die Anzeige oder als Client bezeichnet, indem alle diese Informationen angezeigt werden. 
 
 
 \section{Technologien}
 
-Dieses Kapitel setzt sich mit der Beschreibung der Technologien, die f\"{u}r die Erstellung des Admin Webseite und der Client verwenden wurden auseinander. 
+Dieses Teil setzt sich mit der Beschreibung der Technologien, die f\"{u}r die Erstellung des Admin Webseite und der Client verwenden wurden auseinander. Es werden die Technologien erkl\"{a}rt und wozu die in dieses Projekt verwendet wurden.
 
 
-\subsection{Admin Webseite}
-\textbf{Bootstrap} (Abb. \ref{fi:bootstrap})
-ist eine Open-Source und Kostenloses CSS\footnote{Cascading Style Sheet} Framework, die f\"{u}r die Herstellung von unterschiedlichen responsiven Webseiten hilft. Dieses Framework ist nicht nur aus CSS basiert, sondern die enth\"{a}lt auch JavaScript, die die Interaktion von dynamischer Webseite erh\"{o}ht. Bootstrap stellt fertige CSS Klassen zur Verf\"{u}gung, die f\"{u}r unterschiedliche Bildschirmgr\"{o}\ss{}en automatisch angepasst werden. Das wird durch ein Grid System erm\"{o}glicht.
 
-\begin{figure}[h!]
+\subsection{Bootstrap}
+Bootstrap (Abb. \ref{fi:bootstrap}) ist eine Open-Source und Kostenloses CSS\footnote{Cascading Style Sheet} Framework, die f\"{u}r die Herstellung von unterschiedlichen responsiven Webseiten hilft. Dieses Framework ist nicht nur aus CSS basiert, sondern die enth\"{a}lt auch JavaScript, die die Interaktion von dynamischer Webseite erh\"{o}ht. Bootstrap stellt fertige CSS Klassen zur Verf\"{u}gung, die f\"{u}r unterschiedliche Bildschirmgr\"{o}\ss{}en automatisch angepasst werden. Das wird durch ein Grid System erm\"{o}glicht. Bootstrap wurde verwendet um das Layout von der Admin Webseite zu machen. Da unsere Webseite eine Responsives Layout haben soll, ist Bootstrap verwendet. Mit Bootstrap wird das gesamte Layout dieser Webseite gemacht.
+
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{\ordnerfigures bootstrap.png}
-	\caption{Bootstrap Logo}
+	\caption{Bootstrap Logo\cite{40_bootstrap_img}}
 	\label{fi:bootstrap}
 \end{figure}
 
-\textbf{PHP} (Abb. \ref{fi:php})
-stand f\"{u}r Personal Home Page Tools und jetzt hei\ss{}t PHP Hypertext Preprocessor. Die aktuellste Version von PHP ist 7.4.0, die im Dezember 2019 ver\"{o}ffentlicht. PHP ist eine Serverseitige Programmiersprache, die f\"{u}r die Erstellung von dynamischen Webseiten dient. Mit Hilfe von PDO wird die Verbindung mit der Datenbank gemacht. PHP ist fast von alle Webhosting Services verf\"{u}gbar und unterst\"{u}tzt.
+\subsection{PHP}
+PHP (Abb. \ref{fi:php}) stand f\"{u}r \textquotedblleft{}Personal Home Page Tools\textquotedblright{} und jetzt hei\ss{}t PHP Hypertext Preprocessor. Die aktuellste Version von PHP ist 7.4.0, die im Dezember 2019 ver\"{o}ffentlicht. PHP ist eine Serverseitige Programmiersprache, die f\"{u}r die Erstellung von dynamischen Webseiten dient. Mit Hilfe von PDO\footnote{PHP Data Objects} wird die Verbindung mit der Datenbank gemacht. PHP ist fast von alle Webhosting Services verf\"{u}gbar und unterst\"{u}tzt. 
+Durch PHP wird das ganze backend der Webseite gemacht. Mit PDO wird die Verbindung mit der Datenbank erm\"{o}glicht. PDO ist sicher von SQL-Injektionen und schneller als MySQLi.
 
-\begin{figure}[h!]
+
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{\ordnerfigures php.png}
-	\caption{PHP Logo}
+	\caption{PHP Logo\cite{40_php_img}}
 	\label{fi:php}
 \end{figure}
 
 
+\subsection{JavaScript}
+JavaScript JavaScript oder auch kurz JS genannt, ist ein objektorientierte Programmiersprache. Diese Programmiersprache wird gerne bei der Erstellung von Webseiten verwendet, weil die Webbrowser eine JavaScript Engine implementiert haben.\cite{40_js}
 
-\textbf{JavaScript} 
-(JS) ist eine kompakte, interpretierte oder just-in-time kompilierte Programmiersprache mit erstklassigen Funktionen. W\"{a}hrend es als Skriptsprache f\"{u}r Webseiten am bekanntesten ist, wird es auch von vielen anderen Umgebungen als Browsern verwendet, z. B. Node.js, Apache CouchDB und Adobe Acrobat. JavaScript ist eine prototypbasierte, auf mehreren Paradigmen basierende, dynamische Sprache mit einem Thread, die objektorientierte, imperative und deklarative Stile (z. B. funktionale Programmierung) unterst\"{u}tzt. Lesen Sie mehr \"{u}ber JavaScript.
-Verwechseln Sie JavaScript nicht mit der Programmiersprache Java. Sowohl "Java" als auch "JavaScript" sind Marken oder eingetragene Marken von Oracle in den USA und anderen L\"{a}ndern. Die beiden Programmiersprachen haben jedoch eine sehr unterschiedliche Syntax, Semantik und Verwendung.
+In dieser Diplomarbeit wird die JavaScript gebraucht um die automatische Darstellung von unterschiedlichen Inhalten in der Anzeige darzustellen, ohne die Webseite neu zu laden.
 
-\begin{figure}[h!]
+
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\textwidth]{\ordnerfigures js.jpg}
-	\caption{JavaScript Logo}
+	\includegraphics[width=0.3\textwidth]{\ordnerfigures js.png}
+	\caption{JavaScript Logo\cite{40_js_img}}
 	\label{fi:js}
 \end{figure}
 
 %https://developer.mozilla.org/en-US/docs/Web/JavaScripts
 
 
-\textbf{Datatables}
+\subsection{DataTables}
+
+DataTables ist ein Plug-In f\"{u}r die jQuery-Javascript-Bibliothek. Es ist ein hochflexibles Tool, das auf den Grundlagen der fortschreitenden Verbesserung aufbaut und alle diese erweiterten Funktionen zu jeder HTML-Tabelle hinzuf\"{u}gt. DataTables bietet sehr viele Vorteile, wenn es zu den Tabellen geht wie: schnelleres und sofortiges Suchen, Seitennummerierung, Fast jede Datenquelle benutzen, Leichte Integration mit Bootstrap, freie Open Source Software, Mobilfreundlich und Export in den verschiedenen Formaten. Alle Tabellen werden mit Hilfe von diesem Plug-In erstellt.\cite{40_datatables}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{\ordnerfigures datatables.png}
+	\caption{DataTables Logo\cite{40_datatables_img}}
+	\label{fi:datatables}
+\end{figure}
 
 
-\subsection{Client}
+\subsection{Font Awesome}
+Font Awesome ist ein Toolkit für Schriftarten und Symbole, das auf CSS und LESS basiert. Es wurde von Dave Gandy für die Verwendung mit Twitter Bootstrap erstellt und später in die Bootstrap-CDN aufgenommen. Mit Font Awesome erhaltet man skalierbare Vektor-Icons, die sofort angepasst werden können. Die Änderungen, die gemacht werden können sind in Bezug auf Größe, Farbe, Schlagschatten und alles, was mit CSS möglich ist.
 
-\textbf{MySQL}\footnote{My Structured Query Language}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{\ordnerfigures font_awesome.png}
+	\caption{Font Awesome Logo\cite{40_font_awesome_img}}
+	\label{fi:datatables}
+\end{figure}
 
-F\"{u}r die Relationale Datenbank Management System wurde MySQL (Abb. \ref{fi:mysql}) gew\"{a}hlt. Dieses Datenbankverwaltungssystem wird gerne f\"{u}r kleine Projekte verwendet, weil es Open-Source und kostenlos ist. MySQL ist eine Software um Datenbank zu erstellen und zu verwalten. MySQL erm\"{o}glicht kontrollierten Zugriff auf die Datenbank. Die Daten werden auf Tabellen Struktur gespeichert, die in Dateien auf der Festplatte gespeichert sind. Diese Software ist kompatibel auf mehrere unterschiedlichen Plattformen wie z.B. Windows, Linux, MacOS usw.
 
-\begin{figure}[h!]
+\subsection{MySQL}
+
+MySQL\footnote{My Structured Query Language}F\"{u}r die Relationale Datenbank Management System wurde MySQL (Abb. \ref{fi:mysql}) gew\"{a}hlt. Dieses Datenbankverwaltungssystem wird gerne f\"{u}r kleine Projekte verwendet, weil es Open-Source und kostenlos ist. MySQL ist eine Software um Datenbank zu erstellen und zu verwalten. MySQL erm\"{o}glicht kontrollierten Zugriff auf die Datenbank. Die Daten werden auf Tabellen Struktur gespeichert, die in Dateien auf der Festplatte gespeichert sind. Diese Software ist kompatibel auf mehrere unterschiedlichen Plattformen wie z.B. Windows, Linux, MacOS usw.
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{\ordnerfigures mysql.png}
-	\caption{MySQL Logo}
+	\caption{MySQL Logo\cite{40_mysql_img}}
 	\label{fi:mysql}
 \end{figure}
 
-Das \textbf{Apache} Apache HTTP Server-Projekt ist ein Versuch, einen Open-Source-HTTP-Server f\"{u}r moderne Betriebssysteme wie UNIX und Windows zu entwickeln und zu warten. Ziel dieses Projekts ist es, einen sicheren, effizienten und erweiterbaren Server bereitzustellen, der HTTP-Dienste synchron mit den aktuellen HTTP-Standards bereitstellt. Dieser Server verwendet die Port 80 f\"{u}r HTTP und Port 443 f\"{u}r HTTPS. Die erste Version wurde im Jahr 1995 und der letzte stabile Version ist 2.4.41, der im August 2019 ver\"{o}ffentlicht wurde.\cite[Seite 4]{test}
+Das \textbf{Apache} Apache HTTP Server-Projekt ist ein Versuch, einen Open-Source-HTTP-Server f\"{u}r moderne Betriebssysteme wie UNIX und Windows zu entwickeln und zu warten. Ziel dieses Projekts ist es, einen sicheren, effizienten und erweiterbaren Server bereitzustellen, der HTTP-Dienste synchron mit den aktuellen HTTP-Standards bereitstellt. Dieser Server verwendet die Port 80 f\"{u}r HTTP und Port 443 f\"{u}r HTTPS. Die erste Version wurde im Jahr 1995 und der letzte stabile Version ist 2.4.41, der im August 2019 ver\"{o}ffentlicht wurde.\cite{40_apache}
 
-%https://httpd.apache.org/
 
-\begin{figure}[h!]
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{\ordnerfigures apache.png}
-	\caption{Apache HTTP Server Logo}
+	\caption{Apache HTTP Server Logo\cite{40_apache_img}}
 	\label{fi:apache}
 \end{figure}
 
-\section{Technische L\"osung}
-\subsection{Basis Seite}
+%-------------------------------------------------------
+%-------------------------------------------------------
+%---------------Technische Lösung-----------------------
+%-------------------------------------------------------
+%-------------------------------------------------------
+
+\section{Structed Software Design für den Client}
+
+Mithilfe von Structed Design wurde der Planung der Client gemacht. Diese Structed Design ist auf der Abbildung \cite{fi:structed_design_client} dargestellt. 
+Dieser Teil ist verantwortlich f\"{u}r die automatische Darstellung der Informationen in der Anzeige. Der Client kommuniziert mit der Datenbank, die im Server liegt und von dem die Daten geholt werden. Die wichtigste Funktionsbl\"{o}cke dieser Structed Design sind Zeitsteuerung, Anzeige Prepare und das Log, die in den kommenden Teilen weiter erkl\"{a}rt werden.
+
+\subsection{Start}
+Beim Hochfahren des Systems bei dem Client wird ein Signal geschickt um das Programm zu starten. Dieses Signal ist mit Init bezeichnet. Dieser Funktionsblock wird dann die Grund Initialisierung machen. Es wird versucht eine Verbindung mit der Datenbank aufzubauen. In der Datenbank wird geschaut ob diese Anzeige schon registriert ist. Falls das nicht der Fall ist wird diese Anzeige registriert und die Anzeige kann die Daten bekommen. Start schickt auch ein Signal an der Zeitsteuerung, damit er beginnen zu arbeiten kann. Sobald diese Schritte fertig sind wird der Startblock fertig sein und das Programm l\"{a}uft weiter.
+
+\subsection{Zeitsteuerung}
+Zeit Steuerung wird gestartet, wenn das Signal von Start gekommen ist. Nachdem Signal wird dieser Block gestartet. Dieser Block schaut wann soll er die neuen Informationen von der Datenbank bekommen und mach eine Anfrage. Dieser Teil wird immer im laufen sein, damit der Anzeige die Aktuellste Informationen beinhaltet.
+
+\subsection{Daten holen}
+Daten holen, wie der Name schon sagt beschäftigt sich mit dem Erhalt der Datensätze aus der Datenbank. Es werden die Queries aufgebaut um die gewünschten Daten zu bekommen. Diese Query werden weiter zu dem Daten, die auf dem Server liegen, weitergeleiten. Die Response wird auch von diesem Teil gehandelt. Die Daten werden in dem richtigen Format umgewandelt und weitergeleitet.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{\ordnerfigures client.png}
+	\caption{Structed Software Design für den Client}
+	\label{fi:structed_design_client}
+\end{figure}
+
+\subsection{Buffer}
+Die Aufgabe dieser Teil, ist es die Daten, die er von dem vorherigen Block bekommen hat, zu schauen ob sie in die Lokale Datenbank gespeichert sind. Wenn diese Daten neu und nicht drinnen sind, werden die gespeichert. Ansonsten werden sie zu die Anzeige Prepare geschickt.
+
+\subsection{Anzeige Prepare}
+In dieser Funktionsblock findet die Umwandlung der Daten für die Richtige Darstellung statt. Die Daten werden gezielt für diese Anzeige umgewandelt und angepasst. Die Informationen sind in den passenden GUI\footnote{Graphical User Interface} Bereich hinzugefügt. Diese Daten werden dann im Bildschirm angezeigt.
+
+\subsection{Log}
+In Log werden alle Ereignisse, die in alle Blöcke, die vorher erwähnt wurden, auftreten mitprotokolliert und gespeichert.  Egal ob die Nachrichten erfolgreich oder nicht gekommen sind, werden alle diese in eine einzelne Protokoll Datei geschrieben. So ist es möglich jederzeit die Fehler, die in das System aufgetreten sind, anzuschauen und mit diesem Fehler umgehen.
+
+\section{Datenbank}
+Wie jede Website benötigt auch das InfotainmentSystem eine Datenbank, in der die Daten gespeichert und gesichert werden können. Die Datenbank besteht aus Entitäten, Beziehungen und Attributen. Eine Datenbank ist ein elektronisches Verwaltungssystem, das besonders bei großen Datenmengen effizient, widerspruchsfrei und dauerhaft umgehen und logische Zusammenhänge digital abbilden können muss. Diese Informationen sind in Zeilen, Spalten und Tabellen organisiert und werden indiziert, um das finden relevanter Informationen zu erleichtern.
+
+\subsection{ERD\footnote{Entity Relationship Diagram} Diagramm}
+Zuerst wurde ein ER-Diagramm (Abbildung \ref{fi:erd}) für die Datenbank erstellt. Das ER-Modell bedeutet Entity-Relationship-Modell. Bevor die Datenbank erstellt wird, muss sie zuerst konzipiert werden. Zu diesem Punkt gehört die Erstellung eines ER- Diagrammes. Um ein ER-Diagramm zu erstellen, braucht man die Hilfe von MYSQL- Workbench. Dazu werden im Detail alle Entitäten mit ihren dazugehörigen Attributen und Relationen zwischen einander geschrieben. Es besteht aus einer Grafik und einer Beschreibung der darin verwendeten Elemente, wobei deren Bedeutung und ihre Struktur dargestellt wird. Grundlage der Entity-Relationship Modelle ist die Typisierung von Objekten, ihrer Beziehungen untereinander und der über sie zuführenden Informationen beziehungsweise Attribute. Hier in dieser Diplomarbeit werden alle Tabellen, die wir für die Datenbank benötigen, gezeigt. Von diesem ER-Diagramm wurde ein SQL-Skript erstellt und im Raspberry Pi ausgeführt.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures erd.png}
+	\caption{ERD Diagramm}
+	\label{fi:erd}
+\end{figure}
+
+\section{Admin Webseite}
+Ein sehr wichtiger Teil dieser Diplomarbeit ist auch die Admin Webseite. In dieser Webseite hat der Admin die M\"{o}glichkeit, alle Anzeigen zu verwalten und denen mit unterschiedlichen Inhalten zu bef\"{u}llen. Durch diese Webseite wird die Verwaltung einfacher und \"{u}bersichtlicher gemacht. Dort wird die Gelegenheit zu dem Admin gegeben, Anzeige hinzuf\"{u}gen, \"{a}ndern und l\"{o}schen, verschiedenen Layouts f\"{u}r unterschiedliche Anzeigen anzuordnen, Bilder zu verwalten und Benutzer zu administrieren. Ein anderes Feature zu dieser Webseite ist auch der Supplierplan. Hier kann der Stundeplan f\"{u}r bestimmte Tagen gemacht werden, damit er in die Anzeige dargestellte werden kann. Es wurde so gemacht, dass der Admin nur in ein paar Klicks das erledigen kann. Da unser Diploma nicht nur aus dieser Webseite besteht, wird unsere Webseite eine Schnittstelle sein, um die API-Key von Wetterbericht, URL der Webseite, von dem die letzten Posts gespeichert werden, und Chatbot Token zu verwalten.
+
+Diese Webseite wurde so konzipiert, dass der Benutzer, der das verwenden wird, die Informationen und die Bedienung dieser Webseite sehr leicht und ohne Probleme folgt. Die Website ist auch in mehrere Sprachen angebetet, so dass noch leichter wird.
+
+Wie gesehen, der Inhalt in dieser Webseite \"{a}ndert st\"{a}ndig und deshalb ist unsere Webseite, eine dynamische Website, die mit PHP und MySQL gemacht wird. F\"{u}r die Darstellung und das Design wurde Bootstrap verwendet. Um die Tabellen am besten darzustellen wurde auch Datables, ein JavaScript Plugin, verwendet. Regex wurde verwendet um die Validierung von unterschiedlichen User Input zu \"{u}berpr\"{u}fen und sicherstellen, dass der Input richtig ist.
 
 
+Damit nicht jeder diesen Inhalten \"{a}ndern und l\"{o}schen kann, ist diese Webseite auch mit einen Login Bereich gesch\"{u}tzt. Nur bestimmte Personen, abh\"{a}ngig von welchem Rechten sie haben k\"{o}nnen dann die zugeh\"{o}rigen \"{A}nderungen machen. Falls ein Benutzer das Passwort vergisst, hat er die M\"{o}glichkeit das Passwort zur\"{u}ckzusetzen und wartet bis der Admin das best\"{a}tigt hat.
+
+
+Der Zugriff auf dieser Webseite ist auf jedes Ger\"{a}t und von jedem Ort aus m\"{o}glich. Um diese Webseite anzuschauen ist nur ein Internet Verbindung notwendig.
+
+\subsection{Login}
+Damit nicht alle unsere Webseite verwenden können, müssen sie die Benutzer sich auf der Webseite einloggen (Abbildung \ref{fi:login}). Die Admin Webseite ist durch eine Login Seite geschützt, die dem Benutzer folgende Informationen anfordert: die E-Mail-Adresse und das Passwort. Dieses Formular heißt Login.php. Wenn der Benutzer auf der Sign-in Button klickt werden seine Anmeldedaten überprüft ob sie korrekt sind. Ist das der Fall wird der Benutzer eingeloggt. Wenn der User in der Datenbank nicht existiert, wird ihm ein Error Meldung gezeigt damit er weißt, dass er zuerst registriert sein muss um in die Webseite einloggen zu können. Wenn der Benutzer bei der Erfüllung des Formulars das Passwort falsch eingibt, aber die E-Mail-Adresse ist richtig und der Benutzer existiert, wird ihm die Error Meldung für die Falsche Passwort angezeigt. So ist dieser Login sehr einfach und Benutzerfreundlich. Bei dieser Seite findet man auch einen Link um das Passwort zurückzusetzen.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.55\textwidth]{\ordnerfigures login.png}
+	\caption{Anmelden Seite}
+	\label{fi:login}
+\end{figure}
+
+\subsection{Passwort Zurücksetzen}
+Ab und zu passiert, dass die Benutzer das Passwort vergessen, egal auf welche Gründe. So muss diese Webseite die Möglichkeit anbieten das Passwort zurückzusetzen. Der Benutzer muss das E-Mail zwei Mal schreiben und auf Zurücksetzen draufklicken. Wenn die E-Mail-Adressen nicht überein stimmen wird ein Error Meldung angezeigt. Stimmen die E-Mail-Adresse überein, wird eine Eintrag auf der Datenbank gespeichert damit der Admin das zurücksetzen kann.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.55\textwidth]{\ordnerfigures reset1.png}
+	\caption{Passwort zurücksetzen}
+	\label{fi:login}
+\end{figure}
 
 \subsection{Displays}
 
@@ -112,5 +193,14 @@ Das \textbf{Apache} Apache HTTP Server-Projekt ist ein Versuch, einen Open-Sourc
 
 
 \subsection{Webseite auf mehrere Sprachen}
+
+\section{Client}
+
+Zu diese Diplomarbeit geh\"{o}rt auch der Client dazu. Als Client wird bezeichnet die Anzeige, in dem die Informationen dargestellt werden. Der Client besteht aus einem RaspberryPi, der mit Internet verbindet wird (WLAN\footnote{Wireless LAN} oder LAN\footnote{Local Area Network} Verbindung), und mit dem Server kommunizieren wird. Der RaspberryPi hat einen HDMI\footnote{High Definition Multimedia Interface} Anschluss, der mit einem Bildschirm verbindet wird. Um das System mehr kompatibel und umfassend, werden unterschiedliche Bildschirmgr\"{o}\ss{}en unterst\"{u}tzt. Der Anzeige wird automatisch registriert in der Datenbank mithilfe von einem Skript, der die Informationen beim Hochfahren des Ger\"{a}ts zu Datenbank schickt. Diese Anzeige wird beim Hochfahren des Betriebssystems die Webseite von der Anzeige \"{o}ffnen und das Anzeigen lassen. Diese Webseite wird im Vollbild ge\"{o}ffnet. Zus\"{a}tzlich werden die Bildschirmaustastung, Bildschirmschoner und Energieverwaltungssystem ausgeschaltet, damit die Anzeige immer eingeschaltet bleibt. Damit das System nicht abh\"{a}ngig von dem Internet ist, werden die Informationen f\"{u}r diese Anzeige von der Datenbank, die im Server liegt, kopiert und auf der lokalen Datenbank gespeichert. 
+
+In dem Client laufen eine Apache Server, MySQL Datenbank und PHP, die f\"{u}r die Anzeige notwendig sind um die Informationen anzuzeigen. Falls der Anzeige noch nicht von der Admin freigegeben wurde, wird die Anzeige zu eine Welcome Seite umgeleitet, in dem nur die MAC-Adresse der Anzeige dargestellt wird.
+
+
+
 
 

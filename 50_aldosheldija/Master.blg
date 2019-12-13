@@ -1,0 +1,28 @@
+[0] Config.pm:304> INFO - This is Biber 2.13
+[1] Config.pm:307> INFO - Logfile is 'Master.blg'
+[78] biber-MSWIN64:315> INFO - === 
+[128] Biber.pm:375> INFO - Reading 'Master.bcf'
+[354] Biber.pm:905> INFO - Found 11 citekeys in bib section 0
+[394] Biber.pm:4196> INFO - Processing section 0
+[397] Utils.pm:75> INFO - Globbing data source './../literatur.bib'
+[428] Utils.pm:91> INFO - Globbed data source './../literatur.bib' to ./../literatur.bib
+[482] Biber.pm:4373> INFO - Looking for bibtex format file './../literatur.bib' for section 0
+[500] bibtex.pm:1462> INFO - LaTeX decoding ...
+[526] bibtex.pm:1281> INFO - Found BibTeX data source './../literatur.bib'
+[540] Utils.pm:300> WARN - Entry '40_bootstrap_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring
+[549] Utils.pm:300> WARN - Entry '40_php_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring
+[563] Utils.pm:300> WARN - Entry '40_js_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring
+[570] Utils.pm:300> WARN - Entry '40_datatables' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring
+[580] Utils.pm:300> WARN - Entry '40_datatables_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring
+[588] Utils.pm:300> WARN - Entry '40_font_awesome_img' (./../literatur.bib): Invalid format '{2018-10-30}' of date field 'date' - ignoring
+[595] Utils.pm:300> WARN - Entry '40_mysql_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring
+[601] Utils.pm:300> WARN - Entry '40_apache' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring
+[607] Utils.pm:300> WARN - Entry '40_apache_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring
+[616] Utils.pm:300> WARN - I didn't find a database entry for 'fi:structed_design_client' (section 0)
+[661] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[661] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[661] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[661] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
+[692] bbl.pm:648> INFO - Writing 'Master.bbl' with encoding 'UTF-8'
+[704] bbl.pm:751> INFO - Output to Master.bbl
+[713] Biber.pm:110> INFO - WARNINGS: 10

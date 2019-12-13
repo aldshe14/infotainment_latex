@@ -19,7 +19,8 @@
 \usepackage{transparent} %Transparente Bilder im Hintergrund
 \usepackage{eso-pic} %Background Image
 \usepackage{lastpage} %Ermittlung der letzten Seite
- 
+\usepackage{float} %für die Platzierung der Bilder
+
 %Fußnoten forltaufend nummerieren
 \usepackage{chngcntr}
 \counterwithout{footnote}{chapter}
@@ -37,65 +38,65 @@
 
 
 \begin{document}
-% Set global Varibales for this chpater
-\input{./_Doc_A.tex}
-\fancypagestyle{plan}{
-	\fancyhead[RO]{\slshape \nouppercase{\leftmark}}
-	\fancyhead[L]{\includegraphics[scale=0.5]{./figures/Header_Seite.png}}
-	\fancyfoot[C]{}
-	\fancyfoot[R]{\thepage}    
-
-}
-\pagestyle{plan}
-
-\frontmatter
-\normalsize
-
-\pagenumbering{roman}
-\input{./01_title.tex}
-
-
-
-\printnomenclature %Abkürzungsverzeichnis
-\pagebreak
-	 
-\tableofcontents % Inhaltsverzeichnis
-
-
-
-\mainmatter
-%configure Header & Footer
-\fancypagestyle{plan}{
-	\fancyhead[RO]{\slshape \nouppercase{\leftmark}}
-	\fancyhead[L]{\includegraphics[scale=0.5]{./figures/Header_Seite.png}}
-	\fancyfoot[R]{\thepage / \pageref{LastPage}}    
-	\fancyfoot[C]{Autor: \autor}
-}
-\pagestyle{plan}
-
-\cleardoublepage
-\pagenumbering{arabic}      
-
-\input{./_Doc.tex}
-
-
-\appendix
-
-\input{./_Doc_App.tex}
-
-\backmatter
-
-\listoffigures
-
-%\listofmyequations 
-
-\listoftables
-
-\printbibheading%[title=Blub]
-\printbibliography[type=masterthesis, heading=subbibliography,title={Wissenschaftliche Arbeiten}]
-\printbibliography[type=book, heading=subbibliography, title={Fachbücher}]
-\printbibliography[type=report, heading=subbibliography, title={Datenblätter und Applikationsschriften}]
-\printbibliography[type=online, heading=subbibliography, title={Aus dem Netz}]
-\printbibliography[heading=subbibliography,title={Der ganze Rest},nottype=online,nottype=masterthesis,nottype=report,nottype=book,notkeyword=sekundaer]
-
+	% Set global Varibales for this chpater
+	\input{./_Doc_A.tex}
+	\fancypagestyle{plan}{
+		\fancyhead[RO]{\slshape \nouppercase{\leftmark}}
+		\fancyhead[L]{\includegraphics[scale=0.5]{./figures/Header_Seite.png}}
+		\fancyfoot[C]{}
+		\fancyfoot[R]{\thepage}    
+		
+	}
+	\pagestyle{plan}
+	
+	\frontmatter
+	\normalsize
+	
+	\pagenumbering{roman}
+	\input{./01_title.tex}
+	
+	
+	
+	\printnomenclature %Abkürzungsverzeichnis
+	\pagebreak
+	
+	\tableofcontents % Inhaltsverzeichnis
+	
+	
+	
+	\mainmatter
+	%configure Header & Footer
+	\fancypagestyle{plan}{
+		\fancyhead[RO]{\slshape \nouppercase{\leftmark}}
+		\fancyhead[L]{\includegraphics[scale=0.5]{./figures/Header_Seite.png}}
+		\fancyfoot[R]{\thepage / \pageref{LastPage}}    
+		\fancyfoot[C]{Autor: \autor}
+	}
+	\pagestyle{plan}
+	
+	\cleardoublepage
+	\pagenumbering{arabic}      
+	
+	\input{./_Doc.tex}
+	
+	
+	\appendix
+	
+	\input{./_Doc_App.tex}
+	
+	\backmatter
+	
+	\listoffigures
+	
+	%\listofmyequations 
+	
+	\listoftables
+	
+	\printbibheading%[title=Blub]
+	\printbibliography[type=masterthesis, heading=subbibliography,title={Wissenschaftliche Arbeiten}]
+	\printbibliography[type=book, heading=subbibliography, title={Fachbücher}]
+	\printbibliography[type=report, heading=subbibliography, title={Datenblätter und Applikationsschriften}]
+	\printbibliography[type=online, heading=subbibliography, title={Aus dem Netz}]
+	\printbibliography[heading=subbibliography,title={Der ganze Rest},nottype=online,nottype=masterthesis,nottype=report,nottype=book,notkeyword=sekundaer]
+	
 \end{document}

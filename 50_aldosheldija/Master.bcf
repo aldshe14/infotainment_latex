@@ -2129,6 +2129,24 @@
     <bcf:datasource type="file" datatype="bibtex">./../literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">40_bootstrap_img</bcf:citekey>
+    <bcf:citekey order="2">40_bootstrap_img</bcf:citekey>
+    <bcf:citekey order="3">40_php_img</bcf:citekey>
+    <bcf:citekey order="4">40_php_img</bcf:citekey>
+    <bcf:citekey order="5">40_js</bcf:citekey>
+    <bcf:citekey order="6">40_js_img</bcf:citekey>
+    <bcf:citekey order="7">40_js_img</bcf:citekey>
+    <bcf:citekey order="8">40_datatables</bcf:citekey>
+    <bcf:citekey order="9">40_datatables_img</bcf:citekey>
+    <bcf:citekey order="10">40_datatables_img</bcf:citekey>
+    <bcf:citekey order="11">40_font_awesome_img</bcf:citekey>
+    <bcf:citekey order="12">40_font_awesome_img</bcf:citekey>
+    <bcf:citekey order="13">40_mysql_img</bcf:citekey>
+    <bcf:citekey order="14">40_mysql_img</bcf:citekey>
+    <bcf:citekey order="15">40_apache</bcf:citekey>
+    <bcf:citekey order="16">40_apache_img</bcf:citekey>
+    <bcf:citekey order="17">40_apache_img</bcf:citekey>
+    <bcf:citekey order="18">fi:structed_design_client</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
