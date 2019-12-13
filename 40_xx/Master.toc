@@ -15,20 +15,30 @@
 \contentsline {subsubsection}{Funktionsweise von PHP}{5}{section*.10}% 
 \contentsline {subsubsection}{Was ist JavaScript?}{5}{section*.11}% 
 \contentsline {subsubsection}{Mögliche Funktionen von JavaScript}{5}{section*.12}% 
-\contentsline {subsubsection}{Was ist Python?}{5}{section*.13}% 
+\contentsline {subsubsection}{Was ist Python?}{6}{section*.13}% 
 \contentsline {subsubsection}{Merkmale von Python}{6}{section*.14}% 
 \contentsline {subsubsection}{Was ist HTML?}{6}{section*.15}% 
 \contentsline {subsubsection}{Was ist CSS?}{6}{section*.16}% 
-\contentsline {subsubsection}{Was ist Raspberry PI?}{6}{section*.17}% 
-\contentsline {subsubsection}{Was ist SSL?}{6}{section*.18}% 
+\contentsline {subsubsection}{Was ist Raspberry PI?}{7}{section*.17}% 
+\contentsline {subsubsection}{Was ist SSL?}{7}{section*.18}% 
 \contentsline {subsubsection}{SSL-Verschlüsselung}{7}{section*.19}% 
 \contentsline {subsubsection}{Was ist Telegram Bot API?}{7}{section*.20}% 
 \contentsline {subsubsection}{Was ist Wetter API?}{7}{section*.21}% 
-\contentsline {subsubsection}{Was ist JSON?}{7}{section*.22}% 
+\contentsline {subsubsection}{Was ist JSON?}{8}{section*.22}% 
 \contentsline {section}{\numberline {1.2}Technische Lösungen}{8}{section.1.2}% 
 \contentsline {subsubsection}{Structured Software Design}{8}{section*.24}% 
 \contentsline {subsubsection}{Konfiguration von Raspberry PI Server}{8}{section*.25}% 
-\contentsline {subsubsection}{Datenbank}{8}{section*.26}% 
+\contentsline {subsubsection}{Datenbank}{9}{section*.26}% 
 \contentsline {subsubsection}{SSL Verschlüsselung}{9}{section*.27}% 
-\contentsline {subsubsection}{Wetterdaten}{9}{section*.28}% 
-\contentsline {subsubsection}{Anzeige}{9}{section*.29}% 
+\contentsline {subsubsection}{Wetterdaten}{10}{section*.28}% 
+\contentsline {subsubsection}{Anzeige}{10}{section*.29}% 
+\contentsline {subsubsection}{Chatbot}{10}{section*.30}% 
+\contentsline {subsubsection}{Chatbot Einrichtung:}{10}{section*.31}% 
+\contentsline {subsubsection}{Einrichtung des Chatbots in RaspberryPI}{10}{section*.32}% 
+\contentsline {subsubsection}{Grundlagen für die Umsetzung}{11}{section*.33}% 
+\contentsline {subsubsection}{Funktionalitäten}{11}{section*.34}% 
+\contentsline {subsubsection}{Unregistrierte Benutzer:}{11}{section*.35}% 
+\contentsline {subsubsection}{Normale Benutzer:}{11}{section*.36}% 
+\contentsline {subsubsection}{Administrator:}{12}{section*.37}% 
+\contentsline {subsubsection}{Umsetzung der Funktionalitäten:}{12}{section*.38}% 
+\contentsline {subsubsection}{Konkrete Beispiele mit Bildern}{14}{section*.39}% 
