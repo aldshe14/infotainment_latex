@@ -34,8 +34,8 @@
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
-      \field{urlday}{30}
-      \field{urlmonth}{10}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
       \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
@@ -60,8 +60,8 @@
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{labelnamesource}{author}
-      \field{urlday}{30}
-      \field{urlmonth}{10}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
       \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
@@ -110,8 +110,8 @@
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
-      \field{urlday}{30}
-      \field{urlmonth}{10}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
       \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
@@ -138,8 +138,8 @@
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
-      \field{urlday}{30}
-      \field{urlmonth}{10}
+      \field{urlday}{15}
+      \field{urlmonth}{11}
       \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
@@ -164,8 +164,8 @@
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelnamesource}{author}
-      \field{urlday}{30}
-      \field{urlmonth}{10}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
       \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
@@ -190,8 +190,8 @@
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelnamesource}{author}
-      \field{urlday}{30}
-      \field{urlmonth}{10}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
       \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
@@ -199,6 +199,34 @@
       \endverb
       \verb{url}
       \verb https://www.mysql.com/common/logos/logo-mysql-170x115.png
+      \endverb
+    \endentry
+    \entry{40_sessions_cookies}{online}{}
+      \name{author}{1}{}{%
+        {{hash=17c630bba78b078e4e4b5966c913d7a6}{%
+           family={Point},
+           familyi={P\bibinitperiod},
+           given={Tutorials},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{17c630bba78b078e4e4b5966c913d7a6}
+      \strng{fullhash}{17c630bba78b078e4e4b5966c913d7a6}
+      \strng{bibnamehash}{17c630bba78b078e4e4b5966c913d7a6}
+      \strng{authorbibnamehash}{17c630bba78b078e4e4b5966c913d7a6}
+      \strng{authornamehash}{17c630bba78b078e4e4b5966c913d7a6}
+      \strng{authorfullhash}{17c630bba78b078e4e4b5966c913d7a6}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tutorialspoint.com/What-is-the-difference-between-session-and-cookies
+      \endverb
+      \verb{url}
+      \verb https://www.tutorialspoint.com/What-is-the-difference-between-session-and-cookies
       \endverb
     \endentry
     \entry{40_apache}{online}{}
@@ -218,8 +246,8 @@
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
-      \field{urlday}{30}
-      \field{urlmonth}{10}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
       \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
@@ -246,9 +274,9 @@
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
-      \field{urlday}{30}
-      \field{urlmonth}{10}
-      \field{urlyear}{2018}
+      \field{urlday}{15}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://divi.space/wp-content/uploads/2018/03/font-awesome-image-.png
@@ -284,7 +312,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{fi:structed_design_client}
 \endrefsection
 \endinput
 

@@ -1,19 +1,17 @@
-[0] Config.pm:304> INFO - This is Biber 2.13
+[1] Config.pm:304> INFO - This is Biber 2.13
 [1] Config.pm:307> INFO - Logfile is 'Master.blg'
-[76] biber-MSWIN64:315> INFO - === 
+[74] biber-MSWIN64:315> INFO - === 
 [125] Biber.pm:375> INFO - Reading 'Master.bcf'
-[354] Biber.pm:905> INFO - Found 11 citekeys in bib section 0
-[395] Biber.pm:4196> INFO - Processing section 0
-[399] Utils.pm:75> INFO - Globbing data source './../literatur.bib'
-[423] Utils.pm:91> INFO - Globbed data source './../literatur.bib' to ./../literatur.bib
-[453] Biber.pm:4373> INFO - Looking for bibtex format file './../literatur.bib' for section 0
-[459] bibtex.pm:1462> INFO - LaTeX decoding ...
-[473] bibtex.pm:1281> INFO - Found BibTeX data source './../literatur.bib'
-[599] Utils.pm:300> WARN - I didn't find a database entry for 'fi:structed_design_client' (section 0)
-[663] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[664] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[664] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[664] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
-[703] bbl.pm:648> INFO - Writing 'Master.bbl' with encoding 'UTF-8'
-[715] bbl.pm:751> INFO - Output to Master.bbl
-[727] Biber.pm:110> INFO - WARNINGS: 1
+[404] Biber.pm:905> INFO - Found 11 citekeys in bib section 0
+[452] Biber.pm:4196> INFO - Processing section 0
+[456] Utils.pm:75> INFO - Globbing data source './../literatur1.bib'
+[474] Utils.pm:91> INFO - Globbed data source './../literatur1.bib' to ./../literatur1.bib
+[506] Biber.pm:4373> INFO - Looking for bibtex format file './../literatur1.bib' for section 0
+[544] bibtex.pm:1462> INFO - LaTeX decoding ...
+[568] bibtex.pm:1281> INFO - Found BibTeX data source './../literatur1.bib'
+[710] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[710] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[710] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[711] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
+[739] bbl.pm:648> INFO - Writing 'Master.bbl' with encoding 'UTF-8'
+[748] bbl.pm:751> INFO - Output to Master.bbl
