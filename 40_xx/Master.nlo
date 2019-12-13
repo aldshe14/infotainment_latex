@@ -12,6 +12,5 @@
 \nomenclatureentry{aCA@[{CA}]\begingroup Certificate Authority\nomeqref {1.0}|nompageref}{7}
 \nomenclatureentry{aAPI@[{API}]\begingroup Application Programming Interface\nomeqref {1.0}|nompageref}{7}
 \nomenclatureentry{aJSON@[{JSON}]\begingroup Javascript Object Notation\nomeqref {1.0}|nompageref}{8}
-\nomenclatureentry{aSSH@[{SSH}]\begingroup Secure Shell\nomeqref {1.0}|nompageref}{8}
-\nomenclatureentry{aER@[{ER}]\begingroup Entity Relationship\nomeqref {1.0}|nompageref}{9}
-\nomenclatureentry{a$G_e$@[{$G_e$}]\begingroup Equivalent Shear Modulus\nomeqref {1.0}|nompageref}{20}
+\nomenclatureentry{aSSH@[{SSH}]\begingroup Secure Shell\nomeqref {1.0}|nompageref}{10}
+\nomenclatureentry{aER@[{ER}]\begingroup Entity Relationship\nomeqref {1.0}|nompageref}{10}
