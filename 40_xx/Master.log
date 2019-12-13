@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.18)  13 DEC 2019 09:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.18)  13 DEC 2019 09:43
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1379,91 +1379,96 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 186.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [8]
+<./figures/erd_irena.png, id=179, 1061.9675pt x 453.695pt>
+File: ./figures/erd_irena.png Graphic file (type png)
+<use ./figures/erd_irena.png>
+Package pdftex.def Info: ./figures/erd_irena.png  used on input line 230.
+(pdftex.def)             Requested size: 441.01773pt x 188.41145pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 241.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 246.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [9]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 272.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 268.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [10]
+ [10 <./figures/erd_irena.png>]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 294.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 292.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [11]
-Underfull \hbox (badness 10000) in paragraph at lines 296--298
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
-
-
-Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 312.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 312.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 327.
-See the caption package documentation for explanation.
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 330.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 313.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [12]
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 343.
+Package caption Warning: \captionsetup{type*=...} or \captionof
+(caption)                outside box or environment on input line 317.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 356.
+(caption)                particular \caption on input line 317.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 368.
+(caption)                particular \caption on input line 332.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 348.
 See the caption package documentation for explanation.
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 379.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 358.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [13]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 390.
+(caption)                particular \caption on input line 361.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 402.
+(caption)                particular \caption on input line 373.
 See the caption package documentation for explanation.
 
-<./figures/Chatboti.jpeg, id=269, 1246.6575pt x 460.72125pt>
-File: ./figures/Chatboti.jpeg Graphic file (type jpg)
-<use ./figures/Chatboti.jpeg>
-Package pdftex.def Info: ./figures/Chatboti.jpeg  used on input line 411.
-(pdftex.def)             Requested size: 441.01773pt x 162.98424pt.
-) (_Doc_App.tex)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 395.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 407.
+See the caption package documentation for explanation.
+
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 108.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 407.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [14]
+[14]
+<./figures/Chatboti.jpeg, id=290, 1246.6575pt x 460.72125pt>
+File: ./figures/Chatboti.jpeg Graphic file (type jpg)
+<use ./figures/Chatboti.jpeg>
+Package pdftex.def Info: ./figures/Chatboti.jpeg  used on input line 416.
+(pdftex.def)             Requested size: 441.01773pt x 162.98424pt.
+) (_Doc_App.tex)
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 108.
@@ -1535,13 +1540,13 @@ Package logreq Info: Writing requests to 'Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32336 strings out of 492452
- 602159 string characters out of 3120530
- 1221062 words of memory out of 3000000
- 36191 multiletter control sequences out of 15000+200000
+ 32345 strings out of 492452
+ 602359 string characters out of 3120530
+ 1253100 words of memory out of 3000000
+ 36198 multiletter control sequences out of 15000+200000
  541448 words of font info for 57 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 59i,17n,122p,890b,3363s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,17n,122p,890b,4527s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fon
@@ -1556,9 +1561,9 @@ c/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/USER/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Master.pdf (20 pages, 834519 bytes).
+Output written on Master.pdf (20 pages, 869101 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 

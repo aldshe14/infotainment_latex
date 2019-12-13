@@ -30,15 +30,15 @@
 \contentsline {subsubsection}{Konfiguration von Raspberry PI Server}{8}{section*.25}% 
 \contentsline {subsubsection}{Datenbank}{9}{section*.26}% 
 \contentsline {subsubsection}{SSL Verschlüsselung}{9}{section*.27}% 
-\contentsline {subsubsection}{Wetterdaten}{10}{section*.28}% 
-\contentsline {subsubsection}{Anzeige}{10}{section*.29}% 
-\contentsline {subsubsection}{Chatbot}{10}{section*.30}% 
-\contentsline {subsubsection}{Chatbot Einrichtung:}{10}{section*.31}% 
-\contentsline {subsubsection}{Einrichtung des Chatbots in RaspberryPI}{10}{section*.32}% 
-\contentsline {subsubsection}{Grundlagen für die Umsetzung}{11}{section*.33}% 
-\contentsline {subsubsection}{Funktionalitäten}{11}{section*.34}% 
-\contentsline {subsubsection}{Unregistrierte Benutzer:}{11}{section*.35}% 
-\contentsline {subsubsection}{Normale Benutzer:}{11}{section*.36}% 
-\contentsline {subsubsection}{Administrator:}{12}{section*.37}% 
-\contentsline {subsubsection}{Umsetzung der Funktionalitäten:}{12}{section*.38}% 
-\contentsline {subsubsection}{Konkrete Beispiele mit Bildern}{14}{section*.39}% 
+\contentsline {subsubsection}{Wetterdaten}{10}{section*.29}% 
+\contentsline {subsubsection}{Anzeige}{10}{section*.30}% 
+\contentsline {subsubsection}{Chatbot}{10}{section*.31}% 
+\contentsline {subsubsection}{Chatbot Einrichtung:}{10}{section*.32}% 
+\contentsline {subsubsection}{Einrichtung des Chatbots in RaspberryPI}{11}{section*.33}% 
+\contentsline {subsubsection}{Grundlagen für die Umsetzung}{11}{section*.34}% 
+\contentsline {subsubsection}{Funktionalitäten}{11}{section*.35}% 
+\contentsline {subsubsection}{Unregistrierte Benutzer:}{12}{section*.36}% 
+\contentsline {subsubsection}{Normale Benutzer:}{12}{section*.37}% 
+\contentsline {subsubsection}{Administrator:}{12}{section*.38}% 
+\contentsline {subsubsection}{Umsetzung der Funktionalitäten:}{12}{section*.39}% 
+\contentsline {subsubsection}{Konkrete Beispiele mit Bildern}{15}{section*.40}% 
