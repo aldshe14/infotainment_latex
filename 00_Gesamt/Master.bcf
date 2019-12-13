@@ -2127,48 +2127,47 @@
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex">./../literatur.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">./../literatur1.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">einstein</bcf:citekey>
-    <bcf:citekey order="1">knuthwebsite</bcf:citekey>
+    <bcf:citekey order="1">50_apache</bcf:citekey>
     <bcf:citekey order="2">50_apache</bcf:citekey>
-    <bcf:citekey order="3">50_apache</bcf:citekey>
+    <bcf:citekey order="3">50_mysql</bcf:citekey>
     <bcf:citekey order="4">50_mysql</bcf:citekey>
-    <bcf:citekey order="5">50_mysql</bcf:citekey>
+    <bcf:citekey order="5">50_php</bcf:citekey>
     <bcf:citekey order="6">50_php</bcf:citekey>
-    <bcf:citekey order="7">50_php</bcf:citekey>
+    <bcf:citekey order="7">50_javascript</bcf:citekey>
     <bcf:citekey order="8">50_javascript</bcf:citekey>
-    <bcf:citekey order="9">50_javascript</bcf:citekey>
+    <bcf:citekey order="9">50_python</bcf:citekey>
     <bcf:citekey order="10">50_python</bcf:citekey>
-    <bcf:citekey order="11">50_python</bcf:citekey>
-    <bcf:citekey order="12">50_html</bcf:citekey>
-    <bcf:citekey order="13">50_css</bcf:citekey>
-    <bcf:citekey order="14">50_raspi</bcf:citekey>
+    <bcf:citekey order="11">50_html</bcf:citekey>
+    <bcf:citekey order="12">50_css</bcf:citekey>
+    <bcf:citekey order="13">50_raspi</bcf:citekey>
+    <bcf:citekey order="14">50_ssl</bcf:citekey>
     <bcf:citekey order="15">50_ssl</bcf:citekey>
-    <bcf:citekey order="16">50_ssl</bcf:citekey>
-    <bcf:citekey order="17">50_telegram</bcf:citekey>
-    <bcf:citekey order="18">50_Wetter</bcf:citekey>
-    <bcf:citekey order="19">50_json</bcf:citekey>
-    <bcf:citekey order="20">50_SSS</bcf:citekey>
-    <bcf:citekey order="21">50_telegram</bcf:citekey>
+    <bcf:citekey order="16">50_telegram</bcf:citekey>
+    <bcf:citekey order="17">50_Wetter</bcf:citekey>
+    <bcf:citekey order="18">50_json</bcf:citekey>
+    <bcf:citekey order="19">50_SSS</bcf:citekey>
+    <bcf:citekey order="20">50_telegram</bcf:citekey>
+    <bcf:citekey order="21">40_bootstrap_img</bcf:citekey>
     <bcf:citekey order="22">40_bootstrap_img</bcf:citekey>
-    <bcf:citekey order="23">40_bootstrap_img</bcf:citekey>
+    <bcf:citekey order="23">40_php_img</bcf:citekey>
     <bcf:citekey order="24">40_php_img</bcf:citekey>
-    <bcf:citekey order="25">40_php_img</bcf:citekey>
-    <bcf:citekey order="26">40_js</bcf:citekey>
+    <bcf:citekey order="25">40_js</bcf:citekey>
+    <bcf:citekey order="26">40_js_img</bcf:citekey>
     <bcf:citekey order="27">40_js_img</bcf:citekey>
-    <bcf:citekey order="28">40_js_img</bcf:citekey>
-    <bcf:citekey order="29">40_datatables</bcf:citekey>
+    <bcf:citekey order="28">40_datatables</bcf:citekey>
+    <bcf:citekey order="29">40_datatables_img</bcf:citekey>
     <bcf:citekey order="30">40_datatables_img</bcf:citekey>
-    <bcf:citekey order="31">40_datatables_img</bcf:citekey>
+    <bcf:citekey order="31">40_font_awesome_img</bcf:citekey>
     <bcf:citekey order="32">40_font_awesome_img</bcf:citekey>
-    <bcf:citekey order="33">40_font_awesome_img</bcf:citekey>
+    <bcf:citekey order="33">40_mysql_img</bcf:citekey>
     <bcf:citekey order="34">40_mysql_img</bcf:citekey>
-    <bcf:citekey order="35">40_mysql_img</bcf:citekey>
-    <bcf:citekey order="36">40_apache</bcf:citekey>
+    <bcf:citekey order="35">40_apache</bcf:citekey>
+    <bcf:citekey order="36">40_apache_img</bcf:citekey>
     <bcf:citekey order="37">40_apache_img</bcf:citekey>
-    <bcf:citekey order="38">40_apache_img</bcf:citekey>
-    <bcf:citekey order="39">40_sessions_cookies</bcf:citekey>
+    <bcf:citekey order="38">40_sessions_cookies</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

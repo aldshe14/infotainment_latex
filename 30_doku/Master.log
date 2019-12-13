@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  8 DEC 2019 20:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  13 DEC 2019 23:07
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1081,7 +1081,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 39.
  (_Doc_A.tex) (01_title.tex
-<./figures/Header_Seite.png, id=15, 137.01187pt x 48.18pt>
+<./figures/Header_Seite.png, id=19, 137.01187pt x 48.18pt>
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 7.
@@ -1091,7 +1091,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 7.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 27.
 
-<./../30_doku/figures/Frontpage_back.png, id=16, 716.6775pt x 403.5075pt>
+<./../30_doku/figures/Frontpage_back.png, id=20, 716.6775pt x 403.5075pt>
 File: ./../30_doku/figures/Frontpage_back.png Graphic file (type png)
 <use ./../30_doku/figures/Frontpage_back.png>
 Package pdftex.def Info: ./../30_doku/figures/Frontpage_back.png  used on input
@@ -1117,26 +1117,26 @@ l.66 \mainmatter
 
 ] (_Doc.tex
 Kapitel 1.
-<./../30_doku/figures/aldo.pdf, id=31, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/aldo.pdf, id=36, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf>
-Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 7.
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 5.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf>
-Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 7.
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 5.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./../30_doku/figures/aldo.pdf, id=34, page=1, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/aldo.pdf, id=39, page=1, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf, page 1>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
-ne 7.
+ne 5.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf, page 1>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
+ne 5.
+(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
 [1
 
 
@@ -1145,66 +1145,204 @@ ne 7.
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf, page 1>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
+ne 5.
+(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf, page 1>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
-File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
-<use ./../30_doku/figures/aldo.pdf, page 1>
-Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
- [2 <./../30_doku/figures/aldo.pdf>]
-<./../30_doku/figures/aldo.pdf, id=56, page=2, 597.51233pt x 845.0471pt>
-File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
-<use ./../30_doku/figures/aldo.pdf, page 2>
-Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page2 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
-File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
-<use ./../30_doku/figures/aldo.pdf, page 2>
-Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page2 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
-File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
-<use ./../30_doku/figures/aldo.pdf, page 2>
-Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page2 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
- [3 <./../30_doku/figures/aldo.pdf>]
-<./../30_doku/figures/aldo.pdf, id=61, page=3, 597.51233pt x 845.0471pt>
-File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
-<use ./../30_doku/figures/aldo.pdf, page 3>
-Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page3 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
-File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
-<use ./../30_doku/figures/aldo.pdf, page 3>
-Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page3 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
-File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
-<use ./../30_doku/figures/aldo.pdf, page 3>
-Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page3 used on input li
-ne 7.
-(pdftex.def)             Requested size: 537.75612pt x 760.53537pt.
+ne 5.
+(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 5.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 
-[4 <./../30_doku/figures/aldo.pdf>]) (_Doc_App.tex) (Master.lof)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 28.43996pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 1>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
+ne 5.
+(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
+[2 <./../30_doku/figures/aldo.pdf>]
+<./../30_doku/figures/irena.pdf, id=64, 597.51233pt x 845.0471pt>
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+<./../30_doku/figures/irena.pdf, id=67, page=2, 597.51233pt x 845.0471pt>
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page2 used on input l
+ine 7.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page2 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page2 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page2 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page2 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+ [3 <./../30_doku/figures/irena.pdf>]
+<./../30_doku/figures/irena.pdf, id=83, page=3, 597.51233pt x 845.0471pt>
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 3>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page3 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 3>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page3 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 3>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page3 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+
+[4 <./../30_doku/figures/irena.pdf>]
+<./../30_doku/figures/irena.pdf, id=88, page=4, 597.51233pt x 845.0471pt>
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 4>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page4 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 4>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page4 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/irena.pdf, page 4>
+Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page4 used on input l
+ine 7.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+ [5 <./../30_doku/figures/irena.pdf>]
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 9.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 9.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 1>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
+ne 9.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 1>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
+ne 9.
+(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 1>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
+ne 9.
+(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 1>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
+ne 9.
+(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 9.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 1>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
+ne 9.
+(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
+
+[6]
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 11.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 11.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+<./../30_doku/figures/aldo.pdf, id=103, page=2, 597.51233pt x 845.0471pt>
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page2 used on input li
+ne 11.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page2 used on input li
+ne 11.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page2 used on input li
+ne 11.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page2 used on input li
+ne 11.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 2>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page2 used on input li
+ne 11.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+ [7 <./../30_doku/figures/aldo.pdf>]
+<./../30_doku/figures/aldo.pdf, id=108, page=3, 597.51233pt x 845.0471pt>
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 3>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page3 used on input li
+ne 11.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 3>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page3 used on input li
+ne 11.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
+<use ./../30_doku/figures/aldo.pdf, page 3>
+Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page3 used on input li
+ne 11.
+(pdftex.def)             Requested size: 507.88788pt x 718.29344pt.
+ [8 <./../30_doku/figures/aldo.pdf>])
+(_Doc_App.tex) (Master.lof)
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
- [5
+ [9
 
 
-]
-(Master.lot)
+] (Master.lot)
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [6
+ [10
 
 ]
 
@@ -1236,7 +1374,7 @@ LaTeX Warning: Empty bibliography on input line 98.
 
 
 AED: lastpage setting LastPage
-[7
+[11
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
@@ -1244,9 +1382,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (Master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
-Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 6854507DB68DA7ECEB74FD6C11B21223;214.
 
+
+Package rerunfilecheck Warning: File `Master.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Master.out':
+(rerunfilecheck)             Before: 0A7A5A411BD65B652970891608F9CEC7;277
+(rerunfilecheck)             After:  DECF32F79002002279AE50C7069916D2;280.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1255,18 +1399,19 @@ Package logreq Info: Writing requests to 'Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28884 strings out of 492895
- 550197 string characters out of 3133482
- 1031064 words of memory out of 3000000
- 32496 multiletter control sequences out of 15000+200000
- 539519 words of font info for 49 fonts, out of 3000000 for 9000
+ 28909 strings out of 492895
+ 550922 string characters out of 3133482
+ 1032068 words of memory out of 3000000
+ 32513 multiletter control sequences out of 15000+200000
+ 539871 words of font info for 50 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,19n,100p,852b,2279s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Master.pdf (9 pages, 623001 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
+Output written on Master.pdf (13 pages, 659628 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

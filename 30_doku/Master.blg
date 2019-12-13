@@ -1,5 +1,9 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Master.aux
-I found no \citation commands---while reading file Master.aux
-I found no \bibdata command---while reading file Master.aux
-I found no \bibstyle command---while reading file Master.aux
-(There were 3 error messages)
+[1] Config.pm:304> INFO - This is Biber 2.13
+[1] Config.pm:307> INFO - Logfile is 'Master.blg'
+[75] biber-MSWIN64:315> INFO - === 
+[123] Biber.pm:375> INFO - Reading 'Master.bcf'
+[369] Biber.pm:905> INFO - Found 0 citekeys in bib section 0
+[386] Utils.pm:300> WARN - The file 'Master.bcf' does not contain any citations!
+[407] bbl.pm:648> INFO - Writing 'Master.bbl' with encoding 'UTF-8'
+[407] bbl.pm:751> INFO - Output to Master.bbl
+[418] Biber.pm:110> INFO - WARNINGS: 1

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  13 DEC 2019 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  13 DEC 2019 23:30
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -942,29 +942,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count425
 \@quotereset=\count426
-(Master.aux
-
-LaTeX Warning: Label `tab:Tabelle1' multiply defined.
-
-
-LaTeX Warning: Label `fig:erd' multiply defined.
-
-
-LaTeX Warning: Label `fig:chatbot3' multiply defined.
-
-
-LaTeX Warning: Label `fig:chatbo73' multiply defined.
-
-
-LaTeX Warning: Label `fig:chatbo53' multiply defined.
-
-
-LaTeX Warning: Label `fig:chatbo53' multiply defined.
-
-
-LaTeX Warning: Label `fig:chatbo53' multiply defined.
-
-)
+(Master.aux)
 \openout1 = `Master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
@@ -981,7 +959,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
- (C:\Users\Aldo\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\Aldo\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count427
 \scratchdimen=\dimen184
@@ -1013,116 +992,8 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `Master.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Master.bbl' not found.
-
-No file Master.bbl.
-
-Package biblatex Warning: citation 'einstein' was not found at all in the .bbl,
- bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'knuthwebsite' was not found at all in the .
-bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_apache' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_mysql' was not found at all in the .bbl,
- bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_php' was not found at all in the .bbl, b
-ibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_javascript' was not found at all in the 
-.bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_python' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_html' was not found at all in the .bbl, 
-bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_css' was not found at all in the .bbl, b
-ibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_raspi' was not found at all in the .bbl,
- bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_ssl' was not found at all in the .bbl, b
-ibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_telegram' was not found at all in the .b
-bl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_Wetter' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_json' was not found at all in the .bbl, 
-bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '50_SSS' was not found at all in the .bbl, b
-ibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '40_bootstrap_img' was not found at all in t
-he .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '40_php_img' was not found at all in the .bb
-l, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '40_js' was not found at all in the .bbl, bi
-bliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '40_js_img' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '40_datatables' was not found at all in the 
-.bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '40_datatables_img' was not found at all in 
-the .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-
-Package biblatex Warning: citation '40_font_awesome_img' was not found at all i
-n the .bbl, bibliography labels cannot be generated, please correct the citatio
-n.
-
-
-Package biblatex Warning: citation '40_mysql_img' was not found at all in the .
-bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '40_apache' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '40_apache_img' was not found at all in the 
-.bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation '40_sessions_cookies' was not found at all i
-n the .bbl, bibliography labels cannot be generated, please correct the citatio
-n.
-
+Package biblatex Info: ... file 'Master.bbl' found.
+ (Master.bbl)
 Package biblatex Info: Reference section=0 on input line 115.
 Package biblatex Info: Reference segment=0 on input line 115.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1130,6 +1001,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
+
 (C:\Users\Aldo\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
@@ -1327,7 +1199,7 @@ No file Master.nls.
 ]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 93.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 97.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 
 
@@ -1678,601 +1550,347 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--9
 [21
 
 ]
-
-LaTeX Warning: Citation 'einstein' on page 22 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'knuthwebsite' on page 22 undefined on input line 12.
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 27.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[22]
+ [22]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 59.
-
-
-LaTeX Warning: Citation '50_apache' on page 23 undefined on input line 60.
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 61.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[23]
-
-LaTeX Warning: Citation '50_apache' on page 24 undefined on input line 63.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
-
- []
-
-
-LaTeX Warning: Citation '50_mysql' on page 24 undefined on input line 68.
-
-
-LaTeX Warning: Citation '50_mysql' on page 24 undefined on input line 70.
-
-
-LaTeX Warning: Citation '50_php' on page 24 undefined on input line 74.
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 75.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 76.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [24]
-
-LaTeX Warning: Citation '50_php' on page 25 undefined on input line 76.
-
-
-LaTeX Warning: Citation '50_javascript' on page 25 undefined on input line 78.
-
-
-LaTeX Warning: Citation '50_javascript' on page 25 undefined on input line 101.
-
-
-
-LaTeX Warning: Citation '50_python' on page 25 undefined on input line 104.
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 105.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 107.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[25]
-
-LaTeX Warning: Citation '50_python' on page 26 undefined on input line 119.
-
-
-LaTeX Warning: Citation '50_html' on page 26 undefined on input line 122.
-
-
-LaTeX Warning: Citation '50_css' on page 26 undefined on input line 125.
-
-
-LaTeX Warning: Citation '50_raspi' on page 26 undefined on input line 127.
-
+ [25]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 128.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 129.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[26]
-
-LaTeX Warning: Citation '50_ssl' on page 27 undefined on input line 129.
-
-
-LaTeX Warning: Citation '50_ssl' on page 27 undefined on input line 131.
-
-
-LaTeX Warning: Citation '50_telegram' on page 27 undefined on input line 133.
-
-
-Overfull \hbox (17.52914pt too wide) in paragraph at lines 133--134
+ [26]
+Overfull \hbox (17.52914pt too wide) in paragraph at lines 132--133
 \OT1/cmr/m/n/12 Telegram Bot API[][][][] ist ei-ne Schnitt-stel-le, die die Im-
 ple-men-tie-rung von Chat-bot erm[]oglicht.
  []
 
 
-LaTeX Warning: Citation '50_Wetter' on page 27 undefined on input line 135.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation '50_json' on page 27 undefined on input line 137.
+Underfull \hbox (badness 10000) in paragraph at lines 162--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--168
+
+ []
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 161.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 168.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [27]
 
-LaTeX Warning: File `./figures/server.png' not found on input line 164.
+Package caption Warning: \captionsetup{type=...}
+(caption)                outside box or environment on input line 170.
+See the caption package documentation for explanation.
+
+<./../40_xx/figures/server.png, id=717, 1258.7025pt x 1152.305pt>
+File: ./../40_xx/figures/server.png Graphic file (type png)
+<use ./../40_xx/figures/server.png>
+Package pdftex.def Info: ./../40_xx/figures/server.png  used on input line 171.
+
+(pdftex.def)             Requested size: 441.01773pt x 403.73477pt.
+
+Underfull \hbox (badness 6542) in paragraph at lines 169--172
+[]\OT1/cmr/m/n/12 Am En-de er-folgt ei-ne An-fra-ge von dem Raspber-ryPI Ser-ve
+r. Er er-
+ []
 
 
-! Package pdftex.def Error: File `./figures/server.png' not found: using draft 
-setting.
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
+\OT1/cmr/m/n/12 for-dert die ge-sam-mel-ten Da-ten al-ler Kom-po-nen-ten. Sie w
+er-den zu-erst
+ []
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...s[width=\linewidth]{./figures/server.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
+\OT1/cmr/m/n/12 va-li-diert dann von Log ge-nom-men und da-nach zum Ser-ver ge-
+schickt.
+ []
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 190.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 172.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [28]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 202.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 196.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [29]
-
-LaTeX Warning: File `./figures/erd_irena.png' not found on input line 211.
-
-
-! Package pdftex.def Error: File `./figures/erd_irena.png' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.211 ...idth=\linewidth]{./figures/erd_irena.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [29 <./../40_xx/figures/server.png>]
+<./../40_xx/figures/erd_irena.png, id=735, 1061.9675pt x 453.695pt>
+File: ./../40_xx/figures/erd_irena.png Graphic file (type png)
+<use ./../40_xx/figures/erd_irena.png>
+Package pdftex.def Info: ./../40_xx/figures/erd_irena.png  used on input line 2
+24.
+(pdftex.def)             Requested size: 441.01773pt x 188.41145pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 222.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 238.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[30]
+ [30 <./../40_xx/figures/erd_irena.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
-LaTeX Warning: Citation '50_SSS' on page 31 undefined on input line 236.
+ []
 
+<./../40_xx/figures/weather.jpeg, id=744, 540.0175pt x 269.005pt>
+File: ./../40_xx/figures/weather.jpeg Graphic file (type jpg)
+<use ./../40_xx/figures/weather.jpeg>
+Package pdftex.def Info: ./../40_xx/figures/weather.jpeg  used on input line 27
+2.
+(pdftex.def)             Requested size: 441.01773pt x 219.6948pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 273.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [31]
-
-LaTeX Warning: Citation '50_telegram' on page 32 undefined on input line 278.
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 295.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 299.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 306--308
+ [32 <./../40_xx/figures/weather.jpeg>]
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 324.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [33]
+Underfull \hbox (badness 10000) in paragraph at lines 326--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
-
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 311.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[33]
-
-Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 322.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 322.
-See the caption package documentation for explanation.
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 322.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 337.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 353.
-See the caption package documentation for explanation.
-
+nput line 342.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 356.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 349.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [34]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 366.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 378.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 400.
-See the caption package documentation for explanation.
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 404.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 403.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[35]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 412.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: File `./figures/chatbotbild88.jpg' not found on input line 419.
-
-
-! Package pdftex.def Error: File `./figures/chatbotbild88.jpg' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.419 ...=\linewidth]{./figures/chatbotbild88.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [35]
+<./../40_xx/figures/chatbotbild88.jpg, id=821, 936.49875pt x 216.81pt>
+File: ./../40_xx/figures/chatbotbild88.jpg Graphic file (type jpg)
+<use ./../40_xx/figures/chatbotbild88.jpg>
+Package pdftex.def Info: ./../40_xx/figures/chatbotbild88.jpg  used on input li
+ne 440.
+(pdftex.def)             Requested size: 441.01773pt x 102.10251pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 420.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 441.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[36]
-
-LaTeX Warning: File `./figures/chatbotbild9.jpeg' not found on input line 425.
-
-
-! Package pdftex.def Error: File `./figures/chatbotbild9.jpeg' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.425 ...=\linewidth]{./figures/chatbotbild9.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [36]
+<./../40_xx/figures/chatbotbild9.jpeg, id=847, 1246.6575pt x 251.94125pt>
+File: ./../40_xx/figures/chatbotbild9.jpeg Graphic file (type jpg)
+<use ./../40_xx/figures/chatbotbild9.jpeg>
+Package pdftex.def Info: ./../40_xx/figures/chatbotbild9.jpeg  used on input li
+ne 447.
+(pdftex.def)             Requested size: 441.01773pt x 89.12645pt.
+<./../40_xx/figures/chatbotbild11.jpeg, id=848, 1246.6575pt x 281.05pt>
+File: ./../40_xx/figures/chatbotbild11.jpeg Graphic file (type jpg)
+<use ./../40_xx/figures/chatbotbild11.jpeg>
+Package pdftex.def Info: ./../40_xx/figures/chatbotbild11.jpeg  used on input l
+ine 454.
+(pdftex.def)             Requested size: 441.01773pt x 99.42392pt.
+<./../40_xx/figures/chatbotbild.jpeg, id=849, 1246.6575pt x 460.72125pt>
+File: ./../40_xx/figures/chatbotbild.jpeg Graphic file (type jpg)
+<use ./../40_xx/figures/chatbotbild.jpeg>
+Package pdftex.def Info: ./../40_xx/figures/chatbotbild.jpeg  used on input lin
+e 464.
+(pdftex.def)             Requested size: 441.01773pt x 162.98424pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 426.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 465.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[37]
-
-LaTeX Warning: File `./figures/chatbotbild11.jpeg' not found on input line 432.
-
-
-
-! Package pdftex.def Error: File `./figures/chatbotbild11.jpeg' not found: usin
-g draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.432 ...\linewidth]{./figures/chatbotbild11.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [37 <./../40_xx/figures/chatbotbild88.jpg> <./../40_xx/figures/chatbotbild9.jp
+eg> <./../40_xx/figures/chatbotbild11.jpeg>]
+<./../40_xx/figures/chatbotbild54.jpg, id=859, 934.99312pt x 493.0922pt>
+File: ./../40_xx/figures/chatbotbild54.jpg Graphic file (type jpg)
+<use ./../40_xx/figures/chatbotbild54.jpg>
+Package pdftex.def Info: ./../40_xx/figures/chatbotbild54.jpg  used on input li
+ne 471.
+(pdftex.def)             Requested size: 441.01773pt x 232.581pt.
+<./../40_xx/figures/chatbotbild5.jpeg, id=860, 1246.6575pt x 355.3275pt>
+File: ./../40_xx/figures/chatbotbild5.jpeg Graphic file (type jpg)
+<use ./../40_xx/figures/chatbotbild5.jpeg>
+Package pdftex.def Info: ./../40_xx/figures/chatbotbild5.jpeg  used on input li
+ne 478.
+(pdftex.def)             Requested size: 441.01773pt x 125.70026pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 433.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 479.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[38]
+ [38 <./../40_xx/figures/chatbotbild.jpeg> <./../40_xx/figures/chatbotbild54.jp
+g> <./../40_xx/figures/chatbotbild5.jpeg>]
+<./../40_xx/figures/chatbotbild6.jpeg, id=869, 1246.6575pt x 394.47375pt>
+File: ./../40_xx/figures/chatbotbild6.jpeg Graphic file (type jpg)
+<use ./../40_xx/figures/chatbotbild6.jpeg>
+Package pdftex.def Info: ./../40_xx/figures/chatbotbild6.jpeg  used on input li
+ne 485.
+(pdftex.def)             Requested size: 441.01773pt x 139.54858pt.
+<./../40_xx/figures/chatbotbild4.jpeg, id=870, 1246.6575pt x 591.20876pt>
+File: ./../40_xx/figures/chatbotbild4.jpeg Graphic file (type jpg)
+<use ./../40_xx/figures/chatbotbild4.jpeg>
+Package pdftex.def Info: ./../40_xx/figures/chatbotbild4.jpeg  used on input li
+ne 492.
+(pdftex.def)             Requested size: 441.01773pt x 209.14536pt.
+<./../40_xx/figures/chatbotbild7.jpeg, id=871, 1246.6575pt x 537.00626pt>
+File: ./../40_xx/figures/chatbotbild7.jpeg Graphic file (type jpg)
+<use ./../40_xx/figures/chatbotbild7.jpeg>
+Package pdftex.def Info: ./../40_xx/figures/chatbotbild7.jpeg  used on input li
+ne 499.
+(pdftex.def)             Requested size: 441.01773pt x 189.97073pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 435.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 500.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [39]
+ [39 <./../40_xx/figures/chatbotbild6.jpeg> <./../40_xx/figures/chatbotbild4.jp
+eg>]
+<./../40_xx/figures/catboti.jpg, id=879, 461.47406pt x 135.50626pt>
+File: ./../40_xx/figures/catboti.jpg Graphic file (type jpg)
+<use ./../40_xx/figures/catboti.jpg>
+Package pdftex.def Info: ./../40_xx/figures/catboti.jpg  used on input line 507
+.
+(pdftex.def)             Requested size: 441.01773pt x 129.49936pt.
 
-LaTeX Warning: File `./figures/chatbotbild.jpeg' not found on input line 441.
-
-
-! Package pdftex.def Error: File `./figures/chatbotbild.jpeg' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.441 ...h=\linewidth]{./figures/chatbotbild.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./figures/chatbotbild2.jpeg' not found on input line 448.
-
-
-! Package pdftex.def Error: File `./figures/chatbotbild2.jpeg' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.448 ...=\linewidth]{./figures/chatbotbild2.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 449.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[40]
-
-LaTeX Warning: File `./figures/chatbotbild5.jpeg' not found on input line 455.
-
-
-! Package pdftex.def Error: File `./figures/chatbotbild5.jpeg' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.455 ...=\linewidth]{./figures/chatbotbild5.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 456.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[41]
-
-LaTeX Warning: File `./figures/chatbotbild6.jpeg' not found on input line 462.
-
-
-! Package pdftex.def Error: File `./figures/chatbotbild6.jpeg' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.462 ...=\linewidth]{./figures/chatbotbild6.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 463.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[42]
-
-LaTeX Warning: File `./figures/chatbotbild4.jpeg' not found on input line 469.
-
-
-! Package pdftex.def Error: File `./figures/chatbotbild4.jpeg' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.469 ...=\linewidth]{./figures/chatbotbild4.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 470.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[43]
-
-LaTeX Warning: File `./figures/chatbotbild7.jpeg' not found on input line 476.
-
-
-! Package pdftex.def Error: File `./figures/chatbotbild7.jpeg' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.476 ...=\linewidth]{./figures/chatbotbild7.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 477.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[44]
-
-LaTeX Warning: File `./figures/catboti.jpg' not found on input line 484.
-
-
-! Package pdftex.def Error: File `./figures/catboti.jpg' not found: using draft
- setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.484 ...[width=\linewidth]{./figures/catboti.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 485.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 []\OT1/cmr/bx/n/17.28 Probleme, Her-aus-for-de-run-gen und de-ren
  []
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 495.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 516.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[46]
+[40 <./../40_xx/figures/chatbotbild7.jpeg> <./../40_xx/figures/catboti.jpg>]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 527.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 536.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [47])
+
+[41]
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 570.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [42]
+Underfull \hbox (badness 10000) in paragraph at lines 597--600
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+
+ []
+
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 604.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+[43])
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 166.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [48] (../50_aldosheldija/_Doc_A.tex) (../50_aldosheldija/_Doc.tex
+ [44] (../50_aldosheldija/_Doc_A.tex) (../50_aldosheldija/_Doc.tex
 Kapitel 5.
-<./../50_aldosheldija/figures/bootstrap.png, id=889, 1027.84pt x 863.225pt>
+<./../50_aldosheldija/figures/bootstrap.png, id=914, 1027.84pt x 863.225pt>
 File: ./../50_aldosheldija/figures/bootstrap.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/bootstrap.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/bootstrap.png  used on in
 put line 22.
 (pdftex.def)             Requested size: 132.30666pt x 111.11676pt.
-
-LaTeX Warning: Citation '40_bootstrap_img' on page 49 undefined on input line 2
-3.
-
-
-LaTeX Warning: Citation '40_bootstrap_img' on page 49 undefined on input line 2
-3.
-
-[49
+[45
 
 ]
-<./../50_aldosheldija/figures/php.png, id=898, 713.66624pt x 385.44pt>
+<./../50_aldosheldija/figures/php.png, id=925, 713.66624pt x 385.44pt>
 File: ./../50_aldosheldija/figures/php.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/php.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/php.png  used on input li
 ne 35.
 (pdftex.def)             Requested size: 132.30666pt x 71.45232pt.
-
-
-LaTeX Warning: Citation '40_php_img' on page 50 undefined on input line 36.
-
-
-LaTeX Warning: Citation '40_php_img' on page 50 undefined on input line 36.
-
-
-LaTeX Warning: Citation '40_js' on page 50 undefined on input line 42.
-
-<./../50_aldosheldija/figures/js.png, id=899, 589.20125pt x 331.2375pt>
+<./../50_aldosheldija/figures/js.png, id=929, 589.20125pt x 331.2375pt>
 File: ./../50_aldosheldija/figures/js.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/js.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/js.png  used on input lin
 e 49.
 (pdftex.def)             Requested size: 132.30666pt x 74.37863pt.
-
-LaTeX Warning: Citation '40_js_img' on page 50 undefined on input line 50.
-
-
-LaTeX Warning: Citation '40_js_img' on page 50 undefined on input line 50.
-
-
-LaTeX Warning: Citation '40_datatables' on page 50 undefined on input line 59.
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 60.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[50 <./../50_aldosheldija/figures/bootstrap.png> <./../50_aldosheldija/figures/
-php.png> <./../50_aldosheldija/figures/js.png>]
-<./../50_aldosheldija/figures/datatables.png, id=911, 481.8pt x 173.64874pt>
+ [46 <./../50_aldosheldija/figures/bootstrap.png> <./../50_aldosheldija/figures
+/php.png> <./../50_aldosheldija/figures/js.png>]
+<./../50_aldosheldija/figures/datatables.png, id=949, 481.8pt x 173.64874pt>
 File: ./../50_aldosheldija/figures/datatables.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/datatables.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/datatables.png  used on i
 nput line 63.
 (pdftex.def)             Requested size: 132.30666pt x 47.68333pt.
-
-
-LaTeX Warning: Citation '40_datatables_img' on page 51 undefined on input line 
-64.
-
-
-LaTeX Warning: Citation '40_datatables_img' on page 51 undefined on input line 
-64.
-
-<./../50_aldosheldija/figures/font_awesome.png, id=913, 1204.5pt x 632.3625pt>
+<./../50_aldosheldija/figures/font_awesome.png, id=953, 1204.5pt x 632.3625pt>
 File: ./../50_aldosheldija/figures/font_awesome.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/font_awesome.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/font_awesome.png  used on
  input line 74.
 (pdftex.def)             Requested size: 132.30666pt x 69.45395pt.
-
-LaTeX Warning: Citation '40_font_awesome_img' on page 51 undefined on input lin
-e 75.
-
-
-LaTeX Warning: Citation '40_font_awesome_img' on page 51 undefined on input lin
-e 75.
-
-<./../50_aldosheldija/figures/mysql.png, id=916, 271.0125pt x 187.70125pt>
+<./../50_aldosheldija/figures/mysql.png, id=958, 271.0125pt x 187.70125pt>
 File: ./../50_aldosheldija/figures/mysql.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/mysql.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/mysql.png  used on input 
 line 86.
 (pdftex.def)             Requested size: 132.30666pt x 91.63644pt.
-
-LaTeX Warning: Citation '40_mysql_img' on page 51 undefined on input line 87.
-
-
-LaTeX Warning: Citation '40_mysql_img' on page 51 undefined on input line 87.
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 90.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[51 <./../50_aldosheldija/figures/datatables.png> <./../50_aldosheldija/figures
-/font_awesome.png>]
-
-LaTeX Warning: Citation '40_apache' on page 52 undefined on input line 91.
-
-<./../50_aldosheldija/figures/apache.png, id=928, 301.125pt x 114.4275pt>
+ [47 <./../50_aldosheldija/figures/datatables.png> <./../50_aldosheldija/figure
+s/font_awesome.png>]
+<./../50_aldosheldija/figures/apache.png, id=976, 301.125pt x 114.4275pt>
 File: ./../50_aldosheldija/figures/apache.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/apache.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/apache.png  used on input
  line 97.
 (pdftex.def)             Requested size: 132.30666pt x 50.27841pt.
-
-LaTeX Warning: Citation '40_apache_img' on page 52 undefined on input line 98.
-
-
-LaTeX Warning: Citation '40_apache_img' on page 52 undefined on input line 98.
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 118.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[52 <./../50_aldosheldija/figures/mysql.png> <./../50_aldosheldija/figures/apac
+
+[48 <./../50_aldosheldija/figures/mysql.png> <./../50_aldosheldija/figures/apac
 he.png>]
-<./../50_aldosheldija/figures/client.png, id=940, 1020.81375pt x 786.94pt>
+<./../50_aldosheldija/figures/client.png, id=992, 1020.81375pt x 786.94pt>
 File: ./../50_aldosheldija/figures/client.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/client.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/client.png  used on input
@@ -2282,8 +1900,8 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 134.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [53 <./../50_aldosheldija/figures/client.png>]
-<./../50_aldosheldija/figures/erd.png, id=950, 797.22844pt x 455.45157pt>
+ [49 <./../50_aldosheldija/figures/client.png>]
+<./../50_aldosheldija/figures/erd.png, id=1002, 797.22844pt x 455.45157pt>
 File: ./../50_aldosheldija/figures/erd.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/erd.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/erd.png  used on input li
@@ -2293,19 +1911,19 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 150.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [54]
+ [50]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 160.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [55 <./../50_aldosheldija/figures/erd.png>]
-<./../50_aldosheldija/figures/login.png, id=965, 845.0772pt x 332.2011pt>
+ [51 <./../50_aldosheldija/figures/erd.png>]
+<./../50_aldosheldija/figures/login.png, id=1017, 845.0772pt x 332.2011pt>
 File: ./../50_aldosheldija/figures/login.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/login.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/login.png  used on input 
 line 169.
 (pdftex.def)             Requested size: 441.01773pt x 173.36397pt.
-<./../50_aldosheldija/figures/reset.png, id=967, 599.1183pt x 332.2011pt>
+<./../50_aldosheldija/figures/reset.png, id=1019, 599.1183pt x 332.2011pt>
 File: ./../50_aldosheldija/figures/reset.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/reset.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/reset.png  used on input 
@@ -2315,96 +1933,90 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 182.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [56 <./../50_aldosheldija/figures/login.png (PNG copy)>]
-<./../50_aldosheldija/figures/header.png, id=977, 825.83531pt x 162.6075pt>
+ [52 <./../50_aldosheldija/figures/login.png (PNG copy)>]
+<./../50_aldosheldija/figures/header.png, id=1030, 825.83531pt x 162.6075pt>
 File: ./../50_aldosheldija/figures/header.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/header.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/header.png  used on input
  line 189.
 (pdftex.def)             Requested size: 396.91325pt x 78.15244pt.
-<./../50_aldosheldija/figures/normalUser.png, id=978, 463.7325pt x 58.71938pt>
+<./../50_aldosheldija/figures/normalUser.png, id=1031, 463.7325pt x 58.71938pt>
+
 File: ./../50_aldosheldija/figures/normalUser.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/normalUser.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/normalUser.png  used on i
 nput line 196.
 (pdftex.def)             Requested size: 308.71106pt x 39.09088pt.
-
-
-LaTeX Warning: Citation '40_sessions_cookies' on page 57 undefined on input lin
-e 220.
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 225.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 220.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[57 <./../50_aldosheldija/figures/reset.png (PNG copy)> <./../50_aldosheldija/f
-igures/header.png> <./../50_aldosheldija/figures/normalUser.png>]
+ [53 <./../50_aldosheldija/figures/reset.png (PNG copy)> <./../50_aldosheldija/
+figures/header.png> <./../50_aldosheldija/figures/normalUser.png>]
+<./../50_aldosheldija/figures/settings.png, id=1044, 905.63344pt x 526.21594pt>
+
+File: ./../50_aldosheldija/figures/settings.png Graphic file (type png)
+<use ./../50_aldosheldija/figures/settings.png>
+Package pdftex.def Info: ./../50_aldosheldija/figures/settings.png  used on inp
+ut line 223.
+(pdftex.def)             Requested size: 396.91325pt x 230.62038pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 248.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 243.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [58]
-<./../50_aldosheldija/figures/layout1.png, id=1008, 1205.2528pt x 674.52pt>
+ [54 <./../50_aldosheldija/figures/settings.png>]
+<./../50_aldosheldija/figures/layout1.png, id=1064, 1205.2528pt x 674.52pt>
 File: ./../50_aldosheldija/figures/layout1.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/layout1.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/layout1.png  used on inpu
-t line 254.
+t line 265.
 (pdftex.def)             Requested size: 396.91325pt x 222.12914pt.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 267.
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 269.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [55]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 278.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 267.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 D
-       ie Response ist in JSON Format und die wird dann mit Hilfe von PHP ge...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 277.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[59 <./../50_aldosheldija/figures/layout1.png>])
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 278.
+)
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 168.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [60]
-(../10_allgemein/_Doc_A.tex) (../10_allgemein/_Doc_App.tex)
-(../20_planung/_Doc_A.tex) (../20_planung/_Doc_App.tex) (../30_doku/_Doc_A.tex)
-(../30_doku/_Doc_App.tex) (../40_xx/_Doc_A.tex) (../40_xx/_Doc_App.tex)
-(../50_aldosheldija/_Doc_A.tex) (../50_aldosheldija/_Doc_App.tex) (Master.lof)
+ [56 <./../50_aldosheldija/figures/layout1.png>]
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 168.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [57] (../10_allgemein/_Doc_A.tex)
+(../10_allgemein/_Doc_App.tex) (../20_planung/_Doc_A.tex)
+(../20_planung/_Doc_App.tex) (../30_doku/_Doc_A.tex) (../30_doku/_Doc_App.tex)
+(../40_xx/_Doc_A.tex) (../40_xx/_Doc_App.tex) (../50_aldosheldija/_Doc_A.tex)
+(../50_aldosheldija/_Doc_App.tex) (Master.lof)
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
-
-[61
+ [58
 
 
 ] (Master.lot)
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [62
+ [59
 
-] (Master.lol)
+]
+(Master.lol)
 \tf@lol=\write9
 \openout9 = `Master.lol'.
 
- [63
+ [60
 
 ]
 
@@ -2413,11 +2025,17 @@ Package biblatex Warning: Type 'masterthesis' not found on input line 195.
 
 LaTeX Warning: Empty bibliography on input line 195.
 
-
-Package biblatex Warning: Type 'book' not found on input line 196.
-
-
-LaTeX Warning: Empty bibliography on input line 196.
+! Misplaced alignment tab character &.
+<argument> O'Reilly &
+                      Associates
+l.196 ...ing=subbibliography, title={Fachbücher}]
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 
 Package biblatex Warning: Type 'report' not found on input line 197.
@@ -2426,66 +2044,66 @@ Package biblatex Warning: Type 'report' not found on input line 197.
 LaTeX Warning: Empty bibliography on input line 197.
 
 
-Package biblatex Warning: Type 'online' not found on input line 198.
+Underfull \hbox (badness 4846) in paragraph at lines 198--198
+[]\OT1/cmr/m/n/12 Medium. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/
+n/12 https : / / miro . medium . com / max / 824 / 1 *
+ []
 
+[61
 
-LaTeX Warning: Empty bibliography on input line 198.
+]
+Underfull \hbox (badness 1189) in paragraph at lines 198--198
+[]\OT1/cmr/m/n/12 Computer Wo-che. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : []$\OT
+1/cmtt/m/n/12 https : / / core . telegram . org/$[] \OT1/cmr/m/n/12 (be-sucht a
+m
+ []
 
 
 LaTeX Warning: Empty bibliography on input line 199.
 
 
 AED: lastpage setting LastPage
-[64
-
-]
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 201.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+[62]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
  (Master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 6C552ABCD266A51F3830C1AEE2B778CC;5386.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Master
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 96CF83A01D505EE5ACFEC57CF4494ECD;5345.
 Package logreq Info: Writing requests to 'Master.run.xml'.
 \openout1 = `Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34558 strings out of 492895
- 643820 string characters out of 3133482
- 1293627 words of memory out of 3000000
- 37720 multiletter control sequences out of 15000+200000
- 543050 words of font info for 63 fonts, out of 3000000 for 9000
+ 34751 strings out of 492895
+ 650663 string characters out of 3133482
+ 1319154 words of memory out of 3000000
+ 37882 multiletter control sequences out of 15000+200000
+ 543351 words of font info for 64 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 59i,19n,122p,1314b,5224s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,19n,122p,1314b,3443s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Master.pdf (73 pages, 3312327 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Master.pdf (71 pages, 4043033 bytes).
 PDF statistics:
- 1200 PDF objects out of 1200 (max. 8388607)
- 317 named destinations out of 1000 (max. 500000)
- 790 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1326 PDF objects out of 1440 (max. 8388607)
+ 342 named destinations out of 1000 (max. 500000)
+ 860 words of extra memory for PDF output out of 10000 (max. 10000000)
 

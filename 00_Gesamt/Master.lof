@@ -8,30 +8,32 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Wasserfallmodell\relax }}{11}{figure.caption.13}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Server\relax }}{29}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Structured Software Design\relax }}{29}{figure.caption.36}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces ERD\relax }}{30}{figure.caption.37}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Auflistung der Chatbot-Benutzer\relax }}{37}{figure.caption.41}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Auflistung der unregistrierten Benutzer\relax }}{38}{figure.caption.42}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Benutzer Blockierung\relax }}{39}{figure.caption.43}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Registrierung beim Chatbot\relax }}{40}{figure.caption.44}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Falsche Eingabe des Telefonnummers beim Chatbot\relax }}{41}{figure.caption.45}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Falsches Format des Telefonnummers beim Chatbot\relax }}{42}{figure.caption.46}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Eingabe einer falschen Telefonnummer beim Chatbot\relax }}{43}{figure.caption.47}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Korrekte Eingabe der Telefonnummer beim Chatbot\relax }}{44}{figure.caption.48}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Das Warten der Benutzer auf die Administrator Best\IeC {\"a}tigung\relax }}{45}{figure.caption.49}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Nachricht von einem blockierten Benutzer\relax }}{46}{figure.caption.50}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Wetterdaten\relax }}{32}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Auflistung der Chatbot-Benutzer\relax }}{37}{figure.caption.43}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Auflistung der unregistrierten Benutzer\relax }}{37}{figure.caption.44}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Benutzer Blockierung\relax }}{37}{figure.caption.45}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Registrierung beim Chatbot\relax }}{38}{figure.caption.47}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Falsche Eingabe des Telefonnummers beim Chatbot\relax }}{38}{figure.caption.48}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Falsches Format des Telefonnummers beim Chatbot\relax }}{38}{figure.caption.49}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Eingabe einer falschen Telefonnummer beim Chatbot\relax }}{39}{figure.caption.50}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Korrekte Eingabe der Telefonnummer beim Chatbot\relax }}{39}{figure.caption.51}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Das Warten der Benutzer auf die Administrator Best\IeC {\"a}tigung\relax }}{40}{figure.caption.52}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Nachricht von einem blockierten Benutzer\relax }}{40}{figure.caption.53}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Bootstrap Logo\cite {40_bootstrap_img}\relax }}{50}{figure.caption.51}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces PHP Logo\cite {40_php_img}\relax }}{50}{figure.caption.52}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces JavaScript Logo\cite {40_js_img}\relax }}{50}{figure.caption.53}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces DataTables Logo\cite {40_datatables_img}\relax }}{51}{figure.caption.54}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Font Awesome Logo\cite {40_font_awesome_img}\relax }}{51}{figure.caption.55}% 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces MySQL Logo\cite {40_mysql_img}\relax }}{52}{figure.caption.56}% 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Apache HTTP Server Logo\cite {40_apache_img}\relax }}{52}{figure.caption.57}% 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Structed Software Design f\IeC {\"u}r den Client\relax }}{53}{figure.caption.58}% 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces ERD Diagramm\relax }}{55}{figure.caption.59}% 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Anmelden Seite\relax }}{56}{figure.caption.60}% 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Passwort zur\IeC {\"u}cksetzen\relax }}{57}{figure.caption.61}% 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Menu der Admin Panel\relax }}{57}{figure.caption.62}% 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Menu f\IeC {\"u}r normaler User\relax }}{57}{figure.caption.63}% 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Layout 1 der Anzeige\relax }}{59}{figure.caption.64}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Bootstrap Logo\cite {40_bootstrap_img}\relax }}{46}{figure.caption.58}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces PHP Logo\cite {40_php_img}\relax }}{46}{figure.caption.59}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces JavaScript Logo\cite {40_js_img}\relax }}{46}{figure.caption.60}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces DataTables Logo\cite {40_datatables_img}\relax }}{47}{figure.caption.61}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Font Awesome Logo\cite {40_font_awesome_img}\relax }}{47}{figure.caption.62}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces MySQL Logo\cite {40_mysql_img}\relax }}{48}{figure.caption.63}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Apache HTTP Server Logo\cite {40_apache_img}\relax }}{48}{figure.caption.64}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Structed Software Design f\IeC {\"u}r den Client\relax }}{49}{figure.caption.65}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces ERD Diagramm\relax }}{51}{figure.caption.66}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Anmelden Seite\relax }}{52}{figure.caption.67}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Passwort zur\IeC {\"u}cksetzen\relax }}{53}{figure.caption.68}% 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Menu der Admin Panel\relax }}{53}{figure.caption.69}% 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Menu f\IeC {\"u}r normaler User\relax }}{53}{figure.caption.70}% 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Einstellungen der Admin Webseite\relax }}{54}{figure.caption.71}% 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Layout 1 der Anzeige\relax }}{56}{figure.caption.72}% 
