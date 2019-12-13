@@ -1,0 +1,391 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{50_ssl}{online}{}
+      \name{author}{1}{}{%
+        {{hash=29cb64eb74d420cd0d9914f621b37950}{%
+           family={2daygeek},
+           familyi={2\bibinitperiod}}}%
+      }
+      \strng{namehash}{29cb64eb74d420cd0d9914f621b37950}
+      \strng{fullhash}{29cb64eb74d420cd0d9914f621b37950}
+      \strng{bibnamehash}{29cb64eb74d420cd0d9914f621b37950}
+      \strng{authorbibnamehash}{29cb64eb74d420cd0d9914f621b37950}
+      \strng{authornamehash}{29cb64eb74d420cd0d9914f621b37950}
+      \strng{authorfullhash}{29cb64eb74d420cd0d9914f621b37950}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.2daygeek.com/install-ssl-tls-certificate-on-apache-web-server/
+      \endverb
+      \verb{url}
+      \verb https://www.2daygeek.com/install-ssl-tls-certificate-on-apache-web-server/
+      \endverb
+    \endentry
+    \entry{50_apache}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b6d7fce92bed4e38c674fbe39afa4fba}{%
+           family={Biteno},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6d7fce92bed4e38c674fbe39afa4fba}
+      \strng{fullhash}{b6d7fce92bed4e38c674fbe39afa4fba}
+      \strng{bibnamehash}{b6d7fce92bed4e38c674fbe39afa4fba}
+      \strng{authorbibnamehash}{b6d7fce92bed4e38c674fbe39afa4fba}
+      \strng{authornamehash}{b6d7fce92bed4e38c674fbe39afa4fba}
+      \strng{authorfullhash}{b6d7fce92bed4e38c674fbe39afa4fba}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{urlday}{1}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.biteno.com/was-ist-apache/
+      \endverb
+      \verb{url}
+      \verb https://www.biteno.com/was-ist-apache/
+      \endverb
+    \endentry
+    \entry{50_mysql}{online}{}
+      \name{author}{1}{}{%
+        {{hash=604f034ed0fa16aea52b7df96f6a89f6}{%
+           family={Insider},
+           familyi={I\bibinitperiod},
+           given={Big\bibnamedelima Data},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{604f034ed0fa16aea52b7df96f6a89f6}
+      \strng{fullhash}{604f034ed0fa16aea52b7df96f6a89f6}
+      \strng{bibnamehash}{604f034ed0fa16aea52b7df96f6a89f6}
+      \strng{authorbibnamehash}{604f034ed0fa16aea52b7df96f6a89f6}
+      \strng{authornamehash}{604f034ed0fa16aea52b7df96f6a89f6}
+      \strng{authorfullhash}{604f034ed0fa16aea52b7df96f6a89f6}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bigdata-insider.de/was-ist-mysql-a-614184/
+      \endverb
+      \verb{url}
+      \verb https://www.bigdata-insider.de/was-ist-mysql-a-614184/
+      \endverb
+    \endentry
+    \entry{50_php}{online}{}
+      \name{author}{1}{}{%
+        {{hash=dece05335e731f26865540109171e9c7}{%
+           family={Insider},
+           familyi={I\bibinitperiod},
+           given={Dev},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dece05335e731f26865540109171e9c7}
+      \strng{fullhash}{dece05335e731f26865540109171e9c7}
+      \strng{bibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorbibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authornamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorfullhash}{dece05335e731f26865540109171e9c7}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dev-insider.de/was-ist-php-a-578773/
+      \endverb
+      \verb{url}
+      \verb https://www.dev-insider.de/was-ist-php-a-578773/
+      \endverb
+    \endentry
+    \entry{50_javascript}{online}{}
+      \name{author}{1}{}{%
+        {{hash=dece05335e731f26865540109171e9c7}{%
+           family={Insider},
+           familyi={I\bibinitperiod},
+           given={Dev},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dece05335e731f26865540109171e9c7}
+      \strng{fullhash}{dece05335e731f26865540109171e9c7}
+      \strng{bibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorbibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authornamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorfullhash}{dece05335e731f26865540109171e9c7}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dev-insider.de/was-ist-javascript-a-586580/
+      \endverb
+      \verb{url}
+      \verb https://www.dev-insider.de/was-ist-javascript-a-586580/
+      \endverb
+    \endentry
+    \entry{50_python}{online}{}
+      \name{author}{1}{}{%
+        {{hash=dece05335e731f26865540109171e9c7}{%
+           family={Insider},
+           familyi={I\bibinitperiod},
+           given={Dev},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dece05335e731f26865540109171e9c7}
+      \strng{fullhash}{dece05335e731f26865540109171e9c7}
+      \strng{bibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorbibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authornamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorfullhash}{dece05335e731f26865540109171e9c7}
+      \field{extraname}{4}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dev-insider.de/was-ist-python-a-843060/
+      \endverb
+      \verb{url}
+      \verb https://www.dev-insider.de/was-ist-python-a-843060/
+      \endverb
+    \endentry
+    \entry{50_html}{online}{}
+      \name{author}{1}{}{%
+        {{hash=dece05335e731f26865540109171e9c7}{%
+           family={Insider},
+           familyi={I\bibinitperiod},
+           given={Dev},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dece05335e731f26865540109171e9c7}
+      \strng{fullhash}{dece05335e731f26865540109171e9c7}
+      \strng{bibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorbibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authornamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorfullhash}{dece05335e731f26865540109171e9c7}
+      \field{extraname}{5}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://praxistipps.chip.de/was-ist-html-verstaendlich-erklaert_40979
+      \endverb
+      \verb{url}
+      \verb https://praxistipps.chip.de/was-ist-html-verstaendlich-erklaert_40979
+      \endverb
+    \endentry
+    \entry{50_json}{online}{}
+      \name{author}{1}{}{%
+        {{hash=dece05335e731f26865540109171e9c7}{%
+           family={Insider},
+           familyi={I\bibinitperiod},
+           given={Dev},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dece05335e731f26865540109171e9c7}
+      \strng{fullhash}{dece05335e731f26865540109171e9c7}
+      \strng{bibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorbibnamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authornamehash}{dece05335e731f26865540109171e9c7}
+      \strng{authorfullhash}{dece05335e731f26865540109171e9c7}
+      \field{extraname}{6}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dev-insider.de/was-ist-json-a-702243/
+      \endverb
+      \verb{url}
+      \verb https://www.dev-insider.de/was-ist-json-a-702243/
+      \endverb
+    \endentry
+    \entry{50_raspi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1a39fc8186880cc3124ca80ffb07dfbd}{%
+           family={Kompendium},
+           familyi={K\bibinitperiod},
+           given={Elektronik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{fullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{bibnamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authorbibnamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authornamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authorfullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elektronik-kompendium.de/sites/com/1904221.htm
+      \endverb
+      \verb{url}
+      \verb https://www.elektronik-kompendium.de/sites/com/1904221.htm
+      \endverb
+    \endentry
+    \entry{50_Wetter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=31321b017169bd03fcc61be8184f9b05}{%
+           family={reDim},
+           familyi={r\bibinitperiod}}}%
+      }
+      \strng{namehash}{31321b017169bd03fcc61be8184f9b05}
+      \strng{fullhash}{31321b017169bd03fcc61be8184f9b05}
+      \strng{bibnamehash}{31321b017169bd03fcc61be8184f9b05}
+      \strng{authorbibnamehash}{31321b017169bd03fcc61be8184f9b05}
+      \strng{authornamehash}{31321b017169bd03fcc61be8184f9b05}
+      \strng{authorfullhash}{31321b017169bd03fcc61be8184f9b05}
+      \field{sortinit}{r}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.redim.de/schnittstellenprogrammierung
+      \endverb
+      \verb{url}
+      \verb https://www.redim.de/schnittstellenprogrammierung
+      \endverb
+    \endentry
+    \entry{50_css}{online}{}
+      \name{author}{1}{}{%
+        {{hash=617b9afc9b120e9a8d2670bee6e20ced}{%
+           family={Sistrix},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{617b9afc9b120e9a8d2670bee6e20ced}
+      \strng{fullhash}{617b9afc9b120e9a8d2670bee6e20ced}
+      \strng{bibnamehash}{617b9afc9b120e9a8d2670bee6e20ced}
+      \strng{authorbibnamehash}{617b9afc9b120e9a8d2670bee6e20ced}
+      \strng{authornamehash}{617b9afc9b120e9a8d2670bee6e20ced}
+      \strng{authorfullhash}{617b9afc9b120e9a8d2670bee6e20ced}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sistrix.de/frag-sistrix/css-cascading-style-sheets/
+      \endverb
+      \verb{url}
+      \verb https://www.sistrix.de/frag-sistrix/css-cascading-style-sheets/
+      \endverb
+    \endentry
+    \entry{50_telegram}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5c6cfcd8de315c7ce54090ac711863d2}{%
+           family={Woche},
+           familyi={W\bibinitperiod},
+           given={Computer},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{fullhash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{bibnamehash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{authorbibnamehash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{authornamehash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{authorfullhash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://core.telegram.org/
+      \endverb
+      \verb{url}
+      \verb https://core.telegram.org/
+      \endverb
+    \endentry
+    \entry{50_SSS}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5c6cfcd8de315c7ce54090ac711863d2}{%
+           family={Woche},
+           familyi={W\bibinitperiod},
+           given={Computer},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{fullhash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{bibnamehash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{authorbibnamehash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{authornamehash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \strng{authorfullhash}{5c6cfcd8de315c7ce54090ac711863d2}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tecchannel.de/a/owncloud-9-unter-ubuntu-server-16-04-lts-installieren,3277807,2
+      \endverb
+      \verb{url}
+      \verb https://www.tecchannel.de/a/owncloud-9-unter-ubuntu-server-16-04-lts-installieren,3277807,2
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{einstein}
+  \missing{knuthwebsite}
+\endrefsection
+\endinput
+
