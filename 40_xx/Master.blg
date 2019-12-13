@@ -1,20 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [1] Config.pm:307> INFO - Logfile is 'Master.blg'
-[52] biber-MSWIN64:315> INFO - === 
-[92] Biber.pm:375> INFO - Reading 'Master.bcf'
-[232] Biber.pm:905> INFO - Found 15 citekeys in bib section 0
-[259] Biber.pm:4196> INFO - Processing section 0
-[261] Utils.pm:75> INFO - Globbing data source './../literatur.bib'
-[281] Utils.pm:91> INFO - Globbed data source './../literatur.bib' to ./../literatur.bib
-[305] Biber.pm:4373> INFO - Looking for bibtex format file './../literatur.bib' for section 0
-[309] bibtex.pm:1462> INFO - LaTeX decoding ...
-[328] bibtex.pm:1281> INFO - Found BibTeX data source './../literatur.bib'
-[414] Utils.pm:300> WARN - I didn't find a database entry for 'einstein' (section 0)
-[414] Utils.pm:300> WARN - I didn't find a database entry for 'knuthwebsite' (section 0)
-[454] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[454] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[455] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[455] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
-[476] bbl.pm:648> INFO - Writing 'Master.bbl' with encoding 'UTF-8'
-[484] bbl.pm:751> INFO - Output to Master.bbl
-[484] Biber.pm:110> INFO - WARNINGS: 2
+[520] biber-MSWIN64:315> INFO - === 
+[712] Biber.pm:375> INFO - Reading 'Master.bcf'
+[880] Biber.pm:905> INFO - Found 15 citekeys in bib section 0
+[925] Biber.pm:4196> INFO - Processing section 0
+[958] Utils.pm:75> INFO - Globbing data source './../literatur.bib'
+[1010] Utils.pm:91> INFO - Globbed data source './../literatur.bib' to ./../literatur.bib
+[1096] Biber.pm:4373> INFO - Looking for bibtex format file './../literatur.bib' for section 0
+[1144] bibtex.pm:1462> INFO - LaTeX decoding ...
+[1270] bibtex.pm:1281> INFO - Found BibTeX data source './../literatur.bib'
+[1352] Utils.pm:300> WARN - I didn't find a database entry for 'einstein' (section 0)
+[1352] Utils.pm:300> WARN - I didn't find a database entry for 'knuthwebsite' (section 0)
+[1512] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1513] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1513] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[1513] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
+[1642] bbl.pm:648> INFO - Writing 'Master.bbl' with encoding 'UTF-8'
+[1650] bbl.pm:751> INFO - Output to Master.bbl
+[1650] Biber.pm:110> INFO - WARNINGS: 2

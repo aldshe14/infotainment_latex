@@ -1,5 +1,15 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces ERD\relax }}{10}{figure.caption.28}% 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Chatbot\relax }}{15}{figure.caption.41}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Server\relax }}{9}{figure.caption.24}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces ERD\relax }}{10}{figure.caption.25}% 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Auflistung der Chatbot-Benutzer\relax }}{16}{figure.caption.29}% 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Auflistung der unregistrierten Benutzer\relax }}{16}{figure.caption.30}% 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Benutzer Blockierung\relax }}{16}{figure.caption.31}% 
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Registrierung beim Chatbot\relax }}{17}{figure.caption.32}% 
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Falsche Eingabe des Telefonnummers beim Chatbot\relax }}{17}{figure.caption.33}% 
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Falsches Format des Telefonnummers beim Chatbot\relax }}{18}{figure.caption.34}% 
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Eingabe einer falschen Telefonnummer beim Chatbot\relax }}{18}{figure.caption.35}% 
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Korrekte Eingabe der Telefonnummer beim Chatbot\relax }}{18}{figure.caption.36}% 
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Das Warten der Benutzer auf die Administrator Bestätigung\relax }}{19}{figure.caption.37}% 
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Nachricht von einem blockierten Benutzer\relax }}{19}{figure.caption.38}% 

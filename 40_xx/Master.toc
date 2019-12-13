@@ -26,19 +26,29 @@
 \contentsline {subsubsection}{Was ist Wetter API?}{7}{section*.21}% 
 \contentsline {subsubsection}{Was ist JSON?}{8}{section*.22}% 
 \contentsline {section}{\numberline {1.2}Technische Lösungen}{8}{section.1.2}% 
-\contentsline {subsubsection}{Structured Software Design}{8}{section*.24}% 
-\contentsline {subsubsection}{Konfiguration von Raspberry PI Server}{8}{section*.25}% 
-\contentsline {subsubsection}{Datenbank}{9}{section*.26}% 
-\contentsline {subsubsection}{SSL Verschlüsselung}{9}{section*.27}% 
-\contentsline {subsubsection}{Wetterdaten}{10}{section*.29}% 
-\contentsline {subsubsection}{Anzeige}{10}{section*.30}% 
-\contentsline {subsubsection}{Chatbot}{10}{section*.31}% 
-\contentsline {subsubsection}{Chatbot Einrichtung:}{10}{section*.32}% 
-\contentsline {subsubsection}{Einrichtung des Chatbots in RaspberryPI}{11}{section*.33}% 
-\contentsline {subsubsection}{Grundlagen für die Umsetzung}{11}{section*.34}% 
-\contentsline {subsubsection}{Funktionalitäten}{11}{section*.35}% 
-\contentsline {subsubsection}{Unregistrierte Benutzer:}{12}{section*.36}% 
-\contentsline {subsubsection}{Normale Benutzer:}{12}{section*.37}% 
-\contentsline {subsubsection}{Administrator:}{12}{section*.38}% 
-\contentsline {subsubsection}{Umsetzung der Funktionalitäten:}{12}{section*.39}% 
-\contentsline {subsubsection}{Konkrete Beispiele mit Bildern}{15}{section*.40}% 
+\contentsline {subsection}{\numberline {1.2.1}Structured Software Design}{8}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Konfiguration von Raspberry PI Server}{8}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}Datenbank}{9}{subsection.1.2.3}% 
+\contentsline {subsection}{\numberline {1.2.4}SSL Verschlüsselung}{10}{subsection.1.2.4}% 
+\contentsline {subsection}{\numberline {1.2.5}Wetterdaten}{11}{subsection.1.2.5}% 
+\contentsline {subsection}{\numberline {1.2.6}Anzeige}{11}{subsection.1.2.6}% 
+\contentsline {subsection}{\numberline {1.2.7}Chatbot}{11}{subsection.1.2.7}% 
+\contentsline {subsection}{\numberline {1.2.8}Chatbot Einrichtung:}{11}{subsection.1.2.8}% 
+\contentsline {subsection}{\numberline {1.2.9}Einrichtung des Chatbots in RaspberryPI}{12}{subsection.1.2.9}% 
+\contentsline {subsection}{\numberline {1.2.10}Grundlagen für die Umsetzung von Chatbot}{12}{subsection.1.2.10}% 
+\contentsline {subsection}{\numberline {1.2.11}Funktionalitäten von Chatbot}{12}{subsection.1.2.11}% 
+\contentsline {subsection}{\numberline {1.2.12}Unregistrierte Benutzer:}{12}{subsection.1.2.12}% 
+\contentsline {subsubsection}{Normale Benutzer:}{13}{section*.26}% 
+\contentsline {subsubsection}{Administrator:}{13}{section*.27}% 
+\contentsline {subsubsection}{Umsetzung der Funktionalitäten:}{13}{section*.28}% 
+\contentsline {subsection}{\numberline {1.2.13}Konkrete Beispiele mit Bildern}{15}{subsection.1.2.13}% 
+\contentsline {section}{\numberline {1.3}Probleme, Herausforderungen und deren Lösung}{20}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Qualitätssicherung, Controlling}{20}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Ergebnisse - Irena Bala}{20}{section.1.5}% 
+\contentsline {subsection}{\numberline {1.5.1}Implementierung}{20}{subsection.1.5.1}% 
+\contentsline {section}{\numberline {1.6}Handbuch für die Bedienung}{20}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.6.1}Beschreibung der Bedienung als User}{20}{subsection.1.6.1}% 
+\contentsline {subsection}{\numberline {1.6.2}Beschreibung der Bedienung als Administrator}{21}{subsection.1.6.2}% 
+\contentsline {section}{\numberline {1.7}Evaluierung und Resümee}{21}{section.1.7}% 
+\contentsline {subsection}{\numberline {1.7.1}Planung vs Realisierung}{21}{subsection.1.7.1}% 
+\contentsline {subsection}{\numberline {1.7.2}Wertschöpfung und Lessons Learned}{21}{subsection.1.7.2}% 

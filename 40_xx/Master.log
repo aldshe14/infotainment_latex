@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.18)  13 DEC 2019 09:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.18)  13 DEC 2019 20:08
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -774,6 +774,11 @@ File: pppdftex.def 2019/09/21 v0.5n Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count400
 \AM@templatesizebox=\box57
 )
+\@nomenclaturefile=\write4
+\openout4 = `Master.nlo'.
+
+Package nomencl Info: Writing nomenclature file Master.nlo on input line 16.
+
 ("C:\Users\USER\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.sty
 "
 Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
@@ -990,10 +995,6 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-\@nomenclaturefile=\write4
-\openout4 = `Master.nlo'.
-
-Package nomencl Info: Writing nomenclature file Master.nlo on input line 50.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
@@ -1024,23 +1025,41 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 LaTeX Warning: Label `tab:Tabelle1' multiply defined.
 
+
+LaTeX Warning: Label `fig:erd' multiply defined.
+
+
+LaTeX Warning: Label `fig:chatbot3' multiply defined.
+
+
+LaTeX Warning: Label `fig:chatbo73' multiply defined.
+
+
+LaTeX Warning: Label `fig:chatbo53' multiply defined.
+
+
+LaTeX Warning: Label `fig:chatbo53' multiply defined.
+
+
+LaTeX Warning: Label `fig:chatbo53' multiply defined.
+
 )
 \openout1 = `Master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 ("C:\Users\USER\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
 f.mkii"
@@ -1103,8 +1122,8 @@ Package biblatex Warning: citation 'einstein' was not found at all in the .bbl,
 Package biblatex Warning: citation 'knuthwebsite' was not found at all in the .
 bbl, bibliography labels cannot be generated, please correct the citation.
 
-Package biblatex Info: Reference section=0 on input line 61.
-Package biblatex Info: Reference segment=0 on input line 61.
+Package biblatex Info: Reference section=0 on input line 63.
+Package biblatex Info: Reference segment=0 on input line 63.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -1237,7 +1256,7 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \AtBeginShipoutBox=\box66
 \c@lstlisting=\count432
-Package hyperref Info: Link coloring OFF on input line 61.
+Package hyperref Info: Link coloring OFF on input line 63.
 
 ("C:\Users\USER\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
 y"
@@ -1249,24 +1268,24 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count433
 )
-LaTeX Info: Redefining \ref on input line 61.
-LaTeX Info: Redefining \pageref on input line 61.
-LaTeX Info: Redefining \nameref on input line 61.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
  (Master.out) (Master.out)
 \@outlinefile=\write5
 \openout5 = `Master.out'.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 61.
+(lastpage)             ! on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 61.
+(Font)              <12> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 61.
+(Font)              <8> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 61.
+(Font)              <6> on input line 63.
  (_Doc_A.tex) (01_title.tex
-<./figures/Header_Seite.png, id=27, 137.01187pt x 48.18pt>
+<./figures/Header_Seite.png, id=119, 137.01187pt x 48.18pt>
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 7.
@@ -1276,7 +1295,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 7.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 27.
 
-<./../40_xx/figures/Frontpage_back.png, id=28, 716.6775pt x 403.5075pt>
+<./../40_xx/figures/Frontpage_back.png, id=120, 716.6775pt x 403.5075pt>
 File: ./../40_xx/figures/Frontpage_back.png Graphic file (type png)
 <use ./../40_xx/figures/Frontpage_back.png>
 Package pdftex.def Info: ./../40_xx/figures/Frontpage_back.png  used on input l
@@ -1297,7 +1316,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 \mainmatter
+l.90 \mainmatter
                  [1
 
 ] (_Doc.tex
@@ -1374,160 +1393,245 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 161.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [7]
+<./figures/server.png, id=279, 1258.7025pt x 1152.305pt>
+File: ./figures/server.png Graphic file (type png)
+<use ./figures/server.png>
+Package pdftex.def Info: ./figures/server.png  used on input line 164.
+(pdftex.def)             Requested size: 441.01773pt x 403.73477pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 186.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 190.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [8]
-<./figures/erd_irena.png, id=179, 1061.9675pt x 453.695pt>
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 206.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [9 <./figures/server.png>]
+<./figures/erd_irena.png, id=301, 1061.9675pt x 453.695pt>
 File: ./figures/erd_irena.png Graphic file (type png)
 <use ./figures/erd_irena.png>
-Package pdftex.def Info: ./figures/erd_irena.png  used on input line 230.
+Package pdftex.def Info: ./figures/erd_irena.png  used on input line 211.
 (pdftex.def)             Requested size: 441.01773pt x 188.41145pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 246.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [9]
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 268.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 248.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [10 <./figures/erd_irena.png>]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 292.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 282.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [11]
-Underfull \hbox (badness 10000) in paragraph at lines 301--303
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
-
- []
-
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 313.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 301.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[12]
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 317.
+(caption)                outside box or environment on input line 322.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 317.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 332.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 348.
+(caption)                particular \caption on input line 322.
 See the caption package documentation for explanation.
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 358.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 331.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [13]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 361.
+(caption)                particular \caption on input line 337.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 373.
+(caption)                particular \caption on input line 353.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 395.
+(caption)                particular \caption on input line 366.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 407.
+(caption)                particular \caption on input line 378.
 See the caption package documentation for explanation.
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 407.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 382.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [14]
-<./figures/Chatboti.jpeg, id=290, 1246.6575pt x 460.72125pt>
-File: ./figures/Chatboti.jpeg Graphic file (type jpg)
-<use ./figures/Chatboti.jpeg>
-Package pdftex.def Info: ./figures/Chatboti.jpeg  used on input line 416.
-(pdftex.def)             Requested size: 441.01773pt x 162.98424pt.
-) (_Doc_App.tex)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 400.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 412.
+See the caption package documentation for explanation.
+
+<./figures/chatbotbild88.jpg, id=382, 936.49875pt x 216.81pt>
+File: ./figures/chatbotbild88.jpg Graphic file (type jpg)
+<use ./figures/chatbotbild88.jpg>
+Package pdftex.def Info: ./figures/chatbotbild88.jpg  used on input line 419.
+(pdftex.def)             Requested size: 441.01773pt x 102.10251pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 108.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 420.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [15 <./figures/Chatboti.jpeg>] (Master.lof)
+[15]
+<./figures/chatbotbild9.jpeg, id=411, 1246.6575pt x 251.94125pt>
+File: ./figures/chatbotbild9.jpeg Graphic file (type jpg)
+<use ./figures/chatbotbild9.jpeg>
+Package pdftex.def Info: ./figures/chatbotbild9.jpeg  used on input line 425.
+(pdftex.def)             Requested size: 441.01773pt x 89.12645pt.
+<./figures/chatbotbild11.jpeg, id=412, 1246.6575pt x 281.05pt>
+File: ./figures/chatbotbild11.jpeg Graphic file (type jpg)
+<use ./figures/chatbotbild11.jpeg>
+Package pdftex.def Info: ./figures/chatbotbild11.jpeg  used on input line 432.
+(pdftex.def)             Requested size: 441.01773pt x 99.42392pt.
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 435.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [16 <./figures/chatbotbild88.jpg> <./figures/chatbotbild9.jpeg> <./figures/cha
+tbotbild11.jpeg>]
+<./figures/chatbotbild.jpeg, id=421, 1246.6575pt x 460.72125pt>
+File: ./figures/chatbotbild.jpeg Graphic file (type jpg)
+<use ./figures/chatbotbild.jpeg>
+Package pdftex.def Info: ./figures/chatbotbild.jpeg  used on input line 441.
+(pdftex.def)             Requested size: 441.01773pt x 162.98424pt.
+<./figures/chatbotbild2.jpeg, id=422, 1246.6575pt x 701.62125pt>
+File: ./figures/chatbotbild2.jpeg Graphic file (type jpg)
+<use ./figures/chatbotbild2.jpeg>
+Package pdftex.def Info: ./figures/chatbotbild2.jpeg  used on input line 448.
+(pdftex.def)             Requested size: 441.01773pt x 248.20476pt.
+<./figures/chatbotbild5.jpeg, id=423, 1246.6575pt x 355.3275pt>
+File: ./figures/chatbotbild5.jpeg Graphic file (type jpg)
+<use ./figures/chatbotbild5.jpeg>
+Package pdftex.def Info: ./figures/chatbotbild5.jpeg  used on input line 455.
+(pdftex.def)             Requested size: 441.01773pt x 125.70026pt.
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 456.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [17 <./figures/chatbotbild.jpeg> <./figures/chatbotbild2.jpeg>]
+<./figures/chatbotbild6.jpeg, id=432, 1246.6575pt x 394.47375pt>
+File: ./figures/chatbotbild6.jpeg Graphic file (type jpg)
+<use ./figures/chatbotbild6.jpeg>
+Package pdftex.def Info: ./figures/chatbotbild6.jpeg  used on input line 462.
+(pdftex.def)             Requested size: 441.01773pt x 139.54858pt.
+<./figures/chatbotbild4.jpeg, id=433, 1246.6575pt x 591.20876pt>
+File: ./figures/chatbotbild4.jpeg Graphic file (type jpg)
+<use ./figures/chatbotbild4.jpeg>
+Package pdftex.def Info: ./figures/chatbotbild4.jpeg  used on input line 469.
+(pdftex.def)             Requested size: 441.01773pt x 209.14536pt.
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 474.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [18 <./figures/chatbotbild5.jpeg> <./figures/chatbotbild6.jpeg> <./figures/cha
+tbotbild4.jpeg>]
+<./figures/chatbotbild7.jpeg, id=442, 1246.6575pt x 537.00626pt>
+File: ./figures/chatbotbild7.jpeg Graphic file (type jpg)
+<use ./figures/chatbotbild7.jpeg>
+Package pdftex.def Info: ./figures/chatbotbild7.jpeg  used on input line 476.
+(pdftex.def)             Requested size: 441.01773pt x 189.97073pt.
+<./figures/catboti.jpg, id=443, 461.47406pt x 135.50626pt>
+File: ./figures/catboti.jpg Graphic file (type jpg)
+<use ./figures/catboti.jpg>
+Package pdftex.def Info: ./figures/catboti.jpg  used on input line 484.
+(pdftex.def)             Requested size: 441.01773pt x 129.49936pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+[]\OT1/cmr/bx/n/17.28 Probleme, Her-aus-for-de-run-gen und de-ren
+ []
+
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 491.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+[19 <./figures/chatbotbild7.jpeg> <./figures/catboti.jpg>]
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 523.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [20]) (_Doc_App.tex)
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 110.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+[21] (Master.lof)
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
- [16
+ [22
 
 
-]
-(Master.lot)
+] (Master.lot)
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [17
+ [23
 
 ]
 
-Package biblatex Warning: Type 'masterthesis' not found on input line 117.
-
-
-LaTeX Warning: Empty bibliography on input line 117.
-
-
-Package biblatex Warning: Type 'book' not found on input line 118.
-
-
-LaTeX Warning: Empty bibliography on input line 118.
-
-
-Package biblatex Warning: Type 'report' not found on input line 119.
+Package biblatex Warning: Type 'masterthesis' not found on input line 119.
 
 
 LaTeX Warning: Empty bibliography on input line 119.
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 120--120
+Package biblatex Warning: Type 'book' not found on input line 120.
+
+
+LaTeX Warning: Empty bibliography on input line 120.
+
+
+Package biblatex Warning: Type 'report' not found on input line 121.
+
+
+LaTeX Warning: Empty bibliography on input line 121.
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 122--122
 []\OT1/cmr/m/n/12 Computer Wo-che. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : []$\OT
 1/cmtt/m/n/12 https : / / core . telegram . org/$[] \OT1/cmr/m/n/12 (be-sucht a
 m
  []
 
 
-LaTeX Warning: Empty bibliography on input line 121.
+LaTeX Warning: Empty bibliography on input line 123.
 
 
 AED: lastpage setting LastPage
-[18
+[24
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: E6B1782BF3A4A34552BF46F2FF4FA02A;380.
+(rerunfilecheck)             Checksum: 37EE4B7E6C56D9DC05CF19DC739B4A02;2206.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1540,13 +1644,13 @@ Package logreq Info: Writing requests to 'Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32345 strings out of 492452
- 602359 string characters out of 3120530
- 1253100 words of memory out of 3000000
- 36198 multiletter control sequences out of 15000+200000
+ 32469 strings out of 492452
+ 605189 string characters out of 3120530
+ 1234337 words of memory out of 3000000
+ 36285 multiletter control sequences out of 15000+200000
  541448 words of font info for 57 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 59i,17n,122p,890b,4527s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,17n,122p,890b,3363s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fon
@@ -1561,9 +1665,9 @@ c/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/USER/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Master.pdf (20 pages, 869101 bytes).
+Output written on Master.pdf (26 pages, 1418184 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 167 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 592 PDF objects out of 1000 (max. 8388607)
+ 193 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 

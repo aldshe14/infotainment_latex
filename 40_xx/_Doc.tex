@@ -158,10 +158,14 @@ In der untenstehenden Tabelle sind alle Technologien zusammen mit dem Bereich wo
 		\caption{Bereiche und Technologien}
 	\end{center}
 \end{table} 
-
 \section{Technische Lösungen}
-\subsubsection{Structured Software Design}
-\subsubsection{Konfiguration von Raspberry PI Server}
+\subsection{Structured Software Design}
+\begin{figure}[ht]	
+	\includegraphics[width=\linewidth]{./figures/server.png}
+	\caption{Server}
+	\label{fig:erd}
+\end{figure}
+\subsection{Konfiguration von Raspberry PI Server}
 \begin{itemize}
 	\item Zuerst wurde ein Image daraufgespielt, die das Betriebssystem von Raspberry PI beinhaltet
 \end{itemize}
@@ -180,7 +184,7 @@ In der untenstehenden Tabelle sind alle Technologien zusammen mit dem Bereich wo
 \begin{itemize}
 	\item Als letztens wurde SSH\footnote{Secure Shell}\nomenclature{SSH}{Secure Shell} aktiviert, damit eine sichere Verbindung zu diesem Server von einem externen Gerät ermöglicht werden kann
 \end{itemize}
-\subsubsection{Datenbank}
+\subsection{Datenbank}
 \begin{itemize}
 	\item Zuerst wurde ein ER\footnote{Entity Relationship}\nomenclature{ER}{Entity Relationship} Diagramm mit Papier gezeichnet. Das Ziel war die richtige Erstellung der benötigten Tabellen. Die Tabellen wurden mit den Spalten und ihren Datentypen erstellt. Es wurden auch die Kardinalitäten dazwischen gezeichnet. Die erstellten Tabellen waren:
 	
@@ -203,7 +207,12 @@ In der untenstehenden Tabelle sind alle Technologien zusammen mit dem Bereich wo
 \begin{itemize}
 	\item Dann sind für alle Tabellen mit MySQL Workbench die entsprechenden gespeicherten Prozeduren erstellt 
 \end{itemize}	
-\subsubsection{SSL Verschlüsselung}
+\begin{figure}[ht]	
+	\includegraphics[width=\linewidth]{./figures/erd_irena.png}
+	\caption{ERD}
+	\label{fig:erd}
+\end{figure}
+\subsection{SSL Verschlüsselung}
 Es wurde ein SSL Zertifikat für den Apache HTTP Server eingerichtet 
 \begin{itemize}
 	\item Zuerst wurde das SSL Modul für Apache aktiviert
@@ -226,12 +235,8 @@ Es wurde ein SSL Zertifikat für den Apache HTTP Server eingerichtet
 \begin{itemize}
 	\item Es wurde ein System reboot gemacht und der Apache Server noch einmal gestartet \cite{50_SSS}
 \end{itemize}
-\begin{figure}[ht]	
-	\includegraphics[width=\linewidth]{./figures/erd_irena.png}
-	\caption{ERD}
-	\label{fig:erd}
-\end{figure}
-\subsubsection{Wetterdaten}
+
+\subsection{Wetterdaten}
 \begin{itemize}
 	\item Als erster Schritt erfolgte die Registrierung bei openweathermap.org 
 \end{itemize}
@@ -247,10 +252,10 @@ Es wurde ein SSL Zertifikat für den Apache HTTP Server eingerichtet
 \begin{itemize}
 	\item Als letztens werden mithilfe von PHP die in der Datenbank gespeicherten Parameter aufgerufen und auf dem Bildschirm angezeigt
 \end{itemize}
-\subsubsection{Anzeige}	
-\subsubsection{Chatbot}
+\subsection{Anzeige}	
+\subsection{Chatbot}
 In diesem Unterkapitel wird der Chatbot erklärt und dessen Umsetzung auch.
-\subsubsection{Chatbot Einrichtung:}
+\subsection{Chatbot Einrichtung:}
 \begin{itemize}
 	\item Zuerst wurde die Telegram Applikation auf dem Handy heruntergeladen
 \end{itemize}
@@ -269,9 +274,9 @@ In diesem Unterkapitel wird der Chatbot erklärt und dessen Umsetzung auch.
 \begin{itemize}
 	\item Nach der Durchführung von diesen Schritten, ist der Bot fertig erstellt geworden. Es könnte dann mit dem angegebenen Benutzernamen durchgesucht werden und der entsprechende Chat damit geöffnet werden. 
 \end{itemize}
-\subsubsection{Einrichtung des Chatbots in RaspberryPI}
+\subsection{Einrichtung des Chatbots in RaspberryPI}
 Die Entwicklung und die Programmierung von Chatbot wurde im RaspberryPI Server gemacht. Damit der RaspberryPI mit dem Telegram Bot API verbunden werden kann, sollten im Raspberry PI zwei Paketen installiert werden. Diese Paketen sind telepot und python-pip. Telepot ist die Pakete, die die Verbindung zum Telegram Bot API erstellt und mit einem Python-Framework funktioniert.\cite{50_telegram}
-\subsubsection{Grundlagen für die Umsetzung}
+\subsection{Grundlagen für die Umsetzung von Chatbot}
 \begin{itemize}
 	\item Zuerst wurde ein Python Skript erstellt.
 \end{itemize}
@@ -285,9 +290,9 @@ Die Entwicklung und die Programmierung von Chatbot wurde im RaspberryPI Server g
 \begin{itemize}
 	\item Dann erfolgt die Verbindung zu der Datenbank. Um die Verbindung mit der Datenbank zu ermöglichen, sollte zuerst die MySQL Bibliothek importiert. Das wurde bei dem zweiten Schritt gemacht. 
 \end{itemize}
-\subsubsection{Funktionalitäten}
+\subsection{Funktionalitäten von Chatbot}
 Je nachdem ob die Person, die eine Nachricht zu dem Infotainment Bot schickt, ein Administrator, ein normaler Benutzer oder ein unregistrierter Benutzer ist, werden ihn verschiedene Funktionalitäten angeboten. 
-\subsubsection{Unregistrierte Benutzer:}
+\subsection{Unregistrierte Benutzer:}
 Wenn eine Person zum ersten Mal eine Nachricht zum Infotainment Bot schickt, ist er noch nicht in der Datenbank registriert. Der Bot wird ihn fragen ob er registrieren will oder nicht. Die Möglichkeit zur Registrierung erfolgt durch zwei Buttonen, die im Bot integriert werden. Falls der unregistrierte Benutzer Ja druckt, bittet er ihn die Telefonnummer einzugeben. Durch diese Telefonnummer wird dann der Benutzer in der Datenbank gespeichert. Falls nein, wird ihm nur eine Nachricht vom Chatbot zurückgeschickt. 
 
 Die Telefonnummer, die von dem unregistrierten Benutzer eingegeben wird soll nach Inhalt überprüft werden. Wenn der Benutzer z.B Text eingibt, wird das nicht genehmigt und nicht gespeichert. Falls eine Zahl ist, soll es 10 Ziffern lang sein und mit einem vorgelegten Prefix anfangen. Ansonsten wird es nicht genehmigt und der unregistrierter Benutzer kriegt wieder Möglichkeiten vom Chatbot die Nummer richtig zu schreiben. 
@@ -405,19 +410,136 @@ curs.execute(query3,execute)
 conn.commit()
 \end{lstlisting}
 \captionof{lstlisting}{Chatbot 6} 
-\subsubsection{Konkrete Beispiele mit Bildern} 
-In diesem Unterkapitel werden Bilder dargestellt, die die konkrete Umsetzung des Chatbots zeigen.
+\subsection{Konkrete Beispiele mit Bildern} 
+In den folgenden Bildern werden die Funktionalitäten des Administrators beim Chatbot dargestellt.
 \begin{itemize}
-	    \item Dieses Bild zeigt die Moeglichkeit, die der Chatbot dem unregistrierten Benutzer gibt
-			
+	\item Funktion des Administrators, die Benutzer anzuschauen. Chatbot schickt die Chat ID des Benutzers zurück, die für jeden Benutzer eindeutig ist, und auch die Telefonnummer. Diese Daten sind in der Datenbank gespeichert und werden davon selektiert.
 \end{itemize}
-\begin{figure}[ht]
-
-	\includegraphics[width=\linewidth]{./figures/Chatboti.jpeg}
-	\caption{Chatbot}
-	\label{fig:boat1}
-\end{figure}
-
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/chatbotbild88.jpg}
+\caption{Auflistung der Chatbot-Benutzer} 
+\begin{itemize}
+	\item Funktion des Administrators, die unregistrierten Benutzer anzuschauen. Chatbot schickt die Chat ID des Benutzers zurück, die für jeden Benutzer eindeutig ist, und auch die Telefonnummer. Diese Daten sind in der Datenbank gespeichert und werden davon selektiert.
+\end{itemize}
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/chatbotbild9.jpeg}
+\caption{Auflistung der unregistrierten Benutzer}
+\label{fig:chatbot3}
+\begin{itemize}
+	\item Funktion des Administrators, die Benutzer zu blockieren. Der Administrator schreibt das einfach das Befehl /block und gibt auch die Chat-ID des Benutzers dazu. Chatbot schickt eine Nachricht zurück.
+\end{itemize}
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/chatbotbild11.jpeg}
+\caption{Benutzer Blockierung}
+\label{fig:chatbot4} 
+\newpage
+In den folgenden Bildern werden die Funktionalitäten des unregistrierten Benutzer beim Chatbot dargestellt.
+\begin{itemize}
+	\item Chatbot gibt den Benutzer die Möglichkeit, beim Chatbot zu registrieren. Der Benuter hat zwei Buttons zur Wahl. 
+\end{itemize}
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/chatbotbild.jpeg}
+\caption{Registrierung beim Chatbot}
+\label{fig:chatbot3}
+\begin{itemize}
+	\item Wenn der Benutzer Ja klickt, bitten der Chatbot ihn, seine Telefonnummer einzugeben. In diesem Fall hat der Benutzer nur 2 Zahlen eingegeben. Das ist falsch, weil die Telefonnummer 10 Ziffern lang sein soll.
+\end{itemize}
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/chatbotbild2.jpeg}
+\caption{Falsche Eingabe des Telefonnummers beim Chatbot}
+\label{fig:chatbo73}
+\begin{itemize}
+	\item Falls der Benutzer statt eine Telefonnummer, ein Text schickt, wird der Chatbot ihm sagen, dass diese Eingabe kein korrektes Format für ein Telefonnummer ist.
+\end{itemize}
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/chatbotbild5.jpeg}
+\caption{Falsches Format des Telefonnummers beim Chatbot}
+\label{fig:chatbo73}
+\begin{itemize}
+	\item Die Telefonnummer soll zu dem Prefix anpassen. Wenn nicht, erkennt der Chatbot das und schikt eine Fehlermeldung zurück.
+\end{itemize}
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/chatbotbild6.jpeg}
+\caption{Eingabe einer falschen Telefonnummer beim Chatbot}
+\label{fig:chatbo53}
+\begin{itemize}
+	\item Falls der Benutzer die Telefonnummer richtig eingegeben hat, wird ihn eine Nachricht geschickt, dass seine Daten jetzt gespeichert sind. Der Benutzer soll auf die Genehmigung des Administrators warten.
+\end{itemize}
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/chatbotbild4.jpeg}
+\caption{Korrekte Eingabe der Telefonnummer beim Chatbot}
+\label{fig:chatbo53}
+\begin{itemize}
+	\item Falls der Benutzer versucht, nachdem er einmal die Telefonnummer eingegeben hat, eine andere Telefonnummer einzugeben, wird der Chatbot ihm eine Nachricht schicken, dass er auf die Genehmigung des Administrators warten soll. Die andere Nachrichte, die später kommen werden nicht berücksichtigt bis der Administrator die Genehmigung gegeben hat.
+\end{itemize}
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/chatbotbild7.jpeg}
+\caption{Das Warten der Benutzer auf die Administrator Bestätigung}
+\label{fig:chatbo53}
+In dem folgenden Bild wird die Interaktion eines blockierten Benutzer mit dem Chatbot dargestellt.
+\begin{itemize}
+	\item Wenn ein Benutzer von dem Administrator blockiert ist und trotzdem versucht eine Nachricht zum Chatbot zu schicken, wird der Chatbot nur eine default Nachricht schicken, falls die vom Benutzer gesendete Nachricht im Textformat ist. Falls dieser Benutzer versucht, ein Bild zu schicken, wird der Chatbot ihm sagen, dass seine Bilder nicht mehr auf dem Bildschirm angezeigt werden.
+\end{itemize}
+\captionsetup{type=figure}
+\includegraphics[width=\linewidth]{./figures/catboti.jpg}
+\caption{Nachricht von einem blockierten Benutzer}
+\label{fig:chatbo53}
+\section{Probleme, Herausforderungen und deren Lösung}
+\section{Qualitätssicherung, Controlling}
+\section{Ergebnisse - Irena Bala}
+In diesem Kapitel werden die Ergebnisse der Arbeit zusammengefasst.
+\subsection{Implementierung}
+Die wichtigsten Ergebnisse der Arbeit sind: 
+\nomenclature{$G_e$}{Equivalent Shear Modulus}
+\begin{itemize}
+	\item Die Implementierung von einem Hauptkomponent der künstlichen Intelligenz wie Chatbot, die das entwickelte System interessanter macht. 
+\end{itemize}
+\begin{itemize}
+	\item Design Vorbereitung für die Anzeige, dass dort die Informationen auf unterschiedliche Weise dargestellt werden können
+\end{itemize}
+\begin{itemize}
+	\item Anlegung einer Datenbank, die die Basis für die Speicherung aller Informationen ist
+\end{itemize}
+\begin{itemize}
+	\item Verwendung von APIs, die die Möglichkeit anbieten Zugriff zu verschiedenen Daten zu haben und als Schnittstelle dienen für die Implementierung von der Komponenten
+\end{itemize}
+\begin{itemize}
+	\item 
+	Einrichtung und Anlegung eines Servers, dass auch der Hauptteil des Systems ist und die Basis für die Zusammensetzung aller Komponenten anbietet
+\end{itemize}
+\begin{itemize}
+	\item 
+	Integration des Systems, damit alle Komponente mit einander verbinden können
+\end{itemize}
+\section{Handbuch für die Bedienung}
+In diesem Kapitel ist das Handbuch für die Bedienung von Chatbot beschrieben.
+\subsection{Beschreibung der Bedienung als User}
+Die Bedienung von Chatbot ist eigentlich sehr leicht. Ein normaler Benutzer ist in der Lage, Bilder zum Chatbot zu schicken und die danach in die Datenbank gespeichert und automatisch auf dem Bildschirm angezeigt. \\
+Zuerst soll im Handy Telegram Applikation heruntergeladen werden. Danach soll nach dem Benutzername Infotainment gesucht werden. Der Chat mit dem Infotainment Bot wird geöffnet. 
+Jeder Benutzer, die eine Interaktion mit Chatbot haben will, soll zuerst registrieren. \\
+Sobald der Chatbot eine Nachricht von jemand, der für das erste Mal an ihm etwas schickt, wird der Chatbot ihm fragen ob er registrieren will oder nicht. Die Wahl kommt in Form von 2 Buttons, die die Antworten Ja und Nein beinhalten.\\
+Für die Registrierung soll Ja geklickt werden und dann die Telefonnummer für die Registrierung soll auch eingegeben werden. \\
+Danach soll gewartet, bis der Administrator die Genehmigung für die neue Registrierung gegeben hat. Sobald der Administrator diese Genehmigung gegeben hat, wird dieser Benutzer eine Nachricht bekommen und nur dann kann er Bilder zum Chatbot schicken, die an dem Bildschirm angezeigt werden.
+\subsection{Beschreibung der Bedienung als Administrator}
+Der Administrator von Chatbot hat andere Funktionalitäten im Vergleich mit einem Benutzer. 
+\begin{itemize}
+	\item Wenn die Nachricht /users zum Chatbot geschickt wird, wird dem Administrator eine Liste mit allen Chatbot Benutzer zurückgeschickt.
+\end{itemize}
+\begin{itemize}
+	\item Wenn die Nachricht /SeeUnregisteredUsers zum Chatbot geschickt wird, wird dem Administrator eine Liste mit allen unregistrierten Benutzer zurückgeschickt.
+\end{itemize}
+\begin{itemize}
+	\item Der Administrator kann die Benutzer blockieren durch die folgende Eingabe: /block und die Chat ID von dem Benutzer 
+\end{itemize}
+\begin{itemize}
+	\item Wenn der Administrator eine Registrierung genehmigen will, soll die folgende Eingabe zu dem Chatbot geschickt werden: /Accept und die Chat ID von dem Benutzer
+\end{itemize}
+\begin{itemize}
+	\item Wenn der Administrator eine Registrierung nicht genehmigen will, soll die folgende Eingabe zu dem Chatbot geschickt werden: /DoNotAccept und die Chat ID von dem Benutzer
+\end{itemize}
+\section{Evaluierung und Resümee}
+\subsection{Planung vs Realisierung}
+\subsection{Wertschöpfung und Lessons Learned}
 
 	
 \label{\docname}
