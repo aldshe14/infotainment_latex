@@ -1,16 +1,17 @@
-\nomenclatureentry{aHTTP@[{HTTP}]\begingroup Hypertext Transfer Protocol\nomeqref {4.0}|nompageref}{18}
-\nomenclatureentry{aHTTPS@[{HTTPS}]\begingroup Hypertext Transfer Protocol Secure\nomeqref {4.0}|nompageref}{19}
-\nomenclatureentry{aHTTP@[{HTTP}]\begingroup Secure Socket Layer\nomeqref {4.0}|nompageref}{19}
-\nomenclatureentry{aSQL@[{SQL}]\begingroup Structured Query Language\nomeqref {4.0}|nompageref}{19}
-\nomenclatureentry{aPHP@[{PHP}]\begingroup Parallel History Project\nomeqref {4.0}|nompageref}{19}
-\nomenclatureentry{aHTML@[{HTML}]\begingroup HyperText Markup Language\nomeqref {4.0}|nompageref}{21}
-\nomenclatureentry{aCSS@[{CSS}]\begingroup Cascading Style Sheets\nomeqref {4.0}|nompageref}{21}
-\nomenclatureentry{aVGA@[{VGA}]\begingroup Video Graphics Array\nomeqref {4.0}|nompageref}{22}
-\nomenclatureentry{aHDMI@[{HDMI}]\begingroup High-Definition Multimedia Interface\nomeqref {4.0}|nompageref}{22}
-\nomenclatureentry{aSD@[{SD}]\begingroup Secure Digital Memory Card\nomeqref {4.0}|nompageref}{22}
-\nomenclatureentry{aSD@[{SD}]\begingroup Transport Layer Security\nomeqref {4.0}|nompageref}{22}
-\nomenclatureentry{aCA@[{CA}]\begingroup Certificate Authority\nomeqref {4.0}|nompageref}{22}
-\nomenclatureentry{aAPI@[{API}]\begingroup Application Programming Interface\nomeqref {4.0}|nompageref}{22}
-\nomenclatureentry{aJSON@[{JSON}]\begingroup Javascript Object Notation\nomeqref {4.0}|nompageref}{23}
-\nomenclatureentry{aSSH@[{SSH}]\begingroup Secure Shell\nomeqref {4.0}|nompageref}{23}
-\nomenclatureentry{aER@[{ER}]\begingroup Entity Relationship\nomeqref {4.0}|nompageref}{24}
+\nomenclatureentry{aHTTP@[{HTTP}]\begingroup Hypertext Transfer Protocol\nomeqref {4.0}|nompageref}{23}
+\nomenclatureentry{aHTTP@[{HTTP}]\begingroup Secure Socket Layer\nomeqref {4.0}|nompageref}{24}
+\nomenclatureentry{aHTTPS@[{HTTPS}]\begingroup Hypertext Transfer Protocol Secure\nomeqref {4.0}|nompageref}{24}
+\nomenclatureentry{aSQL@[{SQL}]\begingroup Structured Query Language\nomeqref {4.0}|nompageref}{24}
+\nomenclatureentry{aPHP@[{PHP}]\begingroup Parallel History Project\nomeqref {4.0}|nompageref}{24}
+\nomenclatureentry{aHTML@[{HTML}]\begingroup HyperText Markup Language\nomeqref {4.0}|nompageref}{26}
+\nomenclatureentry{aCSS@[{CSS}]\begingroup Cascading Style Sheets\nomeqref {4.0}|nompageref}{26}
+\nomenclatureentry{aVGA@[{VGA}]\begingroup Video Graphics Array\nomeqref {4.0}|nompageref}{27}
+\nomenclatureentry{aHDMI@[{HDMI}]\begingroup High-Definition Multimedia Interface\nomeqref {4.0}|nompageref}{27}
+\nomenclatureentry{aSD@[{SD}]\begingroup Secure Digital Memory Card\nomeqref {4.0}|nompageref}{27}
+\nomenclatureentry{aSD@[{SD}]\begingroup Transport Layer Security\nomeqref {4.0}|nompageref}{27}
+\nomenclatureentry{aCA@[{CA}]\begingroup Certificate Authority\nomeqref {4.0}|nompageref}{27}
+\nomenclatureentry{aAPI@[{API}]\begingroup Application Programming Interface\nomeqref {4.0}|nompageref}{27}
+\nomenclatureentry{aJSON@[{JSON}]\begingroup Javascript Object Notation\nomeqref {4.0}|nompageref}{28}
+\nomenclatureentry{aSSH@[{SSH}]\begingroup Secure Shell\nomeqref {4.0}|nompageref}{28}
+\nomenclatureentry{aER@[{ER}]\begingroup Entity Relationship\nomeqref {4.0}|nompageref}{29}
+\nomenclatureentry{a$G_e$@[{$G_e$}]\begingroup Equivalent Shear Modulus\nomeqref {4.0}|nompageref}{47}

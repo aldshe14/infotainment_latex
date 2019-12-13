@@ -215,10 +215,19 @@ Das Menü wird ganz oben als Header sein. Für das Das Menü ist unterschiedlich
 	emph            =[2]{if,and,or,else},
 	emphstyle       =[2]\color{dkyellow}}
 
+\subsection{Einstellungen}
+Um das System leichter anzupassen wird die Seite Einstellungen gebietet. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf der Abbildung \ref{fi:settings} wird diese Seite angezeigt. Wie man sieht, bei dieser Seite hat der Admin die Möglichkeit API Key von OpenWeatherMap, City ID, von dem die Daten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird den Admin sehr viel Helfen, wenn er diese Daten ändern will. Diese Daten sind auf der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot Token weden mit Hilfe von Regex überprüft ob der Admin Valide Daten hinzugefügt hat. Das ist eine Sicherung damit es zu keinen Fehlern führt.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{\ordnerfigures settings.png}
+	\caption{Einstellungen der Admin Webseite}
+	\label{fi:settings}
+\end{figure}
+
 
 \subsection{Rechte in die Webseite}
-Wie es vorher erwähnt wurde, wird die Webseite unterschiedliche Benutzer Rechte haben. Die zwei Hauptrollen sind Admin und normaler User. Die unterschied zwischen den beiden Benutzern wird von die Rolle Attribut in der Tabelle Rolle gemacht (Siehe Abb. \ref{fi:erd}). Diese Attribute werden in den Sessionen gespeichert. Es wurden Sessions gewählt, weil sie sicherer als Cookies sind.\cite{40_sessions_cookies}
-
+Wie es vorher erwähnt wurde, wird die Webseite unterschiedliche Benutzer Rechte haben. Die zwei Hauptrollen sind Admin und normaler User. Die unterschied zwischen den beiden Benutzern wird von die Rolle Attribut in der Tabelle \textit{tb\_infotainment\_roles} gemacht (Siehe Abb. \ref{fi:erd}). Diese Attribute werden in den Sessionen gespeichert. Es wurden Sessions gewählt, weil sie sicherer als Cookies sind.\cite{40_sessions_cookies} So kann der unterschied zwischen zwei Rollen gemacht werden, in dem man nur die Session u\_role vergleicht.
 \begin{lstlisting}[frame=single]
 $_SESSION['user_id'] = $user['u_id'];
 $_SESSION['loggedin'] = true;
@@ -230,13 +239,53 @@ $_SESSION['role'] = $user['u_role'];
 
 \subsection{Webseite auf mehrere Sprachen}
 
+Was das System noch anbieten wird, ist die Möglichkeit, den Admin Panel und der Anzeiger in verschiedene Sprachen zu verwenden. Der Benutzer darf wählen welche Sprache er am liebsten haben wird. Gründe dafür ist, dass die Schule nicht nur Lehrern aus Österreich hat, sondern auch albanischen Lehrern, die kein Deutsch können. Deshalb würde für Ihnen die Verwendung dieses Systems unmöglich, wenn es nur auf Deutsch angeboten wäre. Am Beginn wird das Sprachenwahl zwei Optionen haben, deutsch oder albanisch. Das heißt aber nicht, dass in der Zukunft keine neue Sprache wie zum Beispiel Englisch angeboten werden können. Somit würde die Benutzerfreundlichkeit des Systems noch stärker erhöhen.
+
 \section{Client}
 
 Zu diese Diplomarbeit geh\"{o}rt auch der Client dazu. Als Client wird bezeichnet die Anzeige, in dem die Informationen dargestellt werden. Der Client besteht aus einem RaspberryPi, der mit Internet verbindet wird (WLAN\footnote{Wireless LAN} oder LAN\footnote{Local Area Network} Verbindung), und mit dem Server kommunizieren wird. Der RaspberryPi hat einen HDMI\footnote{High Definition Multimedia Interface} Anschluss, der mit einem Bildschirm verbindet wird. Um das System mehr kompatibel und umfassend, werden unterschiedliche Bildschirmgr\"{o}\ss{}en unterst\"{u}tzt. Der Anzeige wird automatisch registriert in der Datenbank mithilfe von einem Skript, der die Informationen beim Hochfahren des Ger\"{a}ts zu Datenbank schickt. Diese Anzeige wird beim Hochfahren des Betriebssystems die Webseite von der Anzeige \"{o}ffnen und das Anzeigen lassen. Diese Webseite wird im Vollbild ge\"{o}ffnet. Zus\"{a}tzlich werden die Bildschirmaustastung, Bildschirmschoner und Energieverwaltungssystem ausgeschaltet, damit die Anzeige immer eingeschaltet bleibt. Damit das System nicht abh\"{a}ngig von dem Internet ist, werden die Informationen f\"{u}r diese Anzeige von der Datenbank, die im Server liegt, kopiert und auf der lokalen Datenbank gespeichert. 
 
 In dem Client laufen eine Apache Server, MySQL Datenbank und PHP, die f\"{u}r die Anzeige notwendig sind um die Informationen anzuzeigen. Falls der Anzeige noch nicht von der Admin freigegeben wurde, wird die Anzeige zu eine Welcome Seite umgeleitet, in dem nur die MAC-Adresse der Anzeige dargestellt wird.
 
+\subsection{Layout 1}
+Die Anzeige wird unterschiedliche Layouts beinhalten. Eine von denen ist der Erste Layout. Dieses Layout wird in 5 Bereiche unterteilt.
+Header – Hier wird die Logo platziert zusammen mit der aktuellen Uhrzeit und Datum.
+\begin{itemize}
+	\item \textit{Body} – Es können unterschiedliche Komponnenten dargesttelt werden wie: Supplierplan, Stundenplan usw.
+	\item \textit{Widget 1} – Hauptsächlich für das Wetter und Post der Webseite geeignet. Hier können auch die Kalenderinformationen angezeigt werden.
+	\item \textit{Widget 2} – Es können dieselben Komponenten wie bei der 1. Widget angezeigt.
+	\item \textit{Footer} – Unterschiedliche Texte in Form einer beweglichen Text.
+	
+\end{itemize}
+
+ Auf der Abbildung \ref{fi:layout1} wird ein mögliches Beispiel dargestellt.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{\ordnerfigures layout1.png}
+	\caption{Layout 1 der Anzeige}
+	\label{fi:layout1}
+\end{figure}
 
 
+\section{Wordpress Webseite API}
 
 
+WordPress wird heutzutage sehr viel verwendet um Webseite zu bauen. Die Erleichterungen der WordPress bieten, ermöglicht auch die Benutzer, die keine Programmierkentnisse haben, Webseite zu erstellten und zu verwaltet Durch Plug-Ins kann der WordPress erweitert und unterschiedliche Funktionalitäten eingefügt werden. Jetpack ist ein von denen, der zur Sicherheit, Leistung und Site-Management hilf. Dieses Plug-In bietet auch eine API\footnote{Application Programming Interface} zum WordPress. Dieser API wurde verwendet um die Post einer bestimmte seite zu bekommen. Es muss eine nachfrage and der unteren URL geschickt.
+
+
+\begin{center}
+	\textit{http://\textless{}\textit{domainname}\textgreater{}/wp-json/wp/v2/posts}
+
+\end{center}
+
+
+Die Response ist in JSON Format und die wird dann mit Hilfe von PHP geparst und in der Datenbank gespeichert. 
+
+
+\section{Herausforderungen und deren Lösung}
+
+Eine der größten Herausforderungen war beim Supplierplan getroffen. Als vorher schon erwähnt wurde, das Supplierplan dient darum, die Lehrer die fehlen mit anderen Lehrern substituieren bzw ersetzen. In diesem Bezug kann es sein, dass ein Lehrer bzw eine Lehrerin nicht während den ganzen Tag fehlen wird. Es gibt Situationen und Tagen, in dem ein/e Lehrer/Lehrerin nur für eine bestimmte Zeit fehlt. Beispielweise haben sie etwas Wichtiges zu tun, dass aber nur 2 Unterrichtsstunde dauert. In diesem Fall muss es gesichert werden, dass dieser Lehrer von einem Kollegen während dieser Zeit substituiert wird.
+
+
+Um dieses Problem zu lösen und um den Admin die Möglichkeit zu geben, ein Lehrer nur für eine bestimmte Stundenanzahl zu ersetzen, wurde ein kleine Checkbox erstellt. Es geht um eine Dropdown-Liste, bei der alle Lehrern die bereit zum supplieren sind stehen. Um es je einfacher wie möglicher zu machen, werden diese Lehrern sortiert nach der besten Möglichkeit und Günstigkeit für sie. Zum Beispiel wenn ein Lehrer in der 3.Stunde fehlt, dann steht ein supplierbereiter Lehrer, dass erst um 4.Stunde in der Schule kommen musst, höher bzw. vorher in der Dropdown-Liste als ein Lehrer, der wegen seines normalen Stundenplans in der 8. Stunde Unterricht hat. Je näherer die normale Unterrichtsstunde eines Lehrers mit der zu supplierten Stunden ist, desto höher steht er in der Liste.

@@ -18,72 +18,86 @@
 \contentsline {subsection}{\numberline {2.3.2}Wasserfall}{9}{subsection.2.3.2}% 
 \contentsline {chapter}{\numberline {3}Dokumentation des Projektverlaufs}{12}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Beschreibungen des Arbeitsverlaufs}{12}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Aldo Sheldija}{12}{subsection.3.1.1}% 
-\contentsline {chapter}{\numberline {4}Umsetzung - Irena Bala}{16}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Allgemeine Beschreibungen}{16}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Chatbot}{17}{subsection.4.1.1}% 
-\contentsline {subsubsection}{Einf\IeC {\"u}hrung in Chatbot}{17}{section*.14}% 
-\contentsline {subsubsection}{Umsetzung von Chatbot}{17}{section*.15}% 
-\contentsline {subsection}{\numberline {4.1.2}Server}{17}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Technologien}{18}{subsection.4.1.3}% 
-\contentsline {subsubsection}{Was ist Apache HTTP Server?}{18}{section*.17}% 
-\contentsline {subsubsection}{Funktionsweise von Apache HTTP Server}{19}{section*.18}% 
-\contentsline {subsubsection}{Was ist MySQL?}{19}{section*.19}% 
-\contentsline {subsubsection}{Funktionsweise von MySQL}{19}{section*.20}% 
-\contentsline {subsubsection}{Was ist PHP?}{19}{section*.21}% 
-\contentsline {subsubsection}{Funktionsweise von PHP}{20}{section*.22}% 
-\contentsline {subsubsection}{Was ist JavaScript?}{20}{section*.23}% 
-\contentsline {subsubsection}{M\IeC {\"o}gliche Funktionen von JavaScript}{20}{section*.24}% 
-\contentsline {subsubsection}{Was ist Python?}{21}{section*.25}% 
-\contentsline {subsubsection}{Merkmale von Python}{21}{section*.26}% 
-\contentsline {subsubsection}{Was ist HTML?}{21}{section*.27}% 
-\contentsline {subsubsection}{Was ist CSS?}{21}{section*.28}% 
-\contentsline {subsubsection}{Was ist Raspberry PI?}{22}{section*.29}% 
-\contentsline {subsubsection}{Was ist SSL?}{22}{section*.30}% 
-\contentsline {subsubsection}{SSL-Verschl\IeC {\"u}sselung}{22}{section*.31}% 
-\contentsline {subsubsection}{Was ist Telegram Bot API?}{22}{section*.32}% 
-\contentsline {subsubsection}{Was ist Wetter API?}{22}{section*.33}% 
-\contentsline {subsubsection}{Was ist JSON?}{23}{section*.34}% 
-\contentsline {section}{\numberline {4.2}Technische L\IeC {\"o}sungen}{23}{section.4.2}% 
-\contentsline {subsubsection}{Structured Software Design}{23}{section*.36}% 
-\contentsline {subsubsection}{Konfiguration von Raspberry PI Server}{23}{section*.37}% 
-\contentsline {subsubsection}{Datenbank}{24}{section*.38}% 
-\contentsline {subsubsection}{SSL Verschl\IeC {\"u}sselung}{24}{section*.39}% 
-\contentsline {subsubsection}{Wetterdaten}{25}{section*.40}% 
-\contentsline {subsubsection}{Anzeige}{25}{section*.41}% 
-\contentsline {subsubsection}{Chatbot}{25}{section*.42}% 
-\contentsline {subsubsection}{Chatbot Einrichtung:}{25}{section*.43}% 
-\contentsline {subsubsection}{Einrichtung des Chatbots in RaspberryPI}{25}{section*.44}% 
-\contentsline {subsubsection}{Grundlagen f\IeC {\"u}r die Umsetzung}{26}{section*.45}% 
-\contentsline {subsubsection}{Funktionalit\IeC {\"a}ten}{26}{section*.46}% 
-\contentsline {subsubsection}{Unregistrierte Benutzer:}{26}{section*.47}% 
-\contentsline {subsubsection}{Normale Benutzer:}{26}{section*.48}% 
-\contentsline {subsubsection}{Administrator:}{27}{section*.49}% 
-\contentsline {subsubsection}{Umsetzung der Funktionalit\IeC {\"a}ten:}{27}{section*.50}% 
-\contentsline {subsubsection}{Konkrete Beispiele mit Bildern}{29}{section*.51}% 
-\contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{31}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Allgemeine Beschreibung}{31}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Technologien}{31}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Bootstrap}{31}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}PHP}{32}{subsection.5.2.2}% 
-\contentsline {subsection}{\numberline {5.2.3}JavaScript}{32}{subsection.5.2.3}% 
-\contentsline {subsection}{\numberline {5.2.4}DataTables}{33}{subsection.5.2.4}% 
-\contentsline {subsection}{\numberline {5.2.5}Font Awesome}{33}{subsection.5.2.5}% 
-\contentsline {subsection}{\numberline {5.2.6}MySQL}{33}{subsection.5.2.6}% 
-\contentsline {section}{\numberline {5.3}Structed Software Design f\IeC {\"u}r den Client}{34}{section.5.3}% 
-\contentsline {subsection}{\numberline {5.3.1}Start}{34}{subsection.5.3.1}% 
-\contentsline {subsection}{\numberline {5.3.2}Zeitsteuerung}{35}{subsection.5.3.2}% 
-\contentsline {subsection}{\numberline {5.3.3}Daten holen}{35}{subsection.5.3.3}% 
-\contentsline {subsection}{\numberline {5.3.4}Buffer}{35}{subsection.5.3.4}% 
-\contentsline {subsection}{\numberline {5.3.5}Anzeige Prepare}{36}{subsection.5.3.5}% 
-\contentsline {subsection}{\numberline {5.3.6}Log}{36}{subsection.5.3.6}% 
-\contentsline {section}{\numberline {5.4}Datenbank}{36}{section.5.4}% 
-\contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{36}{subsection.5.4.1}% 
-\contentsline {section}{\numberline {5.5}Admin Webseite}{37}{section.5.5}% 
-\contentsline {subsection}{\numberline {5.5.1}Login}{38}{subsection.5.5.1}% 
-\contentsline {subsection}{\numberline {5.5.2}Passwort Zur\IeC {\"u}cksetzen}{38}{subsection.5.5.2}% 
-\contentsline {subsection}{\numberline {5.5.3}Displays}{39}{subsection.5.5.3}% 
-\contentsline {subsection}{\numberline {5.5.4}Layouts}{39}{subsection.5.5.4}% 
-\contentsline {subsection}{\numberline {5.5.5}Rechte in die Webseite}{39}{subsection.5.5.5}% 
-\contentsline {subsection}{\numberline {5.5.6}Webseite auf mehrere Sprachen}{39}{subsection.5.5.6}% 
-\contentsline {section}{\numberline {5.6}Client}{39}{section.5.6}% 
+\contentsline {subsection}{\numberline {3.1.1}Irena Bala}{12}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Aldo Sheldija}{17}{subsection.3.1.2}% 
+\contentsline {chapter}{\numberline {4}Umsetzung - Irena Bala}{21}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Allgemeine Beschreibungen}{21}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Chatbot}{22}{subsection.4.1.1}% 
+\contentsline {subsubsection}{Einf\IeC {\"u}hrung in Chatbot}{22}{section*.14}% 
+\contentsline {subsubsection}{Umsetzung von Chatbot}{22}{section*.15}% 
+\contentsline {subsection}{\numberline {4.1.2}Server}{22}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Technologien}{23}{subsection.4.1.3}% 
+\contentsline {subsubsection}{Was ist Apache HTTP Server?}{23}{section*.17}% 
+\contentsline {subsubsection}{Funktionsweise von Apache HTTP Server}{24}{section*.18}% 
+\contentsline {subsubsection}{Was ist MySQL?}{24}{section*.19}% 
+\contentsline {subsubsection}{Funktionsweise von MySQL}{24}{section*.20}% 
+\contentsline {subsubsection}{Was ist PHP?}{24}{section*.21}% 
+\contentsline {subsubsection}{Funktionsweise von PHP}{25}{section*.22}% 
+\contentsline {subsubsection}{Was ist JavaScript?}{25}{section*.23}% 
+\contentsline {subsubsection}{M\IeC {\"o}gliche Funktionen von JavaScript}{25}{section*.24}% 
+\contentsline {subsubsection}{Was ist Python?}{26}{section*.25}% 
+\contentsline {subsubsection}{Merkmale von Python}{26}{section*.26}% 
+\contentsline {subsubsection}{Was ist HTML?}{26}{section*.27}% 
+\contentsline {subsubsection}{Was ist CSS?}{26}{section*.28}% 
+\contentsline {subsubsection}{Was ist Raspberry PI?}{27}{section*.29}% 
+\contentsline {subsubsection}{Was ist SSL?}{27}{section*.30}% 
+\contentsline {subsubsection}{SSL-Verschl\IeC {\"u}sselung}{27}{section*.31}% 
+\contentsline {subsubsection}{Was ist Telegram Bot API?}{27}{section*.32}% 
+\contentsline {subsubsection}{Was ist Wetter API?}{27}{section*.33}% 
+\contentsline {subsubsection}{Was ist JSON?}{28}{section*.34}% 
+\contentsline {section}{\numberline {4.2}Technische L\IeC {\"o}sungen}{28}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Structured Software Design}{28}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Konfiguration von Raspberry PI Server}{28}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Datenbank}{29}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}SSL Verschl\IeC {\"u}sselung}{30}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Wetterdaten}{31}{subsection.4.2.5}% 
+\contentsline {subsection}{\numberline {4.2.6}Anzeige}{31}{subsection.4.2.6}% 
+\contentsline {subsection}{\numberline {4.2.7}Chatbot}{31}{subsection.4.2.7}% 
+\contentsline {subsection}{\numberline {4.2.8}Chatbot Einrichtung:}{32}{subsection.4.2.8}% 
+\contentsline {subsection}{\numberline {4.2.9}Einrichtung des Chatbots in RaspberryPI}{32}{subsection.4.2.9}% 
+\contentsline {subsection}{\numberline {4.2.10}Grundlagen f\IeC {\"u}r die Umsetzung von Chatbot}{32}{subsection.4.2.10}% 
+\contentsline {subsection}{\numberline {4.2.11}Funktionalit\IeC {\"a}ten von Chatbot}{33}{subsection.4.2.11}% 
+\contentsline {subsection}{\numberline {4.2.12}Unregistrierte Benutzer:}{33}{subsection.4.2.12}% 
+\contentsline {subsubsection}{Normale Benutzer:}{33}{section*.38}% 
+\contentsline {subsubsection}{Administrator:}{33}{section*.39}% 
+\contentsline {subsubsection}{Umsetzung der Funktionalit\IeC {\"a}ten:}{34}{section*.40}% 
+\contentsline {subsection}{\numberline {4.2.13}Konkrete Beispiele mit Bildern}{36}{subsection.4.2.13}% 
+\contentsline {section}{\numberline {4.3}Probleme, Herausforderungen und deren L\IeC {\"o}sung}{46}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Qualit\IeC {\"a}tssicherung, Controlling}{46}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Ergebnisse - Irena Bala}{46}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}Implementierung}{47}{subsection.4.5.1}% 
+\contentsline {section}{\numberline {4.6}Handbuch f\IeC {\"u}r die Bedienung}{47}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Beschreibung der Bedienung als User}{47}{subsection.4.6.1}% 
+\contentsline {subsection}{\numberline {4.6.2}Beschreibung der Bedienung als Administrator}{48}{subsection.4.6.2}% 
+\contentsline {section}{\numberline {4.7}Evaluierung und Res\IeC {\"u}mee}{48}{section.4.7}% 
+\contentsline {subsection}{\numberline {4.7.1}Planung vs Realisierung}{48}{subsection.4.7.1}% 
+\contentsline {subsection}{\numberline {4.7.2}Wertsch\IeC {\"o}pfung und Lessons Learned}{48}{subsection.4.7.2}% 
+\contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{49}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Allgemeine Beschreibung}{49}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Technologien}{49}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Bootstrap}{49}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}PHP}{50}{subsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.2.3}JavaScript}{50}{subsection.5.2.3}% 
+\contentsline {subsection}{\numberline {5.2.4}DataTables}{51}{subsection.5.2.4}% 
+\contentsline {subsection}{\numberline {5.2.5}Font Awesome}{51}{subsection.5.2.5}% 
+\contentsline {subsection}{\numberline {5.2.6}MySQL}{51}{subsection.5.2.6}% 
+\contentsline {subsection}{\numberline {5.2.7}Apache}{52}{subsection.5.2.7}% 
+\contentsline {section}{\numberline {5.3}Structed Software Design f\IeC {\"u}r den Client}{52}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}Start}{52}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}Zeitsteuerung}{53}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {5.3.3}Daten holen}{53}{subsection.5.3.3}% 
+\contentsline {subsection}{\numberline {5.3.4}Buffer}{53}{subsection.5.3.4}% 
+\contentsline {subsection}{\numberline {5.3.5}Anzeige Prepare}{54}{subsection.5.3.5}% 
+\contentsline {subsection}{\numberline {5.3.6}Log}{54}{subsection.5.3.6}% 
+\contentsline {section}{\numberline {5.4}Datenbank}{54}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{54}{subsection.5.4.1}% 
+\contentsline {section}{\numberline {5.5}Admin Webseite}{55}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.5.1}Login}{56}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.2}Passwort Zur\IeC {\"u}cksetzen}{56}{subsection.5.5.2}% 
+\contentsline {subsection}{\numberline {5.5.3}Men\IeC {\"u}}{57}{subsection.5.5.3}% 
+\contentsline {subsection}{\numberline {5.5.4}Rechte in die Webseite}{57}{subsection.5.5.4}% 
+\contentsline {subsection}{\numberline {5.5.5}Webseite auf mehrere Sprachen}{58}{subsection.5.5.5}% 
+\contentsline {section}{\numberline {5.6}Client}{58}{section.5.6}% 
+\contentsline {subsection}{\numberline {5.6.1}Layout 1}{58}{subsection.5.6.1}% 
+\contentsline {section}{\numberline {5.7}Wordpress Webseite API}{59}{section.5.7}% 
+\contentsline {section}{\numberline {5.8}Herausforderungen und deren L\IeC {\"o}sung}{59}{section.5.8}% 

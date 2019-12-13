@@ -23,6 +23,10 @@
 \contentsline {subsection}{\numberline {1.5.1}Login}{8}{subsection.1.5.1}% 
 \contentsline {subsection}{\numberline {1.5.2}Passwort Zur\IeC {\"u}cksetzen}{8}{subsection.1.5.2}% 
 \contentsline {subsection}{\numberline {1.5.3}Men\IeC {\"u}}{9}{subsection.1.5.3}% 
-\contentsline {subsection}{\numberline {1.5.4}Rechte in die Webseite}{10}{subsection.1.5.4}% 
-\contentsline {subsection}{\numberline {1.5.5}Webseite auf mehrere Sprachen}{10}{subsection.1.5.5}% 
-\contentsline {section}{\numberline {1.6}Client}{10}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.5.4}Einstellungen}{10}{subsection.1.5.4}% 
+\contentsline {subsection}{\numberline {1.5.5}Rechte in die Webseite}{10}{subsection.1.5.5}% 
+\contentsline {subsection}{\numberline {1.5.6}Webseite auf mehrere Sprachen}{11}{subsection.1.5.6}% 
+\contentsline {section}{\numberline {1.6}Client}{11}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.6.1}Layout 1}{11}{subsection.1.6.1}% 
+\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{12}{section.1.7}% 
+\contentsline {section}{\numberline {1.8}Herausforderungen und deren L\IeC {\"o}sung}{12}{section.1.8}% 
