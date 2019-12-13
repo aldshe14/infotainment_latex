@@ -34,13 +34,16 @@
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://httpd.apache.org/images/httpd_logo_wide_new.png
       \endverb
       \verb{url}
       \verb https://httpd.apache.org/images/httpd_logo_wide_new.png
       \endverb
-      \warn{\item Entry '40_apache_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring}
     \endentry
     \entry{40_datatables}{online}{}
       \name{author}{1}{}{%
@@ -57,13 +60,16 @@
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://datatables.net/
       \endverb
       \verb{url}
       \verb https://datatables.net/
       \endverb
-      \warn{\item Entry '40_datatables' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring}
     \endentry
     \entry{40_js}{book}{}
       \name{author}{1}{}{%
@@ -104,13 +110,16 @@
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://larsbutnotleast.xyz/genius/res/datatables.png
       \endverb
       \verb{url}
       \verb https://larsbutnotleast.xyz/genius/res/datatables.png
       \endverb
-      \warn{\item Entry '40_datatables_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring}
     \endentry
     \entry{40_php_img}{online}{}
       \name{author}{1}{}{%
@@ -129,13 +138,16 @@
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://comlounge.net/wp-content/uploads/2016/02/PHP-logo.svg_.png
       \endverb
       \verb{url}
       \verb https://comlounge.net/wp-content/uploads/2016/02/PHP-logo.svg_.png
       \endverb
-      \warn{\item Entry '40_php_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring}
     \endentry
     \entry{40_bootstrap_img}{online}{}
       \name{author}{1}{}{%
@@ -152,13 +164,16 @@
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://miro.medium.com/max/824/1*9RqBEDU9Mbg6XM8O6d7Q9A.png
       \endverb
       \verb{url}
       \verb https://miro.medium.com/max/824/1*9RqBEDU9Mbg6XM8O6d7Q9A.png
       \endverb
-      \warn{\item Entry '40_bootstrap_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring}
     \endentry
     \entry{40_mysql_img}{online}{}
       \name{author}{1}{}{%
@@ -175,13 +190,16 @@
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.mysql.com/common/logos/logo-mysql-170x115.png
       \endverb
       \verb{url}
       \verb https://www.mysql.com/common/logos/logo-mysql-170x115.png
       \endverb
-      \warn{\item Entry '40_mysql_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring}
     \endentry
     \entry{40_apache}{online}{}
       \name{author}{1}{}{%
@@ -200,13 +218,16 @@
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://httpd.apache.org/
       \endverb
       \verb{url}
       \verb https://httpd.apache.org/
       \endverb
-      \warn{\item Entry '40_apache' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring}
     \endentry
     \entry{40_font_awesome_img}{online}{}
       \name{author}{1}{}{%
@@ -225,13 +246,16 @@
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://divi.space/wp-content/uploads/2018/03/font-awesome-image-.png
       \endverb
       \verb{url}
       \verb https://divi.space/wp-content/uploads/2018/03/font-awesome-image-.png
       \endverb
-      \warn{\item Entry '40_font_awesome_img' (./../literatur.bib): Invalid format '{2018-10-30}' of date field 'date' - ignoring}
     \endentry
     \entry{40_js_img}{online}{}
       \name{author}{1}{}{%
@@ -248,13 +272,16 @@
       \field{sortinit}{V}
       \field{sortinithash}{02432525618c08e2b03cac47c19764af}
       \field{labelnamesource}{author}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://blog.vilmatech.com/wp-content/uploads/2018/05/Javascript.jpg
       \endverb
       \verb{url}
       \verb https://blog.vilmatech.com/wp-content/uploads/2018/05/Javascript.jpg
       \endverb
-      \warn{\item Entry '40_js_img' (./../literatur.bib): Invalid format '{2019-10-30}' of date field 'date' - ignoring}
     \endentry
   \enddatalist
   \missing{fi:structed_design_client}

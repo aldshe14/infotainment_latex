@@ -67,13 +67,13 @@ DataTables ist ein Plug-In f\"{u}r die jQuery-Javascript-Bibliothek. Es ist ein 
 
 
 \subsection{Font Awesome}
-Font Awesome ist ein Toolkit für Schriftarten und Symbole, das auf CSS und LESS basiert. Es wurde von Dave Gandy für die Verwendung mit Twitter Bootstrap erstellt und später in die Bootstrap-CDN aufgenommen. Mit Font Awesome erhaltet man skalierbare Vektor-Icons, die sofort angepasst werden können. Die Änderungen, die gemacht werden können sind in Bezug auf Größe, Farbe, Schlagschatten und alles, was mit CSS möglich ist.
+Font Awesome(Abb. \ref{fi:fontawesome}) ist ein Toolkit für Schriftarten und Symbole, das auf CSS und LESS basiert. Es wurde von Dave Gandy für die Verwendung mit Twitter Bootstrap erstellt und später in die Bootstrap-CDN aufgenommen. Mit Font Awesome erhaltet man skalierbare Vektor-Icons, die sofort angepasst werden können. Die Änderungen, die gemacht werden können sind in Bezug auf Größe, Farbe, Schlagschatten und alles, was mit CSS möglich ist.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{\ordnerfigures font_awesome.png}
 	\caption{Font Awesome Logo\cite{40_font_awesome_img}}
-	\label{fi:datatables}
+	\label{fi:fontawesome}
 \end{figure}
 
 
@@ -107,7 +107,7 @@ Das \textbf{Apache} Apache HTTP Server-Projekt ist ein Versuch, einen Open-Sourc
 
 \section{Structed Software Design für den Client}
 
-Mithilfe von Structed Design wurde der Planung der Client gemacht. Diese Structed Design ist auf der Abbildung \cite{fi:structed_design_client} dargestellt. 
+Mithilfe von Structed Design wurde der Planung der Client gemacht. Diese Structed Design ist auf der Abbildung \ref{fi:structed_design_client} dargestellt. 
 Dieser Teil ist verantwortlich f\"{u}r die automatische Darstellung der Informationen in der Anzeige. Der Client kommuniziert mit der Datenbank, die im Server liegt und von dem die Daten geholt werden. Die wichtigste Funktionsbl\"{o}cke dieser Structed Design sind Zeitsteuerung, Anzeige Prepare und das Log, die in den kommenden Teilen weiter erkl\"{a}rt werden.
 
 \subsection{Start}
@@ -138,8 +138,8 @@ In Log werden alle Ereignisse, die in alle Blöcke, die vorher erwähnt wurden, 
 \section{Datenbank}
 Wie jede Website benötigt auch das InfotainmentSystem eine Datenbank, in der die Daten gespeichert und gesichert werden können. Die Datenbank besteht aus Entitäten, Beziehungen und Attributen. Eine Datenbank ist ein elektronisches Verwaltungssystem, das besonders bei großen Datenmengen effizient, widerspruchsfrei und dauerhaft umgehen und logische Zusammenhänge digital abbilden können muss. Diese Informationen sind in Zeilen, Spalten und Tabellen organisiert und werden indiziert, um das finden relevanter Informationen zu erleichtern.
 
-\subsection{ERD\footnote{Entity Relationship Diagram} Diagramm}
-Zuerst wurde ein ER-Diagramm (Abbildung \ref{fi:erd}) für die Datenbank erstellt. Das ER-Modell bedeutet Entity-Relationship-Modell. Bevor die Datenbank erstellt wird, muss sie zuerst konzipiert werden. Zu diesem Punkt gehört die Erstellung eines ER- Diagrammes. Um ein ER-Diagramm zu erstellen, braucht man die Hilfe von MYSQL- Workbench. Dazu werden im Detail alle Entitäten mit ihren dazugehörigen Attributen und Relationen zwischen einander geschrieben. Es besteht aus einer Grafik und einer Beschreibung der darin verwendeten Elemente, wobei deren Bedeutung und ihre Struktur dargestellt wird. Grundlage der Entity-Relationship Modelle ist die Typisierung von Objekten, ihrer Beziehungen untereinander und der über sie zuführenden Informationen beziehungsweise Attribute. Hier in dieser Diplomarbeit werden alle Tabellen, die wir für die Datenbank benötigen, gezeigt. Von diesem ER-Diagramm wurde ein SQL-Skript erstellt und im Raspberry Pi ausgeführt.
+\subsection{ER Diagramm}
+Zuerst wurde ein ER-Diagramm\footnote{Entity Relationship Diagram} (Abbildung \ref{fi:erd}) für die Datenbank erstellt. Das ER-Modell bedeutet Entity-Relationship-Modell. Bevor die Datenbank erstellt wird, muss sie zuerst konzipiert werden. Zu diesem Punkt gehört die Erstellung eines ER- Diagrammes. Um ein ER-Diagramm zu erstellen, braucht man die Hilfe von MYSQL- Workbench. Dazu werden im Detail alle Entitäten mit ihren dazugehörigen Attributen und Relationen zwischen einander geschrieben. Es besteht aus einer Grafik und einer Beschreibung der darin verwendeten Elemente, wobei deren Bedeutung und ihre Struktur dargestellt wird. Grundlage der Entity-Relationship Modelle ist die Typisierung von Objekten, ihrer Beziehungen untereinander und der über sie zuführenden Informationen beziehungsweise Attribute. Hier in dieser Diplomarbeit werden alle Tabellen, die wir für die Datenbank benötigen, gezeigt. Von diesem ER-Diagramm wurde ein SQL-Skript erstellt und im Raspberry Pi ausgeführt.
 
 \begin{figure}[H]
 	\centering
@@ -177,7 +177,7 @@ Ab und zu passiert, dass die Benutzer das Passwort vergessen, egal auf welche Gr
 	\centering
 	\includegraphics[width=0.55\textwidth]{\ordnerfigures reset1.png}
 	\caption{Passwort zurücksetzen}
-	\label{fi:login}
+	\label{fi:reset}
 \end{figure}
 
 \subsection{Displays}

@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {1.3.5}Anzeige Prepare}{6}{subsection.1.3.5}% 
 \contentsline {subsection}{\numberline {1.3.6}Log}{6}{subsection.1.3.6}% 
 \contentsline {section}{\numberline {1.4}Datenbank}{6}{section.1.4}% 
-\contentsline {subsection}{\numberline {1.4.1}ERD\let \reserved@d =[\def \par }{6}{subsection.1.4.1}% 
+\contentsline {subsection}{\numberline {1.4.1}ER Diagramm}{6}{subsection.1.4.1}% 
 \contentsline {section}{\numberline {1.5}Admin Webseite}{7}{section.1.5}% 
 \contentsline {subsection}{\numberline {1.5.1}Login}{8}{subsection.1.5.1}% 
 \contentsline {subsection}{\numberline {1.5.2}Passwort Zur\IeC {\"u}cksetzen}{9}{subsection.1.5.2}% 

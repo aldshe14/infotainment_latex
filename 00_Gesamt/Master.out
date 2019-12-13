@@ -28,11 +28,24 @@
 \BOOKMARK [1][-]{section.5.2}{Technologien}{chapter.5}% 28
 \BOOKMARK [2][-]{subsection.5.2.1}{Bootstrap}{section.5.2}% 29
 \BOOKMARK [2][-]{subsection.5.2.2}{PHP}{section.5.2}% 30
-\BOOKMARK [2][-]{subsection.5.2.3}{Client}{section.5.2}% 31
-\BOOKMARK [1][-]{section.5.3}{Admin Webseite}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.4}{Client}{chapter.5}% 33
-\BOOKMARK [2][-]{subsection.5.4.1}{Basis Seite}{section.5.4}% 34
-\BOOKMARK [2][-]{subsection.5.4.2}{Displays}{section.5.4}% 35
-\BOOKMARK [2][-]{subsection.5.4.3}{Layouts}{section.5.4}% 36
-\BOOKMARK [2][-]{subsection.5.4.4}{Rechte in die Webseite}{section.5.4}% 37
-\BOOKMARK [2][-]{subsection.5.4.5}{Webseite auf mehrere Sprachen}{section.5.4}% 38
+\BOOKMARK [2][-]{subsection.5.2.3}{JavaScript}{section.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.2.4}{DataTables}{section.5.2}% 32
+\BOOKMARK [2][-]{subsection.5.2.5}{Font Awesome}{section.5.2}% 33
+\BOOKMARK [2][-]{subsection.5.2.6}{MySQL}{section.5.2}% 34
+\BOOKMARK [1][-]{section.5.3}{Structed Software Design f\374r den Client}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.3.1}{Start}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.2}{Zeitsteuerung}{section.5.3}% 37
+\BOOKMARK [2][-]{subsection.5.3.3}{Daten holen}{section.5.3}% 38
+\BOOKMARK [2][-]{subsection.5.3.4}{Buffer}{section.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.3.5}{Anzeige Prepare}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.6}{Log}{section.5.3}% 41
+\BOOKMARK [1][-]{section.5.4}{Datenbank}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.4.1}{ER Diagramm}{section.5.4}% 43
+\BOOKMARK [1][-]{section.5.5}{Admin Webseite}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.5.1}{Login}{section.5.5}% 45
+\BOOKMARK [2][-]{subsection.5.5.2}{Passwort Zur\374cksetzen}{section.5.5}% 46
+\BOOKMARK [2][-]{subsection.5.5.3}{Displays}{section.5.5}% 47
+\BOOKMARK [2][-]{subsection.5.5.4}{Layouts}{section.5.5}% 48
+\BOOKMARK [2][-]{subsection.5.5.5}{Rechte in die Webseite}{section.5.5}% 49
+\BOOKMARK [2][-]{subsection.5.5.6}{Webseite auf mehrere Sprachen}{section.5.5}% 50
+\BOOKMARK [1][-]{section.5.6}{Client}{chapter.5}% 51

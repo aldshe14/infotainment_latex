@@ -56,11 +56,24 @@
 \contentsline {section}{\numberline {5.2}Technologien}{25}{section.5.2}% 
 \contentsline {subsection}{\numberline {5.2.1}Bootstrap}{25}{subsection.5.2.1}% 
 \contentsline {subsection}{\numberline {5.2.2}PHP}{26}{subsection.5.2.2}% 
-\contentsline {subsection}{\numberline {5.2.3}Client}{27}{subsection.5.2.3}% 
-\contentsline {section}{\numberline {5.3}Admin Webseite}{27}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Client}{28}{section.5.4}% 
-\contentsline {subsection}{\numberline {5.4.1}Basis Seite}{29}{subsection.5.4.1}% 
-\contentsline {subsection}{\numberline {5.4.2}Displays}{29}{subsection.5.4.2}% 
-\contentsline {subsection}{\numberline {5.4.3}Layouts}{29}{subsection.5.4.3}% 
-\contentsline {subsection}{\numberline {5.4.4}Rechte in die Webseite}{29}{subsection.5.4.4}% 
-\contentsline {subsection}{\numberline {5.4.5}Webseite auf mehrere Sprachen}{29}{subsection.5.4.5}% 
+\contentsline {subsection}{\numberline {5.2.3}JavaScript}{26}{subsection.5.2.3}% 
+\contentsline {subsection}{\numberline {5.2.4}DataTables}{27}{subsection.5.2.4}% 
+\contentsline {subsection}{\numberline {5.2.5}Font Awesome}{27}{subsection.5.2.5}% 
+\contentsline {subsection}{\numberline {5.2.6}MySQL}{27}{subsection.5.2.6}% 
+\contentsline {section}{\numberline {5.3}Structed Software Design f\IeC {\"u}r den Client}{28}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}Start}{28}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}Zeitsteuerung}{29}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {5.3.3}Daten holen}{29}{subsection.5.3.3}% 
+\contentsline {subsection}{\numberline {5.3.4}Buffer}{30}{subsection.5.3.4}% 
+\contentsline {subsection}{\numberline {5.3.5}Anzeige Prepare}{30}{subsection.5.3.5}% 
+\contentsline {subsection}{\numberline {5.3.6}Log}{30}{subsection.5.3.6}% 
+\contentsline {section}{\numberline {5.4}Datenbank}{30}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{30}{subsection.5.4.1}% 
+\contentsline {section}{\numberline {5.5}Admin Webseite}{31}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.5.1}Login}{32}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.2}Passwort Zur\IeC {\"u}cksetzen}{33}{subsection.5.5.2}% 
+\contentsline {subsection}{\numberline {5.5.3}Displays}{33}{subsection.5.5.3}% 
+\contentsline {subsection}{\numberline {5.5.4}Layouts}{33}{subsection.5.5.4}% 
+\contentsline {subsection}{\numberline {5.5.5}Rechte in die Webseite}{33}{subsection.5.5.5}% 
+\contentsline {subsection}{\numberline {5.5.6}Webseite auf mehrere Sprachen}{33}{subsection.5.5.6}% 
+\contentsline {section}{\numberline {5.6}Client}{33}{section.5.6}% 

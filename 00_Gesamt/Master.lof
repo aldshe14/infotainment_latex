@@ -9,8 +9,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Bootstrap Logo\relax }}{25}{figure.caption.42}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces PHP Logo\relax }}{26}{figure.caption.43}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces JavaScript Logo\relax }}{26}{figure.caption.44}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces MySQL Logo\relax }}{27}{figure.caption.45}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Apache HTTP Server Logo\relax }}{27}{figure.caption.46}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Bootstrap Logo\cite {40_bootstrap_img}\relax }}{26}{figure.caption.42}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces PHP Logo\cite {40_php_img}\relax }}{26}{figure.caption.43}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces JavaScript Logo\cite {40_js_img}\relax }}{27}{figure.caption.44}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces DataTables Logo\cite {40_datatables_img}\relax }}{27}{figure.caption.45}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Font Awesome Logo\cite {40_font_awesome_img}\relax }}{27}{figure.caption.46}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces MySQL Logo\cite {40_mysql_img}\relax }}{28}{figure.caption.47}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Apache HTTP Server Logo\cite {40_apache_img}\relax }}{28}{figure.caption.48}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Structed Software Design f\IeC {\"u}r den Client\relax }}{29}{figure.caption.49}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces ERD Diagramm\relax }}{31}{figure.caption.50}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Anmelden Seite\relax }}{32}{figure.caption.51}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Passwort zur\IeC {\"u}cksetzen\relax }}{33}{figure.caption.52}% 
