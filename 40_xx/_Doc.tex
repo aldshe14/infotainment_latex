@@ -29,7 +29,7 @@ In diesem Unterkapitel werden die verwendeten Technologien und Software-Ressourc
 Die unterliegende Tabelle listet die verwendeten Technologien auf und daneben steht auch eine kurze Beschreibung für jede Technologie.
 \begin{table}[h]
 	\begin{center}
- \caption{Technologien}
+
 \label{tab:Tabelle1}
 \resizebox{\textwidth}{!}{
 	\begin{tabular}{ | l |l |p{5cm} |} 
@@ -52,28 +52,30 @@ Die unterliegende Tabelle listet die verwendeten Technologien auf und daneben st
 		
 \end{tabular} }
 %\end{adjustbox} 
+\caption{Technologien}
 \end{center}
 \end{table} 
 \subsubsection{Was ist Apache HTTP Server?} 
-Der Apache HTTP\footnote{Hypertext Transfer Protocol}\nomenclature{HTTP}{Hypertext Transfer Protocol} Server ist ein weltweit verbreitender Web Server. Dieser Server ist Open Source, das bedeutet, dass es keine Lizenz gekauft werden soll, um es zu verwenden. Es ist kompatibel auf allen kohärenteren Betriebssystemen, beispielsweise Linux, Windows, Mac OS und andere. Es bietet viele Versionen an, die zu unterschiedlichen Anwendungsgebiete passen und verbesserte Eigenschaften bereitstellen. Durch dieses Webservers können Webseiten erstellt werden. Die Erstellung der Webseiten erfolgt über serverseitige Scriptsprachen, die von dem Server selbst nicht unterstützt werden. Sie werden als Zusatzfunktionen angehängt. 
+Der Apache HTTP\footnote{Hypertext Transfer Protocol}\nomenclature{HTTP}{Hypertext Transfer Protocol} Server ist ein weltweit verbreitender Web Server. Dieser Server ist Open Source, das bedeutet, dass es keine Lizenz gekauft werden soll, um es zu verwenden. Es ist kompatibel auf allen kohärenteren Betriebssystemen, beispielsweise Linux, Windows, Mac OS und andere. Es bietet viele Versionen an, die zu unterschiedlichen Anwendungsgebiete passen und verbesserte Eigenschaften bereitstellen. Durch dieses Webservers können Webseiten erstellt werden. Die Erstellung der Webseiten erfolgt über serverseitige Scriptsprachen, die von dem Server selbst nicht unterstützt werden. Sie werden als Zusatzfunktionen angehängt. \\
+Der Apache HTTP Server bietet viele Funktionalitäten an, die seine Entwicklungsumgebung vergrößern. Die wichtigste davon ist die Möglichkeit der Integration eines SSL \footnote{Secure Socket Layer}\nomenclature{HTTP}{Secure Socket Layer}Zertifikats. Das ermöglicht die Übertragung der Daten in einer verschlüsselten Form. Die detaillierte Funktionsweise eines SSL Zertifikats wird in den Unterkapiteln beschrieben.  \cite{50_apache}
 \subsubsection{Funktionsweise von Apache HTTP Server} 
 „Obwohl Apache als Webserver bezeichnet wird, handelt es sich nicht um einen physischen Server. Apache ist eine Software, die auf einem Server ausgeführt wird. Seine Aufgabe ist es, eine Verbindung zwischen einem physischen Server mit den gespeicherten Webseiten und den Browsern der Internetuser herzustellen. \\
-Wenn ein User eine URL in seinen Webbrowser eingibt, sendet der Browser eine HTTP oder HTTPS \footnote{Hypertext Transfer Protocol Secure}\nomenclature{HTTPS}{Hypertext Transfer Protocol Secure} Anforderung an den Server, auf dem die Webseite gespeichert ist.“ \\
+Wenn ein User eine URL in seinen Webbrowser eingibt, sendet der Browser eine HTTP oder HTTPS \footnote{Hypertext Transfer Protocol Secure}\nomenclature{HTTPS}{Hypertext Transfer Protocol Secure} Anforderung an den Server, auf dem die Webseite gespeichert ist.“ \cite{50_apache} \\
 \\
-Der Apache HTTP Server bietet viele Funktionalitäten an, die seine Entwicklungsumgebung vergrößern. Die wichtigste davon ist die Möglichkeit der Integration eines SSL \footnote{Secure Socket Layer}\nomenclature{HTTP}{Secure Socket Layer}Zertifikats. Das ermöglicht die Übertragung der Daten in einer verschlüsselten Form. Die detaillierte Funktionsweise eines SSL Zertifikats wird in den Unterkapiteln beschrieben. 
+
 \subsubsection{Was ist MySQL?} 
 MySQL ist ein weitverbreitetes relationales Datenbanksystem. Die Datenbanksysteme werden allgemein zur Datenspeicherung und Datenverwaltung verwendet. Ein wichtiges Kriterium für die Datenspeicherung ist die Performanz. Diese Anforderung wird durch MySQL optimal erfüllt. Das ist auch der Grund, warum dieses Datenbanksystem so populär und bekannt ist. Die von MySQL für die Abarbeitung, Verwaltung und Systematisierung von Daten verwendete Sprache ist SQL\footnote{Structured Query Languague}\nomenclature{SQL}{Structured Query Language}. MySQL ist auch eine Open Source Software,
-die in meisten Fällen in Verbindung mit serverseitigen Scriptsprachen wie PHP, vorkommt.
+die in meisten Fällen in Verbindung mit serverseitigen Scriptsprachen wie PHP, vorkommt. \cite{50_mysql}
 \subsubsection{Funktionsweise von MySQL} 
-Das MySQL Datenbanksystem wird sehr häufig implementiert. Es gibt viele Unternehmen und Institutionen, die ihre Daten über eine gewisse Zeit speichern wollen. Das MySQL Datenbanksystem, das die Daten beinhaltet, wird als ein Server vorgesehen. Jeder, der versucht, Zugriff auf diese Daten zu haben, wird als ein Client vorgesehen. Der Server kann die erforderliche Zugänglichkeit erlauben oder nicht. Das hängt von den Clientrechten ab. Die Daten können von den Clients selektiert, bearbeitet oder gelöscht werden. Diese Ereignisse erfolgen durch SQL-Abfragen. Die SQL-Abfragen werden mithilfe der SQL Datenbanksprache erstellt. 
+Das MySQL Datenbanksystem wird sehr häufig implementiert. Es gibt viele Unternehmen und Institutionen, die ihre Daten über eine gewisse Zeit speichern wollen. Das MySQL Datenbanksystem, das die Daten beinhaltet, wird als ein Server vorgesehen. Jeder, der versucht, Zugriff auf diese Daten zu haben, wird als ein Client vorgesehen. Der Server kann die erforderliche Zugänglichkeit erlauben oder nicht. Das hängt von den Clientrechten ab. Die Daten können von den Clients selektiert, bearbeitet oder gelöscht werden. Diese Ereignisse erfolgen durch SQL-Abfragen. Die SQL-Abfragen werden mithilfe der SQL Datenbanksprache erstellt. \cite{50_mysql}
 \subsubsection{Was ist PHP?} 
 PHP\footnote{Parallel History Project}\nomenclature{PHP}{Parallel History Project} ist eine serverseitige Programmiersprache. Das bedeutet, dass diese Sprache, um 
 die vom Server auszuführenden Ereignissen zu programmieren, verwendet wird. 
-PHP ist eine sehr verbreitete Programmiersprache, die am meisten zur Erstellung und Programmierung von Webseiten verwendet wird. Eigentlich ist PHP sehr flexibel, denn es einen großen Schnittstellenansatz anbietet.  Diese Programmiersprache kann auch im Zusammenhang mit Datenbanken genutzt werden. 
+PHP ist eine sehr verbreitete Programmiersprache, die am meisten zur Erstellung und Programmierung von Webseiten verwendet wird. Eigentlich ist PHP sehr flexibel, denn es einen großen Schnittstellenansatz anbietet.  Diese Programmiersprache kann auch im Zusammenhang mit Datenbanken genutzt werden. \cite{50_php}
 \subsubsection{Funktionsweise von PHP} 
-Hier kommt das Client-Server Prinzip wieder vor. Der Webbrowser ist der Client und der Webserver ist der Server. Der mit PHP programmiertes Skript wird zum Webserver geschickt, danach erfolgt die Rückgabe einer HTML-Datei als Antwort zum Webbrowser, der in diesem Fall als Client betrachtet wird.
+Hier kommt das Client-Server Prinzip wieder vor. Der Webbrowser ist der Client und der Webserver ist der Server. Der mit PHP programmiertes Skript wird zum Webserver geschickt, danach erfolgt die Rückgabe einer HTML-Datei als Antwort zum Webbrowser, der in diesem Fall als Client betrachtet wird. \cite{50_php}
 \subsubsection{Was ist JavaScript?} 
-JavaScript ist eine Programmiersprache, die am meisten zur Erstellung von dynamischen Funktionalitäten bei Webseiten, verwendet wird. Die JavaScript Programmiersprache hat in der Vergangenheit nur eine beschränkte Anzahl von Funktionen angeboten, aber heutzutage bietet sie eine Vielzahl von Einsatzmöglichkeiten. 
+JavaScript ist eine Programmiersprache, die am meisten zur Erstellung von dynamischen Funktionalitäten bei Webseiten, verwendet wird. Die JavaScript Programmiersprache hat in der Vergangenheit nur eine beschränkte Anzahl von Funktionen angeboten, aber heutzutage bietet sie eine Vielzahl von Einsatzmöglichkeiten. \cite{50_javascript}
 \subsubsection{Mögliche Funktionen von JavaScript} 
 „JavaScript wurde entwickelt, um dynamische HTML-Seiten per Webbrowser anzuzeigen. Die Verarbeitung von JavaScript erfolgt meist clientseitig direkt durch den Webbrowser. \\
 Mit Hilfe der Skriptsprache JavaScript lassen sich viele dynamische Funktionen realisieren. Hier sind einige Beispiele für die Verwendung von JavaScript:
@@ -96,10 +98,10 @@ Mit Hilfe der Skriptsprache JavaScript lassen sich viele dynamische Funktionen r
 	\item 	Unterstützung der Eingabe von Daten durch den User
 \end{itemize}
 \begin{itemize}
-	\item Veränderung von Texten oder Grafiken durch den Mauszeiger"
+	\item Veränderung von Texten oder Grafiken durch den Mauszeiger" \cite{50_javascript}
 \end{itemize}
 \subsubsection{Was ist Python?} 
-Python ist eine objektorientierte Programmiersprache, aber kann auch in prozedurale Programmierung verwendet werden. Sie wurde ausschließlich zum Zweck der einfach einprägsamen Syntax entwickelt. Andererseits haben die Entwickler der Systematisierung des Codes große Bedeutung beigemessen. Wegen dieser angewandten Eigenschaften kann Python in die Gruppe der leichten Programmiersprachen aufgenommen werden. Diese Programmiersprache wird viel verwendet, aber was die Anwendungsumgebung besonders erhöht, ist die Möglichkeit andere Module anzuhängen. Es ist auch eine Open Source Software, der von den Programmierern verwendet, verändert, angepasst bzw. bearbeitet werden kann. Es wird meistens für komplexe Aufgaben verwendet werden, deswegen wird es als eine Hochsprache betrachtet.
+Python ist eine objektorientierte Programmiersprache, aber kann auch in prozedurale Programmierung verwendet werden. Sie wurde ausschließlich zum Zweck der einfach einprägsamen Syntax entwickelt. Andererseits haben die Entwickler der Systematisierung des Codes große Bedeutung beigemessen. Wegen dieser angewandten Eigenschaften kann Python in die Gruppe der leichten Programmiersprachen aufgenommen werden. Diese Programmiersprache wird viel verwendet, aber was die Anwendungsumgebung besonders erhöht, ist die Möglichkeit andere Module anzuhängen. Es ist auch eine Open Source Software, der von den Programmierern verwendet, verändert, angepasst bzw. bearbeitet werden kann. Es wird meistens für komplexe Aufgaben verwendet werden, deswegen wird es als eine Hochsprache betrachtet. \cite{50_python}
 \subsubsection{Merkmale von Python} 
 \begin{itemize}
 	\item Einfach einprägsame Syntax
@@ -114,33 +116,33 @@ Python ist eine objektorientierte Programmiersprache, aber kann auch in prozedur
 	\item Hoches Niveau Programmiersprache
 \end{itemize}
 \begin{itemize}
-	\item Leicht veränderbare Programmiersprache
+	\item Leicht veränderbare Programmiersprache\cite{50_python}
 \end{itemize}
 \subsubsection{Was ist HTML?} 
-HTML\footnote{HyperText Markup Language}\nomenclature{HTML}{HyperText Markup Language} ist keine Programmiersprache, die wird für die Erstellung von Inhalten bei Webseiten verwendet. Diese Inhalte können Texte, Bilder oder andere Komponente sein. HTML wird als eine Auszeichnungssprache betrachtet. Sie ist nicht nur für die Erstellung von Webseite-Inhalten zuständig, sondern auch für ihr Design. Diese Sprache liegt mithilfe von bestimmten Tags die Struktur einer Webseite fest. Im Tag werden die Inhalte gespeichert. Es gibt bestimmte Tags für verschiedene Layout-Elemente. %\cite{einstein}
+HTML\footnote{HyperText Markup Language}\nomenclature{HTML}{HyperText Markup Language} ist keine Programmiersprache, die wird für die Erstellung von Inhalten bei Webseiten verwendet. Diese Inhalte können Texte, Bilder oder andere Komponente sein. HTML wird als eine Auszeichnungssprache betrachtet. Sie ist nicht nur für die Erstellung von Webseite-Inhalten zuständig, sondern auch für ihr Design. Diese Sprache liegt mithilfe von bestimmten Tags die Struktur einer Webseite fest. Im Tag werden die Inhalte gespeichert. Es gibt bestimmte Tags für verschiedene Layout-Elemente.\cite{50_html} %\cite{einstein}
 \subsubsection{Was ist CSS?} 
 CSS\footnote{Cascading Style Sheets}\nomenclature{CSS}{Cascading Style Sheets} wird im Zusammenhang mit HTML verwendet. Diese Methode wird unten genauer betrachtet. \\
-„CSS steht für Cascading-Style-Sheets und ist eine Möglichkeit für HTML-Dokumente, den Inhalt einer Seite von den Designanweisungen der einzelnen Elemente, wie zum Beispiel Überschriften, Zitaten) zu entkoppeln.“ 
+„CSS steht für Cascading-Style-Sheets und ist eine Möglichkeit für HTML-Dokumente, den Inhalt einer Seite von den Designanweisungen der einzelnen Elemente, wie zum Beispiel Überschriften, Zitaten) zu entkoppeln.“ \cite{50_css}
 \subsubsection{Was ist Raspberry PI?} 
-Der Raspberry PI ist ein Minirechner, die zur Linux Programmierung, Shell Scripting und Realisierung von technischen Projekten verwendet wird. Es braucht eine Tastatur, eine Maus, ein Netzteil, VGA\footnote{Video Graphics Array}\nomenclature{VGA}{Video Graphics Array} und HDMI\footnote{High-Definition Multimedia Interface}\nomenclature{HDMI}{High-Definition Multimedia Interface}-VGA Konverter, damit es genutzt werden kann. Die Konfiguration von einem Raspberry PI erfolgt durch eine SD-Karte. Diese SD\footnote{Secure Digital Memory Card}\nomenclature{SD}{Secure Digital Memory Card}-Karte beinhaltet das Image, wo das Betriebssystem liegt. Ein Raspberry PI kann in Zusammenhang mit vielen anderen Komponenten verwendet werden. 
+Der Raspberry PI ist ein Minirechner, die zur Linux Programmierung, Shell Scripting und Realisierung von technischen Projekten verwendet wird. Es braucht eine Tastatur, eine Maus, ein Netzteil, VGA\footnote{Video Graphics Array}\nomenclature{VGA}{Video Graphics Array} und HDMI\footnote{High-Definition Multimedia Interface}\nomenclature{HDMI}{High-Definition Multimedia Interface}-VGA Konverter, damit es genutzt werden kann. Die Konfiguration von einem Raspberry PI erfolgt durch eine SD-Karte. Diese SD\footnote{Secure Digital Memory Card}\nomenclature{SD}{Secure Digital Memory Card}-Karte beinhaltet das Image, wo das Betriebssystem liegt. Ein Raspberry PI kann in Zusammenhang mit vielen anderen Komponenten verwendet werden.\cite{50_raspi}
 \subsubsection{Was ist SSL?} 
-SSL steht für Secure Socket Layer und ist für die verschlüsselte Übertragung der Daten vom Browser zum Server verantwortlich. Die Verbindung zwischen dem Server und dem Browser erfolgt durch das HTTPS Protokoll. Das ist ein Kommunikationsprotokoll, das eine verschlüsselte Datenübertragung ermöglicht. Heutzutage wird TLS\footnote{Transport Layer Security}\nomenclature{SD}{Transport Layer Security} am meisten verwendet, der der neueste und modernste Standard von SSL ist.
+SSL steht für Secure Socket Layer und ist für die verschlüsselte Übertragung der Daten vom Browser zum Server verantwortlich. Die Verbindung zwischen dem Server und dem Browser erfolgt durch das HTTPS Protokoll. Das ist ein Kommunikationsprotokoll, das eine verschlüsselte Datenübertragung ermöglicht. Heutzutage wird TLS\footnote{Transport Layer Security}\nomenclature{SD}{Transport Layer Security} am meisten verwendet, der der neueste und modernste Standard von SSL ist.\cite{50_ssl}
 \subsubsection{SSL-Verschlüsselung}
-Um eine verschlüsselte Verbindung zwischen einem Browser und einem Server aufzubauen, werden SSL – Zertifikaten integriert. Mittels ein SSL Zertifikats wird die Authentizität einer Webseite überprüft. Das SSL Zertifikat wird von einer Zertifizierungsstelle, erzeugt. Diese Zertifizierungsstelle heißt CA\footnote{Certificate Authority}\nomenclature{CA}{Certificate Authority} und erfordert einige Daten von dem Antragsteller, die für die Erstellung des Zertifikats notwendig sind. Als nächstes, erzeugt der Antragsteller für die Entschlüsselung und Verschlüsselung der zwischenübertragenen Daten ein öffentlicher, -und ein privater Schlüssel. Je grösser die Lange des Schlüssels ist, desto sicherer und besser ist. Meistens werden Schlüssel mit einer Länge von 256 Bit verwendet.
+Um eine verschlüsselte Verbindung zwischen einem Browser und einem Server aufzubauen, werden SSL – Zertifikaten integriert. Mittels ein SSL Zertifikats wird die Authentizität einer Webseite überprüft. Das SSL Zertifikat wird von einer Zertifizierungsstelle, erzeugt. Diese Zertifizierungsstelle heißt CA\footnote{Certificate Authority}\nomenclature{CA}{Certificate Authority} und erfordert einige Daten von dem Antragsteller, die für die Erstellung des Zertifikats notwendig sind. Als nächstes, erzeugt der Antragsteller für die Entschlüsselung und Verschlüsselung der zwischenübertragenen Daten ein öffentlicher, -und ein privater Schlüssel. Je grösser die Lange des Schlüssels ist, desto sicherer und besser ist. Meistens werden Schlüssel mit einer Länge von 256 Bit verwendet.\cite{50_ssl}
 \subsubsection{Was ist Telegram Bot API?} 
-Telegram Bot API\footnote{Application Programming Interface}\nomenclature{API}{Application Programming Interface} ist eine Schnittstelle, die die Implementierung von Chatbot ermöglicht. Es bietet verschiedene Funktionen an, nämlich die Einrichtung, Erstellung und die Verarbeitung von Bots. Diese Funktionen sind in der eigenen Dokumentation von Telegram Bot API klar beschrieben.  
+Telegram Bot API\footnote{Application Programming Interface}\nomenclature{API}{Application Programming Interface} ist eine Schnittstelle, die die Implementierung von Chatbot ermöglicht. Es bietet verschiedene Funktionen an, nämlich die Einrichtung, Erstellung und die Verarbeitung von Bots. Diese Funktionen sind in der eigenen Dokumentation von Telegram Bot API klar beschrieben. \cite{50_telegram}  
 \subsubsection{Was ist Wetter API?} 
-„Wetter APIs sind Schnittstellen, die die Verbindung zu einer großen Wettervorhersage-Datenbank und die Aufnahme benötigter Daten ermöglichen.“ 
+„Wetter APIs sind Schnittstellen, die die Verbindung zu einer großen Wettervorhersage-Datenbank und die Aufnahme benötigter Daten ermöglichen.“ \cite{50_Wetter}
 \subsubsection{Was ist JSON?} 
-„JSON\footnote{JavaScript Object Notation}\nomenclature{JSON}{Javascript Object Notation} bietet einen einfachen Standard für die strukturierte Kodierung von Daten in Form von menschenlesbarem Text. Dies bietet Vorteile bei einer automatisierten Weiterverarbeitung, macht sie aber auch einer manuellen Inspektion und Überarbeitung besser zugänglich.“ \\
+„JSON\footnote{JavaScript Object Notation}\nomenclature{JSON}{Javascript Object Notation} bietet einen einfachen Standard für die strukturierte Kodierung von Daten in Form von menschenlesbarem Text. Dies bietet Vorteile bei einer automatisierten Weiterverarbeitung, macht sie aber auch einer manuellen Inspektion und Überarbeitung besser zugänglich.“ \\ \cite{50_json}
 \\
 In der untenstehenden Tabelle sind alle Technologien zusammen mit dem Bereich wo sie gehören ersichtlich. 
 \begin{table}[h]
 	\begin{center}
-		\caption{Bereiche und Technologien}
+		
 		\label{tab:Tabelle1}
-		\resizebox{\textwidth}{!}{
-			\begin{tabular}{ | l |l |p{2cm} |} 
+	
+			\begin{tabular}{ | l |l |} 
 				\hline
 				\textbf{Bereich} & \textbf{Technologie}\\ \hline 
 				Datenbank &	Apache HTTP Server, MySQL, PHP \\ \hline
@@ -151,10 +153,12 @@ In der untenstehenden Tabelle sind alle Technologien zusammen mit dem Bereich wo
 				
 				\hline
 				 
-				
-		\end{tabular} }
+		
+		\end{tabular} 
+		\caption{Bereiche und Technologien}
 	\end{center}
 \end{table} 
+
 \section{Technische Lösungen}
 \subsubsection{Structured Software Design}
 \subsubsection{Konfiguration von Raspberry PI Server}
@@ -194,7 +198,7 @@ In der untenstehenden Tabelle sind alle Technologien zusammen mit dem Bereich wo
     \end{itemize}	
 \end{itemize}
 \begin{itemize}
-	\item Basierend auf das ERD Diagramm wurden dann die Tabellen mit phpmyadmin erstellt
+	\item Basierend auf das ER Diagramm wurden dann die Tabellen mit phpmyadmin erstellt
 \end{itemize}
 \begin{itemize}
 	\item Dann sind für alle Tabellen mit MySQL Workbench die entsprechenden gespeicherten Prozeduren erstellt 
@@ -220,7 +224,7 @@ Es wurde ein SSL Zertifikat für den Apache HTTP Server eingerichtet
 	\item Danach wurde der Virtuellhost mit SSL aktiviert. 
 \end{itemize}
 \begin{itemize}
-	\item Es wurde ein System reboot gemacht und der Apache Server noch einmal gestartet
+	\item Es wurde ein System reboot gemacht und der Apache Server noch einmal gestartet \cite{50_SSS}
 \end{itemize}
 \subsubsection{Wetterdaten}
 \begin{itemize}
@@ -240,6 +244,7 @@ Es wurde ein SSL Zertifikat für den Apache HTTP Server eingerichtet
 \end{itemize}
 \subsubsection{Anzeige}	
 \subsubsection{Chatbot}
+In diesem Unterkapitel wird der Chatbot erklärt und dessen Umsetzung auch.
 \subsubsection{Chatbot Einrichtung:}
 \begin{itemize}
 	\item Zuerst wurde die Telegram Applikation auf dem Handy heruntergeladen
@@ -260,7 +265,7 @@ Es wurde ein SSL Zertifikat für den Apache HTTP Server eingerichtet
 	\item Nach der Durchführung von diesen Schritten, ist der Bot fertig erstellt geworden. Es könnte dann mit dem angegebenen Benutzernamen durchgesucht werden und der entsprechende Chat damit geöffnet werden. 
 \end{itemize}
 \subsubsection{Einrichtung des Chatbots in RaspberryPI}
-Die Entwicklung und die Programmierung von Chatbot wurde im RaspberryPI Server gemacht. Damit der RaspberryPI mit dem Telegram Bot API verbunden werden kann, sollten im Raspberry PI zwei Paketen installiert werden. Diese Paketen sind telepot und python-pip. Telepot ist die Pakete, die die Verbindung zum Telegram Bot API erstellt und mit einem Python-Framework funktioniert.
+Die Entwicklung und die Programmierung von Chatbot wurde im RaspberryPI Server gemacht. Damit der RaspberryPI mit dem Telegram Bot API verbunden werden kann, sollten im Raspberry PI zwei Paketen installiert werden. Diese Paketen sind telepot und python-pip. Telepot ist die Pakete, die die Verbindung zum Telegram Bot API erstellt und mit einem Python-Framework funktioniert.\cite{50_telegram}
 \subsubsection{Grundlagen für die Umsetzung}
 \begin{itemize}
 	\item Zuerst wurde ein Python Skript erstellt.
