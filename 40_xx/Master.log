@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.18)  13 DEC 2019 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.18)  13 DEC 2019 23:29
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1020,11 +1020,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count424
 \@quotereset=\count425
-(Master.aux
-
-LaTeX Warning: Label `tab:Tabelle1' multiply defined.
-
-)
+(Master.aux)
 \openout1 = `Master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -1095,14 +1091,6 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-
-Package biblatex Warning: citation 'einstein' was not found at all in the .bbl,
- bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'knuthwebsite' was not found at all in the .
-bbl, bibliography labels cannot be generated, please correct the citation.
-
 Package biblatex Info: Reference section=0 on input line 60.
 Package biblatex Info: Reference segment=0 on input line 60.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1333,107 +1321,106 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 61.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 75.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 76.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [4]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8
-3.
+2.
  ("C:\Users\USER\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 105.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 107.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [5]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 128.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 129.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [6]
-Overfull \hbox (17.52914pt too wide) in paragraph at lines 133--134
+Overfull \hbox (17.52914pt too wide) in paragraph at lines 132--133
 \OT1/cmr/m/n/12 Telegram Bot API[][][][] ist ei-ne Schnitt-stel-le, die die Im-
 ple-men-tie-rung von Chat-bot erm[]oglicht.
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--168
+
+ []
+
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 161.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 168.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 163--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--169
-
- []
-
 
 Package caption Warning: \captionsetup{type=...}
-(caption)                outside box or environment on input line 171.
+(caption)                outside box or environment on input line 170.
 See the caption package documentation for explanation.
 
-<./../40_xx/figures/server.png, id=274, 1258.7025pt x 1152.305pt>
+<./../40_xx/figures/server.png, id=277, 1258.7025pt x 1152.305pt>
 File: ./../40_xx/figures/server.png Graphic file (type png)
 <use ./../40_xx/figures/server.png>
-Package pdftex.def Info: ./../40_xx/figures/server.png  used on input line 172.
+Package pdftex.def Info: ./../40_xx/figures/server.png  used on input line 171.
 
 (pdftex.def)             Requested size: 441.01773pt x 403.73477pt.
 
-Underfull \hbox (badness 6542) in paragraph at lines 170--173
+Underfull \hbox (badness 6542) in paragraph at lines 169--172
 []\OT1/cmr/m/n/12 Am En-de er-folgt ei-ne An-fra-ge von dem Raspber-ryPI Ser-ve
 r. Er er-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--173
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 \OT1/cmr/m/n/12 for-dert die ge-sam-mel-ten Da-ten al-ler Kom-po-nen-ten. Sie w
 er-den zu-erst
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--173
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 \OT1/cmr/m/n/12 va-li-diert dann von Log ge-nom-men und da-nach zum Ser-ver ge-
 schickt.
  []
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 173.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 172.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [8]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 193.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 196.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [9 <./../40_xx/figures/server.png>]
-<./../40_xx/figures/erd_irena.png, id=294, 1061.9675pt x 453.695pt>
+<./../40_xx/figures/erd_irena.png, id=295, 1061.9675pt x 453.695pt>
 File: ./../40_xx/figures/erd_irena.png Graphic file (type png)
 <use ./../40_xx/figures/erd_irena.png>
 Package pdftex.def Info: ./../40_xx/figures/erd_irena.png  used on input line 2
-25.
+24.
 (pdftex.def)             Requested size: 441.01773pt x 188.41145pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 232.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 238.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [10 <./../40_xx/figures/erd_irena.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
@@ -1441,40 +1428,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--255
 File: ./../40_xx/figures/weather.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/weather.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/weather.jpeg  used on input line 27
-3.
+2.
 (pdftex.def)             Requested size: 441.01773pt x 219.6948pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 274.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 273.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [11]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 300.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 299.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [12 <./../40_xx/figures/weather.jpeg>]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 325.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 324.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [13]
-Underfull \hbox (badness 10000) in paragraph at lines 327--329
+Underfull \hbox (badness 10000) in paragraph at lines 326--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 358.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 349.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [14]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 408.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 403.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [15]
 <./../40_xx/figures/chatbotbild88.jpg, id=381, 936.49875pt x 216.81pt>
@@ -1485,64 +1472,64 @@ ne 440.
 (pdftex.def)             Requested size: 441.01773pt x 102.10251pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 445.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 441.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [16 <./../40_xx/figures/chatbotbild88.jpg>]
-<./../40_xx/figures/chatbotbild9.jpeg, id=408, 1246.6575pt x 251.94125pt>
+ [16]
+<./../40_xx/figures/chatbotbild9.jpeg, id=407, 1246.6575pt x 251.94125pt>
 File: ./../40_xx/figures/chatbotbild9.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbild9.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbild9.jpeg  used on input li
 ne 447.
 (pdftex.def)             Requested size: 441.01773pt x 89.12645pt.
-<./../40_xx/figures/chatbotbild11.jpeg, id=409, 1246.6575pt x 281.05pt>
+<./../40_xx/figures/chatbotbild11.jpeg, id=408, 1246.6575pt x 281.05pt>
 File: ./../40_xx/figures/chatbotbild11.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbild11.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbild11.jpeg  used on input l
 ine 454.
 (pdftex.def)             Requested size: 441.01773pt x 99.42392pt.
-<./../40_xx/figures/chatbotbild.jpeg, id=410, 1246.6575pt x 460.72125pt>
+<./../40_xx/figures/chatbotbild.jpeg, id=409, 1246.6575pt x 460.72125pt>
 File: ./../40_xx/figures/chatbotbild.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbild.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbild.jpeg  used on input lin
 e 464.
 (pdftex.def)             Requested size: 441.01773pt x 162.98424pt.
-<./../40_xx/figures/chatbotbild54.jpg, id=411, 934.99312pt x 493.0922pt>
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 465.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [17 <./../40_xx/figures/chatbotbild88.jpg> <./../40_xx/figures/chatbotbild9.jp
+eg> <./../40_xx/figures/chatbotbild11.jpeg>]
+<./../40_xx/figures/chatbotbild54.jpg, id=420, 934.99312pt x 493.0922pt>
 File: ./../40_xx/figures/chatbotbild54.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbild54.jpg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbild54.jpg  used on input li
 ne 471.
 (pdftex.def)             Requested size: 441.01773pt x 232.581pt.
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 472.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [17 <./../40_xx/figures/chatbotbild9.jpeg> <./../40_xx/figures/chatbotbild11.j
-peg> <./../40_xx/figures/chatbotbild.jpeg>]
-<./../40_xx/figures/chatbotbild5.jpeg, id=422, 1246.6575pt x 355.3275pt>
+<./../40_xx/figures/chatbotbild5.jpeg, id=421, 1246.6575pt x 355.3275pt>
 File: ./../40_xx/figures/chatbotbild5.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbild5.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbild5.jpeg  used on input li
 ne 478.
 (pdftex.def)             Requested size: 441.01773pt x 125.70026pt.
-<./../40_xx/figures/chatbotbild6.jpeg, id=423, 1246.6575pt x 394.47375pt>
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 479.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [18 <./../40_xx/figures/chatbotbild.jpeg> <./../40_xx/figures/chatbotbild54.jp
+g> <./../40_xx/figures/chatbotbild5.jpeg>]
+<./../40_xx/figures/chatbotbild6.jpeg, id=430, 1246.6575pt x 394.47375pt>
 File: ./../40_xx/figures/chatbotbild6.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbild6.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbild6.jpeg  used on input li
 ne 485.
 (pdftex.def)             Requested size: 441.01773pt x 139.54858pt.
-File: ./figures/Header_Seite.png Graphic file (type png)
-<use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 490.
-(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [18 <./../40_xx/figures/chatbotbild54.jpg> <./../40_xx/figures/chatbotbild5.jp
-eg> <./../40_xx/figures/chatbotbild6.jpeg>]
-<./../40_xx/figures/chatbotbild4.jpeg, id=432, 1246.6575pt x 591.20876pt>
+<./../40_xx/figures/chatbotbild4.jpeg, id=431, 1246.6575pt x 591.20876pt>
 File: ./../40_xx/figures/chatbotbild4.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbild4.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbild4.jpeg  used on input li
 ne 492.
 (pdftex.def)             Requested size: 441.01773pt x 209.14536pt.
-<./../40_xx/figures/chatbotbild7.jpeg, id=433, 1246.6575pt x 537.00626pt>
+<./../40_xx/figures/chatbotbild7.jpeg, id=432, 1246.6575pt x 537.00626pt>
 File: ./../40_xx/figures/chatbotbild7.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbild7.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbild7.jpeg  used on input li
@@ -1550,11 +1537,11 @@ ne 499.
 (pdftex.def)             Requested size: 441.01773pt x 189.97073pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 505.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 500.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [19 <./../40_xx/figures/chatbotbild4.jpeg> <./../40_xx/figures/chatbotbild7.jp
+ [19 <./../40_xx/figures/chatbotbild6.jpeg> <./../40_xx/figures/chatbotbild4.jp
 eg>]
-<./../40_xx/figures/catboti.jpg, id=441, 461.47406pt x 135.50626pt>
+<./../40_xx/figures/catboti.jpg, id=440, 461.47406pt x 135.50626pt>
 File: ./../40_xx/figures/catboti.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/catboti.jpg>
 Package pdftex.def Info: ./../40_xx/figures/catboti.jpg  used on input line 507
@@ -1567,17 +1554,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 510--510
 
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 525.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 516.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-[20 <./../40_xx/figures/catboti.jpg>]
+[20 <./../40_xx/figures/chatbotbild7.jpeg> <./../40_xx/figures/catboti.jpg>]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 553.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 536.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [21]
+
+[21]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 588.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 570.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [22]
 Underfull \hbox (badness 10000) in paragraph at lines 597--600
@@ -1589,23 +1577,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 602--603
 
  []
 
-) (_Doc_App.tex)
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 604.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+[23]) (_Doc_App.tex)
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 107.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [23] (Master.lof)
+ [24] (Master.lof)
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
- [24
+ [25
 
 
 ] (Master.lot)
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [25
+ [26
 
 ]
 
@@ -1638,7 +1630,7 @@ LaTeX Warning: Empty bibliography on input line 120.
 
 
 AED: lastpage setting LastPage
-[26
+[27
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
@@ -1652,21 +1644,18 @@ Package rerunfilecheck Info: File `Master.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'Master.run.xml'.
 \openout1 = `Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32483 strings out of 492452
- 606116 string characters out of 3120530
- 1219929 words of memory out of 3000000
- 36297 multiletter control sequences out of 15000+200000
+ 32485 strings out of 492452
+ 606137 string characters out of 3120530
+ 1234920 words of memory out of 3000000
+ 36298 multiletter control sequences out of 15000+200000
  541448 words of font info for 57 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 59i,17n,122p,910b,3349s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,17n,122p,910b,2302s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fon
@@ -1681,9 +1670,9 @@ c/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/USER/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Master.pdf (28 pages, 1500363 bytes).
+Output written on Master.pdf (29 pages, 1501179 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 194 named destinations out of 1000 (max. 500000)
+ 604 PDF objects out of 1000 (max. 8388607)
+ 195 named destinations out of 1000 (max. 500000)
  300 words of extra memory for PDF output out of 10000 (max. 10000000)
 

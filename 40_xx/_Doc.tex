@@ -9,7 +9,7 @@ Dies war eine allgemeine Beschreibung von den bis jetzige erreichte Ergebnisse. 
 \subsection{Chatbot} 
 In diesem Unterkapitel wird eine Einführung in Chatbot gemacht und dessen Umsetzung erklärt.
 \subsubsection{Einführung in Chatbot}
-Chatbot ist ein sehr wichtiger Komponent von der künstlichen Intelligenz. Es bietet eine Kommunikationsschnittstelle zwischen Menschen und technischen Systeme. Chatbot empfängt Anweisungen in Textform von den Menschen und überträgt diese so, dass die Systeme diesen Anweisungen entsprechen. Basierend auf was Chatbots anbieten, werden als sehr schlaue Komponente angesehen, die immer mehr implementiert werden.\cite{einstein,knuthwebsite}
+Chatbot ist ein sehr wichtiger Komponent von der künstlichen Intelligenz. Es bietet eine Kommunikationsschnittstelle zwischen Menschen und technischen Systeme. Chatbot empfängt Anweisungen in Textform von den Menschen und überträgt diese so, dass die Systeme diesen Anweisungen entsprechen. Basierend auf was Chatbots anbieten, werden als sehr schlaue Komponente angesehen, die immer mehr implementiert werden.
 \subsubsection{Umsetzung von Chatbot}
 Chatbot wurde bei dieser Diplomarbeit so implementiert, dass es den Schülern die Möglichkeit gibt, aufgenommene Bilder zum Chatbot zu schicken und dann diese Bilder werden automatisch auf dem Bildschirm angezeigt. Das ist auch die wesentliche Funktionalität von Chatbot bei diesem Projekt. \\
 Um den Chatbot zu implementieren, haben viele kleine Prozesse stattgefunden, die als weitere oder zusätzliche Funktionen angesehen werden können.\\
@@ -61,7 +61,6 @@ Der Apache HTTP Server bietet viele Funktionalitäten an, die seine Entwicklungs
 \subsubsection{Funktionsweise von Apache HTTP Server} 
 „Obwohl Apache als Webserver bezeichnet wird, handelt es sich nicht um einen physischen Server. Apache ist eine Software, die auf einem Server ausgeführt wird. Seine Aufgabe ist es, eine Verbindung zwischen einem physischen Server mit den gespeicherten Webseiten und den Browsern der Internetuser herzustellen. \\
 Wenn ein User eine URL in seinen Webbrowser eingibt, sendet der Browser eine HTTP oder HTTPS \footnote{Hypertext Transfer Protocol Secure}\nomenclature{HTTPS}{Hypertext Transfer Protocol Secure} Anforderung an den Server, auf dem die Webseite gespeichert ist.“ \cite{50_apache} \\
-\\
 
 \subsubsection{Was ist MySQL?} 
 MySQL ist ein weitverbreitetes relationales Datenbanksystem. Die Datenbanksysteme werden allgemein zur Datenspeicherung und Datenverwaltung verwendet. Ein wichtiges Kriterium für die Datenspeicherung ist die Performanz. Diese Anforderung wird durch MySQL optimal erfüllt. Das ist auch der Grund, warum dieses Datenbanksystem so populär und bekannt ist. Die von MySQL für die Abarbeitung, Verwaltung und Systematisierung von Daten verwendete Sprache ist SQL\footnote{Structured Query Languague}\nomenclature{SQL}{Structured Query Language}. MySQL ist auch eine Open Source Software,
@@ -140,7 +139,7 @@ In der untenstehenden Tabelle sind alle Technologien zusammen mit dem Bereich wo
 \begin{table}[h]
 	\begin{center}
 		
-		\label{tab:Tabelle1}
+		\label{tab:Tabelle2}
 	
 			\begin{tabular}{ | l |l |} 
 				\hline
@@ -340,13 +339,14 @@ count=curs.execute(query)
 if count > 0:
 	user=curs.fetchone()
 \end{lstlisting}
-\captionof{lstlisting}{Chatbot 1}
+\captionof{lstlisting}{Select Query für die registrierten Benutzer in die Datenbank}
 \begin{itemize}
 	\item Falls diese Person registriert ist, wird überprüft ob er ein Administrator oder ein normaler Benutzer ist. Falls er ein Administrator ist, werden die Nachrichten, die er zum Chatbot sendet analysiert und die entsprechenden Ergebnisse zurückgeschickt. 
 \end{itemize}	
 \begin{itemize}
 	\item Wenn der Administrator /users zum Bot schreibt, bedeutet dass er die normalen Benutzer sehen will. Es wird ein Query geschrieben, die diese Benutzer aus der Datenbank selektiert. An dem Administrator wird nur die ID des Benutzers geschickt.
 \end{itemize}
+\newpage
 \begin{lstlisting}[frame=single]
 if command == '/users/:
 	curs.execute('Select c_id, role, user_status from 
@@ -355,7 +355,7 @@ if command == '/users/:
 	for users in variable1:
 		bot.sendMessage(chat_id, users[1])
 \end{lstlisting}
-\captionof{lstlisting}{Chatbot 2}
+\captionof{lstlisting}{Darstellung der registrierten Benutzer}
 \begin{itemize}
 	\item Wenn der Administrator /SeeUnregisteredUsers zum Chatbot schreibt, bedeutet dass er die unregistrierten Benutzer sehen will. Ihm werden dann die ID und die Telefonnummer von diesen Benutzer zurueckgeschickt. 
 \end{itemize}
@@ -371,7 +371,7 @@ if command == '/see_unregistered_users':
 		" "+str(user[1])+"\n")
 		bot.sendMessage(chat_id,users)
 \end{lstlisting}
-\captionof{lstlisting}{Chatbot 3}
+\captionof{lstlisting}{Darstellung der unregistrierten Benutzer}
 \begin{itemize}
 	\item Wenn der Administrator /DoNotAccept und eine bestimmte Chat ID zum Chatbot schreibt, bedeutet, dass der einen unregistrierten Benutzer nicht genehmigen will. 
 \end{itemize}	
@@ -384,7 +384,7 @@ if DoNotAccept[0] == '/DoNotAccept':
 	curs.execute(confirmationquery)
 	conn.commit()
 \end{lstlisting}
-\captionof{lstlisting}{Chatbot 3}
+\captionof{lstlisting}{Genehmigungen für die neue Registrierungen}
 \begin{itemize}
 	\item Der Administrator kann bestimmte Benutzer blockieren, wenn er ‘/Block’ und eine bestimmte Chat ID zum Chatbot schreibt. 
 \end{itemize}
@@ -396,7 +396,7 @@ if block[0] == '/block':
 	curs.execute(updatequery)
 	conn.commit()
 \end{lstlisting}
-\captionof{lstlisting}{Chatbot 4}
+\captionof{lstlisting}{Blockierung der Benutzer}
 
 \begin{itemize}
 	\item Falls ein normaler Benutzer die oberen Befehle probiert, wird der Chatbot ihn eine Nachricht zurückschicken, dass er nicht der Administrator ist.
@@ -418,7 +418,7 @@ if count1 > 0:
 	bot.sendMessage(from_id, text="Please write your 
 	phone number below")
 \end{lstlisting}
-\captionof{lstlisting}{Chatbot 5}
+\captionof{lstlisting}{Überprüfung der Eingabe der Benutzer}
 \begin{itemize}
 	\item Danach erfolgt die Überprüfung ob die Telefonnummer richtig eingegeben ist oder nicht. Falls ja, wird diese Person in die Datenbank hinzugefügt. Der wartet aber auf die Genehmigung des Administrators.
 \end{itemize}
@@ -430,7 +430,7 @@ execute=(chat_id,1,555,reply,0)
 curs.execute(query3,execute)
 conn.commit()
 \end{lstlisting}
-\captionof{lstlisting}{Chatbot 6} 
+\captionof{lstlisting}{Genehmigung des Administrators} 
 \subsection{Konkrete Beispiele mit Bildern} 
 In den folgenden Bildern werden die Funktionalitäten des Administrators beim Chatbot dargestellt.
 \begin{itemize}
