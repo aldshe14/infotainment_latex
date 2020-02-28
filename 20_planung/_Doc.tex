@@ -126,7 +126,7 @@ Die Arbeitspakete sind die Hauptelemente eines Projekts, die ein definiertes Erg
 	Arbeitspaket AP 2.2: DB Entwurf                                          & Verantwortung: Aldo                                                                                                                                                                                              \\ \hline
 	Beginn: 14/10/2019 \par{}Ende: 18/10/2019 \par{}Mitarbeit: Aldo         &  Beschreibung: \par{}- Konzeptueller Entwurf \par{}- Implementationsentwurf \par{}- Physischer Entwurf                                                                                                           \\ \hline
 	Arbeitspaket AP 2.3: DB-Design                                           & Verantwortung: Irena                                                                                                                                                                                             \\ \hline
-	Beginn: 22/10/2019 \par{}Ende: 26/10/2019 \par{}Mitarbeit: Aldo, Irena  &  Beschreibung: Entwurf der Tabellen für: \par{}- Administrator \par{}- Bilder \par{}- Klassenplan \par{}- Lehrerplan \par{}- Supplierplan \par{}- Stundenplan \par{}- Lehrer \par{}~- Wetter                     \\ \hline
+	Beginn: 22/10/2019 \par{}Ende: 26/10/2019 \par{}Mitarbeit: Aldo, Irena  &  Beschreibung: Entwurf der Tabellen für: \par{}- Administrator \par{}- Bilder \par{}- Klassenplan \par{}- Lehrerplan \par{}- Supplierplan \par{}- Stundenplan \par{}- Lehrer \par{}- Wetter                     \\ \hline
 	Arbeitspaket AP 2.4: API Integration                                     & Verantwortung: Aldo                                                                                                                                                                                              \\ \hline
 	Beginn: 10/12/2019 \par{}Ende: 13/12/2019 \par{}Mitarbeit: Aldo         &  Beschreibung: \par{}- API Dokumentation lesen \par{}- API Funktionalität anschauen \par{}- API als Schnittstelle verwenden\par{}- Daten aus vorhandenen und älteren Datenquellen durch API bekommen             \\ \hline
 	Arbeitspaket AP 2.5: Test Daten                                          & Verantwortung: Aldo                                                                                                                                                                                              \\ \hline
@@ -136,7 +136,7 @@ Die Arbeitspakete sind die Hauptelemente eines Projekts, die ein definiertes Erg
 	Arbeitspaket AP 3.2: Logo                                                & Verantwortung: Aldo                                                                                                                                                                                              \\ \hline
 	Beginn: 09/10/2019 \par{}Ende: 13/10/2019 \par{}Mitarbeit: Aldo         &  Beschreibung: \par{}- Wortmarke finden \par{}- Symbol Marke finden \par{}- Kombination (Wort und Symbol) auswählen \par{}- Entwicklung \par{}- Entwurf \par{}- Digitalisierung                                  \\ \hline
 	Arbeitspaket AP 3.3: SSL Zertifikate                                     & Verantwortung: Irena                                                                                                                                                                                             \\ \hline
-	Beginn: 11/12/2019 \par{}Ende: 13/12/2019 \par{}Mitarbeit: Irena        &  Beschreibung: \par{}- SSL Zertifikate Keys anlegen \par{}- SSL Zertifikate einrichten \par{}- HTTPS verwenden                                                                                                   \\ \hline
+	Beginn: 11/12/2019 \par{}Ende: 13/12/2019 \par{}Mitarbeit: Irena        &  Beschreibung: \par{}- SSL Zertifikat Keys anlegen \par{}- SSL Zertifikat einrichten \par{}- HTTPS verwenden                                                                                                   \\ \hline
 	Arbeitspaket AP 3.4: Layout                                              & Verantwortung: Irena                                                                                                                                                                                             \\ \hline
 	Beginn: 16/12/2019\par{}Ende: 22/12/2019 \par{}Mitarbeit: Aldo, Irena   &  Beschreibung: \par{}- Bootstrap \par{}- Responsives \par{}- Webdesign \par{}- Navigationsleiste \par{}- Bilder \par{}- Typographie                                                                              \\ \hline
 	Arbeitspaket AP 3.5: Wetterdaten                                         & Verantwortung: Irena                                                                                                                                                                                             \\ \hline
@@ -164,35 +164,39 @@ Die Arbeitspakete sind die Hauptelemente eines Projekts, die ein definiertes Erg
 \subsection{Structed Design}
 Structed Design ist eine systematische Methode, die verwendet wird, um eine Software so gut wie m\"{o}glich zu beschreiben. Mit dieser Methode wird das Architekturdesign, die flie\ss{}enden Daten und Signale, sowie alle Schnittstellen sehr leicht und deutlich beschrieben. Ein weiterer Vorteil dieser Methode ist, dass es sehr leicht zu verstehen ist. In diesem Projekt wurde Structed Design verwendet, aufgrund der guten M\"{o}glichkeit, dass sie bietet, Iterationen zu verwenden und tiefer in die wichtigsten Ebenen der Arbeit zu gehen. 
 
-\label{fi:sd-client }
+
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.45]{\ordnerfigures
 		client.png}
 	\caption{Structed Design - Client}
+	\label{fi:sd-client}
 \end{figure}
 
-\label{fi:sd-server }
+
 
 \begin{figure}[h]
+	
 	\centering
 	\includegraphics[scale=0.35]{\ordnerfigures
 		server.png}
 	\caption{Structed Design - Server}
+	\label{fi:sd-server}
 \end{figure}
 
 
-.\subsection{Wasserfall}
-Das Wasserfall Modell(Abbildung \ref{fi:wasserfall }) ist die zweite Projektmanagement Methode, die von uns gew\"{a}hlt wurde. Diese Methode teilt die wichtigsten Prozesse und Phasen des Projekts so, dass sie sequenziell nacheinander bearbeitet werden und dass jede Phase von der vorherigen Phase abh\"{a}ngig ist. Die wichtigsten Schritte eines Wasserfallmodells sind: Anforderung, Analyse, Entwurf, Realisierung, Test, Systemintegration und Systemabnahme. Das Projekt geht durch diese sieben Schritte bzw. Phasen sequentiell durch, bis die Arbeit abgeschlossen ist. Der Name dieses Modells leitet sich aufgrund des Flie\ss{}ens des Projektes durch alle Phasen ab.  Das Modell wird sehr gerne bei der Erstellung von Webseiten oder bei Entwurf von Datenbanken angewendet. Obwohl diese Methode sehr langwierig sein kann und nicht sehr flexibel ist (Fehlerkorrektur), erm\"{o}glicht es eine sehr klare und leichte Planung und Organisation der Arbeit, sowie eine gute Zielabgrenzung und Aufwandsabsch\"{a}tzung.Die oben genannten Merkmale sind der Grund, warum diese Methode f\"{u}r dieses Projekt ausgew\"{a}hlt wurde. 
+\subsection{Wasserfall}
+Das Wasserfall Modell(Abbildung \ref{fi:wasserfall}) ist die zweite Projektmanagement Methode, die von uns gew\"{a}hlt wurde. Diese Methode teilt die wichtigsten Prozesse und Phasen des Projekts so, dass sie sequenziell nacheinander bearbeitet werden und dass jede Phase von der vorherigen Phase abh\"{a}ngig ist. Die wichtigsten Schritte eines Wasserfallmodells sind: Anforderung, Analyse, Entwurf, Realisierung, Test, Systemintegration und Systemabnahme. Das Projekt geht durch diese sieben Schritte bzw. Phasen sequentiell durch, bis die Arbeit abgeschlossen ist. Der Name dieses Modells leitet sich aufgrund des Flie\ss{}ens des Projektes durch alle Phasen ab.  Das Modell wird sehr gerne bei der Erstellung von Webseiten oder bei Entwurf von Datenbanken angewendet. Obwohl diese Methode sehr langwierig sein kann und nicht sehr flexibel ist (Fehlerkorrektur), erm\"{o}glicht es eine sehr klare und leichte Planung und Organisation der Arbeit, sowie eine gute Zielabgrenzung und Aufwandsabsch\"{a}tzung.Die oben genannten Merkmale sind der Grund, warum diese Methode f\"{u}r dieses Projekt ausgew\"{a}hlt wurde. 
 
-\label{fi:wasserfall }
+
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=2.2]{\ordnerfigures
 		wasserfall.jpg}
 	\caption{Wasserfallmodell}
+	\label{fi:wasserfall}
 \end{figure}
 
 
