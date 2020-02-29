@@ -121,6 +121,13 @@ Das Apache HTTP Server-Projekt ist ein Versuch, einen Open-Source-HTTP-Server f\
 Mithilfe von Structed Design wurde die Planung der Client gemacht. Diese Structed Design ist auf der Abbildung \ref{fi:structed_design_client} dargestellt. 
 Dieser Teil ist verantwortlich f\"{u}r die automatische Darstellung der Informationen auf der Anzeige. Der Client kommuniziert mit der Datenbank, die am Server liegt und von dem die Daten geholt werden. Die wichtigste Funktionsbl\"{o}cke dieser Structed Design sind Zeitsteuerung, Anzeige Prepare und das Log, die in den folgenden Unterkapitel weiter erkl\"{a}rt werden.
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{\ordnerfigures client.png}
+	\caption{Structed Software Design für den Client}
+	\label{fi:structed_design_client}
+\end{figure}
+
 \subsection{Start}
 Beim Hochfahren des Systems am Client wird ein Signal geschickt um das Programm zu starten. Dieses Signal wird mit Init bezeichnet. Dieser Funktionsblock wird dann die Grundinitialisierung machen. Es wird versucht eine Verbindung mit der Datenbank aufzubauen. In der Datenbank wird geschaut ob diese Anzeige schon registriert ist. Falls das nicht der Fall ist, wird diese Anzeige registriert und die Anzeige kann die Daten bekommen. Start schickt auch ein Signal an der Zeitsteuerung, damit er zu arbeiten beginnen kann. Sobald diese Schritte abgeschlossen sind, ist der Startblock fertig und das Programm l\"{a}uft weiter.
 
@@ -130,12 +137,7 @@ Die Zeitsteuerung wird gestartet, wenn das Signal vom Start gekommen ist. Nachde
 \subsection{Daten holen}
 Daten holen, wie der Name schon sagt, beschäftigt sich mit dem Erhalt der Datensätze aus der Datenbank. Es werden die Queries aufgebaut, um die gewünschten Daten zu bekommen. Diese Query werden weiter zu den Daten, die auf dem Server liegen, weitergeleitet. Die Response wird auch von diesem Teil behandelt. Die Daten werden in den richtigen Format umgewandelt und weitergeleitet.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.9\textwidth]{\ordnerfigures client.png}
-	\caption{Structed Software Design für den Client}
-	\label{fi:structed_design_client}
-\end{figure}
+
 
 \subsection{Buffer}
 Die Aufgabe dieses Teils, ist es zu schauen, ob die Daten, die er von dem vorherigen Block bekommen hat, in die lokale Datenbank gespeichert sind. Wenn diese Daten neu und nicht verhanden sind, werden sie gespeichert. Ansonsten werden sie zu dem Block Anzeige Prepare geschickt.
@@ -150,7 +152,7 @@ In Log werden alle Ereignisse, die in alle Blöcke, die vorher erwähnt wurden, 
 Wie jede Website benötigt auch das InfotainmentSystem eine Datenbank, in der die Daten gespeichert und gesichert werden können. Die Datenbank besteht aus Entitäten, Beziehungen und Attributen. Eine Datenbank ist ein elektronisches Verwaltungssystem, das besonders bei großen Datenmengen effizient, widerspruchsfrei und dauerhaft umgehen und logische Zusammenhänge digital abbilden können muss. Diese Informationen sind in Zeilen, Spalten und Tabellen organisiert und werden indiziert, um das finden relevanter Informationen zu erleichtern.
 
 \subsection{ER Diagramm}
-Zuerst wurde ein ER-Diagramm\footnote{Entity Relationship Diagram} (Abbildung \ref{fi:erd}) für die Datenbank erstellt. Das ER-Modell bedeutet Entity-Relationship-Modell. Bevor die Datenbank erstellt wird, muss sie zuerst konzipiert werden. Zu diesem Punkt gehört die Erstellung eines ER- Diagrammes. Um ein ER-Diagramm zu erstellen, braucht man die Hilfe von MYSQL- Workbench. Dazu werden alle Entitäten mit ihren dazugehörigen Attributen und Relationen zwischen einander detaliert geschrieben. Es besteht aus einer Grafik und einer Beschreibung der darin verwendeten Elemente, wobei deren Bedeutung und ihre Struktur dargestellt wird. Grundlage der Entity-Relationship Modelle ist die Typisierung von Objekten, ihrer Beziehungen untereinander und der über sie zuführenden Informationen beziehungsweise Attribute. Hier in dieser Diplomarbeit werden alle Tabellen, die wir für die Datenbank benötigen, gezeigt. Von diesem ER-Diagramm wurde ein SQL-Skript erstellt und im Raspberry Pi ausgeführt.
+Zuerst wurde ein ER-Diagramm\footnote{Entity Relationship Diagram} (Abbildung \ref{fi:erd}) für die Datenbank erstellt. Das ER-Modell bedeutet Entity-Relationship-Modell. Bevor die Datenbank erstellt wird, muss sie zuerst konzipiert werden. Zu diesem Punkt gehört die Erstellung eines ER-Diagrammes. Um ein ER-Diagramm zu erstellen, braucht man die Hilfe von MYSQL- Workbench. Dazu werden alle Entitäten mit ihren dazugehörigen Attributen und Relationen zwischen einander detaliert geschrieben. Es besteht aus einer Grafik und einer Beschreibung der darin verwendeten Elemente, wobei deren Bedeutung und ihre Struktur dargestellt wird. Grundlage der Entity-Relationship Modelle ist die Typisierung von Objekten, ihrer Beziehungen untereinander und der über sie zuführenden Informationen beziehungsweise Attribute. Hier in dieser Diplomarbeit werden alle Tabellen, die wir für die Datenbank benötigen, gezeigt. Von diesem ER-Diagramm wurde ein SQL-Skript erstellt und im RaspberryPi ausgeführt.
 
 \begin{figure}[H]
 	\centering
@@ -167,7 +169,7 @@ Diese Webseite wurde so konzipiert, dass der Benutzer, der das verwenden wird, d
 Wie dargestellt, \"{a}ndert sich der Inhalt dieser Webseite  st\"{a}ndig und deshalb ist unsere Webseite, eine dynamische Webseite, die mit PHP und MySQL erstellt wird. F\"{u}r die Darstellung und das Design wurde Bootstrap verwendet. Um die Tabellen am besten darzustellen wurde auch Datables, ein JavaScript Plugin, verwendet. Regex wurde verwendet um die Validierung von unterschiedlichen Inputs der User zu \"{u}berpr\"{u}fen und sicherstellen, dass diese richtig ist.
 
 
-Damit nicht jeder diese Inhalten \"{a}ndern und l\"{o}schen kann, ist diese Webseite auch mit einen Login Bereich gesch\"{u}tzt. Nur bestimmte Personen, abh\"{a}ngig von ihren Rechten, k\"{o}nnen dann die zugeh\"{o}rigen \"{A}nderungen machen. Falls ein Benutzer das Passwort vergisst, hat er die M\"{o}glichkeit das Passwort zur\"{u}ckzusetzen und wartet bis der Admin das best\"{a}tigt hat.
+Damit nicht jeder diese Inhalten \"{a}ndern und l\"{o}schen kann, ist diese Webseite auch mit einen Login Bereich gesch\"{u}tzt. Nur bestimmte Personen, abh\"{a}ngig von ihren Rechten, k\"{o}nnen dann die zugeh\"{o}rigen \"{A}nderungen machen. Falls ein Benutzer das Passwort vergisst, hat er die M\"{o}glichkeit das Passwort zur\"{u}ckzusetzen.
 
 
 Der Zugriff auf dieser Webseite ist \"uber jedes Ger\"{a}t und von jedem Ort aus m\"{o}glich. Um diese Webseite anzuschauen ist nur eine Internetverbindung notwendig.
@@ -183,13 +185,23 @@ Damit nicht alle unsere Webseite verwenden können, müssen die Benutzer sich au
 \end{figure}
 
 \subsection{Passwort zurücksetzen}
-Ab und zu passiert es, dass die Benutzer das Passwort vergessen, egal aus welchen Gründen. So muss diese Webseite die Möglichkeit anbieten das Passwort zurückzusetzen .Das ist in Abbildung \ref{fi:reset} dargestellt. Der Benutzer muss die E-Mail-Adresse zweimal schreiben und auf Zurücksetzen klicken. Wenn die E-Mail-Adressen nicht übereinstimmen wird ein Fehlermeldung angezeigt. Stimmen die E-Mail-Adressen überein, wird ein Eintrag in die Datenbank gespeichert, damit der Admin das zurücksetzen kann.
+Ab und zu passiert es, dass die Benutzer das Passwort vergessen, egal aus welchen Gründen. So muss diese Webseite die Möglichkeit anbieten das Passwort zurückzusetzen. Das ist in Abbildung \ref{fi:reset} dargestellt. Der Benutzer muss die E-Mail-Adresse zweimal schreiben und auf Zurücksetzen klicken. Wenn die E-Mail-Adressen nicht übereinstimmen wird ein Fehlermeldung angezeigt. Stimmen die E-Mail-Adressen überein, wird ein Eintrag in die Datenbank gespeichert und eine Email and dem Benutzer geschickt.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{\ordnerfigures reset.png}
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures reset_1.png}
 	\caption{Passwort zurücksetzen}
 	\label{fi:reset}
 \end{figure}
+
+Nachdem der Benutzer auf dem Button Zurücksetzen geklickt hat, wird eine E-Mail an den Benutzer gesendet (siehe Abb.\ref{fi:resetemail}). In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen können. Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch als ungültig festgelegt und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Das Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Kennworts anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures reset-email.png}
+	\caption{Passwort zurücksetzen E-Mail}
+	\label{fi:resetemail}
+\end{figure}
+
 
 \subsection{Menü}
 
