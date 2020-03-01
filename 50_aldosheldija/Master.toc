@@ -29,4 +29,4 @@
 \contentsline {section}{\numberline {1.6}Client}{12}{section.1.6}% 
 \contentsline {subsection}{\numberline {1.6.1}Layout 1}{12}{subsection.1.6.1}% 
 \contentsline {section}{\numberline {1.7}Wordpress Webseite API}{13}{section.1.7}% 
-\contentsline {section}{\numberline {1.8}Herausforderungen und deren L\IeC {\"o}sung}{13}{section.1.8}% 
+\contentsline {section}{\numberline {1.8}Herausforderungen und deren L\IeC {\"o}sung}{14}{section.1.8}% 

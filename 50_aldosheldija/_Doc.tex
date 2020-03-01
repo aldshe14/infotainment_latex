@@ -156,7 +156,7 @@ Zuerst wurde ein ER-Diagramm\footnote{Entity Relationship Diagram} (Abbildung \r
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.99\textwidth]{\ordnerfigures erd.png}
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures erd_1.png}
 	\caption{ERD Diagramm}
 	\label{fi:erd}
 \end{figure}
@@ -193,7 +193,7 @@ Ab und zu passiert es, dass die Benutzer das Passwort vergessen, egal aus welche
 	\label{fi:reset}
 \end{figure}
 
-Nachdem der Benutzer auf dem Button Zurücksetzen geklickt hat, wird eine E-Mail an den Benutzer gesendet (siehe Abb.\ref{fi:resetemail}). In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen können. Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch als ungültig festgelegt und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Das Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Kennworts anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden.
+In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen können (siehe Abb.\ref{fi:resetemail}). Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch als ungültig festgelegt und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Das Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Passwortes anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden. Diese Links werden als ungültig gesetzt, wobei das Ablaufdatum auf ein älteres Datum geändert wird (siehe Abb. \ref{fi:erd} Tabelle tb\_infotainment\_password\_reset).
 
 \begin{figure}[H]
 	\centering
@@ -205,18 +205,18 @@ Nachdem der Benutzer auf dem Button Zurücksetzen geklickt hat, wird eine E-Mail
 
 \subsection{Menü}
 
-Das Menü steht ganz oben als Header. Das Menü ist unterschiedlich für den Admin und für normale Benutzer. Der Admin hat mehrere Möglichkeiten zu wählen und das ist auf Abbildung \ref{fi:menu} ersichtlich. Normaler User werden weniger Möglichkeiten haben und haben auch einer beschränkten Zugriff (Abb. \ref{fi:normalerUser}). Die Seiten Einstellungen und Benutzerverwaltung sind nur für Benutzer mit Adminrechte erreichbar.
+Das Menü steht ganz oben als Header. Das Menü ist unterschiedlich für den Admin und für normale Benutzer. Der Admin hat mehrere Möglichkeiten zu wählen und das ist auf Abbildung \ref{fi:menu} ersichtlich. Normaler User werden weniger Möglichkeiten haben und haben auch einer beschränkten Zugriff (Abb. \ref{fi:normalerUser}). Die Seiten Einstellungen und Benutzerverwaltung sind nur für Benutzer mit Adminrechte erreichbar. Dieses Menü ist auch für mobile Benutzer geeignet. Wenn der Benutzer ein Mobiltelefon verwendet, erkennt die Website dies automatisch und blendet das Menü aus, das zuvor für Desktop-Benutzer verwendet wurde. Im Menü werden das Logo und ein Ausblendknopf angezeigt. Wenn Sie auf diese Button klicken, wird das Menü als Drop-Down angezeigt. Diese Option ist dank des Bootstrap-Frameworks sehr einfach zu implementieren.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{\ordnerfigures header.png}
-	\caption{Men\"u der Admin Panel}
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures header.png}
+	\caption{Men\"u für Administrator}
 	\label{fi:menu}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{\ordnerfigures normalUser.png}
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures normalUser.png}
 	\caption{Men\"u für normaler User}
 	\label{fi:normalerUser}
 \end{figure}
@@ -239,7 +239,7 @@ Das Menü steht ganz oben als Header. Das Menü ist unterschiedlich für den Adm
 	emphstyle       =[2]\color{dkyellow}}
 
 \subsection{Einstellungen}
-Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Admin die Möglichkeit API Key von OpenWeatherMap, City ID, von dem die Daten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot-Token weden mit Hilfe von Regex überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen.
+Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Administrator die Möglichkeit API Key von OpenWeatherMap, City ID, von dem die Daten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot-Token weden mit Hilfe von Regex\footnote{Reguläre Ausdrücke sind eine Folge von Zeichen, die ein Muster definieren.} überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen.
 
 \begin{figure}[H]
 	\centering
@@ -250,7 +250,7 @@ Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. 
 
 
 \subsection{Benutzerrechte für die Webseite}
-Wie bereits erwähnt, wird die Webseite unterschiedliche Benutzerrechte haben. Die zwei Hauptrollen sind Admin und normaler User. Der Unterschied zwischen den beiden Benutzern wird von der Rolle Attribut in der Tabelle \textit{tb\_infotainment\_roles} bestimmt (siehe Abb. \ref{fi:erd}). Diese Attribute werden in den Sessions gespeichert. Es wurden Sessions gewählt, weil sie sicherer als Cookies sind. \cite{40_sessions_cookies} So kann der Unterschied zwischen zwei Rollen gemacht werden, in dem man nur die Session u\_role vergleicht.
+Wie bereits erwähnt, wird die Webseite unterschiedliche Benutzerrechte haben. Die zwei Hauptrollen sind Administrator und normaler User. Der Unterschied zwischen den beiden Benutzern wird von der Rolle Attribut in der Tabelle \textit{tb\_infotainment\_roles} bestimmt (siehe Abb. \ref{fi:erd}). Diese Attribute werden in den Sessions gespeichert. Es wurden Sessions gewählt, weil sie sicherer als Cookies sind. \cite{40_sessions_cookies} So kann der Unterschied zwischen zwei Rollen gemacht werden, in dem man nur die Session u\_role vergleicht.
 \begin{lstlisting}[frame=single]
 $_SESSION['user_id'] = $user['u_id'];
 $_SESSION['loggedin'] = true;
@@ -262,7 +262,7 @@ $_SESSION['role'] = $user['u_role'];
 
 \subsection{Webseite auf mehrere Sprachen}
 
-Was das System noch anbieten wird, ist die Möglichkeit, den Admin Panel und die Anzeige in verschiedene Sprachen zu verwenden. Der Benutzer darf wählen welche Sprache er am liebsten haben will. Gründe dafür ist, dass die Schule nicht nur Lehrern aus Österreich hat, sondern auch albanische Lehrer, die kein Deutsch sprechen. Deshalb würde für Ihnen die Verwendung dieses Systems nur auf Deutsch unmöglich. Am Beginn wird die Sprachwahl zwei Optionen haben, Deutsch oder Albanisch. Das heißt aber nicht, dass in der Zukunft keine neue Sprache, wie zum Beispiel Englisch, angeboten werden kann. Somit würde die Benutzerfreundlichkeit des Systems noch besser werden.
+Was das System noch anbieten wird, ist die Möglichkeit, den Admin Panel und die Anzeige in verschiedene Sprachen zu verwenden. Der Benutzer darf wählen welche Sprache er am liebsten haben will. Grund dafür ist, dass die Schule nicht nur Lehrern aus Österreich hat, sondern auch albanische Lehrer, die kein Deutsch sprechen. Deshalb würde für Ihnen die Verwendung dieses Systems nur auf Deutsch unmöglich. Am Beginn wird die Sprachwahl zwei Optionen haben, Deutsch oder Albanisch. Das heißt aber nicht, dass in der Zukunft keine neue Sprache, wie zum Beispiel Englisch, angeboten werden kann. Somit würde die Benutzerfreundlichkeit des Systems noch besser werden.
 
 \section{Client}
 

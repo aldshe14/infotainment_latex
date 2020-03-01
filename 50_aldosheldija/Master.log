@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  29 FEB 2020 23:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  1 MAR 2020 20:35
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1293,17 +1293,17 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 153.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [6]
-<./../50_aldosheldija/figures/erd.png, id=270, 1351.0475pt x 817.0525pt>
-File: ./../50_aldosheldija/figures/erd.png Graphic file (type png)
-<use ./../50_aldosheldija/figures/erd.png>
-Package pdftex.def Info: ./../50_aldosheldija/figures/erd.png  used on input li
-ne 159.
-(pdftex.def)             Requested size: 436.60997pt x 264.04286pt.
+<./../50_aldosheldija/figures/erd_1.png, id=270, 1593.955pt x 794.97pt>
+File: ./../50_aldosheldija/figures/erd_1.png Graphic file (type png)
+<use ./../50_aldosheldija/figures/erd_1.png>
+Package pdftex.def Info: ./../50_aldosheldija/figures/erd_1.png  used on input 
+line 159.
+(pdftex.def)             Requested size: 436.60997pt x 217.7501pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 166.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [7 <./../50_aldosheldija/figures/erd.png>]
+ [7 <./../50_aldosheldija/figures/erd_1.png>]
 <./../50_aldosheldija/figures/login.png, id=279, 845.0772pt x 332.2011pt>
 File: ./../50_aldosheldija/figures/login.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/login.png>
@@ -1314,7 +1314,8 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 186.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [8]
+
+[8]
 <./../50_aldosheldija/figures/reset_1.png, id=287, 845.0772pt x 332.2011pt>
 File: ./../50_aldosheldija/figures/reset_1.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/reset_1.png>
@@ -1339,31 +1340,31 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 197.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [9 <./../50_aldosheldija/figures/login.png> <./../50_aldosheldija/figures/reset
 _1.png>]
-<./../50_aldosheldija/figures/reset-email.png, id=299, 605.26125pt x 264.99pt>
+<./../50_aldosheldija/figures/reset-email.png, id=301, 605.26125pt x 264.99pt>
 File: ./../50_aldosheldija/figures/reset-email.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/reset-email.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/reset-email.png  used on 
 input line 200.
 (pdftex.def)             Requested size: 436.60997pt x 191.15251pt.
-<./../50_aldosheldija/figures/header.png, id=302, 825.83531pt x 162.6075pt>
+<./../50_aldosheldija/figures/header.png, id=304, 942.52126pt x 53.44969pt>
 File: ./../50_aldosheldija/figures/header.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/header.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/header.png  used on input
  line 212.
-(pdftex.def)             Requested size: 396.91325pt x 78.15244pt.
-<./../50_aldosheldija/figures/normalUser.png, id=303, 463.7325pt x 58.71938pt>
+(pdftex.def)             Requested size: 436.60997pt x 24.76004pt.
+<./../50_aldosheldija/figures/normalUser.png, id=305, 927.465pt x 58.71938pt>
 File: ./../50_aldosheldija/figures/normalUser.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/normalUser.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/normalUser.png  used on i
 nput line 219.
-(pdftex.def)             Requested size: 308.71106pt x 39.09088pt.
+(pdftex.def)             Requested size: 436.60997pt x 27.64288pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 243.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [10 <./../50_aldosheldija/figures/reset-email.png (PNG copy)> <./../50_aldoshe
 ldija/figures/header.png> <./../50_aldosheldija/figures/normalUser.png>]
-<./../50_aldosheldija/figures/settings.png, id=316, 905.63344pt x 526.21594pt>
+<./../50_aldosheldija/figures/settings.png, id=318, 905.63344pt x 526.21594pt>
 File: ./../50_aldosheldija/figures/settings.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/settings.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/settings.png  used on inp
@@ -1384,15 +1385,15 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 260.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 266.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 260.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [11 <./../50_aldosheldija/figures/settings.png>]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 281.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 279.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [12]
-<./../50_aldosheldija/figures/layout1.png, id=349, 1205.2528pt x 674.52pt>
+<./../50_aldosheldija/figures/layout1.png, id=352, 1205.2528pt x 674.52pt>
 File: ./../50_aldosheldija/figures/layout1.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/layout1.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/layout1.png  used on inpu
@@ -1490,9 +1491,9 @@ Package logreq Info: Writing requests to 'Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32957 strings out of 492895
- 618128 string characters out of 3133482
- 1210250 words of memory out of 3000000
+ 32958 strings out of 492895
+ 618150 string characters out of 3133482
+ 1209724 words of memory out of 3000000
  36414 multiletter control sequences out of 15000+200000
  542095 words of font info for 59 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -1509,9 +1510,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Master.pdf (20 pages, 3183809 bytes).
+Output written on Master.pdf (20 pages, 3198676 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
+ 496 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
  331 words of extra memory for PDF output out of 10000 (max. 10000000)
 
