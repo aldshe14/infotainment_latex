@@ -8,21 +8,22 @@
 \BOOKMARK [1][-]{section.1.4}{Datenbank}{chapter.1}% 8
 \BOOKMARK [1][-]{section.1.5}{SSL Verschl\374sselung}{chapter.1}% 9
 \BOOKMARK [1][-]{section.1.6}{Anzeige}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.7}{Wetterdaten}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.8}{Chatbot}{chapter.1}% 12
-\BOOKMARK [2][-]{subsection.1.8.1}{Chatbot Einrichtung:}{section.1.8}% 13
-\BOOKMARK [2][-]{subsection.1.8.2}{Einrichtung des Chatbots in RaspberryPI}{section.1.8}% 14
-\BOOKMARK [2][-]{subsection.1.8.3}{Grundlagen f\374r die Umsetzung von Chatbot}{section.1.8}% 15
-\BOOKMARK [2][-]{subsection.1.8.4}{Funktionalit\344ten von Chatbot}{section.1.8}% 16
-\BOOKMARK [2][-]{subsection.1.8.5}{Unregistrierte Benutzer:}{section.1.8}% 17
-\BOOKMARK [2][-]{subsection.1.8.6}{Konkrete Beispiele mit Bildern}{section.1.8}% 18
-\BOOKMARK [1][-]{section.1.9}{Probleme, Herausforderungen und deren L\366sung}{chapter.1}% 19
-\BOOKMARK [1][-]{section.1.10}{Qualit\344tssicherung, Controlling}{chapter.1}% 20
-\BOOKMARK [1][-]{section.1.11}{Ergebnisse - Irena Bala}{chapter.1}% 21
-\BOOKMARK [2][-]{subsection.1.11.1}{Implementierung}{section.1.11}% 22
-\BOOKMARK [1][-]{section.1.12}{Handbuch f\374r die Bedienung}{chapter.1}% 23
-\BOOKMARK [2][-]{subsection.1.12.1}{Beschreibung der Bedienung als User}{section.1.12}% 24
-\BOOKMARK [2][-]{subsection.1.12.2}{Beschreibung der Bedienung als Administrator}{section.1.12}% 25
-\BOOKMARK [1][-]{section.1.13}{Evaluierung und Res\374mee}{chapter.1}% 26
-\BOOKMARK [2][-]{subsection.1.13.1}{Planung vs Realisierung}{section.1.13}% 27
-\BOOKMARK [2][-]{subsection.1.13.2}{Wertsch\366pfung und Lessons Learned}{section.1.13}% 28
+\BOOKMARK [1][-]{section.1.7}{Offline Betrieb}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.8}{Wetterdaten}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.9}{Chatbot}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.9.1}{Chatbot Einrichtung:}{section.1.9}% 14
+\BOOKMARK [2][-]{subsection.1.9.2}{Einrichtung des Chatbots in RaspberryPI}{section.1.9}% 15
+\BOOKMARK [2][-]{subsection.1.9.3}{Grundlagen f\374r die Umsetzung von Chatbot}{section.1.9}% 16
+\BOOKMARK [2][-]{subsection.1.9.4}{Funktionalit\344ten von Chatbot}{section.1.9}% 17
+\BOOKMARK [2][-]{subsection.1.9.5}{Umsetzung der Funktionalit\344ten}{section.1.9}% 18
+\BOOKMARK [2][-]{subsection.1.9.6}{Konkrete Beispiele mit Bildern}{section.1.9}% 19
+\BOOKMARK [1][-]{section.1.10}{Probleme, Herausforderungen und deren L\366sung}{chapter.1}% 20
+\BOOKMARK [1][-]{section.1.11}{Qualit\344tssicherung, Controlling}{chapter.1}% 21
+\BOOKMARK [1][-]{section.1.12}{Ergebnisse - Irena Bala}{chapter.1}% 22
+\BOOKMARK [2][-]{subsection.1.12.1}{Implementierung}{section.1.12}% 23
+\BOOKMARK [1][-]{section.1.13}{Handbuch f\374r die Bedienung}{chapter.1}% 24
+\BOOKMARK [2][-]{subsection.1.13.1}{Beschreibung der Bedienung als User}{section.1.13}% 25
+\BOOKMARK [2][-]{subsection.1.13.2}{Beschreibung der Bedienung als Administrator}{section.1.13}% 26
+\BOOKMARK [1][-]{section.1.14}{Evaluierung und Res\374mee}{chapter.1}% 27
+\BOOKMARK [2][-]{subsection.1.14.1}{Planung vs Realisierung}{section.1.14}% 28
+\BOOKMARK [2][-]{subsection.1.14.2}{Wertsch\366pfung und Lessons Learned}{section.1.14}% 29

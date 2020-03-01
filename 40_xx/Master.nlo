@@ -1,16 +1,16 @@
 \nomenclatureentry{aHTTP@[{HTTP}]\begingroup Hypertext Transfer Protocol\nomeqref {1.0}|nompageref}{3}
-\nomenclatureentry{aHTTP@[{HTTP}]\begingroup Secure Socket Layer\nomeqref {1.0}|nompageref}{3}
+\nomenclatureentry{aHTTP@[{HTTP}]\begingroup Secure Socket Layer\nomeqref {1.0}|nompageref}{4}
 \nomenclatureentry{aHTTPS@[{HTTPS}]\begingroup Hypertext Transfer Protocol Secure\nomeqref {1.0}|nompageref}{4}
 \nomenclatureentry{aSQL@[{SQL}]\begingroup Structured Query Language\nomeqref {1.0}|nompageref}{4}
 \nomenclatureentry{aPHP@[{PHP}]\begingroup Parallel History Project\nomeqref {1.0}|nompageref}{4}
 \nomenclatureentry{aHTML@[{HTML}]\begingroup HyperText Markup Language\nomeqref {1.0}|nompageref}{6}
 \nomenclatureentry{aCSS@[{CSS}]\begingroup Cascading Style Sheets\nomeqref {1.0}|nompageref}{6}
-\nomenclatureentry{aVGA@[{VGA}]\begingroup Video Graphics Array\nomeqref {1.0}|nompageref}{6}
-\nomenclatureentry{aHDMI@[{HDMI}]\begingroup High-Definition Multimedia Interface\nomeqref {1.0}|nompageref}{6}
-\nomenclatureentry{aSD@[{SD}]\begingroup Secure Digital Memory Card\nomeqref {1.0}|nompageref}{6}
+\nomenclatureentry{aVGA@[{VGA}]\begingroup Video Graphics Array\nomeqref {1.0}|nompageref}{7}
+\nomenclatureentry{aHDMI@[{HDMI}]\begingroup High-Definition Multimedia Interface\nomeqref {1.0}|nompageref}{7}
+\nomenclatureentry{aSD@[{SD}]\begingroup Secure Digital Memory Card\nomeqref {1.0}|nompageref}{7}
 \nomenclatureentry{aSD@[{SD}]\begingroup Transport Layer Security\nomeqref {1.0}|nompageref}{7}
 \nomenclatureentry{aCA@[{CA}]\begingroup Certificate Authority\nomeqref {1.0}|nompageref}{7}
 \nomenclatureentry{aAPI@[{API}]\begingroup Application Programming Interface\nomeqref {1.0}|nompageref}{7}
-\nomenclatureentry{aJSON@[{JSON}]\begingroup Javascript Object Notation\nomeqref {1.0}|nompageref}{7}
-\nomenclatureentry{aSSH@[{SSH}]\begingroup Secure Shell\nomeqref {1.0}|nompageref}{9}
+\nomenclatureentry{aJSON@[{JSON}]\begingroup Javascript Object Notation\nomeqref {1.0}|nompageref}{8}
+\nomenclatureentry{aSSH@[{SSH}]\begingroup Secure Shell\nomeqref {1.0}|nompageref}{10}
 \nomenclatureentry{aER@[{ER}]\begingroup Entity Relationship\nomeqref {1.0}|nompageref}{10}
