@@ -24,9 +24,11 @@
 \contentsline {subsection}{\numberline {1.5.2}Passwort zur\IeC {\"u}cksetzen}{9}{subsection.1.5.2}% 
 \contentsline {subsection}{\numberline {1.5.3}Men\IeC {\"u}}{10}{subsection.1.5.3}% 
 \contentsline {subsection}{\numberline {1.5.4}Einstellungen}{11}{subsection.1.5.4}% 
-\contentsline {subsection}{\numberline {1.5.5}Benutzerrechte f\IeC {\"u}r die Webseite}{11}{subsection.1.5.5}% 
-\contentsline {subsection}{\numberline {1.5.6}Webseite auf mehrere Sprachen}{12}{subsection.1.5.6}% 
-\contentsline {section}{\numberline {1.6}Client}{12}{section.1.6}% 
-\contentsline {subsection}{\numberline {1.6.1}Layout 1}{12}{subsection.1.6.1}% 
-\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{13}{section.1.7}% 
-\contentsline {section}{\numberline {1.8}Herausforderungen und deren L\IeC {\"o}sung}{14}{section.1.8}% 
+\contentsline {subsection}{\numberline {1.5.5}Benutzerrechte f\IeC {\"u}r die Webseite}{12}{subsection.1.5.5}% 
+\contentsline {subsubsection}{Administrator}{12}{section*.18}% 
+\contentsline {subsubsection}{Normaler Benutzer}{13}{section*.19}% 
+\contentsline {subsection}{\numberline {1.5.6}Webseite auf mehrere Sprachen}{13}{subsection.1.5.6}% 
+\contentsline {section}{\numberline {1.6}Client}{13}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.6.1}Layout 1}{14}{subsection.1.6.1}% 
+\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{14}{section.1.7}% 
+\contentsline {section}{\numberline {1.8}Herausforderungen und deren L\IeC {\"o}sung}{15}{section.1.8}% 

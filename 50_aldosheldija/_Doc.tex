@@ -205,7 +205,7 @@ In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen
 
 \subsection{Menü}
 
-Das Menü steht ganz oben als Header. Das Menü ist unterschiedlich für den Admin und für normale Benutzer. Der Admin hat mehrere Möglichkeiten zu wählen und das ist auf Abbildung \ref{fi:menu} ersichtlich. Normaler User werden weniger Möglichkeiten haben und haben auch einer beschränkten Zugriff (Abb. \ref{fi:normalerUser}). Die Seiten Einstellungen und Benutzerverwaltung sind nur für Benutzer mit Adminrechte erreichbar. Dieses Menü ist auch für mobile Benutzer geeignet. Wenn der Benutzer ein Mobiltelefon verwendet, erkennt die Website dies automatisch und blendet das Menü aus, das zuvor für Desktop-Benutzer verwendet wurde. Im Menü werden das Logo und ein Ausblendknopf angezeigt. Wenn Sie auf diese Button klicken, wird das Menü als Drop-Down angezeigt. Diese Option ist dank des Bootstrap-Frameworks sehr einfach zu implementieren.
+Das Menü steht ganz oben als Header. Das Menü ist unterschiedlich für den Admin und für normale Benutzer. Der Admin hat mehrere Möglichkeiten zu wählen und das ist auf Abbildung \ref{fi:menu} ersichtlich. Normaler User werden weniger Möglichkeiten haben und haben auch einer beschränkten Zugriff (Abb. \ref{fi:normalerUser}). Die Seiten Einstellungen und Benutzerverwaltung sind nur für Benutzer mit Adminrechte erreichbar. 
 
 \begin{figure}[H]
 	\centering
@@ -221,6 +221,14 @@ Das Menü steht ganz oben als Header. Das Menü ist unterschiedlich für den Adm
 	\label{fi:normalerUser}
 \end{figure}
 
+Dieses Menü ist auch für mobile Benutzer geeignet. Wenn der Benutzer ein Mobiltelefon verwendet, erkennt die Webseite dies automatisch und blendet das Menü aus, das zuvor für Desktop-Benutzer verwendet wurde. Im Menü werden das Logo und ein Ausblendbutton angezeigt. Wenn Sie auf diese Button klicken, wird das Menü als Drop-Down angezeigt (siehe Abb.\ref{fi:mobilemenu}). Diese Option ist dank des Bootstrap-Frameworks sehr einfach zu implementieren.
+	
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.49\textwidth]{\ordnerfigures mobilemenu.png}
+	\caption{Men\"u für Mobilgeräte}
+	\label{fi:mobilemenu}
+\end{figure}
 
 \definecolor{dkgreen}{rgb}{0,.6,0}
 \definecolor{dkblue}{rgb}{0,0,.6}
@@ -239,7 +247,10 @@ Das Menü steht ganz oben als Header. Das Menü ist unterschiedlich für den Adm
 	emphstyle       =[2]\color{dkyellow}}
 
 \subsection{Einstellungen}
-Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Administrator die Möglichkeit API Key von OpenWeatherMap, City ID, von dem die Daten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot-Token weden mit Hilfe von Regex\footnote{Reguläre Ausdrücke sind eine Folge von Zeichen, die ein Muster definieren.} überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen.
+Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Administrator die Möglichkeit den API Key von OpenWeatherMap und City ID, von dem die Wetterdaten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot-Token weden mit Hilfe von Regex\footnote{Reguläre Ausdrücke sind eine Folge von Zeichen, die ein Muster definieren.} überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen. Der API-Schlüssel vom Telegramm-Chatbot hat eine Länge von 45 Zeichen. Von diesen 45 Zeichen sollten die ersten neun Zeichen Zahlen von 0 bis 9 sein. Nach den ersten 9 Ziffern steht ein :. Bis noe haben wir die ersten 10 Zeichen des API-Schlüssels. Das verbleibende Zeichen (die anderen 35 Zeichen) können Zahlen von 0 bis 9 sein, kleine oder große Buchstaben von a bis z, es kann ein \_ oder ein - sein. So sieht das Regex-Muster aus (siehe Listing \ref{lst:regextelegram} ).
+\begin{lstlisting}[caption={Regex Muster für Telegram Chatbot API-Key},label={lst:regextelegram},language=PHP]
+[0-9]{9}:[a-zA-Z0-9_-]{35}
+\end{lstlisting}
 
 \begin{figure}[H]
 	\centering
@@ -258,6 +269,12 @@ $_SESSION['email'] = $user['u_email'];
 $_SESSION['role'] = $user['u_role'];
 \end{lstlisting}
 \captionof{lstlisting}{Speicherung der Benutzer Informationen in Sessions}
+
+\subsubsection{Administrator}
+Der Administrator hat mehr Optionen als ein normaler Benutzer. Der Administrator ist in der Lage, das gesamte System zu verwalten. Er kann neue Benutzer hinzufügen und die Systemeinstellungen konfigurieren. Der neue Benutzer kann entweder ein anderer Administrator oder ein normaler Benutzer sein. Eine weitere Option, die dem Administrator zur Verfügung steht, besteht darin, ein neues Kennwort für einen Benutzer anzufordern. Das neue Passwort wird dann automatisch an die E-Mail-Adresse des Benutzers gesendet. Die Website ist so gestaltet, dass andere Funktionen einfach hinzugefügt werden können. Auf diese Weise hat der Administrator mehr Kontrolle über das System.
+
+\subsubsection{Normaler Benutzer}
+Ein normaler Benutzer hat alle Rechte wie der Administrator mit Ausnahme derjenigen, die oben erwähnt wurden. Dieser Benutzer kann Anzeigen, Bilder, Layouts, Kalenderinformationen und Supplierplan hinzufügen, bearbeiten und löschen. Ein normaler Benutzer kann auch Layouts für verschiedene Anzeigen auswählen und diese mit Inhalten füllen.
 
 
 \subsection{Webseite auf mehrere Sprachen}
