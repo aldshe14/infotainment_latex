@@ -31,7 +31,7 @@
 \BOOKMARK [1][-]{section.4.7}{Offline Betrieb}{chapter.4}% 31
 \BOOKMARK [1][-]{section.4.8}{Wetterdaten}{chapter.4}% 32
 \BOOKMARK [1][-]{section.4.9}{Chatbot}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.9.1}{Chatbot Einrichtung:}{section.4.9}% 34
+\BOOKMARK [2][-]{subsection.4.9.1}{Chatbot Einrichtung}{section.4.9}% 34
 \BOOKMARK [2][-]{subsection.4.9.2}{Einrichtung des Chatbots in RaspberryPI}{section.4.9}% 35
 \BOOKMARK [2][-]{subsection.4.9.3}{Grundlagen f\374r die Umsetzung von Chatbot}{section.4.9}% 36
 \BOOKMARK [2][-]{subsection.4.9.4}{Funktionalit\344ten von Chatbot}{section.4.9}% 37
@@ -70,10 +70,19 @@
 \BOOKMARK [2][-]{subsection.5.5.1}{Login}{section.5.5}% 70
 \BOOKMARK [2][-]{subsection.5.5.2}{Passwort zur\374cksetzen}{section.5.5}% 71
 \BOOKMARK [2][-]{subsection.5.5.3}{Men\374}{section.5.5}% 72
-\BOOKMARK [2][-]{subsection.5.5.4}{Einstellungen}{section.5.5}% 73
-\BOOKMARK [2][-]{subsection.5.5.5}{Benutzerrechte f\374r die Webseite}{section.5.5}% 74
-\BOOKMARK [2][-]{subsection.5.5.6}{Webseite auf mehrere Sprachen}{section.5.5}% 75
-\BOOKMARK [1][-]{section.5.6}{Client}{chapter.5}% 76
-\BOOKMARK [2][-]{subsection.5.6.1}{Layout 1}{section.5.6}% 77
-\BOOKMARK [1][-]{section.5.7}{Wordpress Webseite API}{chapter.5}% 78
-\BOOKMARK [1][-]{section.5.8}{Herausforderungen und deren L\366sung}{chapter.5}% 79
+\BOOKMARK [2][-]{subsection.5.5.4}{Home}{section.5.5}% 73
+\BOOKMARK [2][-]{subsection.5.5.5}{Anzeige}{section.5.5}% 74
+\BOOKMARK [2][-]{subsection.5.5.6}{Bilder}{section.5.5}% 75
+\BOOKMARK [2][-]{subsection.5.5.7}{Layouts}{section.5.5}% 76
+\BOOKMARK [2][-]{subsection.5.5.8}{Kalendarinfo}{section.5.5}% 77
+\BOOKMARK [2][-]{subsection.5.5.9}{Supplierplan}{section.5.5}% 78
+\BOOKMARK [2][-]{subsection.5.5.10}{Benutzer}{section.5.5}% 79
+\BOOKMARK [2][-]{subsection.5.5.11}{Einstellungen}{section.5.5}% 80
+\BOOKMARK [2][-]{subsection.5.5.12}{Logout}{section.5.5}% 81
+\BOOKMARK [2][-]{subsection.5.5.13}{Benutzerrechte f\374r die Webseite}{section.5.5}% 82
+\BOOKMARK [2][-]{subsection.5.5.14}{Webseite auf mehrere Sprachen}{section.5.5}% 83
+\BOOKMARK [1][-]{section.5.6}{Client}{chapter.5}% 84
+\BOOKMARK [2][-]{subsection.5.6.1}{Layout 1}{section.5.6}% 85
+\BOOKMARK [2][-]{subsection.5.6.2}{Layout 2}{section.5.6}% 86
+\BOOKMARK [1][-]{section.5.7}{Wordpress Webseite API}{chapter.5}% 87
+\BOOKMARK [1][-]{section.5.8}{Herausforderungen und deren L\366sung}{chapter.5}% 88
