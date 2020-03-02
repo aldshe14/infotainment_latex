@@ -2,30 +2,32 @@
 \babel@toc {ngerman}{}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Structured Software Design vom Server\relax }}{9}{figure.caption.24}% 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces ERD\relax }}{10}{figure.caption.25}% 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Wetterdaten\relax }}{13}{figure.caption.26}% 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Chatbot Multilanguage\relax }}{21}{figure.caption.31}% 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Hauptmen\"u f\"ur den Administrator\relax }}{22}{figure.caption.32}% 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Auflistung der Chatbot-Benutzer\relax }}{23}{figure.caption.33}% 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Auflistung der unregistrierten Benutzer\relax }}{23}{figure.caption.34}% 
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Keine Unregistrierte Benutzer\relax }}{24}{figure.caption.35}% 
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Genehmigung des Administrators\relax }}{24}{figure.caption.36}% 
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Ablehnung des Administrators\relax }}{24}{figure.caption.37}% 
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Notfallwarnmeldung\relax }}{25}{figure.caption.38}% 
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Benutzer Blockierung\relax }}{25}{figure.caption.39}% 
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Spracheinstellungen\relax }}{26}{figure.caption.41}% 
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Hauptmen\"u f\"ur den unregistrierten Benutzer\relax }}{27}{figure.caption.43}% 
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Registrierung beim Chatbot\relax }}{28}{figure.caption.44}% 
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Falsche Eingabe des Telefonnummers\relax }}{28}{figure.caption.45}% 
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Telefonnummer zu kurz\relax }}{29}{figure.caption.46}% 
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Korrekte Eingabe des Telefonnummers\relax }}{29}{figure.caption.47}% 
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Das Warten der Benutzer auf die Administrator Bestätigung\relax }}{30}{figure.caption.48}% 
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Keine Registrierung\relax }}{30}{figure.caption.49}% 
-\contentsline {figure}{\numberline {1.21}{\ignorespaces Spracheinstellungen f\"ur unregistrierte Benutzer\relax }}{31}{figure.caption.50}% 
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Hauptmen\"ur f\"ur einen normalen Benutzer\relax }}{32}{figure.caption.51}% 
-\contentsline {figure}{\numberline {1.23}{\ignorespaces Bilderfunktionalit\"at\relax }}{32}{figure.caption.52}% 
-\contentsline {figure}{\numberline {1.24}{\ignorespaces Spracheinstellungen f\"ur einen normalen Benutzer\relax }}{33}{figure.caption.53}% 
-\contentsline {figure}{\numberline {1.25}{\ignorespaces Notfallwarmeldung vom Administrator\relax }}{33}{figure.caption.54}% 
-\contentsline {figure}{\numberline {1.26}{\ignorespaces Nachricht von einem blockierten Benutzer\relax }}{34}{figure.caption.55}% 
-\contentsline {figure}{\numberline {1.27}{\ignorespaces Nicht akzeptierter Benutzer\relax }}{35}{figure.caption.56}% 
-\contentsline {figure}{\numberline {1.28}{\ignorespaces Akzeptierter Benutzer \relax }}{36}{figure.caption.57}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces ERD\relax }}{11}{figure.caption.25}% 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Kalenderinformationen\relax }}{12}{figure.caption.27}% 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Leere Klassen f\"ur Montag, die zweite Stunde\relax }}{12}{figure.caption.29}% 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Wetterdaten\relax }}{14}{figure.caption.31}% 
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Chatbot Multilanguage\relax }}{22}{figure.caption.36}% 
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Hauptmen\"u f\"ur den Administrator\relax }}{23}{figure.caption.37}% 
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Auflistung der Chatbot-Benutzer\relax }}{24}{figure.caption.38}% 
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Auflistung der unregistrierten Benutzer\relax }}{24}{figure.caption.39}% 
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Keine Unregistrierte Benutzer\relax }}{25}{figure.caption.40}% 
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Genehmigung des Administrators\relax }}{25}{figure.caption.41}% 
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Ablehnung des Administrators\relax }}{25}{figure.caption.42}% 
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Notfallwarnmeldung\relax }}{26}{figure.caption.43}% 
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Benutzer Blockierung\relax }}{26}{figure.caption.44}% 
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Spracheinstellungen\relax }}{27}{figure.caption.46}% 
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Hauptmen\"u f\"ur den unregistrierten Benutzer\relax }}{28}{figure.caption.48}% 
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Registrierung beim Chatbot\relax }}{29}{figure.caption.49}% 
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Falsche Eingabe des Telefonnummers\relax }}{29}{figure.caption.50}% 
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Telefonnummer zu kurz\relax }}{30}{figure.caption.51}% 
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Korrekte Eingabe des Telefonnummers\relax }}{30}{figure.caption.52}% 
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Das Warten der Benutzer auf die Administrator Bestätigung\relax }}{31}{figure.caption.53}% 
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Keine Registrierung\relax }}{31}{figure.caption.54}% 
+\contentsline {figure}{\numberline {1.23}{\ignorespaces Spracheinstellungen f\"ur unregistrierte Benutzer\relax }}{32}{figure.caption.55}% 
+\contentsline {figure}{\numberline {1.24}{\ignorespaces Hauptmen\"ur f\"ur einen normalen Benutzer\relax }}{33}{figure.caption.56}% 
+\contentsline {figure}{\numberline {1.25}{\ignorespaces Bilderfunktionalit\"at\relax }}{33}{figure.caption.57}% 
+\contentsline {figure}{\numberline {1.26}{\ignorespaces Spracheinstellungen f\"ur einen normalen Benutzer\relax }}{34}{figure.caption.58}% 
+\contentsline {figure}{\numberline {1.27}{\ignorespaces Notfallwarmeldung vom Administrator\relax }}{34}{figure.caption.59}% 
+\contentsline {figure}{\numberline {1.28}{\ignorespaces Nachricht von einem blockierten Benutzer\relax }}{35}{figure.caption.60}% 
+\contentsline {figure}{\numberline {1.29}{\ignorespaces Nicht akzeptierter Benutzer\relax }}{36}{figure.caption.61}% 
+\contentsline {figure}{\numberline {1.30}{\ignorespaces Akzeptierter Benutzer \relax }}{37}{figure.caption.62}% 
