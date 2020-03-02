@@ -246,8 +246,25 @@ Dieses Menü ist auch für mobile Benutzer geeignet. Wenn der Benutzer ein Mobil
 	emph            =[2]{if,and,or,else},
 	emphstyle       =[2]\color{dkyellow}}
 
+\subsection{Home}
+\subsubsection{Anzeige Status}
+\subsubsection{Layout hinzufügen}
+\subsubsection{Layout Content hinzufügen}
+
+\subsubsection{Timetable}
+\subsubsection{POP-UP Fenster}
+\subsection{Anzeige}
+\subsection{Bilder}
+\subsection{Layouts}
+\subsection{Kalendarinfo}
+\subsection{Supplierplan}
+\subsubsection{Fehlendelehrer}
+\subsubsection{Suppliertabelle}
+\subsection{Benutzer}
+\subsubsection{Passwort zurücksetzen}
+
 \subsection{Einstellungen}
-Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Administrator die Möglichkeit den API Key von OpenWeatherMap und City ID, von dem die Wetterdaten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot-Token weden mit Hilfe von Regex\footnote{Reguläre Ausdrücke sind eine Folge von Zeichen, die ein Muster definieren.} überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen. Der API-Schlüssel vom Telegramm-Chatbot hat eine Länge von 45 Zeichen. Von diesen 45 Zeichen sollten die ersten neun Zeichen Zahlen von 0 bis 9 sein. Nach den ersten 9 Ziffern steht ein :. Bis noe haben wir die ersten 10 Zeichen des API-Schlüssels. Das verbleibende Zeichen (die anderen 35 Zeichen) können Zahlen von 0 bis 9 sein, kleine oder große Buchstaben von a bis z, es kann ein \_ oder ein - sein. So sieht das Regex-Muster aus (siehe Listing \ref{lst:regextelegram} ).
+Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Administrator die Möglichkeit den API Key von OpenWeatherMap und City ID, von dem die Wetterdaten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot-Token werden mit Hilfe von Regex\footnote{Reguläre Ausdrücke sind eine Folge von Zeichen, die ein Muster definieren.} überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen. Der API-Schlüssel vom Telegramm-Chatbot hat eine Länge von 45 Zeichen. Von diesen 45 Zeichen sollten die ersten neun Zeichen Zahlen von 0 bis 9 sein. Nach den ersten 9 Ziffern steht ein ``:''. Bis jetzt haben wir die ersten 10 Zeichen des API-Schlüssels. Die verbleibenden Zeichen (die anderen 35 Zeichen) können Zahlen von 0 bis 9, kleine oder große Buchstaben von a bis z oder ``-'' sein. So sieht das Regex-Muster aus (siehe Listing \ref{lst:regextelegram} ).
 \begin{lstlisting}[caption={Regex Muster für Telegram Chatbot API-Key},label={lst:regextelegram},language=PHP]
 [0-9]{9}:[a-zA-Z0-9_-]{35}
 \end{lstlisting}
@@ -259,16 +276,16 @@ Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. 
 	\label{fi:settings}
 \end{figure}
 
+\subsection{Logout}
 
 \subsection{Benutzerrechte für die Webseite}
 Wie bereits erwähnt, wird die Webseite unterschiedliche Benutzerrechte haben. Die zwei Hauptrollen sind Administrator und normaler User. Der Unterschied zwischen den beiden Benutzern wird von der Rolle Attribut in der Tabelle \textit{tb\_infotainment\_roles} bestimmt (siehe Abb. \ref{fi:erd}). Diese Attribute werden in den Sessions gespeichert. Es wurden Sessions gewählt, weil sie sicherer als Cookies sind. \cite{40_sessions_cookies} So kann der Unterschied zwischen zwei Rollen gemacht werden, in dem man nur die Session u\_role vergleicht.
-\begin{lstlisting}[frame=single]
+\begin{lstlisting}[caption={Speicherung der Benutzer Informationen in Sessions},label={lst:sessions},language=PHP]
 $_SESSION['user_id'] = $user['u_id'];
 $_SESSION['loggedin'] = true;
 $_SESSION['email'] = $user['u_email'];
 $_SESSION['role'] = $user['u_role'];
 \end{lstlisting}
-\captionof{lstlisting}{Speicherung der Benutzer Informationen in Sessions}
 
 \subsubsection{Administrator}
 Der Administrator hat mehr Optionen als ein normaler Benutzer. Der Administrator ist in der Lage, das gesamte System zu verwalten. Er kann neue Benutzer hinzufügen und die Systemeinstellungen konfigurieren. Der neue Benutzer kann entweder ein anderer Administrator oder ein normaler Benutzer sein. Eine weitere Option, die dem Administrator zur Verfügung steht, besteht darin, ein neues Kennwort für einen Benutzer anzufordern. Das neue Passwort wird dann automatisch an die E-Mail-Adresse des Benutzers gesendet. Die Website ist so gestaltet, dass andere Funktionen einfach hinzugefügt werden können. Auf diese Weise hat der Administrator mehr Kontrolle über das System.
@@ -286,6 +303,10 @@ Was das System noch anbieten wird, ist die Möglichkeit, den Admin Panel und die
 Zu diese Diplomarbeit geh\"{o}rt auch der Client dazu. Als Client wird die Anzeige, in dem die Informationen dargestellt werden, bezeichnet. Der Client besteht aus einem RaspberryPi, der mit Internet verbunden wird (WLAN\footnote{Wireless LAN} oder LAN\footnote{Local Area Network} Verbindung), und mit dem Server kommunizieren wird. Der RaspberryPi hat einen HDMI\footnote{High Definition Multimedia Interface}-Anschluss, der mit einem Bildschirm verbunden wird. Um das System kompatibeler und umfassend zu machen, werden unterschiedliche Bildschirmgr\"{o}\ss{}en unterst\"{u}tzt. Die Anzeige wird automatisch  in die Datenbank mithilfe eines Skript registriert, der die Informationen beim Hochfahren des Ger\"{a}ts zur Datenbank schickt. Diese Anzeige wird beim Hochfahren des Betriebssystems die Webseite von der Anzeige \"{o}ffnen und anzeigen lassen. Diese Webseite wird im Vollbild ge\"{o}ffnet. Zus\"{a}tzlich werden die Bildschirmaustastung, Bildschirmschoner und Energieverwaltungssystem ausgeschaltet, damit die Anzeige immer eingeschaltet bleibt. Damit das System nicht abh\"{a}ngig von dem Internet ist, werden die Informationen f\"{u}r diese Anzeige von der Datenbank, die im Server liegt, kopiert und auf der lokalen Datenbank gespeichert. 
 
 In dem Client laufen eine Apache Server, MySQL-Datenbank und PHP, die f\"{u}r die Anzeige notwendig sind um die Informationen anzuzeigen. Falls die Anzeige noch nicht von der Admin freigegeben wurde, wird die Anzeige zu eine Welcome-Seite umgeleitet, in dem nur die MAC-Adresse der Anzeige dargestellt wird.
+
+\subsubsection{Welcome Seite}
+\subsubsection{Laoyut verwaltung}
+\subsubsection{Content verwaltung}
 
 \subsection{Layout 1}
 Die Anzeige wird unterschiedliche Layouts beinhalten. Eine von denen ist das erste Layout. Dieses Layout wird in fünf Bereiche unterteilt.
@@ -308,6 +329,7 @@ Auf der Abbildung \ref{fi:layout1} wird ein mögliches Beispiel dargestellt.
 	\label{fi:layout1}
 \end{figure}
 
+\subsection{Layout 2}
 
 \section{Wordpress Webseite API}
 

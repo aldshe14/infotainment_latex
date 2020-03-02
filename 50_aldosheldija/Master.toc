@@ -23,12 +23,32 @@
 \contentsline {subsection}{\numberline {1.5.1}Login}{8}{subsection.1.5.1}% 
 \contentsline {subsection}{\numberline {1.5.2}Passwort zur\IeC {\"u}cksetzen}{9}{subsection.1.5.2}% 
 \contentsline {subsection}{\numberline {1.5.3}Men\IeC {\"u}}{10}{subsection.1.5.3}% 
-\contentsline {subsection}{\numberline {1.5.4}Einstellungen}{11}{subsection.1.5.4}% 
-\contentsline {subsection}{\numberline {1.5.5}Benutzerrechte f\IeC {\"u}r die Webseite}{12}{subsection.1.5.5}% 
-\contentsline {subsubsection}{Administrator}{12}{section*.18}% 
-\contentsline {subsubsection}{Normaler Benutzer}{13}{section*.19}% 
-\contentsline {subsection}{\numberline {1.5.6}Webseite auf mehrere Sprachen}{13}{subsection.1.5.6}% 
-\contentsline {section}{\numberline {1.6}Client}{13}{section.1.6}% 
-\contentsline {subsection}{\numberline {1.6.1}Layout 1}{14}{subsection.1.6.1}% 
-\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{14}{section.1.7}% 
-\contentsline {section}{\numberline {1.8}Herausforderungen und deren L\IeC {\"o}sung}{15}{section.1.8}% 
+\contentsline {subsection}{\numberline {1.5.4}Home}{12}{subsection.1.5.4}% 
+\contentsline {subsubsection}{Anzeige Status}{12}{section*.17}% 
+\contentsline {subsubsection}{Layout hinzuf\IeC {\"u}gen}{12}{section*.18}% 
+\contentsline {subsubsection}{Layout Content hinzuf\IeC {\"u}gen}{12}{section*.19}% 
+\contentsline {subsubsection}{Timetable}{12}{section*.20}% 
+\contentsline {subsubsection}{POP-UP Fenster}{12}{section*.21}% 
+\contentsline {subsection}{\numberline {1.5.5}Anzeige}{12}{subsection.1.5.5}% 
+\contentsline {subsection}{\numberline {1.5.6}Bilder}{12}{subsection.1.5.6}% 
+\contentsline {subsection}{\numberline {1.5.7}Layouts}{12}{subsection.1.5.7}% 
+\contentsline {subsection}{\numberline {1.5.8}Kalendarinfo}{12}{subsection.1.5.8}% 
+\contentsline {subsection}{\numberline {1.5.9}Supplierplan}{12}{subsection.1.5.9}% 
+\contentsline {subsubsection}{Fehlendelehrer}{12}{section*.22}% 
+\contentsline {subsubsection}{Suppliertabelle}{12}{section*.23}% 
+\contentsline {subsection}{\numberline {1.5.10}Benutzer}{12}{subsection.1.5.10}% 
+\contentsline {subsubsection}{Passwort zur\IeC {\"u}cksetzen}{12}{section*.24}% 
+\contentsline {subsection}{\numberline {1.5.11}Einstellungen}{12}{subsection.1.5.11}% 
+\contentsline {subsection}{\numberline {1.5.12}Logout}{13}{subsection.1.5.12}% 
+\contentsline {subsection}{\numberline {1.5.13}Benutzerrechte f\IeC {\"u}r die Webseite}{13}{subsection.1.5.13}% 
+\contentsline {subsubsection}{Administrator}{13}{section*.26}% 
+\contentsline {subsubsection}{Normaler Benutzer}{14}{section*.27}% 
+\contentsline {subsection}{\numberline {1.5.14}Webseite auf mehrere Sprachen}{14}{subsection.1.5.14}% 
+\contentsline {section}{\numberline {1.6}Client}{14}{section.1.6}% 
+\contentsline {subsubsection}{Welcome Seite}{15}{section*.28}% 
+\contentsline {subsubsection}{Laoyut verwaltung}{15}{section*.29}% 
+\contentsline {subsubsection}{Content verwaltung}{15}{section*.30}% 
+\contentsline {subsection}{\numberline {1.6.1}Layout 1}{15}{subsection.1.6.1}% 
+\contentsline {subsection}{\numberline {1.6.2}Layout 2}{16}{subsection.1.6.2}% 
+\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{16}{section.1.7}% 
+\contentsline {section}{\numberline {1.8}Herausforderungen und deren L\IeC {\"o}sung}{16}{section.1.8}% 
