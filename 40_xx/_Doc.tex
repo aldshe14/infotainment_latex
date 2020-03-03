@@ -264,7 +264,7 @@ Es wurde ein SSL Zertifikat für den Apache HTTP Server eingerichtet.
 \end{itemize}
 \section{Anzeige}
 Bei der Anzeige sind die Wetterdaten, Kalenderinformationen, Stundenplan, Supplierplan und die leere Klassen dargestellt. Die Wetterdaten wurden aus dem API Call gelesen, in die Datenbank gespeichert und dann durch ein PHP Skript von der Datenbank abgelesen. Die Formatierung für die Anzeige wurde mit JavaScript gemacht. Die Kalenderinformationen, sind selbst vom Administrator geschriebene Informationen.  \\
-Die Tabellen Kalenderinformationen und Stundenplan wurden aus der Datenbank selektiert und dann mit PHP dargestellt. Die Kalenderinformationen sind auf die Abbildung 1.3 ersichtlich. Die leere Klassen sind durch die Erstellung von einer View f\"ur die Tabelle Unterricht dargestellt. F\"ur den Supplierplan wurde eine gespeicherte Prozedur erstellt.
+Die Tabellen Kalenderinformationen und Stundenplan wurden aus der Datenbank selektiert und dann mit PHP dargestellt. Die Kalenderinformationen sind auf die Abbildung 1.3 ersichtlich. Die leere Klassen sind durch die Erstellung von einer View f\"ur die Tabelle Unterricht dargestellt. Die leere Klassen sind auf die Abbildung 1.4 ersichtlich. F\"ur den Supplierplan wurde eine gespeicherte Prozedur erstellt.
 Auf die Abbildung 1.4 ist die Darstellung der Wetterdaten auf dem Bildschirm ersichtlich. \\
 \captionsetup{type=figure}
 \includegraphics[width=\linewidth]{\ordnerfigures kale.jpg}
@@ -312,6 +312,7 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	 \captionof{lstlisting}{Offline Betrieb-Erstellung der fehlenden Tabellen im Client}
 	 \item Mithilfe von dem Funktion arraydiff in Python, wurde ein Vergleich zwischen den Tabellen und deren Datens\"atze im Client und im Server gemacht. Falls diese Funktion nichts zur\"uckgibt, bedeutet es, dass der Client schon auf dem neuesten Stand ist. Falls nicht, wird alles was im Server ist, aber im Client nicht, im Client hinzugef\"ugt.
 \end{itemize}
+
 \section{Wetterdaten}
 \begin{itemize}
 	\item Als erster Schritt erfolgte die Registrierung bei openweathermap.org. 
