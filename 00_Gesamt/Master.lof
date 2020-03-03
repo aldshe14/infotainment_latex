@@ -5,7 +5,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Projektstrukturplan\relax }}{5}{figure.caption.10}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Structed Design - Client\relax }}{9}{figure.caption.11}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Structed Design - Server\relax }}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Wasserfallmodell\relax }}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Hybrides Modell\relax }}{11}{figure.caption.13}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Structured Software Design vom Server\relax }}{29}{figure.caption.36}%
@@ -38,22 +38,3 @@
 \contentsline {figure}{\numberline {4.28}{\ignorespaces Nachricht von einem blockierten Benutzer\relax }}{55}{figure.caption.72}%
 \contentsline {figure}{\numberline {4.29}{\ignorespaces Nicht akzeptierter Benutzer\relax }}{56}{figure.caption.73}%
 \contentsline {figure}{\numberline {4.30}{\ignorespaces Akzeptierter Benutzer \relax }}{57}{figure.caption.74}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Bootstrap Logo \cite {40_bootstrap_img}\relax }}{63}{figure.caption.80}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces PHP Logo \cite {40_php_img}\relax }}{63}{figure.caption.81}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces JavaScript Logo \cite {40_js_img}\relax }}{63}{figure.caption.82}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces DataTables Logo \cite {40_datatables_img}\relax }}{64}{figure.caption.83}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Font Awesome Logo \cite {40_font_awesome_img}\relax }}{64}{figure.caption.84}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces MySQL Logo \cite {40_mysql_img}\relax }}{65}{figure.caption.85}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Apache HTTP Server Logo \cite {40_apache_img}\relax }}{65}{figure.caption.86}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Structed Software Design für den Client\relax }}{66}{figure.caption.87}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces ERD Diagramm\relax }}{68}{figure.caption.88}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Anmeldeseite\relax }}{69}{figure.caption.89}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Passwort zurücksetzen\relax }}{70}{figure.caption.90}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Passwort zurücksetzen E-Mail\relax }}{70}{figure.caption.91}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Men\"u für Administrator\relax }}{71}{figure.caption.92}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Men\"u für normaler User\relax }}{71}{figure.caption.93}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Men\"u für Mobilgeräte\relax }}{71}{figure.caption.94}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Einstellungen der Admin Webseite\relax }}{73}{figure.caption.103}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Layout 1 der Anzeige\relax }}{75}{figure.caption.109}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Layout 3 der Anzeige\relax }}{76}{figure.caption.110}%

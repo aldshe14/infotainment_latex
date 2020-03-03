@@ -11,5 +11,3 @@
 \contentsline {lstlisting}{\numberline {4.11}{\ignorespaces Hauptmen\"u f\"ur den Administrator\relax }}{41}{figure.caption.44}%
 \contentsline {lstlisting}{\numberline {4.12}{\ignorespaces Überprüfung der Eingabe der Benutzer\relax }}{41}{figure.caption.44}%
 \contentsline {lstlisting}{\numberline {4.13}{\ignorespaces Hinzufügen eines neuen Benutzers zur Datenbank\relax }}{41}{figure.caption.44}%
-\contentsline {lstlisting}{\numberline {5.1}Regex Muster für Telegram Chatbot API-Key}{72}{lstlisting.5.1}%
-\contentsline {lstlisting}{\numberline {5.2}Speicherung der Benutzer Informationen in Sessions}{73}{lstlisting.5.2}%

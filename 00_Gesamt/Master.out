@@ -13,7 +13,7 @@
 \BOOKMARK [2][-]{subsection.2.2.3}{Arbeitspakete}{section.2.2}% 13
 \BOOKMARK [1][-]{section.2.3}{Projektmanagementmethode}{chapter.2}% 14
 \BOOKMARK [2][-]{subsection.2.3.1}{Structed Design}{section.2.3}% 15
-\BOOKMARK [2][-]{subsection.2.3.2}{Wasserfall}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{Hybrides Modell}{section.2.3}% 16
 \BOOKMARK [0][-]{chapter.3}{Dokumentation des Projektverlaufs}{}% 17
 \BOOKMARK [1][-]{section.3.1}{Beschreibungen des Arbeitsverlaufs}{chapter.3}% 18
 \BOOKMARK [2][-]{subsection.3.1.1}{Irena Bala}{section.3.1}% 19
@@ -47,42 +47,3 @@
 \BOOKMARK [1][-]{section.4.14}{Evaluierung und Res\374mee}{chapter.4}% 47
 \BOOKMARK [2][-]{subsection.4.14.1}{Planung vs Realisierung}{section.4.14}% 48
 \BOOKMARK [2][-]{subsection.4.14.2}{Wertsch\366pfung und Lessons Learned}{section.4.14}% 49
-\BOOKMARK [0][-]{chapter.5}{Umsetzung - Aldo Sheldija}{}% 50
-\BOOKMARK [1][-]{section.5.1}{Allgemeine Beschreibung}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.2}{Technologien}{chapter.5}% 52
-\BOOKMARK [2][-]{subsection.5.2.1}{Bootstrap}{section.5.2}% 53
-\BOOKMARK [2][-]{subsection.5.2.2}{PHP}{section.5.2}% 54
-\BOOKMARK [2][-]{subsection.5.2.3}{JavaScript}{section.5.2}% 55
-\BOOKMARK [2][-]{subsection.5.2.4}{DataTables}{section.5.2}% 56
-\BOOKMARK [2][-]{subsection.5.2.5}{Font Awesome}{section.5.2}% 57
-\BOOKMARK [2][-]{subsection.5.2.6}{MySQL}{section.5.2}% 58
-\BOOKMARK [2][-]{subsection.5.2.7}{Apache}{section.5.2}% 59
-\BOOKMARK [1][-]{section.5.3}{Structed Software Design f\374r den Client}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.3.1}{Start}{section.5.3}% 61
-\BOOKMARK [2][-]{subsection.5.3.2}{Zeitsteuerung}{section.5.3}% 62
-\BOOKMARK [2][-]{subsection.5.3.3}{Daten holen}{section.5.3}% 63
-\BOOKMARK [2][-]{subsection.5.3.4}{Buffer}{section.5.3}% 64
-\BOOKMARK [2][-]{subsection.5.3.5}{Anzeige Prepare}{section.5.3}% 65
-\BOOKMARK [2][-]{subsection.5.3.6}{Log}{section.5.3}% 66
-\BOOKMARK [1][-]{section.5.4}{Datenbank}{chapter.5}% 67
-\BOOKMARK [2][-]{subsection.5.4.1}{ER Diagramm}{section.5.4}% 68
-\BOOKMARK [1][-]{section.5.5}{Admin Webseite}{chapter.5}% 69
-\BOOKMARK [2][-]{subsection.5.5.1}{Login}{section.5.5}% 70
-\BOOKMARK [2][-]{subsection.5.5.2}{Passwort zur\374cksetzen}{section.5.5}% 71
-\BOOKMARK [2][-]{subsection.5.5.3}{Men\374}{section.5.5}% 72
-\BOOKMARK [2][-]{subsection.5.5.4}{Home}{section.5.5}% 73
-\BOOKMARK [2][-]{subsection.5.5.5}{Anzeige}{section.5.5}% 74
-\BOOKMARK [2][-]{subsection.5.5.6}{Bilder}{section.5.5}% 75
-\BOOKMARK [2][-]{subsection.5.5.7}{Layouts}{section.5.5}% 76
-\BOOKMARK [2][-]{subsection.5.5.8}{Kalendarinfo}{section.5.5}% 77
-\BOOKMARK [2][-]{subsection.5.5.9}{Supplierplan}{section.5.5}% 78
-\BOOKMARK [2][-]{subsection.5.5.10}{Benutzer}{section.5.5}% 79
-\BOOKMARK [2][-]{subsection.5.5.11}{Einstellungen}{section.5.5}% 80
-\BOOKMARK [2][-]{subsection.5.5.12}{Logout}{section.5.5}% 81
-\BOOKMARK [2][-]{subsection.5.5.13}{Benutzerrechte f\374r die Webseite}{section.5.5}% 82
-\BOOKMARK [2][-]{subsection.5.5.14}{Webseite auf mehrere Sprachen}{section.5.5}% 83
-\BOOKMARK [1][-]{section.5.6}{Client}{chapter.5}% 84
-\BOOKMARK [2][-]{subsection.5.6.1}{Layout 1}{section.5.6}% 85
-\BOOKMARK [2][-]{subsection.5.6.2}{Layout 3}{section.5.6}% 86
-\BOOKMARK [1][-]{section.5.7}{Wordpress Webseite API}{chapter.5}% 87
-\BOOKMARK [1][-]{section.5.8}{Herausforderungen und deren L\366sung}{chapter.5}% 88
