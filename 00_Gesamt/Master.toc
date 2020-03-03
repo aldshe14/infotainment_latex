@@ -1,131 +1,131 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {1}Allgemeines}{1}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Idee, Thema, Aufgabenstellung}{1}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Team}{1}{section.1.2}% 
-\contentsline {section}{\numberline {1.3}Allgemeines}{2}{section.1.3}% 
-\contentsline {chapter}{\numberline {2}Planung}{3}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Projektziele}{3}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Muss-Ziele}{3}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Optionale-Ziele}{4}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}Nicht-Ziele}{4}{subsection.2.1.3}% 
-\contentsline {section}{\numberline {2.2}Projektplanung}{4}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Meilensteine}{4}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Projektstrukturplan}{4}{subsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.2.3}Arbeitspakete}{5}{subsection.2.2.3}% 
-\contentsline {section}{\numberline {2.3}Projektmanagementmethode}{9}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Structed Design}{9}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}Wasserfall}{9}{subsection.2.3.2}% 
-\contentsline {chapter}{\numberline {3}Dokumentation des Projektverlaufs}{12}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Beschreibungen des Arbeitsverlaufs}{12}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Irena Bala}{12}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}Aldo Sheldija}{17}{subsection.3.1.2}% 
-\contentsline {chapter}{\numberline {4}Umsetzung - Irena Bala}{21}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Allgemeine Beschreibungen}{21}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Chatbot}{22}{subsection.4.1.1}% 
-\contentsline {subsubsection}{Einf\IeC {\"u}hrung in Chatbot}{22}{section*.14}% 
-\contentsline {subsubsection}{Umsetzung von Chatbot}{22}{section*.15}% 
-\contentsline {subsection}{\numberline {4.1.2}Server}{22}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Technologien}{23}{subsection.4.1.3}% 
-\contentsline {subsubsection}{Was ist Apache HTTP Server?}{23}{section*.17}% 
-\contentsline {subsubsection}{Funktionsweise von Apache HTTP Server}{24}{section*.18}% 
-\contentsline {subsubsection}{Was ist MySQL?}{24}{section*.19}% 
-\contentsline {subsubsection}{Funktionsweise von MySQL}{24}{section*.20}% 
-\contentsline {subsubsection}{Was ist PHP?}{24}{section*.21}% 
-\contentsline {subsubsection}{Funktionsweise von PHP}{25}{section*.22}% 
-\contentsline {subsubsection}{Was ist JavaScript?}{25}{section*.23}% 
-\contentsline {subsubsection}{M\IeC {\"o}gliche Funktionen von JavaScript}{25}{section*.24}% 
-\contentsline {subsubsection}{Was ist Python?}{26}{section*.25}% 
-\contentsline {subsubsection}{Merkmale von Python}{26}{section*.26}% 
-\contentsline {subsubsection}{Was ist HTML?}{26}{section*.27}% 
-\contentsline {subsubsection}{Was ist CSS?}{26}{section*.28}% 
-\contentsline {subsubsection}{Was ist Raspberry PI?}{27}{section*.29}% 
-\contentsline {subsubsection}{Was ist SSL?}{27}{section*.30}% 
-\contentsline {subsubsection}{SSL-Verschl\IeC {\"u}sselung}{27}{section*.31}% 
-\contentsline {subsubsection}{Was ist Telegram Bot API?}{27}{section*.32}% 
-\contentsline {subsubsection}{Was ist Wetter API?}{27}{section*.33}% 
-\contentsline {subsubsection}{Was ist JSON?}{28}{section*.34}% 
-\contentsline {section}{\numberline {4.2}Structured Software Design}{28}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Konfiguration von Raspberry PI Server}{29}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Datenbank}{30}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}SSL Verschl\IeC {\"u}sselung}{31}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Anzeige}{32}{section.4.6}% 
-\contentsline {section}{\numberline {4.7}Offline Betrieb}{32}{section.4.7}% 
-\contentsline {section}{\numberline {4.8}Wetterdaten}{33}{section.4.8}% 
-\contentsline {section}{\numberline {4.9}Chatbot}{34}{section.4.9}% 
-\contentsline {subsection}{\numberline {4.9.1}Chatbot Einrichtung}{34}{subsection.4.9.1}% 
-\contentsline {subsection}{\numberline {4.9.2}Einrichtung des Chatbots in RaspberryPI}{35}{subsection.4.9.2}% 
-\contentsline {subsection}{\numberline {4.9.3}Grundlagen f\IeC {\"u}r die Umsetzung von Chatbot}{35}{subsection.4.9.3}% 
-\contentsline {subsection}{\numberline {4.9.4}Funktionalit\IeC {\"a}ten von Chatbot}{35}{subsection.4.9.4}% 
-\contentsline {subsubsection}{Unregistrierte Benutzer}{35}{section*.45}% 
-\contentsline {subsubsection}{Normale Benutzer}{36}{section*.46}% 
-\contentsline {subsubsection}{Administrator}{36}{section*.47}% 
-\contentsline {subsection}{\numberline {4.9.5}Umsetzung der Funktionalit\IeC {\"a}ten}{37}{subsection.4.9.5}% 
-\contentsline {subsection}{\numberline {4.9.6}Konkrete Beispiele mit Bildern}{42}{subsection.4.9.6}% 
-\contentsline {section}{\numberline {4.10}Probleme, Herausforderungen und deren L\IeC {\"o}sung}{57}{section.4.10}% 
-\contentsline {subsubsection}{APIs}{57}{section*.75}% 
-\contentsline {subsubsection}{Anzeige}{57}{section*.76}% 
-\contentsline {subsubsection}{Offline Betrieb}{58}{section*.77}% 
-\contentsline {subsubsection}{Chatbot}{58}{section*.78}% 
-\contentsline {subsubsection}{Datenbank}{58}{section*.79}% 
-\contentsline {section}{\numberline {4.11}Qualit\IeC {\"a}tssicherung, Controlling}{58}{section.4.11}% 
-\contentsline {section}{\numberline {4.12}Ergebnisse - Irena Bala}{58}{section.4.12}% 
-\contentsline {subsection}{\numberline {4.12.1}Implementierung}{59}{subsection.4.12.1}% 
-\contentsline {section}{\numberline {4.13}Handbuch f\IeC {\"u}r die Bedienung}{59}{section.4.13}% 
-\contentsline {subsection}{\numberline {4.13.1}Beschreibung der Bedienung als User}{59}{subsection.4.13.1}% 
-\contentsline {subsection}{\numberline {4.13.2}Beschreibung der Bedienung als Administrator}{60}{subsection.4.13.2}% 
-\contentsline {section}{\numberline {4.14}Evaluierung und Res\IeC {\"u}mee}{60}{section.4.14}% 
-\contentsline {subsection}{\numberline {4.14.1}Planung vs Realisierung}{60}{subsection.4.14.1}% 
-\contentsline {subsection}{\numberline {4.14.2}Wertsch\IeC {\"o}pfung und Lessons Learned}{61}{subsection.4.14.2}% 
-\contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{62}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Allgemeine Beschreibung}{62}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Technologien}{62}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Bootstrap}{62}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}PHP}{63}{subsection.5.2.2}% 
-\contentsline {subsection}{\numberline {5.2.3}JavaScript}{63}{subsection.5.2.3}% 
-\contentsline {subsection}{\numberline {5.2.4}DataTables}{64}{subsection.5.2.4}% 
-\contentsline {subsection}{\numberline {5.2.5}Font Awesome}{64}{subsection.5.2.5}% 
-\contentsline {subsection}{\numberline {5.2.6}MySQL}{65}{subsection.5.2.6}% 
-\contentsline {subsection}{\numberline {5.2.7}Apache}{65}{subsection.5.2.7}% 
-\contentsline {section}{\numberline {5.3}Structed Software Design f\IeC {\"u}r den Client}{65}{section.5.3}% 
-\contentsline {subsection}{\numberline {5.3.1}Start}{66}{subsection.5.3.1}% 
-\contentsline {subsection}{\numberline {5.3.2}Zeitsteuerung}{66}{subsection.5.3.2}% 
-\contentsline {subsection}{\numberline {5.3.3}Daten holen}{66}{subsection.5.3.3}% 
-\contentsline {subsection}{\numberline {5.3.4}Buffer}{67}{subsection.5.3.4}% 
-\contentsline {subsection}{\numberline {5.3.5}Anzeige Prepare}{67}{subsection.5.3.5}% 
-\contentsline {subsection}{\numberline {5.3.6}Log}{67}{subsection.5.3.6}% 
-\contentsline {section}{\numberline {5.4}Datenbank}{67}{section.5.4}% 
-\contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{67}{subsection.5.4.1}% 
-\contentsline {section}{\numberline {5.5}Admin Webseite}{68}{section.5.5}% 
-\contentsline {subsection}{\numberline {5.5.1}Login}{69}{subsection.5.5.1}% 
-\contentsline {subsection}{\numberline {5.5.2}Passwort zur\IeC {\"u}cksetzen}{69}{subsection.5.5.2}% 
-\contentsline {subsection}{\numberline {5.5.3}Men\IeC {\"u}}{71}{subsection.5.5.3}% 
-\contentsline {subsection}{\numberline {5.5.4}Home}{72}{subsection.5.5.4}% 
-\contentsline {subsubsection}{Anzeige Status}{72}{section*.95}% 
-\contentsline {subsubsection}{Layout hinzuf\IeC {\"u}gen}{72}{section*.96}% 
-\contentsline {subsubsection}{Layout Content hinzuf\IeC {\"u}gen}{72}{section*.97}% 
-\contentsline {subsubsection}{Timetable}{72}{section*.98}% 
-\contentsline {subsubsection}{POP-UP Fenster}{72}{section*.99}% 
-\contentsline {subsection}{\numberline {5.5.5}Anzeige}{72}{subsection.5.5.5}% 
-\contentsline {subsection}{\numberline {5.5.6}Bilder}{72}{subsection.5.5.6}% 
-\contentsline {subsection}{\numberline {5.5.7}Layouts}{72}{subsection.5.5.7}% 
-\contentsline {subsection}{\numberline {5.5.8}Kalendarinfo}{72}{subsection.5.5.8}% 
-\contentsline {subsection}{\numberline {5.5.9}Supplierplan}{72}{subsection.5.5.9}% 
-\contentsline {subsubsection}{Fehlendelehrer}{72}{section*.100}% 
-\contentsline {subsubsection}{Suppliertabelle}{72}{section*.101}% 
-\contentsline {subsection}{\numberline {5.5.10}Benutzer}{72}{subsection.5.5.10}% 
-\contentsline {subsubsection}{Passwort zur\IeC {\"u}cksetzen}{72}{section*.102}% 
-\contentsline {subsection}{\numberline {5.5.11}Einstellungen}{72}{subsection.5.5.11}% 
-\contentsline {subsection}{\numberline {5.5.12}Logout}{73}{subsection.5.5.12}% 
-\contentsline {subsection}{\numberline {5.5.13}Benutzerrechte f\IeC {\"u}r die Webseite}{73}{subsection.5.5.13}% 
-\contentsline {subsubsection}{Administrator}{73}{section*.104}% 
-\contentsline {subsubsection}{Normaler Benutzer}{74}{section*.105}% 
-\contentsline {subsection}{\numberline {5.5.14}Webseite auf mehrere Sprachen}{74}{subsection.5.5.14}% 
-\contentsline {section}{\numberline {5.6}Client}{74}{section.5.6}% 
-\contentsline {subsubsection}{Welcome Seite}{75}{section*.106}% 
-\contentsline {subsubsection}{Laoyut verwaltung}{75}{section*.107}% 
-\contentsline {subsubsection}{Content verwaltung}{75}{section*.108}% 
-\contentsline {subsection}{\numberline {5.6.1}Layout 1}{75}{subsection.5.6.1}% 
-\contentsline {subsection}{\numberline {5.6.2}Layout 2}{75}{subsection.5.6.2}% 
-\contentsline {section}{\numberline {5.7}Wordpress Webseite API}{75}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Herausforderungen und deren L\IeC {\"o}sung}{76}{section.5.8}% 
+\contentsline {chapter}{\numberline {1}Allgemeines}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Idee, Thema, Aufgabenstellung}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Team}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Allgemeines}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Planung}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Projektziele}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Muss-Ziele}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Optionale-Ziele}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Nicht-Ziele}{4}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Projektplanung}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Meilensteine}{4}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Projektstrukturplan}{4}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Arbeitspakete}{5}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Projektmanagementmethode}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Structed Design}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Wasserfall}{9}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Dokumentation des Projektverlaufs}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Beschreibungen des Arbeitsverlaufs}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Irena Bala}{13}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Aldo Sheldija}{17}{subsection.3.1.2}%
+\contentsline {chapter}{\numberline {4}Umsetzung - Irena Bala}{20}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Allgemeine Beschreibungen}{20}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Chatbot}{21}{subsection.4.1.1}%
+\contentsline {subsubsection}{Einführung in Chatbot}{21}{section*.14}%
+\contentsline {subsubsection}{Umsetzung von Chatbot}{21}{section*.15}%
+\contentsline {subsection}{\numberline {4.1.2}Server}{21}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Technologien}{22}{subsection.4.1.3}%
+\contentsline {subsubsection}{Was ist Apache HTTP Server?}{22}{section*.17}%
+\contentsline {subsubsection}{Funktionsweise von Apache HTTP Server}{23}{section*.18}%
+\contentsline {subsubsection}{Was ist MySQL?}{23}{section*.19}%
+\contentsline {subsubsection}{Funktionsweise von MySQL}{23}{section*.20}%
+\contentsline {subsubsection}{Was ist PHP?}{23}{section*.21}%
+\contentsline {subsubsection}{Funktionsweise von PHP}{24}{section*.22}%
+\contentsline {subsubsection}{Was ist JavaScript?}{24}{section*.23}%
+\contentsline {subsubsection}{Mögliche Funktionen von JavaScript}{24}{section*.24}%
+\contentsline {subsubsection}{Was ist Python?}{25}{section*.25}%
+\contentsline {subsubsection}{Merkmale von Python}{25}{section*.26}%
+\contentsline {subsubsection}{Was ist HTML?}{25}{section*.27}%
+\contentsline {subsubsection}{Was ist CSS?}{25}{section*.28}%
+\contentsline {subsubsection}{Was ist Raspberry PI?}{26}{section*.29}%
+\contentsline {subsubsection}{Was ist SSL?}{26}{section*.30}%
+\contentsline {subsubsection}{SSL-Verschlüsselung}{26}{section*.31}%
+\contentsline {subsubsection}{Was ist Telegram Bot API?}{26}{section*.32}%
+\contentsline {subsubsection}{Was ist Wetter API?}{26}{section*.33}%
+\contentsline {subsubsection}{Was ist JSON?}{27}{section*.34}%
+\contentsline {section}{\numberline {4.2}Structured Software Design}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Konfiguration von Raspberry PI Server}{28}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Datenbank}{29}{section.4.4}%
+\contentsline {section}{\numberline {4.5}SSL Verschlüsselung}{30}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Anzeige}{31}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Offline Betrieb}{31}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Wetterdaten}{32}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Chatbot}{33}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Chatbot Einrichtung}{33}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Einrichtung des Chatbots in RaspberryPI}{34}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}Grundlagen für die Umsetzung von Chatbot}{34}{subsection.4.9.3}%
+\contentsline {subsection}{\numberline {4.9.4}Funktionalitäten von Chatbot}{34}{subsection.4.9.4}%
+\contentsline {subsubsection}{Unregistrierte Benutzer}{34}{section*.45}%
+\contentsline {subsubsection}{Normale Benutzer}{35}{section*.46}%
+\contentsline {subsubsection}{Administrator}{35}{section*.47}%
+\contentsline {subsection}{\numberline {4.9.5}Umsetzung der Funktionalitäten}{36}{subsection.4.9.5}%
+\contentsline {subsection}{\numberline {4.9.6}Konkrete Beispiele mit Bildern}{41}{subsection.4.9.6}%
+\contentsline {section}{\numberline {4.10}Probleme, Herausforderungen und deren Lösung}{56}{section.4.10}%
+\contentsline {subsubsection}{APIs}{56}{section*.75}%
+\contentsline {subsubsection}{Anzeige}{56}{section*.76}%
+\contentsline {subsubsection}{Offline Betrieb}{57}{section*.77}%
+\contentsline {subsubsection}{Chatbot}{57}{section*.78}%
+\contentsline {subsubsection}{Datenbank}{57}{section*.79}%
+\contentsline {section}{\numberline {4.11}Qualitätssicherung, Controlling}{57}{section.4.11}%
+\contentsline {section}{\numberline {4.12}Ergebnisse - Irena Bala}{57}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Implementierung}{58}{subsection.4.12.1}%
+\contentsline {section}{\numberline {4.13}Handbuch für die Bedienung}{58}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Beschreibung der Bedienung als User}{58}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Beschreibung der Bedienung als Administrator}{59}{subsection.4.13.2}%
+\contentsline {section}{\numberline {4.14}Evaluierung und Resümee}{59}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Planung vs Realisierung}{59}{subsection.4.14.1}%
+\contentsline {subsection}{\numberline {4.14.2}Wertschöpfung und Lessons Learned}{60}{subsection.4.14.2}%
+\contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Allgemeine Beschreibung}{61}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Technologien}{61}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Bootstrap}{61}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}PHP}{62}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}JavaScript}{62}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}DataTables}{63}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Font Awesome}{63}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}MySQL}{64}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Apache}{64}{subsection.5.2.7}%
+\contentsline {section}{\numberline {5.3}Structed Software Design für den Client}{64}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Start}{65}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Zeitsteuerung}{65}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Daten holen}{65}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Buffer}{66}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Anzeige Prepare}{66}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Log}{66}{subsection.5.3.6}%
+\contentsline {section}{\numberline {5.4}Datenbank}{66}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{66}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}Admin Webseite}{67}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Login}{68}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Passwort zurücksetzen}{68}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Menü}{70}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Home}{71}{subsection.5.5.4}%
+\contentsline {subsubsection}{Anzeige Status}{71}{section*.95}%
+\contentsline {subsubsection}{Layout hinzufügen}{71}{section*.96}%
+\contentsline {subsubsection}{Layout Content hinzufügen}{71}{section*.97}%
+\contentsline {subsubsection}{Timetable}{71}{section*.98}%
+\contentsline {subsubsection}{POP-UP Fenster}{71}{section*.99}%
+\contentsline {subsection}{\numberline {5.5.5}Anzeige}{71}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.6}Bilder}{71}{subsection.5.5.6}%
+\contentsline {subsection}{\numberline {5.5.7}Layouts}{71}{subsection.5.5.7}%
+\contentsline {subsection}{\numberline {5.5.8}Kalendarinfo}{71}{subsection.5.5.8}%
+\contentsline {subsection}{\numberline {5.5.9}Supplierplan}{71}{subsection.5.5.9}%
+\contentsline {subsubsection}{Fehlendelehrer}{71}{section*.100}%
+\contentsline {subsubsection}{Suppliertabelle}{71}{section*.101}%
+\contentsline {subsection}{\numberline {5.5.10}Benutzer}{71}{subsection.5.5.10}%
+\contentsline {subsubsection}{Passwort zurücksetzen}{71}{section*.102}%
+\contentsline {subsection}{\numberline {5.5.11}Einstellungen}{71}{subsection.5.5.11}%
+\contentsline {subsection}{\numberline {5.5.12}Logout}{72}{subsection.5.5.12}%
+\contentsline {subsection}{\numberline {5.5.13}Benutzerrechte für die Webseite}{72}{subsection.5.5.13}%
+\contentsline {subsubsection}{Administrator}{72}{section*.104}%
+\contentsline {subsubsection}{Normaler Benutzer}{73}{section*.105}%
+\contentsline {subsection}{\numberline {5.5.14}Webseite auf mehrere Sprachen}{73}{subsection.5.5.14}%
+\contentsline {section}{\numberline {5.6}Client}{73}{section.5.6}%
+\contentsline {subsubsection}{Welcome Seite}{74}{section*.106}%
+\contentsline {subsubsection}{Laoyut verwaltung}{74}{section*.107}%
+\contentsline {subsubsection}{Content verwaltung}{74}{section*.108}%
+\contentsline {subsection}{\numberline {5.6.1}Layout 1}{74}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Layout 2}{74}{subsection.5.6.2}%
+\contentsline {section}{\numberline {5.7}Wordpress Webseite API}{74}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Herausforderungen und deren Lösung}{75}{section.5.8}%
