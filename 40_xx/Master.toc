@@ -29,31 +29,32 @@
 \contentsline {section}{\numberline {1.3}Konfiguration von Raspberry PI Server}{9}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Datenbank}{10}{section.1.4}%
 \contentsline {section}{\numberline {1.5}SSL Verschlüsselung}{11}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Anzeige}{12}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Offline Betrieb}{12}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Wetterdaten}{13}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Chatbot}{14}{section.1.9}%
-\contentsline {subsection}{\numberline {1.9.1}Chatbot Einrichtung}{14}{subsection.1.9.1}%
-\contentsline {subsection}{\numberline {1.9.2}Einrichtung des Chatbots in RaspberryPI}{15}{subsection.1.9.2}%
-\contentsline {subsection}{\numberline {1.9.3}Grundlagen für die Umsetzung von Chatbot}{15}{subsection.1.9.3}%
-\contentsline {subsection}{\numberline {1.9.4}Funktionalitäten von Chatbot}{15}{subsection.1.9.4}%
-\contentsline {subsubsection}{Unregistrierte Benutzer}{15}{section*.33}%
-\contentsline {subsubsection}{Normale Benutzer}{16}{section*.34}%
-\contentsline {subsubsection}{Administrator}{16}{section*.35}%
-\contentsline {subsection}{\numberline {1.9.5}Umsetzung der Funktionalitäten}{17}{subsection.1.9.5}%
-\contentsline {subsection}{\numberline {1.9.6}Konkrete Beispiele mit Bildern}{22}{subsection.1.9.6}%
-\contentsline {section}{\numberline {1.10}Probleme, Herausforderungen und deren Lösung}{37}{section.1.10}%
-\contentsline {subsubsection}{APIs}{37}{section*.63}%
-\contentsline {subsubsection}{Anzeige}{37}{section*.64}%
-\contentsline {subsubsection}{Offline Betrieb}{38}{section*.65}%
-\contentsline {subsubsection}{Chatbot}{38}{section*.66}%
-\contentsline {subsubsection}{Datenbank}{38}{section*.67}%
-\contentsline {section}{\numberline {1.11}Qualitätssicherung, Controlling}{38}{section.1.11}%
-\contentsline {section}{\numberline {1.12}Ergebnisse - Irena Bala}{38}{section.1.12}%
-\contentsline {subsection}{\numberline {1.12.1}Implementierung}{39}{subsection.1.12.1}%
-\contentsline {section}{\numberline {1.13}Handbuch für die Bedienung}{39}{section.1.13}%
-\contentsline {subsection}{\numberline {1.13.1}Beschreibung der Bedienung als User}{39}{subsection.1.13.1}%
-\contentsline {subsection}{\numberline {1.13.2}Beschreibung der Bedienung als Administrator}{40}{subsection.1.13.2}%
-\contentsline {section}{\numberline {1.14}Evaluierung und Resümee}{40}{section.1.14}%
-\contentsline {subsection}{\numberline {1.14.1}Planung vs Realisierung}{40}{subsection.1.14.1}%
-\contentsline {subsection}{\numberline {1.14.2}Wertschöpfung und Lessons Learned}{41}{subsection.1.14.2}%
+\contentsline {section}{\numberline {1.6}Layout}{12}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Anzeige}{13}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Offline Betrieb}{14}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Wetterdaten}{15}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Chatbot}{15}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Chatbot Einrichtung}{16}{subsection.1.10.1}%
+\contentsline {subsection}{\numberline {1.10.2}Einrichtung des Chatbots in RaspberryPI}{16}{subsection.1.10.2}%
+\contentsline {subsection}{\numberline {1.10.3}Grundlagen für die Umsetzung von Chatbot}{16}{subsection.1.10.3}%
+\contentsline {subsection}{\numberline {1.10.4}Funktionalitäten von Chatbot}{17}{subsection.1.10.4}%
+\contentsline {subsubsection}{Unregistrierte Benutzer}{17}{section*.33}%
+\contentsline {subsubsection}{Normale Benutzer}{17}{section*.34}%
+\contentsline {subsubsection}{Administrator}{18}{section*.35}%
+\contentsline {subsection}{\numberline {1.10.5}Umsetzung der Funktionalitäten}{18}{subsection.1.10.5}%
+\contentsline {subsection}{\numberline {1.10.6}Konkrete Beispiele mit Bildern}{23}{subsection.1.10.6}%
+\contentsline {section}{\numberline {1.11}Probleme, Herausforderungen und deren Lösung}{32}{section.1.11}%
+\contentsline {subsubsection}{APIs}{32}{section*.63}%
+\contentsline {subsubsection}{Anzeige}{32}{section*.64}%
+\contentsline {subsubsection}{Offline Betrieb}{32}{section*.65}%
+\contentsline {subsubsection}{Chatbot}{33}{section*.66}%
+\contentsline {subsubsection}{Datenbank}{33}{section*.67}%
+\contentsline {section}{\numberline {1.12}Qualitätssicherung, Controlling}{33}{section.1.12}%
+\contentsline {section}{\numberline {1.13}Ergebnisse - Irena Bala}{33}{section.1.13}%
+\contentsline {subsection}{\numberline {1.13.1}Implementierung}{33}{subsection.1.13.1}%
+\contentsline {section}{\numberline {1.14}Handbuch für die Bedienung}{34}{section.1.14}%
+\contentsline {subsection}{\numberline {1.14.1}Beschreibung der Bedienung als User}{34}{subsection.1.14.1}%
+\contentsline {subsection}{\numberline {1.14.2}Beschreibung der Bedienung als Administrator}{34}{subsection.1.14.2}%
+\contentsline {section}{\numberline {1.15}Evaluierung und Resümee}{35}{section.1.15}%
+\contentsline {subsection}{\numberline {1.15.1}Planung vs Realisierung}{35}{subsection.1.15.1}%
+\contentsline {subsection}{\numberline {1.15.2}Wertschöpfung und Lessons Learned}{36}{subsection.1.15.2}%

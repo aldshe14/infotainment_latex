@@ -262,20 +262,36 @@ Es wurde ein SSL Zertifikat für den Apache HTTP Server eingerichtet.
 \begin{itemize}
 	\item Es wurde ein System reboot gemacht und der Apache Server noch einmal gestartet. \cite{50_SSS}
 \end{itemize}
+\section{Layout}
+Es werden verschiedene Layouts f\"ur die Anzeige zur Verf\"ugung gestellt. Auf Abbildung 1.3 ist ein Beispiel ersichtlich, wobei die Anzeige in vier Teilbereichen geteilt wird. Der kleinste Bereich, der oben steht ist f\"ur die Darstellung von Uhr und Datum geeignet. In dem grossen Bereich werden z.B. der Stundenplan oder Supplierplan dargestellt. Die anderen Bereiche dienen f\"ur die Darstellung von der letzten Post der Webseite der Schule und f\"ur die Wetter Daten.
+Auf Abbildung 1.4 ist ein anderes Beispiel ersichtlich. In diesem Fall wird die Anzeige in Vollbildmodus dargestellt. Hier k\"onnen z.B. die Chatbot-Bilder angezeigt werden.
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.8\linewidth]{\ordnerfigures layout2.png}
+	\caption{Erstes Layout}
+	\label{f} 
+\end{center}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.8\linewidth]{\ordnerfigures layout4.png}
+	\caption{Zweites Layout}
+	\label{Lerfre} 
+\end{center}
 \section{Anzeige}
 Bei der Anzeige sind die Wetterdaten, Kalenderinformationen, Stundenplan, Supplierplan und die leere Klassen dargestellt. Die Wetterdaten wurden aus dem API Call gelesen, in die Datenbank gespeichert und dann durch ein PHP Skript von der Datenbank abgelesen. Die Formatierung für die Anzeige wurde mit JavaScript gemacht. Die Kalenderinformationen, sind selbst vom Administrator geschriebene Informationen.  \\
-Die Tabellen Kalenderinformationen und Stundenplan wurden aus der Datenbank selektiert und dann mit PHP dargestellt. Die Kalenderinformationen sind auf die Abbildung 1.3 ersichtlich. Die leere Klassen sind durch die Erstellung von einer View f\"ur die Tabelle Unterricht dargestellt. Die leere Klassen sind auf die Abbildung 1.4 ersichtlich. F\"ur den Supplierplan wurde eine gespeicherte Prozedur erstellt.
-Auf die Abbildung 1.4 ist die Darstellung der Wetterdaten auf dem Bildschirm ersichtlich. \\
+Die Tabellen Kalenderinformationen und Stundenplan wurden aus der Datenbank selektiert und dann mit PHP dargestellt. Die Kalenderinformationen sind auf die Abbildung 1.5 ersichtlich. Die leere Klassen sind durch die Erstellung von einer View f\"ur die Tabelle Unterricht dargestellt. Die leere Klassen sind auf die Abbildung 1.6 ersichtlich. F\"ur den Supplierplan wurde eine gespeicherte Prozedur erstellt.
+Auf die Abbildung 1.7 ist die Darstellung der Wetterdaten auf dem Bildschirm ersichtlich. \\
+\\
 \captionsetup{type=figure}
 \includegraphics[width=\linewidth]{\ordnerfigures kale.jpg}
 \caption{Kalenderinformationen}
 \label{Kalender} 
-\captionsetup{type=figure}
- \captionsetup{type=figure}
- \includegraphics[width=\linewidth]{\ordnerfigures leereklassen.jpg}
- \caption{Leere Klassen f\"ur Montag, die zweite Stunde}
- \label{Leere} 
- \captionsetup{type=figure}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures leereklassen.jpg}
+	\caption{Leere Klassen f\"ur Montag, die zweite Stunde}
+	\label{Leere} 
+\end{center}
 \section{Offline Betrieb}
 Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr wichtig. Durch den Offline-Betrieb werden die Displays, die als Clients dienen, bei Stromausfall nicht vollständig ausgeschaltet, sondern weiterhin Informationen anzeigen. Da die Displays die Daten kontinuierlich vom Server empfangen, würde ohne Strom die Verbindung zum Server getrennt und die Bildschirme ausgeschaltet. Daher war die Implementierung von Offline-Betrieb äußerst notwendig. Der Offline-Betrieb dient zur Synchronisierung von Daten zwischen Client und Server. Es ermöglicht ein kontinuierliches Backup. Wenn kein Strom vorhanden ist, zeigen die Bildschirme weiterhin die letzten Daten an, die sie vom Server empfangen haben. Die Datenübertragung erfolgt durch Aufrufen eines Skripts mithilfe von crontab Befehl alle 5 Minuten. Crontab dient dazu, ein bestimmtes Ereigniss regelm\"a\ss{}ig auszuf\"uhren. Der Client erhält also automatisch alle Änderungen, die auf dem Server auftreten. Das Skript zum Synchronisieren von Daten wurde manuell mit der PHP-Programmiersprache erstellt.
 \begin{itemize}
@@ -328,12 +344,14 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 \end{itemize}
 \begin{itemize}
 	\item Als letztens werden mithilfe von PHP die in der Datenbank gespeicherten Parameter aufgerufen und auf dem Bildschirm angezeigt.
-\end{itemize}	
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures weather.jpeg}
-\caption{Wetterdaten}
-\label{Wetter} 
-\captionsetup{type=figure} 
+\end{itemize}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures weather.jpeg}
+	\caption{Wetterdaten}
+	\label{Wetter} 
+	\captionsetup{type=figure} 
+\end{center}	
 \section{Chatbot}
 In diesem Unterkapitel wird der Chatbot und dessen Umsetzung erklärt.
 \subsection{Chatbot Einrichtung}
@@ -392,7 +410,6 @@ Wie alle anderen Benutzer, kann der Administrator die Sprache auswählen, in der
 \begin{itemize}
 	\item Zuerst wurde ein Query geschrieben, um zu überprüfen ob die Person, die eine Nachricht zum Bot geschrieben hat, schon in der Datenbank registriert ist oder nicht. \\
 \end{itemize} 
-\newpage
 \begin{lstlisting}[frame=single]
 query=("SELECT c_id, role, user_status, checked, telefonnummer 
 from  tb_infotainment_system_chatbot_users 
@@ -583,184 +600,229 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 \begin{itemize}
 	\item Hauptmen\"u f\"ur den Administrator
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildnew.jpeg}
-\caption{Hauptmen\"u f\"ur den Administrator} 
-\label{fig:menuadmin}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildnew.jpeg}
+	\caption{Hauptmen\"u f\"ur den Administrator} 
+	\label{fig:menuadmin}
+\end{center}
 \begin{itemize}
 	\item Funktion des Administrators, die Benutzer anzuschauen: Chatbot schickt die Chat ID des Benutzers zurück, die für jeden Benutzer eindeutig ist, und auch die Telefonnummer. Diese Daten sind in der Datenbank gespeichert und werden davon selektiert.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildnew1.jpeg}
-\caption{Auflistung der Chatbot-Benutzer} 
-\label{fig:chatbotbenutzer}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildnew1.jpeg}
+	\caption{Auflistung der Chatbot-Benutzer} 
+	\label{fig:chatbotbenutzer}
+\end{center}
 \begin{itemize}
 	\item Funktion des Administrators, die unregistrierten Benutzer anzuschauen: Chatbot schickt die eindeutige Chat ID des Benutzers zurück, die für jeden Benutzer eindeutig ist, und auch die Telefonnummer. Diese Daten sind in der Datenbank gespeichert und werden davon selektiert.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildnew2.jpeg}
-\caption{Auflistung der unregistrierten Benutzer}
-\label{chatbotben}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildnew2.jpeg}
+	\caption{Auflistung der unregistrierten Benutzer}
+	\label{chatbotben}
+\end{center}
 \begin{itemize}
 	\item Falls es keine unregistrierte Benutzer gibt, schickt der Infotainment Bot eine Nachricht zum Administrator, dass es bereits keine unregistrierte Benutzer im System sind.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildnew3.jpeg}
-\caption{Keine Unregistrierte Benutzer}
-\label{chatbotbenf}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildnew3.jpeg}
+	\caption{Keine Unregistrierte Benutzer}
+	\label{chatbotbenf}
+\end{center}
 \begin{itemize}
 	\item Der Administrator hat die M\"oglichkeit, die Benutzer zu genehmigen. Er kriegt von Chatbot eine Nachricht zur\"urck, wenn die Genehmigung erfolgreich war. Der Benutzer, der von dem Administrator akzeptiert wurde wird von Chatbot als ein normaler Benutzer angesehen.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildnew4.jpeg}
-\caption{Genehmigung des Administrators}
-\label{chatbotbenjdf}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildnew4.jpeg}
+	\caption{Genehmigung des Administrators}
+	\label{chatbotbenjdf}
+\end{center}
 \begin{itemize}
 	\item Der Administrator hat die M\"oglichkeit, die Benutzer nicht zu akzeptieren. Er kriegt von Chatbot eine Nachricht zur\"urck, wenn die Ablehnung erfolgreich war. Der Benutzer, der von dem Administrator nicht akzeptiert wurde, kann keine Interaktion mit dem Chatbot machen.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildnew5.jpeg}
-\caption{Ablehnung des Administrators}
-\label{chatbotbenjjdf}
-\newpage
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildnew5.jpeg}
+	\caption{Ablehnung des Administrators}
+	\label{chatbotbenjjdf}
+\end{center}
 \begin{itemize}
 	\item Funktion des Administrators, eine Notfallwarnmeldung an alle Benutzern zu schicken. Der Administrator erhält dann eine Bestätigungsnachricht vom Chatbot.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildnew7.jpeg}
-\caption{Notfallwarnmeldung}
-\label{chatbfotbenjjdf}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildnew7.jpeg}
+	\caption{Notfallwarnmeldung}
+	\label{chatbfotbenjjdf}
+\end{center}
 \begin{itemize}
 	\item Funktion des Administrators, die Benutzer zu blockieren: Der Administrator schreibt einfach das Befehl /block und die Chat-ID des Benutzers. Chatbot schickt eine Nachricht zurück, dass dieser Benutzer geblockt wurde.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildnew8.jpeg}
-\caption{Benutzer Blockierung}
-\label{fig:chatbotblock} 
-\captionsetup{type=figure} 
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildnew8.jpeg}
+	\caption{Benutzer Blockierung}
+	\label{fig:chatbotblock} 
+	\captionsetup{type=figure} 
+\end{center}
 \begin{itemize}
 	\item Funktion des Administrators, die Sprache zu \"andern. In der folgenden Abbildung wurde die Sprache von dem Administrator auf deutsch ge\"andert. Er kriegt eine Best\"atigungsnachricht vom Chatbot, dass die Sprache auf deutsch eingestellt wurde. Das bedeutet, dass die Interaktion wird in der ausgew\"ahlten Sprache folgen und der Administrator wird alle Meldungen nur in dieser Sprache vom Chatbot bekommen.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildnew6.jpeg}
-\caption{Spracheinstellungen}
-\label{fig:sprachek} 
-\captionsetup{type=figure} 
-\newpage
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.6\linewidth]{\ordnerfigures chatbotbildnew6.jpeg}
+	\caption{Spracheinstellungen}
+	\label{fig:sprachek} 
+	\captionsetup{type=figure} 
+\end{center}
 In den folgenden Abbildungen werden die Funktionalitäten des unregistrierten Benutzer beim Chatbot dargestellt.
 \begin{itemize}
 	\item Hauptmen\"u f\"ur den unregistrierten Benutzer
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildunre6.jpeg}
-\caption{Hauptmen\"u f\"ur den unregistrierten Benutzer}
-\label{fig:chaftboregistr}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildunre6.jpeg}
+	\caption{Hauptmen\"u f\"ur den unregistrierten Benutzer}
+	\label{fig:chaftboregistr}
+\end{center}
 \begin{itemize}
 	\item Chatbot gibt den Benutzer die Möglichkeit, sich beim Chatbot zu registrieren. Der Benuter hat zwei Buttons zur Wahl. In diesem Fall hat der Benutzer auf "Ja" gedruckt. Der Benutzer soll die Telefonnummer eingeben. Der Chatbot schickt eine Nachricht, wo es erkl\"rt ist, in welcher Format die Telefonnummer geschrieben werden soll.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildunre5.jpeg}
-\caption{Registrierung beim Chatbot}
-\label{fig:chfdsatboregistr}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildunre5.jpeg}
+	\caption{Registrierung beim Chatbot}
+	\label{fig:chfdsatboregistr}
+\end{center}
 \begin{itemize}
 	\item Wenn der Benutzer, statt die Telefonnummer Text eingibt, bekommt er eine Fehlermeldung von Chatbot.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildunre4.jpeg}
-\caption{Falsche Eingabe des Telefonnummers}
-\label{fig:chfdsatboregistrfds}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildunre4.jpeg}
+	\caption{Falsche Eingabe des Telefonnummers}
+	\label{fig:chfdsatboregistrfds}
+\end{center}
 \begin{itemize}
 	\item Wenn die Laenge der Telefonnummer nicht korrekt ist, bekommt der Benutzer eine Fehlermeldung von Chatbot.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildunre3.jpeg}
-\caption{Telefonnummer zu kurz}
-\label{fig:crboregistrfds}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildunre3.jpeg}
+	\caption{Telefonnummer zu kurz}
+	\label{fig:crboregistrfds}
+\end{center}
 \begin{itemize}
 	\item Wenn die Telefonnummer von dem Benutzer korrekt eingegeben wird, kriegt er eine Meldung von Chatbot und er kann keine Interaktion mit dem Chatbot haben, bis er die Genehmigung von Administrator kriegt.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildunre2.jpeg}
-\caption{Korrekte Eingabe des Telefonnummers}
-\label{fig:crboreistrfds}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbildunre2.jpeg}
+	\caption{Korrekte Eingabe des Telefonnummers}
+	\label{fig:crboreistrfds}
+\end{center}
 \begin{itemize}
 	\item Falls der Benutzer versucht, nachdem er einmal die Telefonnummer eingegeben hat, eine andere Telefonnummer einzugeben, wird der Chatbot ihm eine Nachricht schicken, dass er auf die Genehmigung des Administrators warten soll. Die andere Nachrichte, die später kommen werden nicht berücksichtigt bis der Administrator die Genehmigung gegeben hat.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbild7.jpeg}
-\caption{Das Warten der Benutzer auf die Administrator Bestätigung}
-\label{fig:chat232bo53}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbild7.jpeg}
+	\caption{Das Warten der Benutzer auf die Administrator Bestätigung}
+	\label{fig:chat232bo53}
+\end{center}
 \begin{itemize}
 	\item Falls der Benutzer auf "Nein" druckt, schickt der Chatbot ihm eine Meldung zur\"uck, dass die Interaktion mit dem Chatbot ohne Registrierung nicht m\"oglich ist.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotipy.png}
-\caption{Keine Registrierung}
-\label{fig:chatffd3}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.6\linewidth]{\ordnerfigures chatbotipy.png}
+	\caption{Keine Registrierung}
+	\label{fig:chatffd3}
+\end{center}
 \begin{itemize}
 	\item Funktion von einem unregistrierten Benutzer, die Sprache zu \"andern.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chatbotbildunre1.jpeg}
-\caption{Spracheinstellungen f\"ur unregistrierte Benutzer}
-\label{fig:chatfd3}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.6\linewidth]{\ordnerfigures chatbotbildunre1.jpeg}
+	\caption{Spracheinstellungen f\"ur unregistrierte Benutzer}
+	\label{fig:chatfd3}
+\end{center}
 In den folgenden Abbildungen wird die Interaktion eines normalen Benutzer mit dem Chatbot dargestellt.
 \begin{itemize}
 	\item Hauptmen\"ur f\"ur einen normalen Benutzer
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chat1.jpeg}
-\caption{Hauptmen\"ur f\"ur einen normalen Benutzer} 
-\label{fig:chgtfd3}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chat1.jpeg}
+	\caption{Hauptmen\"ur f\"ur einen normalen Benutzer} 
+	\label{fig:chgtfd3}
+\end{center}
 \begin{itemize}
 	\item Bilderfunktionalit\"at
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chat.jpeg}
-\caption{Bilderfunktionalit\"at} 
-\label{fig:chgtf53}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures chat.jpeg}
+	\caption{Bilderfunktionalit\"at} 
+	\label{fig:chgtf53}
+\end{center}
 \begin{itemize}
 	\item Spracheinstellungen f\"ur einen normalen Benutzer
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures chat2.jpeg}
-\caption{Spracheinstellungen f\"ur einen normalen Benutzer} 
-\label{fig:chgtf43}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.6\linewidth]{\ordnerfigures chat2.jpeg}
+	\caption{Spracheinstellungen f\"ur einen normalen Benutzer} 
+	\label{fig:chgtf43}
+\end{center}
 \begin{itemize}
 	\item Wenn der Administrator eine Notfallwarnmeldung zu den Benutzern schickt, kriegen die Benutzer die folgenden Nachricht von Chatbot.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures notfalllll.jpeg}
-\caption{Notfallwarmeldung vom Administrator} 
-\label{fig:chgf43}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures notfalllll.jpeg}
+	\caption{Notfallwarmeldung vom Administrator} 
+	\label{fig:chgf43}
+\end{center}
 In der folgenden Abbildung wird die Interaktion eines blockierten Benutzer mit dem Chatbot dargestellt.
 \begin{itemize}
 	\item Wenn ein Benutzer von dem Administrator blockiert ist und trotzdem versucht eine Nachricht zum Chatbot zu schicken, wird der Chatbot ihm eine Meldung schicken, dass die von diesem Benutzer erhaltene Nachrichten nicht ber\"ucksichtigt werden, weil er blockiert ist. 
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures nota.jpeg}
-\caption{Nachricht von einem blockierten Benutzer}
-\label{fig:chatbodfsd53}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.6\linewidth]{\ordnerfigures nota.jpeg}
+	\caption{Nachricht von einem blockierten Benutzer}
+	\label{fig:chatbodfsd53}
+\end{center}
 In der folgenden Abbildung wird die Interaktion eines nicht akzeptierten Benutzer mit dem Chatbot dargestellt.
 \begin{itemize}
 	\item Wenn ein Benutzer von dem Administrator nicht akzeptiert ist und trotzdem versucht eine Nachricht zum Chatbot zu schicken, wird der Chatbot ihm eine Meldung schicken, dass die von diesem Benutzer erhaltene Nachrichten nicht ber\"ucksichtigt werden, weil er blockiert ist. 
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures blocked.jpeg}
-\caption{Nicht akzeptierter Benutzer}
-\label{fig:chatb6dfsd53}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.6\linewidth]{\ordnerfigures blocked.jpeg}
+	\caption{Nicht akzeptierter Benutzer}
+	\label{fig:chatb6dfsd53}
+\end{center}
 In der folgenden Abbildung wird die Interaktion eines akzeptierten Benutzer mit dem Chatbot dargestellt.
 \begin{itemize}
 	\item Wenn ein Benutzer von dem Administrator akzeptiert wird, wird der Infotainment Bot ihm eine Nachricht schicken, dass er gerade genehmigt wurde und dass die Interaktion mit dem Chatbot m\"oglich ist. Dieser Benutzer kriegt den Status einer normalen Benutzer.
 \end{itemize}
-\captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures aky.jpeg}
-\caption{Akzeptierter Benutzer }
-\label{fig:chatbodged53}
+\begin{center}
+	\captionsetup{type=figure}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures aky.jpeg}
+	\caption{Akzeptierter Benutzer }
+	\label{fig:chatbodged53}
+\end{center}
 \section{Probleme, Herausforderungen und deren Lösung}
 Während der Umsetzung des Projekts gab es einige Probleme und Herausforderungen, die aber am Ende gelöst wurden.
 \subsubsection{APIs}
-
 Die APIs haben einige Herausforderungen gebracht. Zuerst sollten die richtigen APIs gefunden werden. Danach sollte nachgeschaut werden, wie sie genau funktionieren. Es sollte genau analysiert, auf welchem Format die API die Daten zurückliefet, damit diese Daten an dem Bildschirm angezeigt werden konnten. 
 
 \subsubsection{Anzeige}
@@ -872,7 +934,6 @@ Diese Funktionen sind:
 	\item Implementierung der Notfallwarnungen
 \end{itemize}
 Die Anforderungen bei der Anzeige sind auch erfüllt worden. Dort können verschiedene Informationen angezeigt werden. Für die Anzeige gibt es auch verschiedene Layouts. \\
-\\
 Die Datenbank wurde anders als geplant, gebaut. Während der Arbeit wurden viele Adaptierungen gemacht. Es sind mehrere Tabellen als geplant erstellt. Eine Tabelle davon ist die Tabelle für die Chatbot Benutzer. Diese war früher nicht geplant, weil es wurde auch die Anlegung von mehreren User-Rechte beim Chatbot nicht geplant. Das bedeutet, dass alle Komponente des Systems miteinander in Zusammenhang sind und wenn eine davon geändert wurde, hatte diese Konsequenzen auf andere Komponenten. 
 \subsection{Wertschöpfung und Lessons Learned}
 Es wurde das Wissen in den folgenden Bereichen erweitert: \\
