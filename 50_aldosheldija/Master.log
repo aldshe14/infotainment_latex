@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  2 MAR 2020 01:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.4)  2 MAR 2020 09:23
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1181,7 +1181,7 @@ No file Master.nls.
 ge.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 ...ine {1.5.12}Logout}{12}{subsection.1.5.12}
+l.42 ...ine {1.5.12}Logout}{13}{subsection.1.5.12}
                                                   % [1
 
 ])
@@ -1403,7 +1403,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 307.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [14]
-<./../50_aldosheldija/figures/layout1.png, id=428, 1205.2528pt x 674.52pt>
+<./../50_aldosheldija/figures/layout1.png, id=427, 1205.2528pt x 674.52pt>
 File: ./../50_aldosheldija/figures/layout1.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/layout1.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/layout1.png  used on inpu
@@ -1503,42 +1503,33 @@ Package rerunfilecheck Info: File `Master.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'Master.run.xml'.
 \openout1 = `Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33016 strings out of 492895
- 619034 string characters out of 3133482
+ 33014 strings out of 492895
+ 619000 string characters out of 3133482
  1282246 words of memory out of 3000000
  36442 multiletter control sequences out of 15000+200000
  542095 words of font info for 59 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  59i,16n,122p,1430b,4061s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.26} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.20} has been referenced but does not
- exist, replaced by a fixed one
-
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Master.pdf (23 pages, 3239162 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Master.pdf (23 pages, 3238982 bytes).
 PDF statistics:
- 584 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
+ 582 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
  408 words of extra memory for PDF output out of 10000 (max. 10000000)
 

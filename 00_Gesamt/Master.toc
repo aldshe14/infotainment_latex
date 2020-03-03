@@ -48,13 +48,18 @@
 \contentsline {section}{\numberline {4.2}Structured Software Design}{28}{section.4.2}% 
 \contentsline {section}{\numberline {4.3}Konfiguration von Raspberry PI Server}{29}{section.4.3}% 
 \contentsline {section}{\numberline {4.4}Datenbank}{30}{section.4.4}% 
+<<<<<<< HEAD
 \contentsline {section}{\numberline {4.5}SSL Verschlüsselung}{31}{section.4.5}% 
+=======
+\contentsline {section}{\numberline {4.5}SSL Verschl\IeC {\"u}sselung}{31}{section.4.5}% 
+>>>>>>> 5b3828ab68194419d86d09c3f1caf060fd2bad47
 \contentsline {section}{\numberline {4.6}Anzeige}{32}{section.4.6}% 
 \contentsline {section}{\numberline {4.7}Offline Betrieb}{32}{section.4.7}% 
 \contentsline {section}{\numberline {4.8}Wetterdaten}{33}{section.4.8}% 
 \contentsline {section}{\numberline {4.9}Chatbot}{34}{section.4.9}% 
 \contentsline {subsection}{\numberline {4.9.1}Chatbot Einrichtung}{34}{subsection.4.9.1}% 
 \contentsline {subsection}{\numberline {4.9.2}Einrichtung des Chatbots in RaspberryPI}{35}{subsection.4.9.2}% 
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {4.9.3}Grundlagen für die Umsetzung von Chatbot}{35}{subsection.4.9.3}% 
 \contentsline {subsection}{\numberline {4.9.4}Funktionalitäten von Chatbot}{35}{subsection.4.9.4}% 
 \contentsline {subsubsection}{Unregistrierte Benutzer}{35}{section*.45}% 
@@ -63,11 +68,22 @@
 \contentsline {subsection}{\numberline {4.9.5}Umsetzung der Funktionalitäten}{37}{subsection.4.9.5}% 
 \contentsline {subsection}{\numberline {4.9.6}Konkrete Beispiele mit Bildern}{42}{subsection.4.9.6}% 
 \contentsline {section}{\numberline {4.10}Probleme, Herausforderungen und deren Lösung}{57}{section.4.10}% 
+=======
+\contentsline {subsection}{\numberline {4.9.3}Grundlagen f\IeC {\"u}r die Umsetzung von Chatbot}{35}{subsection.4.9.3}% 
+\contentsline {subsection}{\numberline {4.9.4}Funktionalit\IeC {\"a}ten von Chatbot}{35}{subsection.4.9.4}% 
+\contentsline {subsubsection}{Unregistrierte Benutzer}{35}{section*.45}% 
+\contentsline {subsubsection}{Normale Benutzer}{36}{section*.46}% 
+\contentsline {subsubsection}{Administrator}{36}{section*.47}% 
+\contentsline {subsection}{\numberline {4.9.5}Umsetzung der Funktionalit\IeC {\"a}ten}{37}{subsection.4.9.5}% 
+\contentsline {subsection}{\numberline {4.9.6}Konkrete Beispiele mit Bildern}{42}{subsection.4.9.6}% 
+\contentsline {section}{\numberline {4.10}Probleme, Herausforderungen und deren L\IeC {\"o}sung}{57}{section.4.10}% 
+>>>>>>> 5b3828ab68194419d86d09c3f1caf060fd2bad47
 \contentsline {subsubsection}{APIs}{57}{section*.75}% 
 \contentsline {subsubsection}{Anzeige}{57}{section*.76}% 
 \contentsline {subsubsection}{Offline Betrieb}{58}{section*.77}% 
 \contentsline {subsubsection}{Chatbot}{58}{section*.78}% 
 \contentsline {subsubsection}{Datenbank}{58}{section*.79}% 
+<<<<<<< HEAD
 \contentsline {section}{\numberline {4.11}Qualitätssicherung, Controlling}{58}{section.4.11}% 
 \contentsline {section}{\numberline {4.12}Ergebnisse - Irena Bala}{58}{section.4.12}% 
 \contentsline {subsection}{\numberline {4.12.1}Implementierung}{59}{subsection.4.12.1}% 
@@ -77,6 +93,17 @@
 \contentsline {section}{\numberline {4.14}Evaluierung und Resümee}{60}{section.4.14}% 
 \contentsline {subsection}{\numberline {4.14.1}Planung vs Realisierung}{60}{subsection.4.14.1}% 
 \contentsline {subsection}{\numberline {4.14.2}Wertschöpfung und Lessons Learned}{61}{subsection.4.14.2}% 
+=======
+\contentsline {section}{\numberline {4.11}Qualit\IeC {\"a}tssicherung, Controlling}{58}{section.4.11}% 
+\contentsline {section}{\numberline {4.12}Ergebnisse - Irena Bala}{58}{section.4.12}% 
+\contentsline {subsection}{\numberline {4.12.1}Implementierung}{59}{subsection.4.12.1}% 
+\contentsline {section}{\numberline {4.13}Handbuch f\IeC {\"u}r die Bedienung}{59}{section.4.13}% 
+\contentsline {subsection}{\numberline {4.13.1}Beschreibung der Bedienung als User}{59}{subsection.4.13.1}% 
+\contentsline {subsection}{\numberline {4.13.2}Beschreibung der Bedienung als Administrator}{60}{subsection.4.13.2}% 
+\contentsline {section}{\numberline {4.14}Evaluierung und Res\IeC {\"u}mee}{60}{section.4.14}% 
+\contentsline {subsection}{\numberline {4.14.1}Planung vs Realisierung}{60}{subsection.4.14.1}% 
+\contentsline {subsection}{\numberline {4.14.2}Wertsch\IeC {\"o}pfung und Lessons Learned}{61}{subsection.4.14.2}% 
+>>>>>>> 5b3828ab68194419d86d09c3f1caf060fd2bad47
 \contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{62}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Allgemeine Beschreibung}{62}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Technologien}{62}{section.5.2}% 
@@ -87,7 +114,11 @@
 \contentsline {subsection}{\numberline {5.2.5}Font Awesome}{64}{subsection.5.2.5}% 
 \contentsline {subsection}{\numberline {5.2.6}MySQL}{65}{subsection.5.2.6}% 
 \contentsline {subsection}{\numberline {5.2.7}Apache}{65}{subsection.5.2.7}% 
+<<<<<<< HEAD
 \contentsline {section}{\numberline {5.3}Structed Software Design für den Client}{65}{section.5.3}% 
+=======
+\contentsline {section}{\numberline {5.3}Structed Software Design f\IeC {\"u}r den Client}{65}{section.5.3}% 
+>>>>>>> 5b3828ab68194419d86d09c3f1caf060fd2bad47
 \contentsline {subsection}{\numberline {5.3.1}Start}{66}{subsection.5.3.1}% 
 \contentsline {subsection}{\numberline {5.3.2}Zeitsteuerung}{66}{subsection.5.3.2}% 
 \contentsline {subsection}{\numberline {5.3.3}Daten holen}{66}{subsection.5.3.3}% 
@@ -98,12 +129,21 @@
 \contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{67}{subsection.5.4.1}% 
 \contentsline {section}{\numberline {5.5}Admin Webseite}{68}{section.5.5}% 
 \contentsline {subsection}{\numberline {5.5.1}Login}{69}{subsection.5.5.1}% 
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {5.5.2}Passwort zurücksetzen}{69}{subsection.5.5.2}% 
 \contentsline {subsection}{\numberline {5.5.3}Menü}{71}{subsection.5.5.3}% 
 \contentsline {subsection}{\numberline {5.5.4}Home}{72}{subsection.5.5.4}% 
 \contentsline {subsubsection}{Anzeige Status}{72}{section*.95}% 
 \contentsline {subsubsection}{Layout hinzufügen}{72}{section*.96}% 
 \contentsline {subsubsection}{Layout Content hinzufügen}{72}{section*.97}% 
+=======
+\contentsline {subsection}{\numberline {5.5.2}Passwort zur\IeC {\"u}cksetzen}{69}{subsection.5.5.2}% 
+\contentsline {subsection}{\numberline {5.5.3}Men\IeC {\"u}}{71}{subsection.5.5.3}% 
+\contentsline {subsection}{\numberline {5.5.4}Home}{72}{subsection.5.5.4}% 
+\contentsline {subsubsection}{Anzeige Status}{72}{section*.95}% 
+\contentsline {subsubsection}{Layout hinzuf\IeC {\"u}gen}{72}{section*.96}% 
+\contentsline {subsubsection}{Layout Content hinzuf\IeC {\"u}gen}{72}{section*.97}% 
+>>>>>>> 5b3828ab68194419d86d09c3f1caf060fd2bad47
 \contentsline {subsubsection}{Timetable}{72}{section*.98}% 
 \contentsline {subsubsection}{POP-UP Fenster}{72}{section*.99}% 
 \contentsline {subsection}{\numberline {5.5.5}Anzeige}{72}{subsection.5.5.5}% 
@@ -114,10 +154,17 @@
 \contentsline {subsubsection}{Fehlendelehrer}{72}{section*.100}% 
 \contentsline {subsubsection}{Suppliertabelle}{72}{section*.101}% 
 \contentsline {subsection}{\numberline {5.5.10}Benutzer}{72}{subsection.5.5.10}% 
+<<<<<<< HEAD
 \contentsline {subsubsection}{Passwort zurücksetzen}{72}{section*.102}% 
 \contentsline {subsection}{\numberline {5.5.11}Einstellungen}{72}{subsection.5.5.11}% 
 \contentsline {subsection}{\numberline {5.5.12}Logout}{73}{subsection.5.5.12}% 
 \contentsline {subsection}{\numberline {5.5.13}Benutzerrechte für die Webseite}{73}{subsection.5.5.13}% 
+=======
+\contentsline {subsubsection}{Passwort zur\IeC {\"u}cksetzen}{72}{section*.102}% 
+\contentsline {subsection}{\numberline {5.5.11}Einstellungen}{72}{subsection.5.5.11}% 
+\contentsline {subsection}{\numberline {5.5.12}Logout}{73}{subsection.5.5.12}% 
+\contentsline {subsection}{\numberline {5.5.13}Benutzerrechte f\IeC {\"u}r die Webseite}{73}{subsection.5.5.13}% 
+>>>>>>> 5b3828ab68194419d86d09c3f1caf060fd2bad47
 \contentsline {subsubsection}{Administrator}{73}{section*.104}% 
 \contentsline {subsubsection}{Normaler Benutzer}{74}{section*.105}% 
 \contentsline {subsection}{\numberline {5.5.14}Webseite auf mehrere Sprachen}{74}{subsection.5.5.14}% 
@@ -128,4 +175,8 @@
 \contentsline {subsection}{\numberline {5.6.1}Layout 1}{75}{subsection.5.6.1}% 
 \contentsline {subsection}{\numberline {5.6.2}Layout 2}{75}{subsection.5.6.2}% 
 \contentsline {section}{\numberline {5.7}Wordpress Webseite API}{75}{section.5.7}% 
+<<<<<<< HEAD
 \contentsline {section}{\numberline {5.8}Herausforderungen und deren Lösung}{76}{section.5.8}% 
+=======
+\contentsline {section}{\numberline {5.8}Herausforderungen und deren L\IeC {\"o}sung}{76}{section.5.8}% 
+>>>>>>> 5b3828ab68194419d86d09c3f1caf060fd2bad47
