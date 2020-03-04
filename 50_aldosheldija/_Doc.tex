@@ -267,6 +267,7 @@ Dieses Menü ist auch für mobile Benutzer geeignet. Wenn der Benutzer ein Mobil
 	emphstyle       =[2]\color{dkyellow}}
 
 \subsection{Startseite}
+
 Die Startseite ist die Zusammenfassung des gesamten Systems. Auf dieser Seite kann der Administrator einen Überblick von Anzeigen erhalten. Wie wir in Abbildung \ref{fi:home} sehen können, werden die Clients mithilfe einer Dropdown-Liste angezeigt. Im ersten Moment, in dem diese Seite geöffnet wird, ist automatisch die erste Anzeige der Dropdown-Liste ausgewählt. Nachdem die Anzeige ausgewählt wurde, werden dem Benutzer einige Informationen angezeigt.
 Der Gerätestatus wird mit Hilfe eines ausgefüllten Kreises angezeigt. Abhängig vom Status des Geräts kann dieser Kreis entweder grün sein, was bedeutet, dass das Gerät aktiv und online ist, oder rot, wenn das Gerät offline ist. In der Nähe des Status des Geräts wird das Datum angezeigt, an dem die Anzeige zuletzt auf den Server geantwortet hat.
 Sowohl die IP-Adresse als auch die MAC-Adresse des Displays sind weitere Informationen, die auf der Startseite angezeigt werden.
@@ -290,13 +291,41 @@ Um den Gerätestatus herauszufinden, wurde ein Skript in Python erstellt. Dieses
 	\item Wenn das Paket erfolgreich gesendet wurde, bedeutet dies, dass die Anzeige online ist und der Status zusammen und das Datum aktualisiert werden müssen. 
 	\item Wurde das Paket nicht gesendet, zeigt uns dies, dass das Gerät entweder nicht mit dem Internet verbunden oder ausgeschaltet ist. Auch in diesem Fall müssen der Status des Geräts und das Datum aktualisiert werden.
 \end{itemize}
-\subsubsection{Layout hinzufügen}
-\subsubsection{Layout Content hinzufügen}
 
 
 \subsubsection{Timetable}
+\label{sub:timetable}
 Auf dieser Seite ist auch ein Zeitplan zu sehen, der zeigt, welches Layout wann für diese Anzeige angezeigt wird. Dieser Zeitplan ist in 7 Spalten aufgeteilt, jeweils einen pro Tag der Woche, und 24 Zeilen, die jeweils den Wert von einer Stunde haben.
-\subsubsection{POP-UP Fenster}
+
+Die Berechnung der Position für jedes Layout erfolgt über CSS. Die Höhe einer Zeile ist vorher definiert, wie groß sie sein muss, zum Beispiel 30px. Diese Größe entspricht einer Stunde. Für jede Zeile wird eine Linie gezeichnet. 
+
+Ein Layout, das 3 Stunden lang angezeigt wird, hat die Höhe 3 * 30 = 90px. Für dieses Layout haben wir eine Box mit der Höhe 90px. Es sollte auch die Position dieser Box berechnet werden. Die Position der Box ist auf absolut eingestellt. Dieses Layout hat auch eine Start- und Endzeit. Wir beginnen unseren Stundenplan ab Mitternacht (ab 0). Von der Startzeit subtrahieren wir 0 und multiplizieren es mit 30px. Auf diese Weise können wir die Box genau dort positionieren, wo sie sein sollte. Dies funktioniert auch für nicht ganze Stunden.
+
+Die Farbe der Box richtet sich nach dem Layout. Jedes Layout hat eine andere Farbe, so dass es einfacher zu unterscheiden ist.
+Als Info wird die Start- und Endzeit dargestellt, zu der dieses Layout angezeigt werden soll. 
+Sie können auf jedes Layout (Feld) klicken, um ein Popup-Fenster zu öffnen, in dem weitere Informationen angezeigt werden.
+
+\subsubsection{Layout wählen}
+
+Auf dieser Seite ist es möglich, ein bestimmtes Layout für einen bestimmten Zeitraum auszuwählen. Mit Hilfe eines Dropdowns werden alle verfügbaren Layouts angezeigt. Der Benutzer muss eine Start- und Endzeit auswählen, zu der dieses Layout angezeigt werden soll. Eine andere Möglichkeit besteht darin, bestimmte Tage auszuwählen, an denen dieses Layout angezeigt werden soll. Es kann ein bestimmter Tag, bestimmte Tage oder die ganze Woche sein.
+
+Über dem Button Layout hinzufügen werden die Daten gesendet.Als erstes wird die Start- und Endzeit überprüft. Die Startzeit sollte früher als die Endzeit sein. Wenn diese Bedingung erfüllt ist, wird geprüft, ob der Zeitplan während dieser Stunde leer ist. Dies wird für jeden ausgewählten Tag überprüft.
+
+Sollte eine der oben genannten Bedingungen nicht erfüllt sein, wird eine entsprechende Fehlermeldung ausgegeben und das Layout kann nicht hinzugefügt werden.
+
+Um dem Benutzer zu helfen, damit er keine Fehler machen kann, wurde unter dem Button der Zeitplan (\nameref{sub:timetable} Seite \pageref{sub:timetable}) dieser Anzeige eingefügt, in dem der Benutzer sehen kann, welche Zeiten leer und welche beschäftigt sind.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.69\textwidth]{\ordnerfigures chooseLayout.png}
+	\caption{Layout Wählen für einen bestimmten Zeitraum}
+	\label{fi:chooseLayout}
+\end{figure}
+
+\subsubsection{Pop-up-Fenster}
+
+\subsubsection{Layout Content hinzufügen}
+
 
 \subsection{Dynamische Tabellen mit Datatables}
 \subsubsection{Herunterladen}
@@ -315,8 +344,53 @@ Auf dieser Seite ist auch ein Zeitplan zu sehen, der zeigt, welches Layout wann 
 \subsubsection{Suppliertabelle}
 
 \subsection{Benutzer}
+Im Benutzermenü stehen zwei Optionen zur Auswahl, nämlich zum Auflisten aller Benutzer oder zum Anzeigen, wer einen Link zum Zurücksetzen des Kennworts angefordert hat. 
+
+Die Benutzerverwaltung ist für diese Webseite wichtig, um zu sehen, wer welche Rechte hat.Die Benutzer werden zusammen mit ihrem Namen, ihrer E-Mail-Adresse, Rolle und dem Datum, an dem der Benutzer erstellt wurde, aufgelistet. Von dieser Seite aus hat der Administrator die Möglichkeit, das Passwort eines Benutzers zurückzusetzen (auf Abbildung \ref*{fi:users} ersichtlich).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures users.png}
+	\caption{Alle Benutzern}
+	\label{fi:users}
+\end{figure}
+
+Auf dieser Seite befindet sich auch der Button, mit der der Benutzer zu der Seite weitergeleitet wird, auf der der Administrator einen neuen Benutzer hinzufügen kann. Wie bereits erwähnt, ist diese Seite nur für Benutzer mit Administratorrechten verfügbar.
+
+
+
 \subsubsection{Neue Benutzer hinzufügen}
+Zum Hinzufügen eines neuen Benutzers werden der Name und die E-Mail-Adresse des Benutzers benötigt. Danach wird aus der Dropdown-Liste ausgewählt, welche Berechtigungen diesem Benutzer gewährt werden (siehe Abbildung \ref{fi:addUser}). Der Benutzer wird nur erstellt, wenn der Benutzer mit derselben E-Mail-Adresse nicht vorhanden ist. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.49\textwidth]{\ordnerfigures addUser.png}
+	\caption{Neue Benutzer anlegen}
+	\label{fi:addUser}
+\end{figure}
+
+
+Wenn der Benutzer erstellt wird, wird eine E-Mail an diesen Benutzer gesendet (siehe Abbildung \ref{fi:addUser_email}). In dieser E-Mail findet er das Passwort, das zufällig generiert wurde. Das generierte Passwort hat die Länge von 13 Zeichen und besteht aus kleinen und großen Buchstaben, Zahlen und Sonderzeichen wie !, @, \# usw.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.79\textwidth]{\ordnerfigures addUser_email.png}
+	\caption{Neue Benutzer E-Mail}
+	\label{fi:addUser_email}
+\end{figure}
+
+
 \subsubsection{Passwort zurücksetzen}
+
+Es kann vorkommen, dass der Benutzer das Kennwort aus verschiedenen Gründen nicht zurücksetzen kann. Auf diese Weise kann er sich nicht mehr anmelden. Benutzer mit Administratorrechten können das Kennwort jedes Benutzers zurücksetzen. Um das Passwort eines Benutzers zurückzusetzen, sollte der Administrator auf das \underline{reset\_password }neben dem Benutzer klicken, den er zurücksetzen möchte.
+
+Das neue Passwort wird mit derselben Funktion generiert, mit der das Passwort eines neuen Benutzers generiert wird. Dieses Passwort überschreibt das alte Passwort und ist das einzige Passwort, mit dem Sie sich auf der Webseite anmelden können.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.79\textwidth]{\ordnerfigures password_reset.png}
+	\caption{Password zurücksetzen E-Mail}
+	\label{fi:password_reset}
+\end{figure}
+
 
 \subsection{Einstellungen}
 Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Administrator die Möglichkeit den API Key von OpenWeatherMap und City ID, von dem die Wetterdaten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot-Token werden mit Hilfe von Regex\footnote{Reguläre Ausdrücke sind eine Folge von Zeichen, die ein Muster definieren.} überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen. Der API-Schlüssel vom Telegramm-Chatbot hat eine Länge von 45 Zeichen. Von diesen 45 Zeichen sollten die ersten neun Zeichen Zahlen von 0 bis 9 sein. Nach den ersten 9 Ziffern steht ein ``:''. Bis jetzt haben wir die ersten 10 Zeichen des API-Schlüssels. Die verbleibenden Zeichen (die anderen 35 Zeichen) können Zahlen von 0 bis 9, kleine oder große Buchstaben von a bis z oder ``-'' sein. So sieht das Regex-Muster aus (siehe Listing \ref{lst:regextelegram} ).
@@ -332,6 +406,9 @@ Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. 
 \end{figure}
 
 \subsection{Logout}
+Nachdem der Benutzer unsere Website nicht mehr verwenden will, hat er rechts im Menü die Möglichkeit, sich von der Website abzumelden (siehe Abbildung \ref{fi:menu}). Wenn der Benutzer auf die Menüoption Abmelden klickt, werden alle Sessionvariablen deaktiviert und gelöscht mithilfe von \textit{\$\_SESSION = array();}. Am Ende werden alle Sessionen zerstört mit der Funktion \textit{session\_destroy()} und der Benutzer wird zur Anmeldeseite weitergeleitet.
+
+Die Sessions laufen automatisch nach einer gewissen Zeit der Inaktivität des Benutzers ab. Auf diese Weise kann niemand die Website ohne das Passwort weiter nutzen und es erhöht die Sicherheit der Website.
 
 \subsection{Benutzerrechte für die Webseite}
 Wie bereits erwähnt, wird die Webseite unterschiedliche Benutzerrechte haben. Die zwei Hauptrollen sind Administrator und normaler User. Der Unterschied zwischen den beiden Benutzern wird von der Rolle Attribut in der Tabelle \textit{tb\_infotainment\_roles} bestimmt (siehe Abb. \ref{fi:erd}). Diese Attribute werden in den Sessions gespeichert. Es wurden Sessions gewählt, weil sie sicherer als Cookies sind. \cite{40_sessions_cookies} So kann der Unterschied zwischen zwei Rollen gemacht werden, in dem man nur die Session u\_role vergleicht.
@@ -398,7 +475,7 @@ Dieses Layout besteht aus 3 Hauptteilen: Header, Body und Widget. Hier können a
 \section{Wordpress Webseite API}
 
 
-%WordPress wird heutzutage sehr viel verwendet um Webseiten zu erstellen. Die Erleichterungen das WordPress bietet, ermöglicht auch die Benutzer, die keine Programmierkentnisse haben, Webseiten zu erstellen und zu verwalten. Durch Plug-Ins kann der WordPress erweitert und unterschiedliche Funktionalitäten eingefügt werden. Jetpack ist ein von denen, der für die Sicherheit, Leistung und Site-Management dient. Dieses Plug-In bietet auch eine API\footnote{Application Programming Interface} zum WordPress. Dieser API wurde verwendet, um die Posts einer beliebten Seite zu bekommen. Es muss eine Nachfrage an der folgenden URL geschickt.
+WordPress wird heutzutage sehr viel verwendet um Webseiten zu erstellen. Die Erleichterungen das WordPress bietet, ermöglicht auch die Benutzer, die keine Programmierkentnisse haben, Webseiten zu erstellen und zu verwalten. Durch Plug-Ins kann der WordPress erweitert und unterschiedliche Funktionalitäten eingefügt werden. Jetpack ist ein von denen, der für die Sicherheit, Leistung und Site-Management dient. Dieses Plug-In bietet auch eine API\footnote{Application Programming Interface} zum WordPress. Dieser API wurde verwendet, um die Posts einer beliebten Seite zu bekommen. Es muss eine Nachfrage an der folgenden URL geschickt.
 
 
 \begin{center}

@@ -25,34 +25,34 @@
 \contentsline {subsection}{\numberline {1.5.3}Menü}{11}{subsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.5.4}Startseite}{12}{subsection.1.5.4}%
 \contentsline {subsubsection}{Anzeige Status}{13}{section*.20}%
-\contentsline {subsubsection}{Layout hinzufügen}{14}{section*.21}%
-\contentsline {subsubsection}{Layout Content hinzufügen}{14}{section*.22}%
-\contentsline {subsubsection}{Timetable}{14}{section*.23}%
-\contentsline {subsubsection}{POP-UP Fenster}{14}{section*.24}%
-\contentsline {subsection}{\numberline {1.5.5}Dynamische Tabellen mit Datatables}{14}{subsection.1.5.5}%
-\contentsline {subsubsection}{Herunterladen}{14}{section*.25}%
-\contentsline {subsubsection}{Export}{14}{section*.26}%
-\contentsline {subsection}{\numberline {1.5.6}Anzeige}{14}{subsection.1.5.6}%
-\contentsline {subsection}{\numberline {1.5.7}Bilder}{14}{subsection.1.5.7}%
-\contentsline {subsection}{\numberline {1.5.8}Layouts}{14}{subsection.1.5.8}%
-\contentsline {subsection}{\numberline {1.5.9}Kalendarinfo}{14}{subsection.1.5.9}%
-\contentsline {subsection}{\numberline {1.5.10}Supplierplan}{14}{subsection.1.5.10}%
-\contentsline {subsubsection}{Fehlendelehrer}{14}{section*.27}%
-\contentsline {subsubsection}{Suppliertabelle}{14}{section*.28}%
-\contentsline {subsection}{\numberline {1.5.11}Benutzer}{14}{subsection.1.5.11}%
-\contentsline {subsubsection}{neue Benutzer hinzufügen}{14}{section*.29}%
-\contentsline {subsubsection}{Passwort zurücksetzen}{14}{section*.30}%
-\contentsline {subsection}{\numberline {1.5.12}Einstellungen}{14}{subsection.1.5.12}%
-\contentsline {subsection}{\numberline {1.5.13}Logout}{15}{subsection.1.5.13}%
-\contentsline {subsection}{\numberline {1.5.14}Benutzerrechte für die Webseite}{15}{subsection.1.5.14}%
-\contentsline {subsubsection}{Administrator}{16}{section*.32}%
-\contentsline {subsubsection}{Normaler Benutzer}{16}{section*.33}%
-\contentsline {subsection}{\numberline {1.5.15}Webseite auf mehrere Sprachen}{16}{subsection.1.5.15}%
-\contentsline {section}{\numberline {1.6}Client}{16}{section.1.6}%
-\contentsline {subsubsection}{Welcome Seite}{17}{section*.34}%
-\contentsline {subsubsection}{Laoyut verwaltung}{17}{section*.35}%
-\contentsline {subsubsection}{Content verwaltung}{17}{section*.36}%
-\contentsline {subsection}{\numberline {1.6.1}Layout 1}{17}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Layout 3}{18}{subsection.1.6.2}%
-\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{18}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Herausforderungen und deren Lösung}{19}{section.1.8}%
+\contentsline {subsubsection}{Timetable}{13}{section*.21}%
+\contentsline {subsubsection}{Layout wählen}{14}{section*.22}%
+\contentsline {subsubsection}{Pop-up-Fenster}{15}{section*.24}%
+\contentsline {subsubsection}{Layout Content hinzufügen}{15}{section*.25}%
+\contentsline {subsection}{\numberline {1.5.5}Dynamische Tabellen mit Datatables}{15}{subsection.1.5.5}%
+\contentsline {subsubsection}{Herunterladen}{15}{section*.26}%
+\contentsline {subsubsection}{Export}{15}{section*.27}%
+\contentsline {subsection}{\numberline {1.5.6}Anzeige}{15}{subsection.1.5.6}%
+\contentsline {subsection}{\numberline {1.5.7}Bilder}{15}{subsection.1.5.7}%
+\contentsline {subsection}{\numberline {1.5.8}Layouts}{15}{subsection.1.5.8}%
+\contentsline {subsection}{\numberline {1.5.9}Kalendarinfo}{15}{subsection.1.5.9}%
+\contentsline {subsection}{\numberline {1.5.10}Supplierplan}{15}{subsection.1.5.10}%
+\contentsline {subsubsection}{Fehlendelehrer}{15}{section*.28}%
+\contentsline {subsubsection}{Suppliertabelle}{15}{section*.29}%
+\contentsline {subsection}{\numberline {1.5.11}Benutzer}{15}{subsection.1.5.11}%
+\contentsline {subsubsection}{Neue Benutzer hinzufügen}{16}{section*.31}%
+\contentsline {subsubsection}{Passwort zurücksetzen}{17}{section*.34}%
+\contentsline {subsection}{\numberline {1.5.12}Einstellungen}{18}{subsection.1.5.12}%
+\contentsline {subsection}{\numberline {1.5.13}Logout}{19}{subsection.1.5.13}%
+\contentsline {subsection}{\numberline {1.5.14}Benutzerrechte für die Webseite}{19}{subsection.1.5.14}%
+\contentsline {subsubsection}{Administrator}{20}{section*.37}%
+\contentsline {subsubsection}{Normaler Benutzer}{20}{section*.38}%
+\contentsline {subsection}{\numberline {1.5.15}Webseite auf mehrere Sprachen}{20}{subsection.1.5.15}%
+\contentsline {section}{\numberline {1.6}Client}{20}{section.1.6}%
+\contentsline {subsubsection}{Welcome Seite}{21}{section*.39}%
+\contentsline {subsubsection}{Laoyut verwaltung}{21}{section*.40}%
+\contentsline {subsubsection}{Content verwaltung}{21}{section*.41}%
+\contentsline {subsection}{\numberline {1.6.1}Layout 1}{21}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Layout 3}{22}{subsection.1.6.2}%
+\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{22}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Herausforderungen und deren Lösung}{23}{section.1.8}%
