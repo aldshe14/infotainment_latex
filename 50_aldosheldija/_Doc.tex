@@ -322,14 +322,31 @@ Um dem Benutzer zu helfen, damit er keine Fehler machen kann, wurde unter dem Bu
 	\label{fi:chooseLayout}
 \end{figure}
 
-\subsubsection{Pop-up-Fenster}
+\subsubsection{Layout Inhalte hinzufügen}
 
-\subsubsection{Layout Content hinzufügen}
+\subsubsection{Pop-up-Fenster}
+Der Zeitplan ist nur die Übersicht über das Layout, aber das sind nicht genug Informationen für den Benutzer. Man kann auf jedes Layout klicken, wenn man weitere Informationen zu diesem Layout haben möchte. Ein Pop-up-Fenster wird geöffnet. Dieses Fenster besteht aus zwei Teilen. Im linken Teil werden die Start- und Endzeit des Layouts sowie ein Name angezeigt, der vom Benutzer ausgewählt werden kann, wenn er ein neues Layout hinzufügt.
+
+Auf der rechten Seite wird der Name des Layouts zusammen mit der Struktur dieses Layuots angezeigt.
+Auf jedem Teil werden die Inhalte angezeigt, die in diesem bestimmten Teil angezeigt werden sollen. In der Nähe des Namens des Inhalts wird auch die Uhrzeit angezeigt.
+Am unteren Rand des Fensters befinden sich zwei Buttons. Der erste besteht darin, dieses Layout zu löschen. Dadurch wird das Layout nur für den Tag gelöscht, auf den geklickt wurde, einschließlich des gesamten Inhalts für dieses Layout.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.69\textwidth]{\ordnerfigures popup.png}
+	\caption{Layout Wählen für einen bestimmten Zeitraum}
+	\label{fi:popup}
+\end{figure}
+
+Über die Schaltfläche Layout bearbeiten wird der Benutzer zu einer Seite weitergeleitet, auf der er Inhalte für alle Teile dieses Layouts hinzufügen kann.
 
 
 \subsection{Dynamische Tabellen mit Datatables}
+
 \subsubsection{Herunterladen}
+
 \subsubsection{Export}
+
 
 \subsection{Anzeige}
 
@@ -342,7 +359,7 @@ Um dem Benutzer zu helfen, damit er keine Fehler machen kann, wurde unter dem Bu
 \subsection{Supplierplan}
 \subsubsection{Fehlendelehrer}
 \subsubsection{Suppliertabelle}
-
+\subsubsection{Stundenplan importieren}
 \subsection{Benutzer}
 Im Benutzermenü stehen zwei Optionen zur Auswahl, nämlich zum Auflisten aller Benutzer oder zum Anzeigen, wer einen Link zum Zurücksetzen des Kennworts angefordert hat. 
 
@@ -493,3 +510,12 @@ Eine der größten Herausforderungen war der Supplierplan. Wie vorher schon erw�
 
 
 Um dieses Problem zu lösen und um den Admin die Möglichkeit zu geben, ein Lehrer nur für eine bestimmte Stundenanzahl zu ersetzen, wurde ein kleine Checkbox erstellt. Es geht um eine Dropdown-Liste, bei der alle Lehrer, die zum supplieren bereit sind, stehen. Um es so einfach wie möglich zu machen, werden diese Lehrer nach der besten Möglichkeit und Günstigkeit für sie sortiert. Zum Beispiel:  Wenn ein Lehrer in der dritte Stunde fehlt, dann steht ein supplierbereiter Lehrer, der eigentlich in der vierten Stunde in die Schule kommt, vorher in die Dropdown-Liste auftaucht, als ein Lehrer, der wegen seines normalen Stundenplans in der erst achten Stunde Unterricht hat. Je näher die normale Unterrichtsstunde eines Lehrers mit der zu supplierten Stunden ist, desto höher steht er in der Liste.
+
+\section{Wertschöpfung und Lessons Learned}
+
+
+Von dieser Diplomarbeit habe ich Erfahrung in vielen Aspekten gesammelt. Erstens half es mir in Bezug auf Zeitmanagement und Engagement bei der Lösung meiner zugewiesenen Ziele und es hat auch dazu beigetragen, meine Fähigkeiten in der Gruppenarbeit zu entwickeln, um verschiedene Probleme zu bewältigen. In Bezug auf die technische Seite habe ich in vielen Bereichen Erfahrungen gesammelt, da die Diplomarbeit selbst komplex bzw. vielfältig war und eine Vielzahl von Konzepten beinhaltete. Da die Hauptfunktionalität dieser Diplomarbeit die digitale Darstellung von Daten war, wurden meine Fähigkeiten in HTML, CSS, JavaScript und PHP weiter verbessert. HTML und CSS haben mir beim Designteil und der Art und Weise, wie die Daten auf dem Bildschirm angezeigt werden, sehr geholfen. PHP wurde häufig verwendet, nachdem es eine Programmiersprache ist, die als Schnittstelle zur Datenbank fungiert. Auch in Bezug auf die Konfiguration von Systemen habe ich meine Fähigkeiten erworben. Hier kann das Wissen über das Linux-Betriebssystem erwähnt werden, weil diese zur Konfiguration von RaspberryPI Client gebraucht wurden. Eine weitere Komponente, an der ich beteiligt war, war Chatbot, wobei ich die Bilder Funktionalität implementiert habe. Das Programmieren dieser Funktion hat mir geholfen, Python-Programmiersprachenkenntnisse mehr zu entwickeln. Ich habe auch gelernt, wie ein Chatbot wirklich funktioniert und welche Möglichkeiten er anbieten kann. Was diese Diplomarbeit mir am meisten beigetragen hat, ist die Verknüpfung von Wissen in verschiedenen Bereichen, um die erwünschten Ergebnisse zu erzielen.
+
+\section{Evaluierung und Resümee}
+
+Die Anforderungen sind soweit erfüllt. Die Administrator Webseite wurde programmiert und alle vorher geplanten Funktionen sind dabei. Der Administrator hat die Möglichkeit, die Informationen, die er anzeigen will, dort auswählen. Er kann auch das entsprechende Layout selbst aussuchen. Von dieser Webseite wird nicht nur eine Anzeige, sondern mehrere Anzeigen verwaltet. Es gab eine Funktionalität bei der Webseite, die anders als geplant umgesetzt wurde. Beim Passwort zurücksetzen, wurde es vorher so gedacht, dass der Administrator selbst ein Standard Passwort festlegt. Danach wurde das geändert, weil es Sicherheitslücken haben kann. Es wurde so geändert, dass beim Zurücksetzen von Passwort wird eine Email mit Link verschickt. Das macht diese Funktion viel besser und sicherer. Es gibt noch einen anderen Punkt, der länger gedauert hat als es gedacht wurde. Das ist die Bereitstellung von unterschiedlichen Anzeige-Zeiten für die unterschiedlichen GUI-Bereiche. Es hat viel Zeit aufgenommen, denn es sollte eine benutzerfreundliche Interface implementiert. Am Ende wurde das aber erfolgreich abgeschlossen.
