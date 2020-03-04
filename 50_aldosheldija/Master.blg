@@ -1,17 +1,17 @@
 [1] Config.pm:304> INFO - This is Biber 2.14
 [1] Config.pm:307> INFO - Logfile is 'Master.blg'
-[315] biber-MSWIN64:322> INFO - === 
-[587] Biber.pm:415> INFO - Reading 'Master.bcf'
-[958] Biber.pm:943> INFO - Found 11 citekeys in bib section 0
-[1033] Biber.pm:4256> INFO - Processing section 0
-[1035] Utils.pm:75> INFO - Globbing data source './../literatur1.bib'
-[1149] Utils.pm:91> INFO - Globbed data source './../literatur1.bib' to ./../literatur1.bib
-[1221] Biber.pm:4455> INFO - Looking for bibtex format file './../literatur1.bib' for section 0
-[1236] bibtex.pm:1653> INFO - LaTeX decoding ...
-[1277] bibtex.pm:1471> INFO - Found BibTeX data source './../literatur1.bib'
-[1637] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1642] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1642] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[1642] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[1797] bbl.pm:652> INFO - Writing 'Master.bbl' with encoding 'UTF-8'
-[1813] bbl.pm:755> INFO - Output to Master.bbl
+[377] biber-MSWIN64:322> INFO - === 
+[893] Biber.pm:415> INFO - Reading 'Master.bcf'
+[1294] Biber.pm:943> INFO - Found 11 citekeys in bib section 0
+[1365] Biber.pm:4256> INFO - Processing section 0
+[1367] Utils.pm:75> INFO - Globbing data source './../literatur1.bib'
+[1418] Utils.pm:91> INFO - Globbed data source './../literatur1.bib' to ./../literatur1.bib
+[1545] Biber.pm:4455> INFO - Looking for bibtex format file './../literatur1.bib' for section 0
+[1632] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1670] bibtex.pm:1471> INFO - Found BibTeX data source './../literatur1.bib'
+[2110] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2113] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2113] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[2114] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[2276] bbl.pm:652> INFO - Writing 'Master.bbl' with encoding 'UTF-8'
+[2291] bbl.pm:755> INFO - Output to Master.bbl

@@ -27,23 +27,24 @@
 \BOOKMARK [1][-]{section.4.3}{Konfiguration von Raspberry PI Server}{chapter.4}% 27
 \BOOKMARK [1][-]{section.4.4}{Datenbank}{chapter.4}% 28
 \BOOKMARK [1][-]{section.4.5}{SSL Verschl\374sselung}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.6}{Anzeige}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.7}{Offline Betrieb}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.8}{Wetterdaten}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.9}{Chatbot}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.9.1}{Chatbot Einrichtung}{section.4.9}% 34
-\BOOKMARK [2][-]{subsection.4.9.2}{Einrichtung des Chatbots in RaspberryPI}{section.4.9}% 35
-\BOOKMARK [2][-]{subsection.4.9.3}{Grundlagen f\374r die Umsetzung von Chatbot}{section.4.9}% 36
-\BOOKMARK [2][-]{subsection.4.9.4}{Funktionalit\344ten von Chatbot}{section.4.9}% 37
-\BOOKMARK [2][-]{subsection.4.9.5}{Umsetzung der Funktionalit\344ten}{section.4.9}% 38
-\BOOKMARK [2][-]{subsection.4.9.6}{Konkrete Beispiele mit Bildern}{section.4.9}% 39
-\BOOKMARK [1][-]{section.4.10}{Probleme, Herausforderungen und deren L\366sung}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.11}{Qualit\344tssicherung, Controlling}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.12}{Ergebnisse - Irena Bala}{chapter.4}% 42
-\BOOKMARK [2][-]{subsection.4.12.1}{Implementierung}{section.4.12}% 43
-\BOOKMARK [1][-]{section.4.13}{Handbuch f\374r die Bedienung}{chapter.4}% 44
-\BOOKMARK [2][-]{subsection.4.13.1}{Beschreibung der Bedienung als User}{section.4.13}% 45
-\BOOKMARK [2][-]{subsection.4.13.2}{Beschreibung der Bedienung als Administrator}{section.4.13}% 46
-\BOOKMARK [1][-]{section.4.14}{Evaluierung und Res\374mee}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.14.1}{Planung vs Realisierung}{section.4.14}% 48
-\BOOKMARK [2][-]{subsection.4.14.2}{Wertsch\366pfung und Lessons Learned}{section.4.14}% 49
+\BOOKMARK [1][-]{section.4.6}{Layout}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.7}{Anzeige}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.8}{Offline Betrieb}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.9}{Wetterdaten}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.10}{Chatbot}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.10.1}{Chatbot Einrichtung}{section.4.10}% 35
+\BOOKMARK [2][-]{subsection.4.10.2}{Einrichtung des Chatbots in RaspberryPI}{section.4.10}% 36
+\BOOKMARK [2][-]{subsection.4.10.3}{Grundlagen f\374r die Umsetzung von Chatbot}{section.4.10}% 37
+\BOOKMARK [2][-]{subsection.4.10.4}{Funktionalit\344ten von Chatbot}{section.4.10}% 38
+\BOOKMARK [2][-]{subsection.4.10.5}{Umsetzung der Funktionalit\344ten}{section.4.10}% 39
+\BOOKMARK [2][-]{subsection.4.10.6}{Konkrete Beispiele mit Bildern}{section.4.10}% 40
+\BOOKMARK [1][-]{section.4.11}{Probleme, Herausforderungen und deren L\366sung}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.12}{Qualit\344tssicherung, Controlling}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.13}{Ergebnisse - Irena Bala}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.13.1}{Implementierung}{section.4.13}% 44
+\BOOKMARK [1][-]{section.4.14}{Handbuch f\374r die Bedienung}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.14.1}{Beschreibung der Bedienung als User}{section.4.14}% 46
+\BOOKMARK [2][-]{subsection.4.14.2}{Beschreibung der Bedienung als Administrator}{section.4.14}% 47
+\BOOKMARK [1][-]{section.4.15}{Evaluierung und Res\374mee}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.15.1}{Planung vs Realisierung}{section.4.15}% 49
+\BOOKMARK [2][-]{subsection.4.15.2}{Wertsch\366pfung und Lessons Learned}{section.4.15}% 50

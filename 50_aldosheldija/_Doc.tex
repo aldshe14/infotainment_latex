@@ -2,7 +2,7 @@
 \label{\docname}
 In diesem Kapitel wird die Vorgehensweise der technischen L\"{o}sung bei der Admin Webseite und Client erkl\"{a}rt. Weiter, werden auch die verwendeten Technologien aufgelistet. 
 
-\section{Allgemeine Beschreibung}
+\section{Allgemeine Besschreibung}
 
 Diese Diplomarbeit besteht aus mehreren unterschiedlichen Teilen, die am Ende zusammengef\"{u}hrt werden um das Produkt Infotainmentsystem zu erhalten. Admin Webseite, oder auch Admin Panel genannt, ist eine von diesen Komponenten. Bei dieser Webseite wird die ganze Verwaltung des Systems gemacht. Es werden alle Informationen geschrieben und ausgew\"{a}hlt, die bei verschiedenen Anzeigen dargestellt werden sollen. Anderseits ist die Anzeige oder als Client bezeichnet, indem alle diese Informationen angezeigt werden. 
 
@@ -193,13 +193,33 @@ Ab und zu passiert es, dass die Benutzer das Passwort vergessen, egal aus welche
 	\label{fi:reset}
 \end{figure}
 
-In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen können (siehe Abb.\ref{fi:resetemail}). Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch als ungültig festgelegt und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Das Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Passwortes anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden. Diese Links werden als ungültig gesetzt, wobei das Ablaufdatum auf ein älteres Datum geändert wird (siehe Abb. \ref{fi:erd} Tabelle tb\_infotainment\_password\_reset).
+In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen können (siehe Abb.\ref{fi:resetemail}). Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch als ungültig festgelegt und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Das Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Passwortes anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden. Diese Links werden als ungültig gesetzt, wobei das Ablaufdatum auf ein älteres Datum geändert wird (siehe Abb. \ref{fi:erd} Tabelle tb\_infotainment\_password\_reset). 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.99\textwidth]{\ordnerfigures reset-email.png}
 	\caption{Passwort zurücksetzen E-Mail}
 	\label{fi:resetemail}
+\end{figure}
+
+Falls der Benutzer auf den Link klickt, wird ein neuer Tab geöffnet und er wird auf die Seite weitergeleitet, auf der er sein neues Passwort schreiben kann. Er sollte das neue Passwort zweimal schreiben, um eine falsche Eingabe zu vermeiden. Wenn beide Passwörter übereinstimmen, wird das Passwort über die Länge geprüft. Das Passwort sollte aus 8 bis maximal 20 Zeichen bestehen und nicht gleich 12345678 sein.
+Wenn alle genannten Kriterien erfüllt sind, wird das Passwort geändert und der Benutzer wird zur Startseite weitergeleitet.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.49\textwidth]{\ordnerfigures changepassword.png}
+	\caption{Passwort ändern}
+	\label{fi:reset-password}
+\end{figure}
+
+Wenn jemand versucht, einen Link zu verwenden, der zuvor einmal verwendet wurde, nicht mehr gültig oder falsch ist, wird dem Benutzer eine Fehlermeldung angezeigt. Diese Fehlermeldung ist in der Abbildung \ref{fi:invalidlink} zu sehen. In dieser Fehlermeldung sind auch zwei Links enthalten, die als Option verwendet werden können, um entweder einen neuen Link anzufordern oder den Benutzer zur Anmeldeseite umzuleiten.
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures reset-email-notvalid.png}
+	\caption{Passwort zurücksetzen - Ungültiges Link}
+	\label{fi:invalidlink}
 \end{figure}
 
 
@@ -246,21 +266,56 @@ Dieses Menü ist auch für mobile Benutzer geeignet. Wenn der Benutzer ein Mobil
 	emph            =[2]{if,and,or,else},
 	emphstyle       =[2]\color{dkyellow}}
 
-\subsection{Home}
+\subsection{Startseite}
+Die Startseite ist die Zusammenfassung des gesamten Systems. Auf dieser Seite kann der Administrator einen Überblick von Anzeigen erhalten. Wie wir in Abbildung \ref{fi:home} sehen können, werden die Clients mithilfe einer Dropdown-Liste angezeigt. Im ersten Moment, in dem diese Seite geöffnet wird, ist automatisch die erste Anzeige der Dropdown-Liste ausgewählt. Nachdem die Anzeige ausgewählt wurde, werden dem Benutzer einige Informationen angezeigt.
+Der Gerätestatus wird mit Hilfe eines ausgefüllten Kreises angezeigt. Abhängig vom Status des Geräts kann dieser Kreis entweder grün sein, was bedeutet, dass das Gerät aktiv und online ist, oder rot, wenn das Gerät offline ist. In der Nähe des Status des Geräts wird das Datum angezeigt, an dem die Anzeige zuletzt auf den Server geantwortet hat.
+Sowohl die IP-Adresse als auch die MAC-Adresse des Displays sind weitere Informationen, die auf der Startseite angezeigt werden.
+In der Nähe der Dropdown-Liste befindet sich eine Button zum Einfügen eines neuen Layouts für die Anzeige, die gerade ausgewählt ist.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures home.png}
+	\caption{Startseite}
+	\label{fi:home}
+\end{figure}
+
+
 \subsubsection{Anzeige Status}
+Um den Gerätestatus herauszufinden, wurde ein Skript in Python erstellt. Dieses Skript wird jede Minute über Cronjobs aufgerufen. Damit das Skript funktioniert, sollten sich der Server und die Anzeigen im selben LAN befinden. Zum Speichern des Anzeigestatus wird die Tabelle tb\_infotainment\_display\_status verwendet. Wenn das Gerät eingeschaltet ist, erhält es den Wert 1, wenn nicht, hat es den Wert 0, was bedeutet, dass das Gerät nicht aktiv ist. So sieht das Skript aus:
+\begin{itemize}
+	\item Es wurde eine Verbindung mit der Datenbank hergestellt
+	\item Aus der Tabelle tb\_infotainment\_display (auf Abbildung \ref{fi:erd}) wurden alle Anzeigen selektiert.
+	\item Zu jeder Anzeige in der Tabelle wird nur ein Ping gesendet.
+	\item Wenn das Paket erfolgreich gesendet wurde, bedeutet dies, dass die Anzeige online ist und der Status zusammen und das Datum aktualisiert werden müssen. 
+	\item Wurde das Paket nicht gesendet, zeigt uns dies, dass das Gerät entweder nicht mit dem Internet verbunden oder ausgeschaltet ist. Auch in diesem Fall müssen der Status des Geräts und das Datum aktualisiert werden.
+\end{itemize}
 \subsubsection{Layout hinzufügen}
 \subsubsection{Layout Content hinzufügen}
 
+
 \subsubsection{Timetable}
+Auf dieser Seite ist auch ein Zeitplan zu sehen, der zeigt, welches Layout wann für diese Anzeige angezeigt wird. Dieser Zeitplan ist in 7 Spalten aufgeteilt, jeweils einen pro Tag der Woche, und 24 Zeilen, die jeweils den Wert von einer Stunde haben.
 \subsubsection{POP-UP Fenster}
+
+\subsection{Dynamische Tabellen mit Datatables}
+\subsubsection{Herunterladen}
+\subsubsection{Export}
+
 \subsection{Anzeige}
+
 \subsection{Bilder}
+
 \subsection{Layouts}
+
 \subsection{Kalendarinfo}
+
 \subsection{Supplierplan}
 \subsubsection{Fehlendelehrer}
 \subsubsection{Suppliertabelle}
+
 \subsection{Benutzer}
+\subsubsection{Neue Benutzer hinzufügen}
 \subsubsection{Passwort zurücksetzen}
 
 \subsection{Einstellungen}
