@@ -6,57 +6,55 @@
 \contentsline {subsection}{\numberline {1.2.1}Bootstrap}{1}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}PHP}{2}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}JavaScript}{2}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}DataTables}{3}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.4}DataTables}{2}{subsection.1.2.4}%
 \contentsline {subsection}{\numberline {1.2.5}Font Awesome}{3}{subsection.1.2.5}%
-\contentsline {subsection}{\numberline {1.2.6}MySQL}{4}{subsection.1.2.6}%
-\contentsline {subsection}{\numberline {1.2.7}Apache}{4}{subsection.1.2.7}%
-\contentsline {section}{\numberline {1.3}Structed Software Design für den Client}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Start}{5}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Zeitsteuerung}{6}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Daten holen}{6}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Buffer}{6}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Anzeige Prepare}{6}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Log}{6}{subsection.1.3.6}%
-\contentsline {section}{\numberline {1.4}Datenbank}{6}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}ER Diagramm}{7}{subsection.1.4.1}%
-\contentsline {section}{\numberline {1.5}Admin Webseite}{7}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Login}{8}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Passwort zurücksetzen}{9}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Menü}{11}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Startseite}{12}{subsection.1.5.4}%
-\contentsline {subsubsection}{Anzeige Status}{13}{section*.20}%
-\contentsline {subsubsection}{Timetable}{13}{section*.21}%
-\contentsline {subsubsection}{Layout wählen}{14}{section*.22}%
-\contentsline {subsubsection}{Layout Inhalte hinzufügen}{15}{section*.24}%
-\contentsline {subsubsection}{Pop-up-Fenster}{16}{section*.27}%
-\contentsline {subsection}{\numberline {1.5.5}Dynamische Tabellen mit Datatables}{17}{subsection.1.5.5}%
-\contentsline {subsubsection}{Herunterladen}{17}{section*.29}%
-\contentsline {subsubsection}{Export}{17}{section*.30}%
-\contentsline {subsection}{\numberline {1.5.6}Anzeige}{17}{subsection.1.5.6}%
-\contentsline {subsection}{\numberline {1.5.7}Bilder}{17}{subsection.1.5.7}%
-\contentsline {subsection}{\numberline {1.5.8}Layouts}{17}{subsection.1.5.8}%
-\contentsline {subsection}{\numberline {1.5.9}Kalendarinfo}{17}{subsection.1.5.9}%
-\contentsline {subsection}{\numberline {1.5.10}Supplier plan}{17}{subsection.1.5.10}%
-\contentsline {subsubsection}{Stundenplan importieren}{18}{section*.31}%
-\contentsline {subsubsection}{Stundenplan }{18}{section*.33}%
-\contentsline {subsubsection}{Fehlendelehrer}{19}{section*.35}%
-\contentsline {subsubsection}{Suppliertabelle}{20}{section*.38}%
-\contentsline {subsection}{\numberline {1.5.11}Benutzer}{21}{subsection.1.5.11}%
-\contentsline {subsubsection}{Neue Benutzer hinzufügen}{22}{section*.41}%
-\contentsline {subsubsection}{Passwort zurücksetzen}{23}{section*.44}%
-\contentsline {subsection}{\numberline {1.5.12}Einstellungen}{23}{subsection.1.5.12}%
-\contentsline {subsection}{\numberline {1.5.13}Logout}{24}{subsection.1.5.13}%
-\contentsline {subsection}{\numberline {1.5.14}Benutzerrechte für die Webseite}{25}{subsection.1.5.14}%
-\contentsline {subsubsection}{Administrator}{25}{section*.47}%
-\contentsline {subsubsection}{Normaler Benutzer}{25}{section*.48}%
-\contentsline {subsection}{\numberline {1.5.15}Webseite auf mehrere Sprachen}{25}{subsection.1.5.15}%
+\contentsline {subsection}{\numberline {1.2.6}MySQL}{3}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}Apache}{3}{subsection.1.2.7}%
+\contentsline {section}{\numberline {1.3}Structed Software Design für den Client}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Start}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Zeitsteuerung}{4}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Daten holen}{4}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Buffer}{5}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Anzeige Prepare}{5}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}Log}{5}{subsection.1.3.6}%
+\contentsline {section}{\numberline {1.4}Datenbank}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}ER Diagramm}{5}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.5}Admin Webseite}{6}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Login}{7}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Passwort zurücksetzen}{7}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Menü}{9}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Startseite}{10}{subsection.1.5.4}%
+\contentsline {subsubsection}{Anzeige Status}{11}{section*.13}%
+\contentsline {subsubsection}{Timetable}{12}{section*.14}%
+\contentsline {subsubsection}{Layout wählen}{12}{section*.15}%
+\contentsline {subsubsection}{Layout Inhalte hinzufügen}{13}{section*.17}%
+\contentsline {subsubsection}{Pop-up-Fenster}{14}{section*.20}%
+\contentsline {subsection}{\numberline {1.5.5}Anzeige}{15}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Bilder}{16}{subsection.1.5.6}%
+\contentsline {subsection}{\numberline {1.5.7}Layouts}{16}{subsection.1.5.7}%
+\contentsline {subsection}{\numberline {1.5.8}Kalendarinfo}{17}{subsection.1.5.8}%
+\contentsline {subsection}{\numberline {1.5.9}Supplier plan}{17}{subsection.1.5.9}%
+\contentsline {subsubsection}{Stundenplan importieren}{18}{section*.26}%
+\contentsline {subsubsection}{Stundenplan }{18}{section*.28}%
+\contentsline {subsubsection}{Fehlendelehrer}{19}{section*.30}%
+\contentsline {subsubsection}{Suppliertabelle}{20}{section*.33}%
+\contentsline {subsection}{\numberline {1.5.10}Benutzer}{21}{subsection.1.5.10}%
+\contentsline {subsubsection}{Neue Benutzer hinzufügen}{22}{section*.36}%
+\contentsline {subsubsection}{Passwort zurücksetzen}{23}{section*.39}%
+\contentsline {subsection}{\numberline {1.5.11}Einstellungen}{23}{subsection.1.5.11}%
+\contentsline {subsection}{\numberline {1.5.12}Logout}{24}{subsection.1.5.12}%
+\contentsline {subsection}{\numberline {1.5.13}Benutzerrechte für die Webseite}{25}{subsection.1.5.13}%
+\contentsline {subsubsection}{Administrator}{25}{section*.42}%
+\contentsline {subsubsection}{Normaler Benutzer}{25}{section*.43}%
+\contentsline {subsection}{\numberline {1.5.14}Webseite auf mehrere Sprachen}{25}{subsection.1.5.14}%
 \contentsline {section}{\numberline {1.6}Client}{26}{section.1.6}%
-\contentsline {subsubsection}{Welcome Seite}{26}{section*.49}%
-\contentsline {subsubsection}{Laoyut verwaltung}{27}{section*.51}%
-\contentsline {subsubsection}{Content verwaltung}{27}{section*.52}%
-\contentsline {subsection}{\numberline {1.6.1}Layout 1}{27}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Layout 3}{27}{subsection.1.6.2}%
-\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{28}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Herausforderungen und deren Lösung}{28}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Wertschöpfung und Lessons Learned}{29}{section.1.9}%
-\contentsline {section}{\numberline {1.10}Evaluierung und Resümee}{29}{section.1.10}%
+\contentsline {subsubsection}{Welcome Seite}{26}{section*.44}%
+\contentsline {subsubsection}{Layout selektieren}{27}{section*.46}%
+\contentsline {subsubsection}{Inhalt Verwaltung}{27}{section*.47}%
+\contentsline {subsection}{\numberline {1.6.1}Layout 1}{28}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Layout 3}{28}{subsection.1.6.2}%
+\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{29}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Bilder Funktionalität}{29}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Herausforderungen und deren Lösung}{29}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Wertschöpfung und Lessons Learned}{30}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Evaluierung und Resümee}{30}{section.1.11}%
