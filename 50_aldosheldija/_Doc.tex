@@ -2,7 +2,7 @@
 \label{\docname}
 In diesem Kapitel wird die Vorgehensweise der technischen L\"{o}sung bei der Admin Webseite und Client erkl\"{a}rt. Weiter, werden auch die verwendeten Technologien aufgelistet. 
 
-\section{Allgemeine Beschreibung}
+\section{Allgemeine Besschreibung}
 
 Diese Diplomarbeit besteht aus mehreren unterschiedlichen Teilen, die am Ende zusammengef\"{u}hrt werden um das Produkt Infotainmentsystem zu erhalten. Admin Webseite, oder auch Admin Panel genannt, ist eine von diesen Komponenten. Bei dieser Webseite wird die ganze Verwaltung des Systems gemacht. Es werden alle Informationen geschrieben und ausgew\"{a}hlt, die bei verschiedenen Anzeigen dargestellt werden sollen. Anderseits ist die Anzeige oder als Client bezeichnet, indem alle diese Informationen angezeigt werden. 
 
@@ -14,28 +14,30 @@ Dieses Teil setzt sich mit der Beschreibung der Technologien, die f\"{u}r die Er
 
 
 \subsection{Bootstrap}
-Bootstrap (Abb. \ref{fi:bootstrap}) ist eine Open-Source und Kostenloses CSS\footnote{Cascading Style Sheet} Framework, die f\"{u}r die Herstellung von unterschiedlichen responsiven Webseiten hilft. Dieses Framework basiert nicht nur auf CSS, sondern enth\"{a}lt auch JavaScript, die die Interaktion von dynamischen Webseiten erh\"{o}ht. Bootstrap stellt fertige CSS Klassen zur Verf\"{u}gung, die f\"{u}r unterschiedliche Bildschirmgr\"{o}\ss{}en automatisch angepasst werden. Das wird durch ein Grid System erm\"{o}glicht. Bootstrap wurde verwendet um das Layout von der Admin Webseite zu machen. Da unsere Webseite eine Responsive Layout haben soll, wird Bootstrap verwendet. Mit Bootstrap wird das gesamte Layout dieser Webseite gemacht.
+%(Abb. \ref{fi:bootstrap})
+Bootstrap ist eine Open-Source und Kostenloses CSS\footnote{Cascading Style Sheet} Framework, die f\"{u}r die Herstellung von unterschiedlichen responsiven Webseiten hilft. Dieses Framework basiert nicht nur auf CSS, sondern enth\"{a}lt auch JavaScript, die die Interaktion von dynamischen Webseiten erh\"{o}ht. Bootstrap stellt fertige CSS Klassen zur Verf\"{u}gung, die f\"{u}r unterschiedliche Bildschirmgr\"{o}\ss{}en automatisch angepasst werden. Das wird durch ein Grid System erm\"{o}glicht. Bootstrap wurde verwendet um das Layout von der Admin Webseite zu machen. Da unsere Webseite eine Responsive Layout haben soll, wird Bootstrap verwendet. Mit Bootstrap wird das gesamte Layout dieser Webseite gemacht. \cite{40_bootstrap}
 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{\ordnerfigures bootstrap.png}
-	\caption{Bootstrap Logo \cite{40_bootstrap_img}}
-	\label{fi:bootstrap}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.3\textwidth]{\ordnerfigures bootstrap.png}
+%	\caption{Bootstrap Logo \cite{40_bootstrap_img}}
+%	\label{fi:bootstrap}
+%\end{figure}
 
 \subsection{PHP}
-PHP (Abb. \ref{fi:php}) stand f\"{u}r \textquotedblleft{}Personal Home Page Tools\textquotedblright{} und jetzt hei\ss{}t PHP Hypertext Preprocessor. Die aktuellste Version von PHP ist 7.4.0 und wurde im Dezember 2019 ver\"{o}ffentlicht. PHP ist eine serverseitige Programmiersprache, die f\"{u}r die Erstellung von dynamischen Webseiten dient. Mit Hilfe von PDO\footnote{PHP Data Objects} wird die Verbindung mit der Datenbank dargestellt. PHP ist f\"{u}r fast alle Webhosting Services verf\"{u}gbar und unterst\"{u}tzt. 
+%(Abb. \ref{fi:php}) 
+PHP stand f\"{u}r \textquotedblleft{}Personal Home Page Tools\textquotedblright{} und jetzt hei\ss{}t PHP Hypertext Preprocessor. Die aktuellste Version von PHP ist 7.4.0 und wurde im Dezember 2019 ver\"{o}ffentlicht. PHP ist eine serverseitige Programmiersprache, die f\"{u}r die Erstellung von dynamischen Webseiten dient. Mit Hilfe von PDO\footnote{PHP Data Objects} wird die Verbindung mit der Datenbank dargestellt. PHP ist f\"{u}r fast alle Webhosting Services verf\"{u}gbar und unterst\"{u}tzt. 
 Durch PHP wird das ganze backend der Webseite gemacht. PDO ist sicher vor SQL-Injektionen und schneller als MySQLi.
 
 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{\ordnerfigures php.png}
-	\caption{PHP Logo \cite{40_php_img}}
-	\label{fi:php}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.3\textwidth]{\ordnerfigures php.png}
+%	\caption{PHP Logo \cite{40_php_img}}
+%	\label{fi:php}
+%\end{figure}
 
 
 \subsection{JavaScript}
@@ -44,12 +46,12 @@ JavaScript JavaScript oder auch kurz JS genannt, ist ein objektorientierte Progr
 In dieser Diplomarbeit wird das JavaScript gebraucht, um die automatische Darstellung von unterschiedlichen Inhalten in der Anzeige darzustellen, ohne die Webseite neu zu laden.
 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{\ordnerfigures js.png}
-	\caption{JavaScript Logo \cite{40_js_img}}
-	\label{fi:js}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.3\textwidth]{\ordnerfigures js.png}
+%	\caption{JavaScript Logo \cite{40_js_img}}
+%	\label{fi:js}
+%\end{figure}
 
 %https://developer.mozilla.org/en-US/docs/Web/JavaScripts
 
@@ -64,51 +66,56 @@ DataTables ist ein Plug-In f\"{u}r die jQuery-Javascript-Bibliothek. Es ist ein 
 	\item Leichte Integration mit Bootstrap
 	\item freie Open Source Software 
 	\item Mobilfreundlich
-	\item Export in den verschiedenen Formaten
+	\item Ausgewählen wie viele Einträge angezeigt werden sollen 
+	\item Export in den verschiedenen Formaten (ausdrucken oder CSV Datei)
 \end{itemize}
 
 Alle Tabellen werden mit Hilfe von diesem Plug-In erstellt. \cite{40_datatables}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{\ordnerfigures datatables.png}
-	\caption{DataTables Logo \cite{40_datatables_img}}
-	\label{fi:datatables}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.3\textwidth]{\ordnerfigures datatables.png}
+%	\caption{DataTables Logo \cite{40_datatables_img}}
+%	\label{fi:datatables}
+%\end{figure}
 
 
 \subsection{Font Awesome}
-Font Awesome (Abb. \ref{fi:fontawesome}) ist ein Toolkit für Schriftarten und Symbole, das auf CSS und LESS basiert. Es wurde von Dave Gandy für die Verwendung mit Twitter Bootstrap erstellt und später in die Bootstrap-CDN aufgenommen. Mit Font Awesome erhaltet man skalierbare Vektor-Icons, die sofort angepasst werden können. Die Änderungen, die gemacht werden können, bezieht sich in Bezug auf Größe, Farbe, Schlagschatten und alles, was mit CSS möglich ist.
+% (Abb. \ref{fi:fontawesome})
+Font Awesome ist ein Toolkit für Schriftarten und Symbole, das auf CSS und LESS basiert. Es wurde von Dave Gandy für die Verwendung mit Twitter Bootstrap erstellt und später in die Bootstrap-CDN aufgenommen. Mit Font Awesome erhaltet man skalierbare Vektor-Icons, die sofort angepasst werden können. Die Änderungen, die gemacht werden können, bezieht sich in Bezug auf Größe, Farbe, Schlagschatten und alles, was mit CSS möglich ist.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{\ordnerfigures font_awesome.png}
-	\caption{Font Awesome Logo \cite{40_font_awesome_img}}
-	\label{fi:fontawesome}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.3\textwidth]{\ordnerfigures font_awesome.png}
+%	\caption{Font Awesome Logo \cite{40_font_awesome_img}}
+%	\label{fi:fontawesome}
+%\end{figure}
 
 
 \subsection{MySQL}
+% (Abb. \ref{fi:mysql})
 
-F\"{u}r die Relationale Datenbank Management System wurde MySQL\footnote{My Structured Query Language} (Abb. \ref{fi:mysql}) gew\"{a}hlt. Dieses Datenbankverwaltungssystem wird gerne f\"{u}r kleine Projekte verwendet, weil es Open-Source und kostenlos ist. MySQL ist eine Software um eine Datenbank zu erstellen und zu verwalten. MySQL erm\"{o}glicht kontrollierten Zugriff auf die Datenbank. Die Daten werden auf Tabellenstruktur gespeichert, die in Dateien auf der Festplatte gespeichert sind. Diese Software ist unabh\"angig vom Plattformen, wie z.B. Windows, Linux, MacOS, usw.
+F\"{u}r die Relationale Datenbank Management System wurde MySQL\footnote{My Structured Query Language} gew\"{a}hlt. Dieses Datenbankverwaltungssystem wird gerne f\"{u}r kleine Projekte verwendet, weil es Open-Source und kostenlos ist. MySQL ist eine Software um eine Datenbank zu erstellen und zu verwalten. MySQL erm\"{o}glicht kontrollierten Zugriff auf die Datenbank. Die Daten werden auf Tabellenstruktur gespeichert, die in Dateien auf der Festplatte gespeichert sind. Diese Software ist unabh\"angig vom Plattformen, wie z.B. Windows, Linux, MacOS, usw.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{\ordnerfigures mysql.png}
-	\caption{MySQL Logo \cite{40_mysql_img}}
-	\label{fi:mysql}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.3\textwidth]{\ordnerfigures mysql.png}
+%	\caption{MySQL Logo \cite{40_mysql_img}}
+%	\label{fi:mysql}
+%\end{figure}
+
 \subsection{Apache}
+
 Das Apache HTTP Server-Projekt ist ein Versuch, einen Open-Source-HTTP-Server f\"{u}r moderne Betriebssysteme wie UNIX und Windows zu entwickeln und zu warten. Ziel dieses Projekts ist es, einen sicheren, effizienten und erweiterbaren Server bereitzustellen, der HTTP-Dienste synchron mit den aktuellen HTTP-Standards bereitstellt. Dieser Server verwendet die Port 80 f\"{u}r HTTP und Port 443 f\"{u}r HTTPS. Die erste Version wurde im Jahr 1995 und der letzte stabile Version ist 2.4.41, der im August 2019 ver\"{o}ffentlicht wurde. \cite{40_apache}
 
 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{\ordnerfigures apache.png}
-	\caption{Apache HTTP Server Logo \cite{40_apache_img}}
-	\label{fi:apache}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.3\textwidth]{\ordnerfigures apache.png}
+%	\caption{Apache HTTP Server Logo \cite{40_apache_img}}
+%	\label{fi:apache}
+%\end{figure}
 
 %-------------------------------------------------------
 %-------------------------------------------------------
@@ -119,7 +126,7 @@ Das Apache HTTP Server-Projekt ist ein Versuch, einen Open-Source-HTTP-Server f\
 \section{Structed Software Design für den Client}
 
 Mithilfe von Structed Design wurde die Planung der Client gemacht. Diese Structed Design ist auf der Abbildung \ref{fi:structed_design_client} dargestellt. 
-Dieser Teil ist verantwortlich f\"{u}r die automatische Darstellung der Informationen auf der Anzeige. Der Client kommuniziert mit der Datenbank, die am Server liegt und von dem die Daten geholt werden. Die wichtigste Funktionsbl\"{o}cke dieser Structed Design sind Zeitsteuerung, Anzeige Prepare und das Log, die in den folgenden Unterkapitel weiter erkl\"{a}rt werden.
+Dieser Teil ist verantwortlich f\"{u}r die automatische Darstellung der Informationen auf der Anzeige. Der Client kommuniziert mit der Datenbank, die am Server liegt und von dem die Daten geholt werden. Die wichtigste Funktionsbl\"{o}cke dieser Structed Design sind Zeitsteuerung, Anzeige Prepare und das Log, die in dem folgenden Unterkapitel weiter erkl\"{a}rt werden.
 
 \begin{figure}[ht]
 	\centering
@@ -175,7 +182,7 @@ Damit nicht jeder diese Inhalten \"{a}ndern und l\"{o}schen kann, ist diese Webs
 Der Zugriff auf dieser Webseite ist \"uber jedes Ger\"{a}t und von jedem Ort aus m\"{o}glich. Um diese Webseite anzuschauen ist nur eine Internetverbindung notwendig.
 
 \subsection{Login}
-Damit nicht alle unsere Webseite verwenden können, müssen die Benutzer sich auf der Webseite einloggen (Abbildung \ref{fi:login}). Die Admin Webseite ist durch eine Login-Seite geschützt, die vom Benutzer folgende Informationen anfordert: die E-Mail-Adresse und das Passwort. Dieses Formular heißt Login.php. Wenn der Benutzer auf den Sign-in Button klickt, werden seine Anmeldedaten auf Korrektheit überprüft. Ist das der Fall wird der Benutzer eingeloggt. Wenn der User in der Datenbank nicht existiert, wird ihm ein Fehlermeldung gezeigt damit er weißt, dass er zuerst registriert sein muss um in die Webseite einloggen zu können. Wenn der Benutzer beim Ausfüllen des Formulars das Passwort falsch eingibt, aber die E-Mail-Adresse richtig, und der Benutzer existiert bereits, wird ihm die Fehlermeldung für das falsche Passwort angezeigt. So ist dieser Login sehr einfach und benutzerfreundlich. Bei dieser Seite findet man auch einen Link, um das Passwort zurückzusetzen.
+%Damit nicht alle unsere Webseite verwenden können, müssen die Benutzer sich auf der Webseite einloggen (Abbildung \ref{fi:login}). Die Admin Webseite ist durch eine Login-Seite geschützt, die vom Benutzer folgende Informationen anfordert: die E-Mail-Adresse und das Passwort. Dieses Formular heißt Login.php. Wenn der Benutzer auf den Sign-in Button klickt, werden seine Anmeldedaten auf Korrektheit überprüft. Ist das der Fall wird der Benutzer eingeloggt. Wenn der User in der Datenbank nicht existiert, wird ihm ein Fehlermeldung gezeigt damit er weißt, dass er zuerst registriert sein muss um in die Webseite einloggen zu können. Wenn der Benutzer beim Ausfüllen des Formulars das Passwort falsch eingibt, aber die E-Mail-Adresse richtig, und der Benutzer existiert bereits, wird ihm die Fehlermeldung für das falsche Passwort angezeigt. So ist dieser Login sehr einfach und benutzerfreundlich. Bei dieser Seite findet man auch einen Link, um das Passwort zurückzusetzen.
 
 \begin{figure}[H]
 	\centering
@@ -193,13 +200,33 @@ Ab und zu passiert es, dass die Benutzer das Passwort vergessen, egal aus welche
 	\label{fi:reset}
 \end{figure}
 
-In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen können (siehe Abb.\ref{fi:resetemail}). Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch als ungültig festgelegt und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Das Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Passwortes anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden. Diese Links werden als ungültig gesetzt, wobei das Ablaufdatum auf ein älteres Datum geändert wird (siehe Abb. \ref{fi:erd} Tabelle tb\_infotainment\_password\_reset).
+In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen können (siehe Abb.\ref{fi:resetemail}). Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch als ungültig festgelegt und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Das Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Passwortes anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden. Diese Links werden als ungültig gesetzt, wobei das Ablaufdatum auf ein älteres Datum geändert wird (siehe Abb. \ref{fi:erd} Tabelle tb\_infotainment\_password\_reset). 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.99\textwidth]{\ordnerfigures reset-email.png}
 	\caption{Passwort zurücksetzen E-Mail}
 	\label{fi:resetemail}
+\end{figure}
+
+Falls der Benutzer auf den Link klickt, wird ein neuer Tab geöffnet und er wird auf die Seite weitergeleitet, auf der er sein neues Passwort schreiben kann. Er sollte das neue Passwort zweimal schreiben, um eine falsche Eingabe zu vermeiden. Wenn beide Passwörter übereinstimmen, wird das Passwort über die Länge geprüft. Das Passwort sollte aus 8 bis maximal 20 Zeichen bestehen und nicht gleich 12345678 sein.
+Wenn alle genannten Kriterien erfüllt sind, wird das Passwort geändert und der Benutzer wird zur Startseite weitergeleitet.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.49\textwidth]{\ordnerfigures changepassword.png}
+	\caption{Passwort ändern}
+	\label{fi:reset-password}
+\end{figure}
+
+Wenn jemand versucht, einen Link zu verwenden, der zuvor einmal verwendet wurde, nicht mehr gültig oder falsch ist, wird dem Benutzer eine Fehlermeldung angezeigt. Diese Fehlermeldung ist in der Abbildung \ref{fi:invalidlink} zu sehen. In dieser Fehlermeldung sind auch zwei Links enthalten, die als Option verwendet werden können, um entweder einen neuen Link anzufordern oder den Benutzer zur Anmeldeseite umzuleiten.
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures reset-email-notvalid.png}
+	\caption{Passwort zurücksetzen - Ungültiges Link}
+	\label{fi:invalidlink}
 \end{figure}
 
 
@@ -246,22 +273,271 @@ Dieses Menü ist auch für mobile Benutzer geeignet. Wenn der Benutzer ein Mobil
 	emph            =[2]{if,and,or,else},
 	emphstyle       =[2]\color{dkyellow}}
 
-\subsection{Home}
+\subsection{Startseite}
+
+Die Startseite ist die Zusammenfassung des gesamten Systems. Auf dieser Seite kann der Administrator einen Überblick von Anzeigen erhalten. Wie wir in Abbildung \ref{fi:home} sehen können, werden die Clients mithilfe einer Dropdown-Liste angezeigt. Im ersten Moment, in dem diese Seite geöffnet wird, ist automatisch die erste Anzeige der Dropdown-Liste ausgewählt. Nachdem die Anzeige ausgewählt wurde, werden dem Benutzer einige Informationen angezeigt.
+Der Gerätestatus wird mit Hilfe eines ausgefüllten Kreises angezeigt. Abhängig vom Status des Geräts kann dieser Kreis entweder grün sein, was bedeutet, dass das Gerät aktiv und online ist, oder rot, wenn das Gerät offline ist. In der Nähe des Status des Geräts wird das Datum angezeigt, an dem die Anzeige zuletzt auf den Server geantwortet hat.
+Sowohl die IP-Adresse als auch die MAC-Adresse des Displays sind weitere Informationen, die auf der Startseite angezeigt werden.
+In der Nähe der Dropdown-Liste befindet sich eine Button zum Einfügen eines neuen Layouts für die Anzeige, die gerade ausgewählt ist.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures home.png}
+	\caption{Startseite}
+	\label{fi:home}
+\end{figure}
+
+
 \subsubsection{Anzeige Status}
-\subsubsection{Layout hinzufügen}
-\subsubsection{Layout Content hinzufügen}
+Um den Gerätestatus herauszufinden, wurde ein Skript in Python erstellt. Dieses Skript wird jede Minute über Cronjobs aufgerufen. Damit das Skript funktioniert, sollten sich der Server und die Anzeigen im selben LAN befinden. Zum Speichern des Anzeigestatus wird die Tabelle tb\_infotainment\_display\_status verwendet. Wenn das Gerät eingeschaltet ist, erhält es den Wert 1, wenn nicht, hat es den Wert 0, was bedeutet, dass das Gerät nicht aktiv ist. So sieht das Skript aus:
+\begin{itemize}
+	\item Es wurde eine Verbindung mit der Datenbank hergestellt
+	\item Aus der Tabelle tb\_infotainment\_display (auf Abbildung \ref{fi:erd}) wurden alle Anzeigen selektiert.
+	\item Zu jeder Anzeige in der Tabelle wird nur ein Ping gesendet.
+	\item Wenn das Paket erfolgreich gesendet wurde, bedeutet dies, dass die Anzeige online ist und der Status zusammen und das Datum aktualisiert werden müssen. 
+	\item Wurde das Paket nicht gesendet, zeigt uns dies, dass das Gerät entweder nicht mit dem Internet verbunden oder ausgeschaltet ist. Auch in diesem Fall müssen der Status des Geräts und das Datum aktualisiert werden.
+\end{itemize}
+
 
 \subsubsection{Timetable}
-\subsubsection{POP-UP Fenster}
+\label{sub:timetable}
+Auf dieser Seite ist auch ein Zeitplan zu sehen, der zeigt, welches Layout wann für diese Anzeige angezeigt wird. Dieser Zeitplan ist in 7 Spalten aufgeteilt, jeweils einen pro Tag der Woche, und 24 Zeilen, die jeweils den Wert von einer Stunde haben.
+
+Die Berechnung der Position für jedes Layout erfolgt über CSS. Die Höhe einer Zeile ist vorher definiert, wie groß sie sein muss, zum Beispiel 30px. Diese Größe entspricht einer Stunde. Für jede Zeile wird eine Linie gezeichnet. 
+
+Ein Layout, das 3 Stunden lang angezeigt wird, hat die Höhe 3 * 30 = 90px. Für dieses Layout haben wir eine Box mit der Höhe 90px. Es sollte auch die Position dieser Box berechnet werden. Die Position der Box ist auf absolut eingestellt. Dieses Layout hat auch eine Start- und Endzeit. Wir beginnen unseren Stundenplan ab Mitternacht (ab 0). Von der Startzeit subtrahieren wir 0 und multiplizieren es mit 30px. Auf diese Weise können wir die Box genau dort positionieren, wo sie sein sollte. Dies funktioniert auch für nicht ganze Stunden.
+
+Die Farbe der Box richtet sich nach dem Layout. Jedes Layout hat eine andere Farbe, so dass es einfacher zu unterscheiden ist.
+Als Info wird die Start- und Endzeit dargestellt, zu der dieses Layout angezeigt werden soll. 
+Sie können auf jedes Layout (Feld) klicken, um ein Popup-Fenster zu öffnen, in dem weitere Informationen angezeigt werden.
+
+\subsubsection{Layout wählen}
+
+Auf dieser Seite ist es möglich, ein bestimmtes Layout für einen bestimmten Zeitraum auszuwählen. Mit Hilfe eines Dropdowns werden alle verfügbaren Layouts angezeigt. Der Benutzer muss eine Start- und Endzeit auswählen, zu der dieses Layout angezeigt werden soll. Eine andere Möglichkeit besteht darin, bestimmte Tage auszuwählen, an denen dieses Layout angezeigt werden soll. Es kann ein bestimmter Tag, bestimmte Tage oder die ganze Woche sein.
+
+Über dem Button Layout hinzufügen werden die Daten gesendet.Als erstes wird die Start- und Endzeit überprüft. Die Startzeit sollte früher als die Endzeit sein. Wenn diese Bedingung erfüllt ist, wird geprüft, ob der Zeitplan während dieser Stunde leer ist. Dies wird für jeden ausgewählten Tag überprüft.
+
+Sollte eine der oben genannten Bedingungen nicht erfüllt sein, wird eine entsprechende Fehlermeldung ausgegeben und das Layout kann nicht hinzugefügt werden.
+
+Um dem Benutzer zu helfen, damit er keine Fehler machen kann, wurde unter dem Button der Zeitplan (\nameref{sub:timetable} Seite \pageref{sub:timetable}) dieser Anzeige eingefügt, in dem der Benutzer sehen kann, welche Zeiten leer und welche beschäftigt sind.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.69\textwidth]{\ordnerfigures chooseLayout.png}
+	\caption{Layout Wählen für einen bestimmten Zeitraum}
+	\label{fi:chooseLayout}
+\end{figure}
+
+\subsubsection{Layout Inhalte hinzufügen}
+Die Informationen, die auf den Bildschirmen angezeigt werden, sollten irgendwo eingefügt werden. Bisher haben wir nur ausgewählt, welches Layout diese Anzeige haben soll.
+Um den Inhalt der Anzeige auszuwählen, benötigen Sie die Ansicht viewLayout. Auf dieser Seite werden der Name der Anzeige, der Name des Layouts, die Uhrzeit und die Tage angezeigt, an denen dieses Layout angezeigt werden soll.
+Man kann verschiedene Inhalte für verschiedene Teile des Layouts auswählen.
+Jeder Teil zeigt auch den Inhalt an, der diesem Teil bereits zugeordnet war, zusammen mit der entsprechenden Zeit.
+In jedem Teil befindet sich ein kleines Pluszeichen. Wenn Sie auf dieses Symbol klicken, wird ein Popup-Fenster geöffnet, in dem Sie neue Inhalte hinzufügen können.
+Einige Inhalte sind nur in einigen Teilen des Layouts verfügbar. Zum Beispiel wäre es nicht sinnvoll, den letzten Website-Beitrag der Schule in der Kopfzeile anzuzeigen. Die Kopfzeile ist klein und passt nicht hinein. Dies gilt auch für andere Inhalte, die nicht in alle Teile des Layouts passen.
+Im Popup-Fenster befindet sich eine Dropdown-Liste, aus der der Inhalt ausgewählt werden kann. Wenn das ausgewählte Element ein Bild ist, wird ein Dropdown-Menü hinzugefügt. In dieser Dropdown-Liste werden alle verfügbaren Bilder aufgelistet. Um ein Bild schneller zu finden, besteht auch die Möglichkeit, nach dem Namen des Bildes zu suchen.
+Nachdem der Inhalt ausgewählt wurde, muss der Zeitpunkt ausgewählt werden, zu dem der Inhalt angezeigt werden soll. Die Startzeit ist mit dem Wert der ersten leeren Zeit im Zeitplan an diesem Tag gefüllt. Dies wurde gemacht, um Kollisionen im Fahrplan und Leerzeiten in diesem Teil zu verhindern. Die Startzeit kann auch geändert werden, wenn der Benutzer eine andere Zeit einstellen möchte. dann ist die Endzeit, die gewählt werden sollte.
+Als letztes muss ausgefüllt werden, an welchen Tagen dieser Inhalt angezeigt wird. Die Optionen zur Auswahl sind nur Tage, an denen das Layout angezeigt wird.
+Der Button Submit speichert die Daten in der Datenbank und das Popup-Fenster wird geschlossen.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.89\textwidth]{\ordnerfigures viewLayout.png}
+	\caption{Inhalt für ein bestimmtes Layout wählen}
+	\label{fi:viewLayout}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.49\textwidth]{\ordnerfigures popup-content.png}
+	\caption{Inhalt für ein bestimmtes Teil des Layouts wählen}
+	\label{fi:popup-content}
+\end{figure}
+
+
+\subsubsection{Pop-up-Fenster}
+
+Der Zeitplan ist nur die Übersicht über das Layout, aber das sind nicht genug Informationen für den Benutzer. Man kann auf jedes Layout klicken, wenn man weitere Informationen zu diesem Layout haben möchte. Ein Pop-up-Fenster wird geöffnet. Dieses Fenster besteht aus zwei Teilen. Im linken Teil werden die Start- und Endzeit des Layouts sowie ein Name angezeigt, der vom Benutzer ausgewählt werden kann, wenn er ein neues Layout hinzufügt.
+
+Auf der rechten Seite wird der Name des Layouts zusammen mit der Struktur dieses Layuots angezeigt.
+Auf jedem Teil werden die Inhalte angezeigt, die in diesem bestimmten Teil angezeigt werden sollen. In der Nähe des Namens des Inhalts wird auch die Uhrzeit angezeigt.
+Am unteren Rand des Fensters befinden sich zwei Buttons. Der erste besteht darin, dieses Layout zu löschen. Dadurch wird das Layout nur für den Tag gelöscht, auf den geklickt wurde, einschließlich des gesamten Inhalts für dieses Layout.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.69\textwidth]{\ordnerfigures popup.png}
+	\caption{Layout  für einen bestimmten Zeitraum wählen}
+	\label{fi:popup}
+\end{figure}
+
+Über dem Button Layout bearbeiten wird der Benutzer zu einer Seite weitergeleitet, auf der er Inhalte für alle Teile dieses Layouts hinzufügen kann.
+
+
 \subsection{Anzeige}
+
+In der Anzeige Seite sind die registrierten Anzeigen bzw. Clients dargestellt. In dieser Tabelle sind die Spalten Name, Mac-Adresse, IP-Adresse, Standort und Layout. Die Datensätze von dieser Tabelle können editiert und gelöscht werden. 
+
+Im oberen Bereich ist die Möglichkeit zur Verfügung gestellt, andere Anzeigen hinzufügen.
+Wenn dieses Button gedruckt wird, danach sollten die Eingaben für die Anzeige selbst geschrieben werden. Am Ende, nachdem die Anzeige hinzugefügt worden ist, wird es noch einmal zum Anzeige Seite weitergeleitet.
+
+Die Anzeigen können editiert bzw. geändert werden, wobei man noch einmal die Möglichkeit hat, die Eingaben für die verschiedenen Spalten zu ändern und danach die Änderungen speichern.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.79\textwidth]{\ordnerfigures display.png}
+	\caption{Anzeige Seite}
+	\label{fi:anzeige}
+\end{figure}
+
+
 \subsection{Bilder}
+
+Die nächste Seite ist die Bilder Seite. Hier sind der Name der Bilder und der Datentyp dargestellt. Diese Spalten können editiert und gelöscht werden. Man hat die Möglichkeit, Bilder hinzuzufügen, wobei selbst ein Bild aus dem Computer wählen kann.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.79\textwidth]{\ordnerfigures images.png}
+	\caption{Bilder Seite}
+	\label{fi:images}
+\end{figure}
+
+
 \subsection{Layouts}
+Ein andere Seite ist die Layout Seite. Dort sind Layouts ersichtlich. Es gibt 3 Spalten; nämlich Name, Beschreibung und Datei. Hier gibt es wieder die Möglichkeit, Layouts hinzuzufügen, wo man selbst die Einträge erfüllt.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.79\textwidth]{\ordnerfigures layouts.png}
+	\caption{Layouts Seite}
+	\label{fi:layouts}
+\end{figure}
+
 \subsection{Kalendarinfo}
-\subsection{Supplierplan}
+
+In der Kalendarinfo Seite sind die Kalenderinformationen ersichtlich. Es gibt die Spalten Titel, Beschreibung und Datum. Diese können editiert und gelöscht werden. Die Kalenderinformationen können selbst hinzugefügt werden und die Änderungen werden dann gespeichert.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.79\textwidth]{\ordnerfigures kalendarinfo.png}
+	\caption{Kalendarinfo Seite}
+	\label{fi:kalendar}
+\end{figure}
+
+\subsection{Supplier plan}
+Für die Schule ist der Supplier plan eine der wichtigsten Komponenten. Dies hilft den Schülern zu erkennen, welche Lehrer fehlen und wer sie ersetzen wird.
+
+\subsubsection{Stundenplan importieren}
+Unsere Schule verwendet Untis als Plattform für die Verwaltung von Stundenplan. Um Zeit zu sparen und alle Daten erneut in unsere Website einzufügen, wurde die Importfunktion implementiert. In Untis gibt es eine Option zum Exportieren des Stundeplans als txt-Datei. Diese Datei kann dann auf unserer Website verwendet und importiert werden.
+Um diese Daten zu importieren, sollte die von Untis erstellte txt-Datei hochgeladen werden. Diese Daten werden über eine gespeicherte Prozedur in der Datenbank gespeichert. Die stored procedure wurde ausgewählt, weil sie den Import der Daten schneller und sicherer macht.
+
+Es kommt vor, dass sich der Stundenplan ändert und alle Daten erneut geändert werden sollten. Es besteht die Möglichkeit, alle alten Daten zu löschen und dann die neuen zu importieren.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.49\textwidth]{\ordnerfigures importStundenplan.png}
+	\caption{Stundenplan importieren}
+	\label{fi:import}
+\end{figure}
+
+\subsubsection{Stundenplan }
+
+Auf dieser Seite werden alle Lehrer aufgelistet, die am ausgewählten Tag Unterricht haben. Wenn ein Lehrer als fehlend hinzugefügt wird, wird er auf dieser Seite nicht mehr angezeigt.
+
+Als Hilfe für den Benutzer, der den Supplier plan erstellt, werden das Datum des ausgewählten Tages und die Wochennummer des Jahres angezeigt.
+Der Default wert des Tages in der Dropdown-Liste ist auf heute festgelegt. Der Benutzer kann auch einen anderen Tag auswählen, um den Supplier plan zu erstellen. Wenn es Wochenende ist, wird der Montag automatisch ausgewählt und der Supplier plan kann für die folgende Woche erstellt werden.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.89\textwidth]{\ordnerfigures supplierplan.png}
+	\caption{Supplier plan}
+	\label{fi:supplierplan}
+\end{figure}
+
 \subsubsection{Fehlendelehrer}
+Nachdem die fehlende Lehrer eingegeben wurden, können die Ersatzlehrer für diese Lehrer ausgewählt werden.
+
+In der Nähe jedes Lehrers besteht die Möglichkeit, seine Stunden zu ersetzen. Diese Option öffnet eine neue Seite mit dem Stundenplan des Lehrers an diesem Tag.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.89\textwidth]{\ordnerfigures supplierplan1.png}
+	\caption{Lehrer die Fehlen}
+	\label{fi:fehlendeLehrer}
+\end{figure}
+
+Aus dem Stundenplan kann eingegeben werden, zu welchen Stunden der Lehrer fehlen wird. Dies kann über das Kontrollkästchen an der Seite jeder Stunde erfolgen. Die Stunden, Lehrer, Fach, Klasse und das Raum werden automatisch gefüllt und können nicht geändert werden.
+
+Es gibt eine Dropdown-Liste zur Auswahl des Supplierers. Wenn es nur eine Gruppe der Klasse ist, wird in der Dropdown-Liste der Lehrer angezeigt, der Unterricht bei der anderen Gruppe hat. Nachfolgend sind alle Lehrer aufgelistet, die zum Supplieren bereit sind. 
+
+Manchmal fehlen mehr Lehrer als die Optionen, die wir bisher in der Dropdown-Liste haben. Dann ist notwendig, auch die Lehrer aufzulisten, die in dieser Stunde keinen Unterricht haben, nicht fehlen und keinen anderen Supplierstunde haben. Ein Lehrer muss alle oben genannten Kriterien erfüllen, um in der Dropdown-Liste aufgelistet zu werden.
+
+Um es so einfach wie möglich zu machen, werden diese Lehrer nach der besten Möglichkeit und Günstigkeit für sie sortiert. Zum Beispiel:  Wenn ein Lehrer in der dritten Stunde fehlt, dann steht ein supplierbereiter Lehrer, der eigentlich in der vierten Stunde in die Schule kommt, vorher in die Dropdown-Liste auftaucht, als ein Lehrer, der wegen seines normalen Stundenplans erst in der achten Stunde Unterricht hat. Je näher die normale Unterrichtsstunde eines Lehrers mit der zu supplierten Stunden ist, desto höher steht er in der Liste.
+
+Zusätzlich kann auch eine Beschreibung für diese Stunde hinzugefügt werden
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.89\textwidth]{\ordnerfigures supplierplan2.png}
+	\caption{Lehrer die Fehlen supplieren}
+	\label{fi:supplieren}
+\end{figure} 
+
 \subsubsection{Suppliertabelle}
+Die folgende Tabelle stellt den Supplier plan dar. Mit einer Dropdown-Liste wird die Möglichkeit zur Verfügung gestellt, den Tag von dem der Supplier plan angezeigt wird, auszuwählen. Normalerweise wird automatisch der aktuelle Tag angezeigt. Unten wird die aktuelle Datum und die Kalenderwoche angezeigt. Es werden die Stunde, Klasse, Raum, Lehrer, Supplierer und auch die Beschreibung dargestellt. Alle diese Informationen können einzeln geändert oder auch gelöscht werden.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.89\textwidth]{\ordnerfigures supplierplan3.png}
+	\caption{Lehrer die Fehlen}
+	\label{fi:fehlendeLehrer}
+\end{figure} 
 \subsection{Benutzer}
+Im Benutzermenü stehen zwei Optionen zur Auswahl, nämlich zum Auflisten aller Benutzer oder zum Anzeigen, wer einen Link zum Zurücksetzen des Kennworts angefordert hat. 
+
+Die Benutzerverwaltung ist für diese Webseite wichtig, um zu sehen, wer welche Rechte hat.Die Benutzer werden zusammen mit ihrem Namen, ihrer E-Mail-Adresse, Rolle und dem Datum, an dem der Benutzer erstellt wurde, aufgelistet. Von dieser Seite aus hat der Administrator die Möglichkeit, das Passwort eines Benutzers zurückzusetzen (auf Abbildung \ref*{fi:users} ersichtlich).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\textwidth]{\ordnerfigures users.png}
+	\caption{Alle Benutzern}
+	\label{fi:users}
+\end{figure}
+
+Auf dieser Seite befindet sich auch der Button, mit der der Benutzer zu der Seite weitergeleitet wird, auf der der Administrator einen neuen Benutzer hinzufügen kann. Wie bereits erwähnt, ist diese Seite nur für Benutzer mit Administratorrechten verfügbar.
+
+
+
+\subsubsection{Neue Benutzer hinzufügen}
+Zum Hinzufügen eines neuen Benutzers werden der Name und die E-Mail-Adresse des Benutzers benötigt. Danach wird aus der Dropdown-Liste ausgewählt, welche Berechtigungen diesem Benutzer gewährt werden (siehe Abbildung \ref{fi:addUser}). Der Benutzer wird nur erstellt, wenn der Benutzer mit derselben E-Mail-Adresse nicht vorhanden ist. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.49\textwidth]{\ordnerfigures addUser.png}
+	\caption{Neue Benutzer anlegen}
+	\label{fi:addUser}
+\end{figure}
+
+
+Wenn der Benutzer erstellt wird, wird eine E-Mail an diesen Benutzer gesendet (siehe Abbildung \ref{fi:addUser_email}). In dieser E-Mail findet er das Passwort, das zufällig generiert wurde. Das generierte Passwort hat die Länge von 13 Zeichen und besteht aus kleinen und großen Buchstaben, Zahlen und Sonderzeichen wie !, @, \# usw.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.79\textwidth]{\ordnerfigures addUser_email.png}
+	\caption{Neue Benutzer E-Mail}
+	\label{fi:addUser_email}
+\end{figure}
+
+
 \subsubsection{Passwort zurücksetzen}
+
+Es kann vorkommen, dass der Benutzer das Kennwort aus verschiedenen Gründen nicht zurücksetzen kann. Auf diese Weise kann er sich nicht mehr anmelden. Benutzer mit Administratorrechten können das Kennwort jedes Benutzers zurücksetzen. Um das Passwort eines Benutzers zurückzusetzen, sollte der Administrator auf das \underline{reset\_password }neben dem Benutzer klicken, den er zurücksetzen möchte.
+
+Das neue Passwort wird mit derselben Funktion generiert, mit der das Passwort eines neuen Benutzers generiert wird. Dieses Passwort überschreibt das alte Passwort und ist das einzige Passwort, mit dem Sie sich auf der Webseite anmelden können.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.79\textwidth]{\ordnerfigures password_reset.png}
+	\caption{Password zurücksetzen E-Mail}
+	\label{fi:password_reset}
+\end{figure}
+
 
 \subsection{Einstellungen}
 Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Administrator die Möglichkeit den API Key von OpenWeatherMap und City ID, von dem die Wetterdaten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot-Token werden mit Hilfe von Regex\footnote{Reguläre Ausdrücke sind eine Folge von Zeichen, die ein Muster definieren.} überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen. Der API-Schlüssel vom Telegramm-Chatbot hat eine Länge von 45 Zeichen. Von diesen 45 Zeichen sollten die ersten neun Zeichen Zahlen von 0 bis 9 sein. Nach den ersten 9 Ziffern steht ein ``:''. Bis jetzt haben wir die ersten 10 Zeichen des API-Schlüssels. Die verbleibenden Zeichen (die anderen 35 Zeichen) können Zahlen von 0 bis 9, kleine oder große Buchstaben von a bis z oder ``-'' sein. So sieht das Regex-Muster aus (siehe Listing \ref{lst:regextelegram} ).
@@ -277,6 +553,9 @@ Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. 
 \end{figure}
 
 \subsection{Logout}
+Nachdem der Benutzer unsere Website nicht mehr verwenden will, hat er rechts im Menü die Möglichkeit, sich von der Website abzumelden (siehe Abbildung \ref{fi:menu}). Wenn der Benutzer auf die Menüoption Abmelden klickt, werden alle Sessionvariablen deaktiviert und gelöscht mithilfe von \textit{\$\_SESSION = array();}. Am Ende werden alle Sessionen zerstört mit der Funktion \textit{session\_destroy()} und der Benutzer wird zur Anmeldeseite weitergeleitet.
+
+Die Sessions laufen automatisch nach einer gewissen Zeit der Inaktivität des Benutzers ab. Auf diese Weise kann niemand die Website ohne das Passwort weiter nutzen und es erhöht die Sicherheit der Website.
 
 \subsection{Benutzerrechte für die Webseite}
 Wie bereits erwähnt, wird die Webseite unterschiedliche Benutzerrechte haben. Die zwei Hauptrollen sind Administrator und normaler User. Der Unterschied zwischen den beiden Benutzern wird von der Rolle Attribut in der Tabelle \textit{tb\_infotainment\_roles} bestimmt (siehe Abb. \ref{fi:erd}). Diese Attribute werden in den Sessions gespeichert. Es wurden Sessions gewählt, weil sie sicherer als Cookies sind. \cite{40_sessions_cookies} So kann der Unterschied zwischen zwei Rollen gemacht werden, in dem man nur die Session u\_role vergleicht.
@@ -298,15 +577,47 @@ Ein normaler Benutzer hat alle Rechte wie der Administrator mit Ausnahme derjeni
 
 Was das System noch anbieten wird, ist die Möglichkeit, den Admin Panel und die Anzeige in verschiedene Sprachen zu verwenden. Der Benutzer darf wählen welche Sprache er am liebsten haben will. Grund dafür ist, dass die Schule nicht nur Lehrern aus Österreich hat, sondern auch albanische Lehrer, die kein Deutsch sprechen. Deshalb würde für Ihnen die Verwendung dieses Systems nur auf Deutsch unmöglich. Am Beginn wird die Sprachwahl zwei Optionen haben, Deutsch oder Albanisch. Das heißt aber nicht, dass in der Zukunft keine neue Sprache, wie zum Beispiel Englisch, angeboten werden kann. Somit würde die Benutzerfreundlichkeit des Systems noch besser werden.
 
-\section{Client}
+\section{Client/Anzeige}
 
 Zu diese Diplomarbeit geh\"{o}rt auch der Client dazu. Als Client wird die Anzeige, in dem die Informationen dargestellt werden, bezeichnet. Der Client besteht aus einem RaspberryPi, der mit Internet verbunden wird (WLAN\footnote{Wireless LAN} oder LAN\footnote{Local Area Network} Verbindung), und mit dem Server kommunizieren wird. Der RaspberryPi hat einen HDMI\footnote{High Definition Multimedia Interface}-Anschluss, der mit einem Bildschirm verbunden wird. Um das System kompatibeler und umfassend zu machen, werden unterschiedliche Bildschirmgr\"{o}\ss{}en unterst\"{u}tzt. Die Anzeige wird automatisch  in die Datenbank mithilfe eines Skript registriert, der die Informationen beim Hochfahren des Ger\"{a}ts zur Datenbank schickt. Diese Anzeige wird beim Hochfahren des Betriebssystems die Webseite von der Anzeige \"{o}ffnen und anzeigen lassen. Diese Webseite wird im Vollbild ge\"{o}ffnet. Zus\"{a}tzlich werden die Bildschirmaustastung, Bildschirmschoner und Energieverwaltungssystem ausgeschaltet, damit die Anzeige immer eingeschaltet bleibt. Damit das System nicht abh\"{a}ngig von dem Internet ist, werden die Informationen f\"{u}r diese Anzeige von der Datenbank, die im Server liegt, kopiert und auf der lokalen Datenbank gespeichert. 
 
 In dem Client laufen eine Apache Server, MySQL-Datenbank und PHP, die f\"{u}r die Anzeige notwendig sind um die Informationen anzuzeigen. Falls die Anzeige noch nicht von der Admin freigegeben wurde, wird die Anzeige zu eine Welcome-Seite umgeleitet, in dem nur die MAC-Adresse der Anzeige dargestellt wird.
 
 \subsubsection{Welcome Seite}
-\subsubsection{Laoyut verwaltung}
-\subsubsection{Content verwaltung}
+Zur Identifizierung der Anzeige wurde die Willkommenseite  erstellt. Die Anzeige wird automatisch in der Datenbank registriert, wenn die Anzeige zum ersten Mal eingeschaltet wird. Diese Anzeige hat kein Layout und keine Position und erhält einen Standardwert, damit sie sich von den anderen Anzeigen unterscheiden kann. 
+Auf dieser Seite wird auch die ID des Players angezeigt. Dies ist die Mac-Adresse des RaspberryPi.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.69\textwidth]{\ordnerfigures welcome.png}
+	\caption{Welcome Seite}
+	\label{fi:welcome}
+\end{figure} 
+
+\subsubsection{Layout selektieren}
+
+Mit Hilfe einer Stored Procedure, die erstellt wurde, kann das Layout ausgewählt werden, das nun auf dieser Anzeige angezeigt werden soll. Die Stored Procedure verwendet die MAC-Adresse des Displays als Parameter. In der Stored Procedure wird das Layout ausgewählt, das für diese Anzeige abgespielt werden soll, wobei die aktuelle Zeit zwischen Start- und Endzeit dieses Layouts liegt.
+
+Die MAC-Addresse wird mit \textit{ip address | grep link/ether}, die im Terminal ausgeführt, geholt.
+
+Die Website wird eine Anfrage an die Datenbank schicken, um zu sehen ob etwas geändert hat. Wenn das Layout, das jetzt angezeigt wird, mit dem aus der Antwort der Datenbank übereinstimmt, wird nichts gemacht. Die nächste Reload-Zeit wird auf das Ende der Zeit des angezeigten Layouts eingestellt.
+
+Wenn zu diesem Zeitpunkt kein Layout für diese Anzeige abgespielt werden soll, wird ein Standardlayout ausgewählt.
+
+Basierend auf dem Layout, das abgespielt werden soll, wird die entsprechende CSS-Datei hinzugefügt.
+
+\subsubsection{Inhalte Verwaltung}
+
+Um den Inhalt des Layouts anzuzeigen, wurde eine Funktion erstellt. Die Funktion wird in jedem Teil des Layouts aufgerufen, um den Inhalt zu bekommen. Diese Funktion verwendet als Parameter den Teil, in dem der Inhalt angezeigt werden soll (aufgerufen wurde), die ID und die Mac-Adresse der Anzeige.
+
+Die Funktion gibt den gesamten Inhalt zurück, der auf dem Teil angezeigt werden soll. Für jeden Inhalt (Supplier plan, Bild, Website-Post, Wetterdaten, Chatbot-Bilder) wurde eine spezifische Datei erstellt, die auch das CSS für das Design enthält.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{\ordnerfigures layout1-tv.jpg}
+	\caption{Beispiel der Anzeige für Layout 1}
+	\label{fi:layout1}
+\end{figure}
+
 
 \subsection{Layout 1}
 Die Anzeige wird unterschiedliche Layouts beinhalten. Eine von denen ist das erste Layout. Dieses Layout wird in fünf Bereiche unterteilt.
@@ -324,7 +635,7 @@ Auf der Abbildung \ref{fi:layout1} wird ein mögliches Beispiel dargestellt.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{\ordnerfigures layout1.png}
+	\includegraphics[width=0.6\textwidth]{\ordnerfigures layout1.png}
 	\caption{Layout 1 der Anzeige}
 	\label{fi:layout1}
 \end{figure}
@@ -339,11 +650,25 @@ Dieses Layout besteht aus 3 Hauptteilen: Header, Body und Widget. Hier können a
 	\label{fi:layout3}
 \end{figure}
 
+\subsection{Anzeige für die Chatbot-Bilder}
+
+Bisher haben wir die Informationen nur in der Datenbank gespeichert. Diese Informationen sollten auf dem Display angezeigt werden. Um die Chatbot-Bilder anzuzeigen, wurde eine Datei erstellt. In dieser Datei werden alle Bilder des Tages ausgewählt, die an den Chatbot gesendet wurden. Wenn die Anzahl der Bilder kleiner als 10 ist, werden die Bilder der ganzen Woche angezeigt. Die Bilder werden in einer Slideshow angezeigt und die Bilder ändern sich automatisch alle 10 Sekunden.
+Dort wird die ID des Benutzers angezeigt, der das Bild gesendet hat. Diese ID wird angezeigt, falls jemand ein unpassendes Foto veröffentlicht, damit der Administrator sehen kann, wer es gesendet hat. Er kann dann den Benutzer blockieren, damit das Foto nicht mehr auf dem Anzeige angezeigt wird.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.85\textwidth]{\ordnerfigures chatbot-tv.jpg}
+	\caption{Anzeige für die Chatbot-Bilder}
+	\label{fi:chatbot}
+\end{figure}
+
+\subsection{Anzeige für den Supplier plan}
+
 
 \section{Wordpress Webseite API}
 
 
-%WordPress wird heutzutage sehr viel verwendet um Webseiten zu erstellen. Die Erleichterungen das WordPress bietet, ermöglicht auch die Benutzer, die keine Programmierkentnisse haben, Webseiten zu erstellen und zu verwalten. Durch Plug-Ins kann der WordPress erweitert und unterschiedliche Funktionalitäten eingefügt werden. Jetpack ist ein von denen, der für die Sicherheit, Leistung und Site-Management dient. Dieses Plug-In bietet auch eine API\footnote{Application Programming Interface} zum WordPress. Dieser API wurde verwendet, um die Posts einer beliebten Seite zu bekommen. Es muss eine Nachfrage an der folgenden URL geschickt.
+WordPress wird heutzutage sehr viel verwendet um Webseiten zu erstellen. Die Erleichterungen das WordPress bietet, ermöglicht auch die Benutzer, die keine Programmierkentnisse haben, Webseiten zu erstellen und zu verwalten. Durch Plug-Ins kann der WordPress erweitert und unterschiedliche Funktionalitäten eingefügt werden. Jetpack ist ein von denen, der für die Sicherheit, Leistung und Site-Management dient. Dieses Plug-In bietet auch eine API\footnote{Application Programming Interface} zum WordPress. Dieser API wurde verwendet, um die Posts einer beliebten Seite zu bekommen. Es muss eine Nachfrage an der folgenden URL geschickt.
 
 
 \begin{center}
@@ -354,10 +679,21 @@ Dieses Layout besteht aus 3 Hauptteilen: Header, Body und Widget. Hier können a
 
 Die Response ist in JSON Format und die wird dann mit Hilfe von PHP geparst und in der Datenbank gespeichert. 
 
+\section{Bilder Funktionalität bei der Chatbot}
+Es wurde beim Chatbot, eine Funktionalität implementiert, wobei die Benutzer die Möglichkeit haben, Bildern an Chatbot zu schicken. Diese Bilder werden dann in der Datenbank im blob Datentyp gespeichert. Diese Funktionalität bekommen nur die normalen Benutzer von Chatbot. Für die unregistrierten Benutzer oder blockierten Benutzer wird diese Möglichkeit nicht angeboten.
 
 \section{Herausforderungen und deren Lösung}
 
-Eine der größten Herausforderungen war der Supplierplan. Wie vorher schon erwähnt, dient der Supplierplan  dazu, die fehlenden Lehrer mit anderen Lehrern zu substituieren bzw. zu ersetzen. In diesem Zusammenhang kann es sein, dass ein Lehrer bzw. eine Lehrerin nicht den ganzen Tag fehlen wird. Es gibt Situationen und Tage, in dem ein/e Lehrer/Lehrerin nur für eine bestimmte Zeit fehlt. Beispielweise haben sie etwas Wichtiges zu tun, dass aber nur zwei Unterrichtsstunde dauert. In diesem Fall muss gesichert werden, dass dieser Lehrer von einem Kollegen während dieser Zeit substituiert wird.
+Eine der größten Herausforderungen war der Supplierplan. Wie vorher schon erwähnt, dient der Supplierplan  dazu, die fehlenden Lehrer mit anderen Lehrern zu substituieren bzw. zu ersetzen. In diesem Zusammenhang kann es sein, dass ein Lehrer bzw. eine Lehrerin nicht den ganzen Tag fehlen wird. Es gibt Situationen und Tage, in dem ein/e Lehrer/Lehrerin nur für eine bestimmte Zeit fehlt. Beispielweise haben sie etwas Wichtiges zu tun, dass aber nur zwei Unterrichtsstunden dauert. In diesem Fall muss gesichert werden, dass dieser Lehrer von einem Kollegen während dieser Zeit substituiert wird.
 
 
-Um dieses Problem zu lösen und um den Admin die Möglichkeit zu geben, ein Lehrer nur für eine bestimmte Stundenanzahl zu ersetzen, wurde ein kleine Checkbox erstellt. Es geht um eine Dropdown-Liste, bei der alle Lehrer, die zum supplieren bereit sind, stehen. Um es so einfach wie möglich zu machen, werden diese Lehrer nach der besten Möglichkeit und Günstigkeit für sie sortiert. Zum Beispiel:  Wenn ein Lehrer in der dritte Stunde fehlt, dann steht ein supplierbereiter Lehrer, der eigentlich in der vierten Stunde in die Schule kommt, vorher in die Dropdown-Liste auftaucht, als ein Lehrer, der wegen seines normalen Stundenplans in der erst achten Stunde Unterricht hat. Je näher die normale Unterrichtsstunde eines Lehrers mit der zu supplierten Stunden ist, desto höher steht er in der Liste.
+Um dieses Problem zu lösen und um den Admin die Möglichkeit zu geben, ein Lehrer nur für eine bestimmte Stundenanzahl zu ersetzen, wurde ein kleine Checkbox erstellt. Es geht um eine Dropdown-Liste, bei der alle Lehrer, die zum supplieren bereit sind, stehen. 
+
+\section{Wertschöpfung und Lessons Learned}
+
+
+Von dieser Diplomarbeit habe ich Erfahrung in vielen Aspekten gesammelt. Erstens half es mir in Bezug auf Zeitmanagement und Engagement bei der Lösung meiner zugewiesenen Ziele und es hat auch dazu beigetragen, meine Fähigkeiten in der Gruppenarbeit zu entwickeln, um verschiedene Probleme zu bewältigen. In Bezug auf die technische Seite habe ich in vielen Bereichen Erfahrungen gesammelt, da die Diplomarbeit selbst komplex bzw. vielfältig war und eine Vielzahl von Konzepten beinhaltete. Da die Hauptfunktionalität dieser Diplomarbeit die digitale Darstellung von Daten war, wurden meine Fähigkeiten in HTML, CSS, JavaScript und PHP weiter verbessert. HTML und CSS haben mir beim Designteil und der Art und Weise, wie die Daten auf dem Bildschirm angezeigt werden, sehr geholfen. PHP wurde häufig verwendet, nachdem es eine Programmiersprache ist, die als Schnittstelle zur Datenbank fungiert. Auch in Bezug auf die Konfiguration von Systemen habe ich meine Fähigkeiten erworben. Hier kann das Wissen über das Linux-Betriebssystem erwähnt werden, weil diese zur Konfiguration von RaspberryPI Client gebraucht wurden. Eine weitere Komponente, an der ich beteiligt war, war Chatbot, wobei ich die Bilder Funktionalität implementiert habe. Das Programmieren dieser Funktion hat mir geholfen, Python-Programmiersprachenkenntnisse mehr zu entwickeln. Ich habe auch gelernt, wie ein Chatbot wirklich funktioniert und welche Möglichkeiten er anbieten kann. Was diese Diplomarbeit mir am meisten beigetragen hat, ist die Verknüpfung von Wissen in verschiedenen Bereichen, um die erwünschten Ergebnisse zu erzielen.
+
+\section{Evaluierung und Resümee}
+
+Die Anforderungen sind soweit erfüllt. Die Administrator Webseite wurde programmiert und alle vorher geplanten Funktionen sind dabei. Der Administrator hat die Möglichkeit, die Informationen, die er anzeigen will, dort auswählen. Er kann auch das entsprechende Layout selbst aussuchen. Von dieser Webseite wird nicht nur eine Anzeige, sondern mehrere Anzeigen verwaltet. Es gab eine Funktionalität bei der Webseite, die anders als geplant umgesetzt wurde. Beim Passwort zurücksetzen, wurde es vorher so gedacht, dass der Administrator selbst ein Standard Passwort festlegt. Danach wurde das geändert, weil es Sicherheitslücken haben kann. Es wurde so geändert, dass beim Zurücksetzen von Passwort wird eine Email mit Link verschickt. Das macht diese Funktion viel besser und sicherer. Es gibt noch einen anderen Punkt, der länger gedauert hat als es gedacht wurde. Das ist die Bereitstellung von unterschiedlichen Anzeige-Zeiten für die unterschiedlichen GUI-Bereiche. Es hat viel Zeit aufgenommen, denn es sollte eine benutzerfreundliche Interface implementiert. Am Ende wurde das aber erfolgreich abgeschlossen.
