@@ -2203,6 +2203,24 @@
     <bcf:citekey order="18">50_json</bcf:citekey>
     <bcf:citekey order="19">50_SSS</bcf:citekey>
     <bcf:citekey order="20">50_telegram</bcf:citekey>
+    <bcf:citekey order="21">40_bootstrap_img</bcf:citekey>
+    <bcf:citekey order="22">40_bootstrap_img</bcf:citekey>
+    <bcf:citekey order="23">40_php_img</bcf:citekey>
+    <bcf:citekey order="24">40_php_img</bcf:citekey>
+    <bcf:citekey order="25">40_js</bcf:citekey>
+    <bcf:citekey order="26">40_js_img</bcf:citekey>
+    <bcf:citekey order="27">40_js_img</bcf:citekey>
+    <bcf:citekey order="28">40_datatables</bcf:citekey>
+    <bcf:citekey order="29">40_datatables_img</bcf:citekey>
+    <bcf:citekey order="30">40_datatables_img</bcf:citekey>
+    <bcf:citekey order="31">40_font_awesome_img</bcf:citekey>
+    <bcf:citekey order="32">40_font_awesome_img</bcf:citekey>
+    <bcf:citekey order="33">40_mysql_img</bcf:citekey>
+    <bcf:citekey order="34">40_mysql_img</bcf:citekey>
+    <bcf:citekey order="35">40_apache</bcf:citekey>
+    <bcf:citekey order="36">40_apache_img</bcf:citekey>
+    <bcf:citekey order="37">40_apache_img</bcf:citekey>
+    <bcf:citekey order="38">40_sessions_cookies</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

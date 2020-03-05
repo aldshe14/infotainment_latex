@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  5 MAR 2020 01:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  5 MAR 2020 07:41
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1347,40 +1347,40 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 541.
 File: ./../50_aldosheldija/figures/welcome.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/welcome.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/welcome.png  used on inpu
-t line 548.
+t line 549.
 (pdftex.def)             Requested size: 304.3033pt x 144.91995pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 560.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 561.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [26 <./../50_aldosheldija/figures/welcome.png>]
 <./../50_aldosheldija/figures/layout1.png, id=571, 1205.2528pt x 674.52pt>
 File: ./../50_aldosheldija/figures/layout1.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/layout1.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/layout1.png  used on inpu
-t line 572.
+t line 573.
 (pdftex.def)             Requested size: 396.91325pt x 222.12914pt.
 <./../50_aldosheldija/figures/layout3.png, id=573, 1927.2pt x 1284.7197pt>
 File: ./../50_aldosheldija/figures/layout3.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/layout3.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/layout3.png  used on inpu
-t line 582.
+t line 583.
 (pdftex.def)             Requested size: 264.61333pt x 176.38976pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 585.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 586.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [27 <./../50_aldosheldija/figures/layout1.png>]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 5
-95.
+96.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omlcmr.fd"
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 595.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 596.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 609.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 610.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [28 <./../50_aldosheldija/figures/layout3.png>])
 File: ./figures/Header_Seite.png Graphic file (type png)
@@ -1503,7 +1503,7 @@ ublic/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12
 .pfb>
-Output written on Master.pdf (38 pages, 3908745 bytes).
+Output written on Master.pdf (38 pages, 3909074 bytes).
 PDF statistics:
  782 PDF objects out of 1000 (max. 8388607)
  169 named destinations out of 1000 (max. 500000)
