@@ -52,87 +52,90 @@
 \contentsline {section}{\numberline {4.6}Layout}{32}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Anzeige}{33}{section.4.7}%
 \contentsline {section}{\numberline {4.8}Offline Betrieb}{34}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Wetterdaten}{35}{section.4.9}%
-\contentsline {section}{\numberline {4.10}Chatbot}{35}{section.4.10}%
-\contentsline {subsection}{\numberline {4.10.1}Chatbot Einrichtung}{36}{subsection.4.10.1}%
-\contentsline {subsection}{\numberline {4.10.2}Einrichtung des Chatbots in RaspberryPI}{36}{subsection.4.10.2}%
-\contentsline {subsection}{\numberline {4.10.3}Grundlagen für die Umsetzung von Chatbot}{36}{subsection.4.10.3}%
-\contentsline {subsection}{\numberline {4.10.4}Funktionalitäten von Chatbot}{37}{subsection.4.10.4}%
-\contentsline {subsubsection}{Unregistrierte Benutzer}{37}{section*.45}%
-\contentsline {subsubsection}{Normale Benutzer}{37}{section*.46}%
-\contentsline {subsubsection}{Administrator}{38}{section*.47}%
-\contentsline {subsection}{\numberline {4.10.5}Umsetzung der Funktionalitäten}{38}{subsection.4.10.5}%
-\contentsline {subsection}{\numberline {4.10.6}Konkrete Beispiele mit Bildern}{43}{subsection.4.10.6}%
-\contentsline {section}{\numberline {4.11}Probleme, Herausforderungen und deren Lösung}{52}{section.4.11}%
-\contentsline {subsubsection}{APIs}{52}{section*.75}%
-\contentsline {subsubsection}{Anzeige}{52}{section*.76}%
-\contentsline {subsubsection}{Offline Betrieb}{52}{section*.77}%
-\contentsline {subsubsection}{Chatbot}{53}{section*.78}%
-\contentsline {subsubsection}{Datenbank}{53}{section*.79}%
-\contentsline {section}{\numberline {4.12}Qualitätssicherung, Controlling}{53}{section.4.12}%
-\contentsline {section}{\numberline {4.13}Ergebnisse - Irena Bala}{53}{section.4.13}%
-\contentsline {subsection}{\numberline {4.13.1}Implementierung}{53}{subsection.4.13.1}%
-\contentsline {section}{\numberline {4.14}Handbuch für die Bedienung}{54}{section.4.14}%
-\contentsline {subsection}{\numberline {4.14.1}Beschreibung der Bedienung als User}{54}{subsection.4.14.1}%
-\contentsline {subsection}{\numberline {4.14.2}Beschreibung der Bedienung als Administrator}{54}{subsection.4.14.2}%
-\contentsline {section}{\numberline {4.15}Evaluierung und Resümee}{55}{section.4.15}%
-\contentsline {subsection}{\numberline {4.15.1}Planung vs Realisierung}{55}{subsection.4.15.1}%
-\contentsline {subsection}{\numberline {4.15.2}Wertschöpfung und Lessons Learned}{56}{subsection.4.15.2}%
-\contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{57}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Allgemeine Besschreibung}{57}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Technologien}{57}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Bootstrap}{57}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}PHP}{58}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}JavaScript}{58}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}DataTables}{58}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Font Awesome}{59}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}MySQL}{59}{subsection.5.2.6}%
-\contentsline {subsection}{\numberline {5.2.7}Apache}{59}{subsection.5.2.7}%
-\contentsline {section}{\numberline {5.3}Structed Software Design für den Client}{59}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Start}{59}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Zeitsteuerung}{60}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Daten holen}{60}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Buffer}{61}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Anzeige Prepare}{61}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}Log}{61}{subsection.5.3.6}%
-\contentsline {section}{\numberline {5.4}Datenbank}{61}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{61}{subsection.5.4.1}%
-\contentsline {section}{\numberline {5.5}Admin Webseite}{62}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Login}{63}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Passwort zurücksetzen}{63}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Menü}{65}{subsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.5.4}Startseite}{66}{subsection.5.5.4}%
-\contentsline {subsubsection}{Anzeige Status}{67}{section*.91}%
-\contentsline {subsubsection}{Timetable}{67}{section*.92}%
-\contentsline {subsubsection}{Layout wählen}{68}{section*.93}%
-\contentsline {subsubsection}{Layout Inhalte hinzufügen}{69}{section*.95}%
-\contentsline {subsubsection}{Pop-up-Fenster}{70}{section*.98}%
-\contentsline {subsection}{\numberline {5.5.5}Anzeige}{71}{subsection.5.5.5}%
-\contentsline {subsection}{\numberline {5.5.6}Bilder}{72}{subsection.5.5.6}%
-\contentsline {subsection}{\numberline {5.5.7}Layouts}{72}{subsection.5.5.7}%
-\contentsline {subsection}{\numberline {5.5.8}Kalendarinfo}{73}{subsection.5.5.8}%
-\contentsline {subsection}{\numberline {5.5.9}Supplier plan}{73}{subsection.5.5.9}%
-\contentsline {subsubsection}{Stundenplan importieren}{74}{section*.104}%
-\contentsline {subsubsection}{Stundenplan }{74}{section*.106}%
-\contentsline {subsubsection}{Fehlendelehrer}{75}{section*.108}%
-\contentsline {subsubsection}{Suppliertabelle}{76}{section*.111}%
-\contentsline {subsection}{\numberline {5.5.10}Benutzer}{77}{subsection.5.5.10}%
-\contentsline {subsubsection}{Neue Benutzer hinzufügen}{78}{section*.114}%
-\contentsline {subsubsection}{Passwort zurücksetzen}{79}{section*.117}%
-\contentsline {subsection}{\numberline {5.5.11}Einstellungen}{79}{subsection.5.5.11}%
-\contentsline {subsection}{\numberline {5.5.12}Logout}{80}{subsection.5.5.12}%
-\contentsline {subsection}{\numberline {5.5.13}Benutzerrechte für die Webseite}{80}{subsection.5.5.13}%
-\contentsline {subsubsection}{Administrator}{81}{section*.120}%
-\contentsline {subsubsection}{Normaler Benutzer}{81}{section*.121}%
-\contentsline {subsection}{\numberline {5.5.14}Webseite auf mehrere Sprachen}{81}{subsection.5.5.14}%
-\contentsline {section}{\numberline {5.6}Client}{81}{section.5.6}%
-\contentsline {subsubsection}{Welcome Seite}{82}{section*.122}%
-\contentsline {subsubsection}{Layout selektieren}{82}{section*.124}%
-\contentsline {subsubsection}{Inhalt Verwaltung}{83}{section*.125}%
-\contentsline {subsection}{\numberline {5.6.1}Layout 1}{83}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Layout 3}{84}{subsection.5.6.2}%
-\contentsline {section}{\numberline {5.7}Wordpress Webseite API}{84}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Bilder Funktionalität}{85}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Herausforderungen und deren Lösung}{85}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Wertschöpfung und Lessons Learned}{85}{section.5.10}%
-\contentsline {section}{\numberline {5.11}Evaluierung und Resümee}{86}{section.5.11}%
+\contentsline {subsection}{\numberline {4.8.1}Konkrete Beispiele mit Bildern}{36}{subsection.4.8.1}%
+\contentsline {section}{\numberline {4.9}Wetterdaten}{38}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Chatbot}{39}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Chatbot Einrichtung}{39}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Einrichtung des Chatbots in RaspberryPI}{40}{subsection.4.10.2}%
+\contentsline {subsection}{\numberline {4.10.3}Grundlagen für die Umsetzung von Chatbot}{40}{subsection.4.10.3}%
+\contentsline {subsection}{\numberline {4.10.4}Funktionalitäten von Chatbot}{40}{subsection.4.10.4}%
+\contentsline {subsubsection}{Unregistrierte Benutzer}{40}{section*.52}%
+\contentsline {subsubsection}{Normale Benutzer}{41}{section*.53}%
+\contentsline {subsubsection}{Administrator}{41}{section*.54}%
+\contentsline {subsection}{\numberline {4.10.5}Umsetzung der Funktionalitäten}{41}{subsection.4.10.5}%
+\contentsline {subsection}{\numberline {4.10.6}Konkrete Beispiele mit Bildern}{46}{subsection.4.10.6}%
+\contentsline {section}{\numberline {4.11}Probleme, Herausforderungen und deren Lösung}{56}{section.4.11}%
+\contentsline {subsubsection}{APIs}{56}{section*.82}%
+\contentsline {subsubsection}{Anzeige}{56}{section*.83}%
+\contentsline {subsubsection}{Offline Betrieb}{57}{section*.84}%
+\contentsline {subsubsection}{Chatbot}{57}{section*.85}%
+\contentsline {subsubsection}{Datenbank}{57}{section*.86}%
+\contentsline {section}{\numberline {4.12}Qualitätssicherung, Controlling}{57}{section.4.12}%
+\contentsline {section}{\numberline {4.13}Ergebnisse - Irena Bala}{58}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Implementierung}{58}{subsection.4.13.1}%
+\contentsline {section}{\numberline {4.14}Handbuch für die Bedienung}{58}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Beschreibung der Bedienung als User}{58}{subsection.4.14.1}%
+\contentsline {subsection}{\numberline {4.14.2}Beschreibung der Bedienung als Administrator}{59}{subsection.4.14.2}%
+\contentsline {section}{\numberline {4.15}Evaluierung und Resümee}{59}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Planung vs Realisierung}{59}{subsection.4.15.1}%
+\contentsline {subsection}{\numberline {4.15.2}Wertschöpfung und Lessons Learned}{60}{subsection.4.15.2}%
+\contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{62}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Allgemeine Besschreibung}{62}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Technologien}{62}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Bootstrap}{62}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}PHP}{63}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}JavaScript}{63}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}DataTables}{63}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Font Awesome}{64}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}MySQL}{64}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Apache}{64}{subsection.5.2.7}%
+\contentsline {section}{\numberline {5.3}Structed Software Design für den Client}{64}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Start}{64}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Zeitsteuerung}{65}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Daten holen}{65}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Buffer}{66}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Anzeige Prepare}{66}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Log}{66}{subsection.5.3.6}%
+\contentsline {section}{\numberline {5.4}Datenbank}{66}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{66}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}Admin Webseite}{67}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Login}{68}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Passwort zurücksetzen}{68}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Menü}{70}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Startseite}{71}{subsection.5.5.4}%
+\contentsline {subsubsection}{Anzeige Status}{72}{section*.98}%
+\contentsline {subsubsection}{Timetable}{72}{section*.99}%
+\contentsline {subsubsection}{Layout wählen}{73}{section*.100}%
+\contentsline {subsubsection}{Layout Inhalte hinzufügen}{74}{section*.102}%
+\contentsline {subsubsection}{Pop-up-Fenster}{75}{section*.105}%
+\contentsline {subsection}{\numberline {5.5.5}Anzeige}{76}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.6}Bilder}{77}{subsection.5.5.6}%
+\contentsline {subsection}{\numberline {5.5.7}Layouts}{77}{subsection.5.5.7}%
+\contentsline {subsection}{\numberline {5.5.8}Kalendarinfo}{78}{subsection.5.5.8}%
+\contentsline {subsection}{\numberline {5.5.9}Supplier plan}{78}{subsection.5.5.9}%
+\contentsline {subsubsection}{Stundenplan importieren}{79}{section*.111}%
+\contentsline {subsubsection}{Stundenplan }{79}{section*.113}%
+\contentsline {subsubsection}{Fehlendelehrer}{80}{section*.115}%
+\contentsline {subsubsection}{Suppliertabelle}{81}{section*.118}%
+\contentsline {subsection}{\numberline {5.5.10}Benutzer}{82}{subsection.5.5.10}%
+\contentsline {subsubsection}{Neue Benutzer hinzufügen}{83}{section*.121}%
+\contentsline {subsubsection}{Passwort zurücksetzen}{84}{section*.124}%
+\contentsline {subsection}{\numberline {5.5.11}Einstellungen}{84}{subsection.5.5.11}%
+\contentsline {subsection}{\numberline {5.5.12}Logout}{85}{subsection.5.5.12}%
+\contentsline {subsection}{\numberline {5.5.13}Benutzerrechte für die Webseite}{85}{subsection.5.5.13}%
+\contentsline {subsubsection}{Administrator}{86}{section*.127}%
+\contentsline {subsubsection}{Normaler Benutzer}{86}{section*.128}%
+\contentsline {subsection}{\numberline {5.5.14}Webseite auf mehrere Sprachen}{86}{subsection.5.5.14}%
+\contentsline {section}{\numberline {5.6}Client/Anzeige}{86}{section.5.6}%
+\contentsline {subsubsection}{Welcome Seite}{87}{section*.129}%
+\contentsline {subsubsection}{Layout selektieren}{87}{section*.131}%
+\contentsline {subsubsection}{Inhalte Verwaltung}{88}{section*.132}%
+\contentsline {subsection}{\numberline {5.6.1}Layout 1}{88}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Layout 3}{89}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Anzeige für die Chatbot-Bilder}{89}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Anzeige für den Supplier plan}{90}{subsection.5.6.4}%
+\contentsline {section}{\numberline {5.7}Wordpress Webseite API}{90}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Bilder Funktionalität bei der Chatbot}{91}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Herausforderungen und deren Lösung}{91}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Wertschöpfung und Lessons Learned}{91}{section.5.10}%
+\contentsline {section}{\numberline {5.11}Evaluierung und Resümee}{92}{section.5.11}%

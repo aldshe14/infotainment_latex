@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  5 MAR 2020 19:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  5 MAR 2020 20:20
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1366,29 +1366,34 @@ nput line 660.
 (pdftex.def)             Requested size: 374.86775pt x 209.79892pt.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 672.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 668.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [29 <./../50_aldosheldija/figures/layout3.png> <./../50_aldosheldija/figures/c
 hatbot-tv.jpg>]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 6
-75.
+78.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omlcmr.fd"
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 675.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 678.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 696.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 691.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [30]) (_Doc_App.tex)
+ [30])
+File: ./figures/Header_Seite.png Graphic file (type png)
+<use ./figures/Header_Seite.png>
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 113.
+(pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
+ [31]
+(_Doc_App.tex)
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 119.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
-
-[31] (Master.lof [32
+ [32] (Master.lof [33
 
 
 ])
@@ -1399,17 +1404,18 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 125.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
- [33] (Master.lot)
+ [34] (Master.lot)
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [34
+ [35
 
 ] (Master.lol)
 \tf@lol=\write9
 \openout9 = `Master.lol'.
 
- [35
+
+[36
 
 ]
 
@@ -1441,7 +1447,7 @@ LaTeX Warning: Empty bibliography on input line 133.
 
 
 AED: lastpage setting LastPage
-[36
+[37
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
@@ -1463,8 +1469,8 @@ Package logreq Info: Writing requests to 'Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23934 strings out of 481277
- 447583 string characters out of 2916501
+ 23935 strings out of 481277
+ 447590 string characters out of 2916501
  1325076 words of memory out of 3000000
  38875 multiletter control sequences out of 15000+200000
  543107 words of font info for 62 fonts, out of 3000000 for 9000
@@ -1485,9 +1491,9 @@ ublic/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12
 .pfb>
-Output written on Master.pdf (39 pages, 4851887 bytes).
+Output written on Master.pdf (40 pages, 4853732 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
+ 752 PDF objects out of 1000 (max. 8388607)
+ 164 named destinations out of 1000 (max. 500000)
  533 words of extra memory for PDF output out of 10000 (max. 10000000)
 
