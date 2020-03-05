@@ -182,7 +182,7 @@ Damit nicht jeder diese Inhalten \"{a}ndern und l\"{o}schen kann, ist diese Webs
 Der Zugriff auf dieser Webseite ist \"uber jedes Ger\"{a}t und von jedem Ort aus m\"{o}glich. Um diese Webseite anzuschauen ist nur eine Internetverbindung notwendig.
 
 \subsection{Login}
-Damit nicht alle unsere Webseite verwenden können, müssen die Benutzer sich auf der Webseite einloggen (Abbildung \ref{fi:login}). Die Admin Webseite ist durch eine Login-Seite geschützt, die vom Benutzer folgende Informationen anfordert: die E-Mail-Adresse und das Passwort. Dieses Formular heißt Login.php. Wenn der Benutzer auf den Sign-in Button klickt, werden seine Anmeldedaten auf Korrektheit überprüft. Ist das der Fall wird der Benutzer eingeloggt. Wenn der User in der Datenbank nicht existiert, wird ihm ein Fehlermeldung gezeigt damit er weißt, dass er zuerst registriert sein muss um in die Webseite einloggen zu können. Wenn der Benutzer beim Ausfüllen des Formulars das Passwort falsch eingibt, aber die E-Mail-Adresse richtig, und der Benutzer existiert bereits, wird ihm die Fehlermeldung für das falsche Passwort angezeigt. So ist dieser Login sehr einfach und benutzerfreundlich. Bei dieser Seite findet man auch einen Link, um das Passwort zurückzusetzen.
+%Damit nicht alle unsere Webseite verwenden können, müssen die Benutzer sich auf der Webseite einloggen (Abbildung \ref{fi:login}). Die Admin Webseite ist durch eine Login-Seite geschützt, die vom Benutzer folgende Informationen anfordert: die E-Mail-Adresse und das Passwort. Dieses Formular heißt Login.php. Wenn der Benutzer auf den Sign-in Button klickt, werden seine Anmeldedaten auf Korrektheit überprüft. Ist das der Fall wird der Benutzer eingeloggt. Wenn der User in der Datenbank nicht existiert, wird ihm ein Fehlermeldung gezeigt damit er weißt, dass er zuerst registriert sein muss um in die Webseite einloggen zu können. Wenn der Benutzer beim Ausfüllen des Formulars das Passwort falsch eingibt, aber die E-Mail-Adresse richtig, und der Benutzer existiert bereits, wird ihm die Fehlermeldung für das falsche Passwort angezeigt. So ist dieser Login sehr einfach und benutzerfreundlich. Bei dieser Seite findet man auch einen Link, um das Passwort zurückzusetzen.
 
 \begin{figure}[H]
 	\centering
@@ -577,7 +577,7 @@ Ein normaler Benutzer hat alle Rechte wie der Administrator mit Ausnahme derjeni
 
 Was das System noch anbieten wird, ist die Möglichkeit, den Admin Panel und die Anzeige in verschiedene Sprachen zu verwenden. Der Benutzer darf wählen welche Sprache er am liebsten haben will. Grund dafür ist, dass die Schule nicht nur Lehrern aus Österreich hat, sondern auch albanische Lehrer, die kein Deutsch sprechen. Deshalb würde für Ihnen die Verwendung dieses Systems nur auf Deutsch unmöglich. Am Beginn wird die Sprachwahl zwei Optionen haben, Deutsch oder Albanisch. Das heißt aber nicht, dass in der Zukunft keine neue Sprache, wie zum Beispiel Englisch, angeboten werden kann. Somit würde die Benutzerfreundlichkeit des Systems noch besser werden.
 
-\section{Client}
+\section{Client/Anzeige}
 
 Zu diese Diplomarbeit geh\"{o}rt auch der Client dazu. Als Client wird die Anzeige, in dem die Informationen dargestellt werden, bezeichnet. Der Client besteht aus einem RaspberryPi, der mit Internet verbunden wird (WLAN\footnote{Wireless LAN} oder LAN\footnote{Local Area Network} Verbindung), und mit dem Server kommunizieren wird. Der RaspberryPi hat einen HDMI\footnote{High Definition Multimedia Interface}-Anschluss, der mit einem Bildschirm verbunden wird. Um das System kompatibeler und umfassend zu machen, werden unterschiedliche Bildschirmgr\"{o}\ss{}en unterst\"{u}tzt. Die Anzeige wird automatisch  in die Datenbank mithilfe eines Skript registriert, der die Informationen beim Hochfahren des Ger\"{a}ts zur Datenbank schickt. Diese Anzeige wird beim Hochfahren des Betriebssystems die Webseite von der Anzeige \"{o}ffnen und anzeigen lassen. Diese Webseite wird im Vollbild ge\"{o}ffnet. Zus\"{a}tzlich werden die Bildschirmaustastung, Bildschirmschoner und Energieverwaltungssystem ausgeschaltet, damit die Anzeige immer eingeschaltet bleibt. Damit das System nicht abh\"{a}ngig von dem Internet ist, werden die Informationen f\"{u}r diese Anzeige von der Datenbank, die im Server liegt, kopiert und auf der lokalen Datenbank gespeichert. 
 
@@ -605,9 +605,11 @@ Wenn zu diesem Zeitpunkt kein Layout für diese Anzeige abgespielt werden soll, 
 
 Basierend auf dem Layout, das abgespielt werden soll, wird die entsprechende CSS-Datei hinzugefügt.
 
-\subsubsection{Inhalt Verwaltung}
+\subsubsection{Inhalte Verwaltung}
 
 Um den Inhalt des Layouts anzuzeigen, wurde eine Funktion erstellt. Die Funktion wird in jedem Teil des Layouts aufgerufen, um den Inhalt zu bekommen. Diese Funktion verwendet als Parameter den Teil, in dem der Inhalt angezeigt werden soll (aufgerufen wurde), die ID und die Mac-Adresse der Anzeige.
+
+Die Funktion gibt den gesamten Inhalt zurück, der auf dem Teil angezeigt werden soll. Für jeden Inhalt (Supplier plan, Bild, Website-Post, Wetterdaten, Chatbot-Bilder) wurde eine spezifische Datei erstellt, die auch das CSS für das Design enthält.
 
 \begin{figure}[H]
 	\centering
@@ -648,6 +650,20 @@ Dieses Layout besteht aus 3 Hauptteilen: Header, Body und Widget. Hier können a
 	\label{fi:layout3}
 \end{figure}
 
+\subsection{Anzeige für die Chatbot-Bilder}
+
+Bisher haben wir die Informationen nur in der Datenbank gespeichert. Diese Informationen sollten auf dem Display angezeigt werden. Um die Chatbot-Bilder anzuzeigen, wurde eine Datei erstellt. In dieser Datei werden alle Bilder des Tages ausgewählt, die an den Chatbot gesendet wurden. Wenn die Anzahl der Bilder kleiner als 10 ist, werden die Bilder der ganzen Woche angezeigt. Die Bilder werden in einer Slideshow angezeigt und die Bilder ändern sich automatisch alle 10 Sekunden.
+Dort wird die ID des Benutzers angezeigt, der das Bild gesendet hat. Diese ID wird angezeigt, falls jemand ein unpassendes Foto veröffentlicht, damit der Administrator sehen kann, wer es gesendet hat. Er kann dann den Benutzer blockieren, damit das Foto nicht mehr auf dem Anzeige angezeigt wird.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.85\textwidth]{\ordnerfigures chatbot-tv.jpg}
+	\caption{Anzeige für die Chatbot-Bilder}
+	\label{fi:chatbot}
+\end{figure}
+
+\subsection{Anzeige für den Supplier plan}
+
 
 \section{Wordpress Webseite API}
 
@@ -663,7 +679,7 @@ WordPress wird heutzutage sehr viel verwendet um Webseiten zu erstellen. Die Erl
 
 Die Response ist in JSON Format und die wird dann mit Hilfe von PHP geparst und in der Datenbank gespeichert. 
 
-\section{Bilder Funktionalität}
+\section{Bilder Funktionalität bei der Chatbot}
 Es wurde beim Chatbot, eine Funktionalität implementiert, wobei die Benutzer die Möglichkeit haben, Bildern an Chatbot zu schicken. Diese Bilder werden dann in der Datenbank im blob Datentyp gespeichert. Diese Funktionalität bekommen nur die normalen Benutzer von Chatbot. Für die unregistrierten Benutzer oder blockierten Benutzer wird diese Möglichkeit nicht angeboten.
 
 \section{Herausforderungen und deren Lösung}

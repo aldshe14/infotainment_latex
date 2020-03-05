@@ -25,7 +25,7 @@
 \contentsline {subsection}{\numberline {1.5.3}Menü}{9}{subsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.5.4}Startseite}{10}{subsection.1.5.4}%
 \contentsline {subsubsection}{Anzeige Status}{11}{section*.13}%
-\contentsline {subsubsection}{Timetable}{12}{section*.14}%
+\contentsline {subsubsection}{Timetable}{11}{section*.14}%
 \contentsline {subsubsection}{Layout wählen}{12}{section*.15}%
 \contentsline {subsubsection}{Layout Inhalte hinzufügen}{13}{section*.17}%
 \contentsline {subsubsection}{Pop-up-Fenster}{14}{section*.20}%
@@ -47,14 +47,16 @@
 \contentsline {subsubsection}{Administrator}{25}{section*.42}%
 \contentsline {subsubsection}{Normaler Benutzer}{25}{section*.43}%
 \contentsline {subsection}{\numberline {1.5.14}Webseite auf mehrere Sprachen}{25}{subsection.1.5.14}%
-\contentsline {section}{\numberline {1.6}Client}{26}{section.1.6}%
+\contentsline {section}{\numberline {1.6}Client/Anzeige}{26}{section.1.6}%
 \contentsline {subsubsection}{Welcome Seite}{26}{section*.44}%
 \contentsline {subsubsection}{Layout selektieren}{27}{section*.46}%
-\contentsline {subsubsection}{Inhalt Verwaltung}{27}{section*.47}%
+\contentsline {subsubsection}{Inhalte Verwaltung}{27}{section*.47}%
 \contentsline {subsection}{\numberline {1.6.1}Layout 1}{28}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1.6.2}Layout 3}{28}{subsection.1.6.2}%
-\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{29}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Bilder Funktionalität}{29}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Herausforderungen und deren Lösung}{29}{section.1.9}%
-\contentsline {section}{\numberline {1.10}Wertschöpfung und Lessons Learned}{30}{section.1.10}%
-\contentsline {section}{\numberline {1.11}Evaluierung und Resümee}{30}{section.1.11}%
+\contentsline {subsection}{\numberline {1.6.3}Anzeige für die Chatbot-Bilder}{29}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Anzeige für den Supplier plan}{30}{subsection.1.6.4}%
+\contentsline {section}{\numberline {1.7}Wordpress Webseite API}{30}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Bilder Funktionalität bei der Chatbot}{30}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Herausforderungen und deren Lösung}{30}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Wertschöpfung und Lessons Learned}{31}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Evaluierung und Resümee}{31}{section.1.11}%
