@@ -31,31 +31,31 @@
 \contentsline {section}{\numberline {1.5}SSL Verschlüsselung}{11}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Layout}{12}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Anzeige}{13}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Offline Betrieb}{14}{section.1.8}%
+\contentsline {section}{\numberline {1.8}Offline Betrieb}{15}{section.1.8}%
 \contentsline {subsection}{\numberline {1.8.1}Konkrete Beispiele mit Bildern}{16}{subsection.1.8.1}%
-\contentsline {section}{\numberline {1.9}Wetterdaten}{18}{section.1.9}%
-\contentsline {section}{\numberline {1.10}Chatbot}{19}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}Chatbot Einrichtung}{19}{subsection.1.10.1}%
+\contentsline {section}{\numberline {1.9}Wetterdaten}{19}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Chatbot}{20}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Chatbot Einrichtung}{20}{subsection.1.10.1}%
 \contentsline {subsection}{\numberline {1.10.2}Einrichtung des Chatbots in RaspberryPI}{20}{subsection.1.10.2}%
-\contentsline {subsection}{\numberline {1.10.3}Grundlagen für die Umsetzung von Chatbot}{20}{subsection.1.10.3}%
-\contentsline {subsection}{\numberline {1.10.4}Funktionalitäten von Chatbot}{20}{subsection.1.10.4}%
-\contentsline {subsubsection}{Unregistrierte Benutzer}{20}{section*.40}%
-\contentsline {subsubsection}{Normale Benutzer}{21}{section*.41}%
-\contentsline {subsubsection}{Administrator}{21}{section*.42}%
-\contentsline {subsection}{\numberline {1.10.5}Umsetzung der Funktionalitäten}{21}{subsection.1.10.5}%
-\contentsline {subsection}{\numberline {1.10.6}Konkrete Beispiele mit Bildern}{26}{subsection.1.10.6}%
-\contentsline {section}{\numberline {1.11}Probleme, Herausforderungen und deren Lösung}{36}{section.1.11}%
-\contentsline {subsubsection}{APIs}{36}{section*.70}%
-\contentsline {subsubsection}{Anzeige}{36}{section*.71}%
-\contentsline {subsubsection}{Offline Betrieb}{37}{section*.72}%
-\contentsline {subsubsection}{Chatbot}{37}{section*.73}%
-\contentsline {subsubsection}{Datenbank}{37}{section*.74}%
-\contentsline {section}{\numberline {1.12}Qualitätssicherung, Controlling}{37}{section.1.12}%
-\contentsline {section}{\numberline {1.13}Ergebnisse - Irena Bala}{38}{section.1.13}%
-\contentsline {subsection}{\numberline {1.13.1}Implementierung}{38}{subsection.1.13.1}%
-\contentsline {section}{\numberline {1.14}Handbuch für die Bedienung}{38}{section.1.14}%
-\contentsline {subsection}{\numberline {1.14.1}Beschreibung der Bedienung als User}{38}{subsection.1.14.1}%
-\contentsline {subsection}{\numberline {1.14.2}Beschreibung der Bedienung als Administrator}{39}{subsection.1.14.2}%
-\contentsline {section}{\numberline {1.15}Evaluierung und Resümee}{39}{section.1.15}%
-\contentsline {subsection}{\numberline {1.15.1}Planung vs Realisierung}{39}{subsection.1.15.1}%
-\contentsline {subsection}{\numberline {1.15.2}Wertschöpfung und Lessons Learned}{40}{subsection.1.15.2}%
+\contentsline {subsection}{\numberline {1.10.3}Grundlagen für die Umsetzung von Chatbot}{21}{subsection.1.10.3}%
+\contentsline {subsection}{\numberline {1.10.4}Funktionalitäten von Chatbot}{21}{subsection.1.10.4}%
+\contentsline {subsubsection}{Unregistrierte Benutzer}{21}{section*.41}%
+\contentsline {subsubsection}{Normale Benutzer}{22}{section*.42}%
+\contentsline {subsubsection}{Administrator}{22}{section*.43}%
+\contentsline {subsection}{\numberline {1.10.5}Umsetzung der Funktionalitäten}{22}{subsection.1.10.5}%
+\contentsline {subsection}{\numberline {1.10.6}Konkrete Beispiele mit Bildern}{27}{subsection.1.10.6}%
+\contentsline {section}{\numberline {1.11}Probleme, Herausforderungen und deren Lösung}{37}{section.1.11}%
+\contentsline {subsubsection}{APIs}{37}{section*.71}%
+\contentsline {subsubsection}{Anzeige}{37}{section*.72}%
+\contentsline {subsubsection}{Offline Betrieb}{38}{section*.73}%
+\contentsline {subsubsection}{Chatbot}{38}{section*.74}%
+\contentsline {subsubsection}{Datenbank}{38}{section*.75}%
+\contentsline {section}{\numberline {1.12}Qualitätssicherung, Controlling}{38}{section.1.12}%
+\contentsline {section}{\numberline {1.13}Ergebnisse - Irena Bala}{39}{section.1.13}%
+\contentsline {subsection}{\numberline {1.13.1}Implementierung}{39}{subsection.1.13.1}%
+\contentsline {section}{\numberline {1.14}Handbuch für die Bedienung}{39}{section.1.14}%
+\contentsline {subsection}{\numberline {1.14.1}Beschreibung der Bedienung als User}{39}{subsection.1.14.1}%
+\contentsline {subsection}{\numberline {1.14.2}Beschreibung der Bedienung als Administrator}{40}{subsection.1.14.2}%
+\contentsline {section}{\numberline {1.15}Evaluierung und Resümee}{40}{section.1.15}%
+\contentsline {subsection}{\numberline {1.15.1}Planung vs Realisierung}{40}{subsection.1.15.1}%
+\contentsline {subsection}{\numberline {1.15.2}Wertschöpfung und Lessons Learned}{41}{subsection.1.15.2}%
