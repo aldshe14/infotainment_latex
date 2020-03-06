@@ -45,6 +45,34 @@
       \verb https://www.2daygeek.com/install-ssl-tls-certificate-on-apache-web-server/
       \endverb
     \endentry
+    \entry{40_fontawesome}{online}{}
+      \name{author}{1}{}{%
+        {{hash=863a3b7d21f0f2abb3f4e3ea3ec961d7}{%
+           family={Awesome},
+           familyi={A\bibinitperiod},
+           given={Font},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{863a3b7d21f0f2abb3f4e3ea3ec961d7}
+      \strng{fullhash}{863a3b7d21f0f2abb3f4e3ea3ec961d7}
+      \strng{bibnamehash}{863a3b7d21f0f2abb3f4e3ea3ec961d7}
+      \strng{authorbibnamehash}{863a3b7d21f0f2abb3f4e3ea3ec961d7}
+      \strng{authornamehash}{863a3b7d21f0f2abb3f4e3ea3ec961d7}
+      \strng{authorfullhash}{863a3b7d21f0f2abb3f4e3ea3ec961d7}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/FortAwesome/Font-Awesome
+      \endverb
+      \verb{url}
+      \verb https://github.com/FortAwesome/Font-Awesome
+      \endverb
+    \endentry
     \entry{50_apache}{online}{}
       \name{author}{1}{}{%
         {{hash=b6d7fce92bed4e38c674fbe39afa4fba}{%
@@ -133,8 +161,9 @@
            given={David},
            giveni={D\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {O'Reilly & Associates}%
+      \list{publisher}{2}{%
+        {O'Reilly}%
+        {Associates}%
       }
       \strng{namehash}{2caeb722af2e88c021f73029f9740851}
       \strng{fullhash}{2caeb722af2e88c021f73029f9740851}
@@ -349,6 +378,81 @@
       \endverb
       \verb{url}
       \verb https://www.elektronik-kompendium.de/sites/com/1904221.htm
+      \endverb
+    \endentry
+    \entry{40_mysql1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=62a004b95946bb97541afa471dcca73a}{%
+           family={MySQL},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \verb{urlraw}
+      \verb https://dev.mysql.com/doc/refman/8.0/en/what-is-mysql.html
+      \endverb
+      \verb{url}
+      \verb https://dev.mysql.com/doc/refman/8.0/en/what-is-mysql.html
+      \endverb
+      \warn{\item Entry '40_mysql1' (./../literatur1.bib): Invalid format '2019-21-11' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{40_php}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2fec392304a5c23ac138da22847f9b7c}{%
+           family={PHP},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fec392304a5c23ac138da22847f9b7c}
+      \strng{fullhash}{2fec392304a5c23ac138da22847f9b7c}
+      \strng{bibnamehash}{2fec392304a5c23ac138da22847f9b7c}
+      \strng{authorbibnamehash}{2fec392304a5c23ac138da22847f9b7c}
+      \strng{authornamehash}{2fec392304a5c23ac138da22847f9b7c}
+      \strng{authorfullhash}{2fec392304a5c23ac138da22847f9b7c}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.php.net/manual/en/intro-whatis.php
+      \endverb
+      \verb{url}
+      \verb https://www.php.net/manual/en/intro-whatis.php
+      \endverb
+    \endentry
+    \entry{40_phpmailer}{online}{}
+      \name{author}{1}{}{%
+        {{hash=647aae39eda290f9a23559062d9fbd4f}{%
+           family={PHPMailer},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{647aae39eda290f9a23559062d9fbd4f}
+      \strng{fullhash}{647aae39eda290f9a23559062d9fbd4f}
+      \strng{bibnamehash}{647aae39eda290f9a23559062d9fbd4f}
+      \strng{authorbibnamehash}{647aae39eda290f9a23559062d9fbd4f}
+      \strng{authornamehash}{647aae39eda290f9a23559062d9fbd4f}
+      \strng{authorfullhash}{647aae39eda290f9a23559062d9fbd4f}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/PHPMailer/PHPMailer/wiki/Tutorial
+      \endverb
+      \verb{url}
+      \verb https://github.com/PHPMailer/PHPMailer/wiki/Tutorial
       \endverb
     \endentry
     \entry{40_sessions_cookies}{online}{}
