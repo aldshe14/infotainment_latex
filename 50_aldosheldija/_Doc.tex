@@ -184,7 +184,7 @@ Damit nicht jeder diese Inhalten \"{a}ndern und l\"{o}schen kann, ist diese Webs
 Der Zugriff auf dieser Webseite ist \"uber jedes Ger\"{a}t und von jedem Ort aus m\"{o}glich. Um diese Webseite anzuschauen ist nur eine Internetverbindung notwendig.
 
 \subsection{Login}
-%Damit nicht alle unsere Webseite verwenden können, müssen die Benutzer sich auf der Webseite einloggen (Abbildung \ref{fi:login}). Die Admin Webseite ist durch eine Login-Seite geschützt, die vom Benutzer folgende Informationen anfordert: die E-Mail-Adresse und das Passwort. Dieses Formular heißt Login.php. Wenn der Benutzer auf den Sign-in Button klickt, werden seine Anmeldedaten auf Korrektheit überprüft. Ist das der Fall wird der Benutzer eingeloggt. Wenn der User in der Datenbank nicht existiert, wird ihm ein Fehlermeldung gezeigt damit er weißt, dass er zuerst registriert sein muss um in die Webseite einloggen zu können. Wenn der Benutzer beim Ausfüllen des Formulars das Passwort falsch eingibt, aber die E-Mail-Adresse richtig, und der Benutzer existiert bereits, wird ihm die Fehlermeldung für das falsche Passwort angezeigt. So ist dieser Login sehr einfach und benutzerfreundlich. Bei dieser Seite findet man auch einen Link, um das Passwort zurückzusetzen.
+Damit nicht alle unsere Webseite verwenden können, müssen die Benutzer sich auf der Webseite einloggen (Abbildung \ref{fi:login}). Die Admin Webseite ist durch eine Login-Seite geschützt, die vom Benutzer folgende Informationen anfordert: die E-Mail-Adresse und das Passwort. Dieses Formular heißt Login.php. Wenn der Benutzer auf den Sign-in Button klickt, werden seine Anmeldedaten auf Korrektheit überprüft. Ist das der Fall wird der Benutzer eingeloggt. Wenn der User in der Datenbank nicht existiert, wird ihm ein Fehlermeldung gezeigt damit er weißt, dass er zuerst registriert sein muss um in die Webseite einloggen zu können. Wenn der Benutzer beim Ausfüllen des Formulars das Passwort falsch eingibt, aber die E-Mail-Adresse richtig, und der Benutzer existiert bereits, wird ihm die Fehlermeldung für das falsche Passwort angezeigt. So ist dieser Login sehr einfach und benutzerfreundlich. Bei dieser Seite findet man auch einen Link, um das Passwort zurückzusetzen.
 
 \begin{figure}[H]
 	\centering
@@ -194,7 +194,7 @@ Der Zugriff auf dieser Webseite ist \"uber jedes Ger\"{a}t und von jedem Ort aus
 \end{figure}
 
 \subsection{Passwort zurücksetzen}
-Ab und zu passiert es, dass die Benutzer das Passwort vergessen, egal aus welchen Gründen. So muss diese Webseite die Möglichkeit anbieten das Passwort zurückzusetzen. Das ist in Abbildung \ref{fi:reset} dargestellt. Der Benutzer muss die E-Mail-Adresse zweimal schreiben und auf Zurücksetzen klicken. Wenn die E-Mail-Adressen nicht übereinstimmen wird ein Fehlermeldung angezeigt. Stimmen die E-Mail-Adressen überein, wird ein Eintrag in die Datenbank gespeichert und eine Email and dem Benutzer geschickt.
+Ab und zu passiert es, dass die Benutzer das Passwort vergessen, egal aus welchen Gründen. So muss diese Webseite die Möglichkeit anbieten das Passwort zurückzusetzen. Das ist auf der Abbildung \ref{fi:reset} dargestellt. Der Benutzer muss die E-Mail-Adresse zweimal schreiben und auf Zurücksetzen klicken. Wenn die E-Mail-Adressen nicht übereinstimmen wird ein Fehlermeldung angezeigt. Stimmen die E-Mail-Adressen überein, wird ein Eintrag in die Datenbank gespeichert und eine Email and dem Benutzer geschickt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.99\textwidth]{\ordnerfigures reset_1.png}
@@ -202,7 +202,7 @@ Ab und zu passiert es, dass die Benutzer das Passwort vergessen, egal aus welche
 	\label{fi:reset}
 \end{figure}
 
-In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen können (siehe Abb.\ref{fi:resetemail}). Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch als ungültig festgelegt und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Das Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Passwortes anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden. Diese Links werden als ungültig gesetzt, wobei das Ablaufdatum auf ein älteres Datum geändert wird (siehe Abb. \ref{fi:erd} Tabelle tb\_infotainment\_password\_reset). 
+In dieser E-Mail finden Sie einen Link, über den Sie Ihr Passwort zurücksetzen können (siehe Abbildung \ref{fi:resetemail}). Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch als ungültig festgelegt und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Das Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Passwortes anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden. Diese Links werden als ungültig gesetzt, wobei das Ablaufdatum auf ein älteres Datum geändert wird (siehe Abbildung \ref{fi:erd} Tabelle tb\_infotainment\_password\_reset). 
 
 \begin{figure}[H]
 	\centering
@@ -220,14 +220,14 @@ Wenn alle genannten Kriterien erfüllt sind, wird das Passwort geändert und der
 	\label{fi:reset-password}
 \end{figure}
 
-Wenn jemand versucht, einen Link zu verwenden, der zuvor einmal verwendet wurde, nicht mehr gültig oder falsch ist, wird dem Benutzer eine Fehlermeldung angezeigt. Diese Fehlermeldung ist in der Abbildung \ref{fi:invalidlink} zu sehen. In dieser Fehlermeldung sind auch zwei Links enthalten, die als Option verwendet werden können, um entweder einen neuen Link anzufordern oder den Benutzer zur Anmeldeseite umzuleiten.
+Wenn jemand versucht, einen Link zu verwenden, der zuvor einmal verwendet wurde, nicht mehr gültig oder falsch ist, wird dem Benutzer eine Fehlermeldung angezeigt. Diese Fehlermeldung ist auf der Abbildung \ref{fi:invalidlink} zu sehen. In dieser Fehlermeldung sind auch zwei Links enthalten, die als Option verwendet werden können, um entweder einen neuen Link anzufordern oder den Benutzer zur Anmeldeseite umzuleiten.
 
 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.99\textwidth]{\ordnerfigures reset-email-notvalid.png}
-	\caption{Passwort zurücksetzen - Ungültiges Link}
+	\caption{Passwort zurücksetzen - ungültiges Link}
 	\label{fi:invalidlink}
 \end{figure}
 
@@ -277,7 +277,8 @@ Dieses Menü ist auch für mobile Benutzer geeignet. Wenn der Benutzer ein Mobil
 
 \subsection{Startseite}
 
-Die Startseite ist die Zusammenfassung des gesamten Systems. Auf dieser Seite kann der Administrator einen Überblick von Anzeigen erhalten. Wie wir in Abbildung \ref{fi:home} sehen können, werden die Clients mithilfe einer Dropdown-Liste angezeigt. Im ersten Moment, in dem diese Seite geöffnet wird, ist automatisch die erste Anzeige der Dropdown-Liste ausgewählt. Nachdem die Anzeige ausgewählt wurde, werden dem Benutzer einige Informationen angezeigt.
+Die Startseite ist die Zusammenfassung des gesamten Systems. Auf dieser Seite kann der Administrator einen Überblick von Anzeigen erhalten. Wie wir auf der Abbildung \ref{fi:home} sehen können, werden die Clients mithilfe einer Dropdown-Liste angezeigt. Im ersten Moment, in dem diese Seite geöffnet wird, ist automatisch die erste Anzeige der Dropdown-Liste ausgewählt. Nachdem die Anzeige ausgewählt wurde, werden dem Benutzer einige Informationen angezeigt.
+
 Der Gerätestatus wird mit Hilfe eines ausgefüllten Kreises angezeigt. Abhängig vom Status des Geräts kann dieser Kreis entweder grün sein, was bedeutet, dass das Gerät aktiv und online ist, oder rot, wenn das Gerät offline ist. In der Nähe des Status des Geräts wird das Datum angezeigt, an dem die Anzeige zuletzt auf den Server geantwortet hat.
 Sowohl die IP-Adresse als auch die MAC-Adresse des Displays sind weitere Informationen, die auf der Startseite angezeigt werden.
 In der Nähe der Dropdown-Liste befindet sich eine Button zum Einfügen eines neuen Layouts für die Anzeige, die gerade ausgewählt ist.
@@ -318,7 +319,7 @@ Sie können auf jedes Layout (Feld) klicken, um ein Popup-Fenster zu öffnen, in
 
 Auf dieser Seite ist es möglich, ein bestimmtes Layout für einen bestimmten Zeitraum auszuwählen. Mit Hilfe eines Dropdowns werden alle verfügbaren Layouts angezeigt. Der Benutzer muss eine Start- und Endzeit auswählen, zu der dieses Layout angezeigt werden soll. Eine andere Möglichkeit besteht darin, bestimmte Tage auszuwählen, an denen dieses Layout angezeigt werden soll. Es kann ein bestimmter Tag, bestimmte Tage oder die ganze Woche sein.
 
-Über dem Button Layout hinzufügen werden die Daten gesendet.Als erstes wird die Start- und Endzeit überprüft. Die Startzeit sollte früher als die Endzeit sein. Wenn diese Bedingung erfüllt ist, wird geprüft, ob der Zeitplan während dieser Stunde leer ist. Dies wird für jeden ausgewählten Tag überprüft.
+Über dem Button Layout hinzufügen werden die Daten gesendet. Als erstes wird die Start- und Endzeit überprüft. Die Startzeit sollte früher als die Endzeit sein. Wenn diese Bedingung erfüllt ist, wird geprüft, ob der Zeitplan während dieser Stunde leer ist. Dies wird für jeden ausgewählten Tag überprüft.
 
 Sollte eine der oben genannten Bedingungen nicht erfüllt sein, wird eine entsprechende Fehlermeldung ausgegeben und das Layout kann nicht hinzugefügt werden.
 
@@ -334,12 +335,18 @@ Um dem Benutzer zu helfen, damit er keine Fehler machen kann, wurde unter dem Bu
 \subsubsection{Layout Inhalte hinzufügen}
 Die Informationen, die auf den Bildschirmen angezeigt werden, sollten irgendwo eingefügt werden. Bisher haben wir nur ausgewählt, welches Layout diese Anzeige haben soll.
 Um den Inhalt der Anzeige auszuwählen, benötigen Sie die Ansicht viewLayout. Auf dieser Seite werden der Name der Anzeige, der Name des Layouts, die Uhrzeit und die Tage angezeigt, an denen dieses Layout angezeigt werden soll.
+
 Man kann verschiedene Inhalte für verschiedene Teile des Layouts auswählen.
 Jeder Teil zeigt auch den Inhalt an, der diesem Teil bereits zugeordnet war, zusammen mit der entsprechenden Zeit.
+
 In jedem Teil befindet sich ein kleines Pluszeichen. Wenn Sie auf dieses Symbol klicken, wird ein Popup-Fenster geöffnet, in dem Sie neue Inhalte hinzufügen können.
-Einige Inhalte sind nur in einigen Teilen des Layouts verfügbar. Zum Beispiel wäre es nicht sinnvoll, den letzten Website-Beitrag der Schule in der Kopfzeile anzuzeigen. Die Kopfzeile ist klein und passt nicht hinein. Dies gilt auch für andere Inhalte, die nicht in alle Teile des Layouts passen.
+
+Einige Inhalte sind nur in einigen Teilen des Layouts verfügbar. Zum Beispiel wäre es nicht sinnvoll, den letzten Website Post der Schule in der Kopfzeile anzuzeigen. Die Kopfzeile ist klein und der Inhalt passt nicht hinein. Dies gilt auch für andere Inhalte, die nicht in alle Teile des Layouts passen.
+
 Im Popup-Fenster befindet sich eine Dropdown-Liste, aus der der Inhalt ausgewählt werden kann. Wenn das ausgewählte Element ein Bild ist, wird ein Dropdown-Menü hinzugefügt. In dieser Dropdown-Liste werden alle verfügbaren Bilder aufgelistet. Um ein Bild schneller zu finden, besteht auch die Möglichkeit, nach dem Namen des Bildes zu suchen.
-Nachdem der Inhalt ausgewählt wurde, muss der Zeitpunkt ausgewählt werden, zu dem der Inhalt angezeigt werden soll. Die Startzeit ist mit dem Wert der ersten leeren Zeit im Zeitplan an diesem Tag gefüllt. Dies wurde gemacht, um Kollisionen im Fahrplan und Leerzeiten in diesem Teil zu verhindern. Die Startzeit kann auch geändert werden, wenn der Benutzer eine andere Zeit einstellen möchte. dann ist die Endzeit, die gewählt werden sollte.
+
+Nachdem der Inhalt ausgewählt wurde, muss der Zeitpunkt ausgewählt werden, zu dem der Inhalt angezeigt werden soll. Die Startzeit ist mit dem Wert der ersten leeren Zeit im Zeitplan an diesem Tag gefüllt. Dies wurde gemacht, um Kollisionen im Zeitplan und Leerzeiten in diesem Teil zu verhindern. Die Startzeit kann auch geändert werden, wenn der Benutzer eine andere Zeit einstellen möchte. dann ist die Endzeit, die gewählt werden sollte.
+
 Als letztes muss ausgefüllt werden, an welchen Tagen dieser Inhalt angezeigt wird. Die Optionen zur Auswahl sind nur Tage, an denen das Layout angezeigt wird.
 Der Button Submit speichert die Daten in der Datenbank und das Popup-Fenster wird geschlossen.
 
@@ -360,11 +367,13 @@ Der Button Submit speichert die Daten in der Datenbank und das Popup-Fenster wir
 
 \subsubsection{Pop-up-Fenster}
 
-Der Zeitplan ist nur die Übersicht über das Layout, aber das sind nicht genug Informationen für den Benutzer. Man kann auf jedes Layout klicken, wenn man weitere Informationen zu diesem Layout haben möchte. Ein Pop-up-Fenster wird geöffnet. Dieses Fenster besteht aus zwei Teilen. Im linken Teil werden die Start- und Endzeit des Layouts sowie ein Name angezeigt, der vom Benutzer ausgewählt werden kann, wenn er ein neues Layout hinzufügt.
+Der Zeitplan ist nur die Übersicht der Zeitplan, aber das sind nicht genug Informationen für den Benutzer. Man kann auf jedes Layout klicken, wenn man weitere Informationen zu diesem Layout haben möchte. Ein Pop-up-Fenster wird geöffnet. 
+
+Dieses Fenster besteht aus zwei Teilen. Im linken Teil werden die Start- und Endzeit des Layouts sowie ein Name angezeigt, der vom Benutzer ausgewählt werden kann, wenn er ein neues Layout hinzufügt.
 
 Auf der rechten Seite wird der Name des Layouts zusammen mit der Struktur dieses Layuots angezeigt.
 Auf jedem Teil werden die Inhalte angezeigt, die in diesem bestimmten Teil angezeigt werden sollen. In der Nähe des Namens des Inhalts wird auch die Uhrzeit angezeigt.
-Am unteren Rand des Fensters befinden sich zwei Buttons. Der erste besteht darin, dieses Layout zu löschen. Dadurch wird das Layout nur für den Tag gelöscht, auf den geklickt wurde, einschließlich des gesamten Inhalts für dieses Layout.
+Am unteren Rand des Fensters befinden sich zwei Buttons. Der erste besteht darin, dieses Layout zu löschen. Dadurch wird das Layout nur für den Tag gelöscht, auf den geklickt wurde, zussammen mit den ganzen Inhalt dieses Layout.
 
 \begin{figure}[ht]
 	\centering
@@ -378,12 +387,12 @@ Am unteren Rand des Fensters befinden sich zwei Buttons. Der erste besteht darin
 
 \subsection{Anzeige}
 
-In der Anzeige Seite sind die registrierten Anzeigen bzw. Clients dargestellt. In dieser Tabelle sind die Spalten Name, Mac-Adresse, IP-Adresse, Standort und Layout. Die Datensätze von dieser Tabelle können editiert und gelöscht werden. 
+In der Anzeige Seite sind die registrierten Anzeigen bzw. Clients dargestellt. In dieser Tabelle sind die Spalten Name, Mac-Adresse, IP-Adresse, Standort und Layout dargestellt. Die Datensätze von dieser Tabelle können editiert und gelöscht werden. 
 
-Im oberen Bereich ist die Möglichkeit zur Verfügung gestellt, andere Anzeigen hinzufügen.
+Im oberen Bereich ist die Möglichkeit zur Verfügung gestellt, andere Anzeigen hinzuzufügen.
 Wenn dieses Button gedruckt wird, danach sollten die Eingaben für die Anzeige selbst geschrieben werden. Am Ende, nachdem die Anzeige hinzugefügt worden ist, wird es noch einmal zum Anzeige Seite weitergeleitet.
 
-Die Anzeigen können editiert bzw. geändert werden, wobei man noch einmal die Möglichkeit hat, die Eingaben für die verschiedenen Spalten zu ändern und danach die Änderungen speichern.
+Die Anzeigen können editiert bzw. geändert werden, wobei man noch einmal die Möglichkeit hat, die Eingaben für die verschiedenen Spalten zu ändern und danach die Änderungen zu speichern.
 
 \begin{figure}[H]
 	\centering
@@ -395,7 +404,7 @@ Die Anzeigen können editiert bzw. geändert werden, wobei man noch einmal die M
 
 \subsection{Bilder}
 
-Die nächste Seite ist die Bilder Seite. Hier sind der Name der Bilder und der Datentyp dargestellt. Diese Spalten können editiert und gelöscht werden. Man hat die Möglichkeit, Bilder hinzuzufügen, wobei selbst ein Bild aus dem Computer wählen kann.
+Die nächste Seite ist die Bilder Seite. Hier sind der Name der Bilder und der Datentyp dargestellt. Diese Spalten können editiert und gelöscht werden. Man hat die Möglichkeit, Bilder hinzuzufügen, wobei selbst ein Bild aus dem Computer gewählt werden kann.
 
 \begin{figure}[H]
 	\centering
@@ -406,7 +415,7 @@ Die nächste Seite ist die Bilder Seite. Hier sind der Name der Bilder und der D
 
 
 \subsection{Layouts}
-Ein andere Seite ist die Layout Seite. Dort sind Layouts ersichtlich. Es gibt 3 Spalten; nämlich Name, Beschreibung und Datei. Hier gibt es wieder die Möglichkeit, Layouts hinzuzufügen, wo man selbst die Einträge erfüllt.
+Ein andere Seite ist die Layout Seite. Dort sind Layouts ersichtlich. Es gibt 3 Spalten; nämlich Name, Beschreibung und Datei. Hier gibt es wieder die Möglichkeit, Layouts hinzuzufügen, wo man selbst die Einträge füllen muss.
 
 \begin{figure}[H]
 	\centering
@@ -431,7 +440,7 @@ Für die Schule ist der Supplier plan eine der wichtigsten Komponenten. Dies hil
 
 \subsubsection{Stundenplan importieren}
 Unsere Schule verwendet Untis als Plattform für die Verwaltung von Stundenplan. Um Zeit zu sparen und alle Daten erneut in unsere Website einzufügen, wurde die Importfunktion implementiert. In Untis gibt es eine Option zum Exportieren des Stundeplans als txt-Datei. Diese Datei kann dann auf unserer Website verwendet und importiert werden.
-Um diese Daten zu importieren, sollte die von Untis erstellte txt-Datei hochgeladen werden. Diese Daten werden über eine gespeicherte Prozedur in der Datenbank gespeichert. Die stored procedure wurde ausgewählt, weil sie den Import der Daten schneller und sicherer macht.
+Um diese Daten zu importieren, sollte die von Untis erstellte txt-Datei hochgeladen werden. Diese Daten werden über eine Stored Procedure in der Datenbank gespeichert. Die Stored Procedure wurde ausgewählt, weil sie den Import der Daten schneller und sicherer macht.
 
 Es kommt vor, dass sich der Stundenplan ändert und alle Daten erneut geändert werden sollten. Es besteht die Möglichkeit, alle alten Daten zu löschen und dann die neuen zu importieren.
 \begin{figure}[H]
@@ -446,7 +455,7 @@ Es kommt vor, dass sich der Stundenplan ändert und alle Daten erneut geändert 
 Auf dieser Seite werden alle Lehrer aufgelistet, die am ausgewählten Tag Unterricht haben. Wenn ein Lehrer als fehlend hinzugefügt wird, wird er auf dieser Seite nicht mehr angezeigt.
 
 Als Hilfe für den Benutzer, der den Supplier plan erstellt, werden das Datum des ausgewählten Tages und die Wochennummer des Jahres angezeigt.
-Der Default wert des Tages in der Dropdown-Liste ist auf heute festgelegt. Der Benutzer kann auch einen anderen Tag auswählen, um den Supplier plan zu erstellen. Wenn es Wochenende ist, wird der Montag automatisch ausgewählt und der Supplier plan kann für die folgende Woche erstellt werden.
+Der Default wert des Tages in der Dropdown-Liste ist auf heute festgelegt. Der Benutzer kann auch einen anderen Tag auswählen, um den Supplier plan für diesen Tag zu erstellen. Wenn es Wochenende ist, wird der Montag automatisch ausgewählt und der Supplier plan kann für die folgende Woche erstellt werden.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.89\textwidth]{\ordnerfigures supplierplan.png}
@@ -468,11 +477,11 @@ In der Nähe jedes Lehrers besteht die Möglichkeit, seine Stunden zu ersetzen. 
 
 Aus dem Stundenplan kann eingegeben werden, zu welchen Stunden der Lehrer fehlen wird. Dies kann über das Kontrollkästchen an der Seite jeder Stunde erfolgen. Die Stunden, Lehrer, Fach, Klasse und das Raum werden automatisch gefüllt und können nicht geändert werden.
 
-Es gibt eine Dropdown-Liste zur Auswahl des Supplierers. Wenn es nur eine Gruppe der Klasse ist, wird in der Dropdown-Liste der Lehrer angezeigt, der Unterricht bei der anderen Gruppe hat. Nachfolgend sind alle Lehrer aufgelistet, die zum Supplieren bereit sind. 
+Es gibt eine Dropdown-Liste zur Auswahl des Supplierers. Wenn es nur eine Gruppe der Klasse ist, wird in der Dropdown-Liste der Lehrer angezeigt, der Unterricht bei der andere Gruppe hat. Nachfolgend sind alle Lehrer aufgelistet, die zum Supplieren bereit sind. 
 
 Manchmal fehlen mehr Lehrer als die Optionen, die wir bisher in der Dropdown-Liste haben. Dann ist notwendig, auch die Lehrer aufzulisten, die in dieser Stunde keinen Unterricht haben, nicht fehlen und keinen anderen Supplierstunde haben. Ein Lehrer muss alle oben genannten Kriterien erfüllen, um in der Dropdown-Liste aufgelistet zu werden.
 
-Um es so einfach wie möglich zu machen, werden diese Lehrer nach der besten Möglichkeit und Günstigkeit für sie sortiert. Zum Beispiel:  Wenn ein Lehrer in der dritten Stunde fehlt, dann steht ein supplierbereiter Lehrer, der eigentlich in der vierten Stunde in die Schule kommt, vorher in die Dropdown-Liste auftaucht, als ein Lehrer, der wegen seines normalen Stundenplans erst in der achten Stunde Unterricht hat. Je näher die normale Unterrichtsstunde eines Lehrers mit der zu supplierten Stunden ist, desto höher steht er in der Liste.
+Um es so einfach wie möglich zu machen, werden diese Lehrer nach der besten Möglichkeit und Günstigkeit für sie sortiert. Zum Beispiel:  Wenn ein Lehrer in der dritten Stunde fehlt, dann steht ein supplierbereiter Lehrer, der eigentlich in der vierten Stunde in die Schule kommt, vorher in die Dropdown-Liste, als ein Lehrer, der wegen seines normalen Stundenplans erst in der achten Stunde Unterricht hat. Je näher die normale Unterrichtsstunde eines Lehrers mit der zu supplierten Stunden ist, desto höher steht er in der Liste.
 
 Zusätzlich kann auch eine Beschreibung für diese Stunde hinzugefügt werden
 
@@ -495,7 +504,7 @@ Die folgende Tabelle stellt den Supplier plan dar. Mit einer Dropdown-Liste wird
 \subsection{Benutzer}
 Im Benutzermenü stehen zwei Optionen zur Auswahl, nämlich zum Auflisten aller Benutzer oder zum Anzeigen, wer einen Link zum Zurücksetzen des Kennworts angefordert hat. 
 
-Die Benutzerverwaltung ist für diese Webseite wichtig, um zu sehen, wer welche Rechte hat.Die Benutzer werden zusammen mit ihrem Namen, ihrer E-Mail-Adresse, Rolle und dem Datum, an dem der Benutzer erstellt wurde, aufgelistet. Von dieser Seite aus hat der Administrator die Möglichkeit, das Passwort eines Benutzers zurückzusetzen (auf Abbildung \ref*{fi:users} ersichtlich).
+Die Benutzerverwaltung ist für diese Webseite wichtig, um zu sehen, wer welche Rechte hat. Die Benutzer werden zusammen mit ihrem Namen, ihrer E-Mail-Adresse, Rolle und dem Datum, an dem der Benutzer erstellt wurde, aufgelistet. Von dieser Seite aus hat der Administrator die Möglichkeit, das Passwort eines Benutzers zurückzusetzen (auf Abbildung \ref*{fi:users} ersichtlich).
 
 \begin{figure}[H]
 	\centering
@@ -529,7 +538,7 @@ Wenn der Benutzer erstellt wird, wird eine E-Mail an diesen Benutzer gesendet (s
 
 \subsubsection{Passwort zurücksetzen}
 
-Es kann vorkommen, dass der Benutzer das Kennwort aus verschiedenen Gründen nicht zurücksetzen kann. Auf diese Weise kann er sich nicht mehr anmelden. Benutzer mit Administratorrechten können das Kennwort jedes Benutzers zurücksetzen. Um das Passwort eines Benutzers zurückzusetzen, sollte der Administrator auf das \underline{reset\_password }neben dem Benutzer klicken, den er zurücksetzen möchte.
+Es kann vorkommen, dass der Benutzer das Kennwort aus verschiedenen Gründen nicht zurücksetzen kann. Auf diese Weise kann er sich nicht mehr anmelden. Benutzer mit Administratorrechten können das Kennwort jedes Benutzers zurücksetzen. Um das Passwort eines Benutzers zurückzusetzen, sollte der Administrator auf das \textit{reset\_password} neben dem Benutzer klicken, den er zurücksetzen möchte.
 
 Das neue Passwort wird mit derselben Funktion generiert, mit der das Passwort eines neuen Benutzers generiert wird. Dieses Passwort überschreibt das alte Passwort und ist das einzige Passwort, mit dem Sie sich auf der Webseite anmelden können.
 
@@ -542,7 +551,11 @@ Das neue Passwort wird mit derselben Funktion generiert, mit der das Passwort ei
 
 
 \subsection{Einstellungen}
-Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Administrator die Möglichkeit den API Key von OpenWeatherMap und City ID, von dem die Wetterdaten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abb. \ref{fi:erd}). Die URL der Webseite und das Chatbot-Token werden mit Hilfe von Regex\footnote{Reguläre Ausdrücke sind eine Folge von Zeichen, die ein Muster definieren.} überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen. Der API-Schlüssel vom Telegramm-Chatbot hat eine Länge von 45 Zeichen. Von diesen 45 Zeichen sollten die ersten neun Zeichen Zahlen von 0 bis 9 sein. Nach den ersten 9 Ziffern steht ein ``:''. Bis jetzt haben wir die ersten 10 Zeichen des API-Schlüssels. Die verbleibenden Zeichen (die anderen 35 Zeichen) können Zahlen von 0 bis 9, kleine oder große Buchstaben von a bis z oder ``-'' sein. So sieht das Regex-Muster aus (siehe Listing \ref{lst:regextelegram} ).
+Um das System leichter anzupassen, erlaubt die Seite Einstellungen vorzunehmen. Bei dieser Seite kann der Admin die Einstellungen einzelnen Komponenten dieses System ändern. Auf Abbildung \ref{fi:settings} wird diese Seite dargestellt. Wie man sieht, bei dieser Seite hat der Administrator die Möglichkeit den API Key von OpenWeatherMap und City ID, von dem die Wetterdaten geholt werden, Webseite URL für die Posts und das Chatbot Token zu editieren. Das wird dem Administrator sehr viel helfen, wenn er diese Daten ändern will. Diese Daten sind in der Tabelle \textit{tb\_infotainment\_appisettings} gespeichert (siehe Abbildung \ref{fi:erd}).
+
+Die URL der Webseite und das Chatbot-Token werden mit Hilfe von Regex\footnote{Reguläre Ausdrücke sind eine Folge von Zeichen, die ein Muster definieren.} überprüft ob der Admin valide Daten hinzugefügt hat. Das stellt sicher, dass keine Fehler auftauchen. Der API-Schlüssel vom Telegramm-Chatbot hat eine Länge von 45 Zeichen. 
+
+Von diesen 45 Zeichen sollten die ersten neun Zeichen Zahlen von 0 bis 9 sein. Nach den ersten 9 Ziffern steht ein ``:''. Bis jetzt haben wir die ersten 10 Zeichen des API-Schlüssels. Die verbleibenden Zeichen (die anderen 35 Zeichen) können Zahlen von 0 bis 9, kleine oder große Buchstaben von a bis z oder ein ``-'' sein. So sieht das Regex-Muster aus (siehe Listing \ref{lst:regextelegram} ).
 \begin{lstlisting}[caption={Regex Muster für Telegram Chatbot API-Key},label={lst:regextelegram},language=PHP]
 [0-9]{9}:[a-zA-Z0-9_-]{35}
 \end{lstlisting}
