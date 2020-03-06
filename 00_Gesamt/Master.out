@@ -59,38 +59,41 @@
 \BOOKMARK [2][-]{subsection.5.2.5}{Font Awesome}{section.5.2}% 59
 \BOOKMARK [2][-]{subsection.5.2.6}{MySQL}{section.5.2}% 60
 \BOOKMARK [2][-]{subsection.5.2.7}{Apache}{section.5.2}% 61
-\BOOKMARK [1][-]{section.5.3}{Structed Software Design f\374r den Client}{chapter.5}% 62
-\BOOKMARK [2][-]{subsection.5.3.1}{Start}{section.5.3}% 63
-\BOOKMARK [2][-]{subsection.5.3.2}{Zeitsteuerung}{section.5.3}% 64
-\BOOKMARK [2][-]{subsection.5.3.3}{Daten holen}{section.5.3}% 65
-\BOOKMARK [2][-]{subsection.5.3.4}{Buffer}{section.5.3}% 66
-\BOOKMARK [2][-]{subsection.5.3.5}{Anzeige Prepare}{section.5.3}% 67
-\BOOKMARK [2][-]{subsection.5.3.6}{Log}{section.5.3}% 68
-\BOOKMARK [1][-]{section.5.4}{Datenbank}{chapter.5}% 69
-\BOOKMARK [2][-]{subsection.5.4.1}{ER Diagramm}{section.5.4}% 70
-\BOOKMARK [1][-]{section.5.5}{Admin Webseite}{chapter.5}% 71
-\BOOKMARK [2][-]{subsection.5.5.1}{Login}{section.5.5}% 72
-\BOOKMARK [2][-]{subsection.5.5.2}{Passwort zur\374cksetzen}{section.5.5}% 73
-\BOOKMARK [2][-]{subsection.5.5.3}{Men\374}{section.5.5}% 74
-\BOOKMARK [2][-]{subsection.5.5.4}{Startseite}{section.5.5}% 75
-\BOOKMARK [2][-]{subsection.5.5.5}{Anzeige}{section.5.5}% 76
-\BOOKMARK [2][-]{subsection.5.5.6}{Bilder}{section.5.5}% 77
-\BOOKMARK [2][-]{subsection.5.5.7}{Layouts}{section.5.5}% 78
-\BOOKMARK [2][-]{subsection.5.5.8}{Kalendarinfo}{section.5.5}% 79
-\BOOKMARK [2][-]{subsection.5.5.9}{Supplier plan}{section.5.5}% 80
-\BOOKMARK [2][-]{subsection.5.5.10}{Benutzer}{section.5.5}% 81
-\BOOKMARK [2][-]{subsection.5.5.11}{Einstellungen}{section.5.5}% 82
-\BOOKMARK [2][-]{subsection.5.5.12}{Logout}{section.5.5}% 83
-\BOOKMARK [2][-]{subsection.5.5.13}{Benutzerrechte f\374r die Webseite}{section.5.5}% 84
-\BOOKMARK [2][-]{subsection.5.5.14}{Webseite auf mehrere Sprachen}{section.5.5}% 85
-\BOOKMARK [1][-]{section.5.6}{Client/Anzeige}{chapter.5}% 86
-\BOOKMARK [2][-]{subsection.5.6.1}{Layout 1}{section.5.6}% 87
-\BOOKMARK [2][-]{subsection.5.6.2}{Layout 3}{section.5.6}% 88
-\BOOKMARK [2][-]{subsection.5.6.3}{Anzeige f\374r die Chatbot-Bilder}{section.5.6}% 89
-\BOOKMARK [2][-]{subsection.5.6.4}{Anzeige f\374r den Supplier plan}{section.5.6}% 90
-\BOOKMARK [1][-]{section.5.7}{Wordpress Webseite API}{chapter.5}% 91
-\BOOKMARK [1][-]{section.5.8}{Bilder Funktionalit\344t bei der Chatbot}{chapter.5}% 92
-\BOOKMARK [1][-]{section.5.9}{Herausforderungen und deren L\366sung}{chapter.5}% 93
-\BOOKMARK [1][-]{section.5.10}{Wertsch\366pfung und Lessons Learned}{chapter.5}% 94
-\BOOKMARK [1][-]{section.5.11}{Evaluierung und Res\374mee}{chapter.5}% 95
-\BOOKMARK [0][-]{chapter.6}{Ausblick}{}% 96
+\BOOKMARK [2][-]{subsection.5.2.8}{PHPMailer}{section.5.2}% 62
+\BOOKMARK [1][-]{section.5.3}{Structed Software Design f\374r den Client}{chapter.5}% 63
+\BOOKMARK [2][-]{subsection.5.3.1}{Start}{section.5.3}% 64
+\BOOKMARK [2][-]{subsection.5.3.2}{Zeitsteuerung}{section.5.3}% 65
+\BOOKMARK [2][-]{subsection.5.3.3}{Daten holen}{section.5.3}% 66
+\BOOKMARK [2][-]{subsection.5.3.4}{Buffer}{section.5.3}% 67
+\BOOKMARK [2][-]{subsection.5.3.5}{Anzeige Prepare}{section.5.3}% 68
+\BOOKMARK [2][-]{subsection.5.3.6}{Log}{section.5.3}% 69
+\BOOKMARK [1][-]{section.5.4}{Datenbank}{chapter.5}% 70
+\BOOKMARK [2][-]{subsection.5.4.1}{ER Diagramm}{section.5.4}% 71
+\BOOKMARK [1][-]{section.5.5}{Admin Webseite}{chapter.5}% 72
+\BOOKMARK [2][-]{subsection.5.5.1}{Login}{section.5.5}% 73
+\BOOKMARK [2][-]{subsection.5.5.2}{Passwort zur\374cksetzen}{section.5.5}% 74
+\BOOKMARK [2][-]{subsection.5.5.3}{Men\374}{section.5.5}% 75
+\BOOKMARK [2][-]{subsection.5.5.4}{Startseite}{section.5.5}% 76
+\BOOKMARK [2][-]{subsection.5.5.5}{Anzeige}{section.5.5}% 77
+\BOOKMARK [2][-]{subsection.5.5.6}{Bilder}{section.5.5}% 78
+\BOOKMARK [2][-]{subsection.5.5.7}{Layouts}{section.5.5}% 79
+\BOOKMARK [2][-]{subsection.5.5.8}{Kalendarinfo}{section.5.5}% 80
+\BOOKMARK [2][-]{subsection.5.5.9}{Supplier plan}{section.5.5}% 81
+\BOOKMARK [2][-]{subsection.5.5.10}{Benutzer}{section.5.5}% 82
+\BOOKMARK [2][-]{subsection.5.5.11}{Einstellungen}{section.5.5}% 83
+\BOOKMARK [2][-]{subsection.5.5.12}{Logout}{section.5.5}% 84
+\BOOKMARK [2][-]{subsection.5.5.13}{Benutzerrechte f\374r die Webseite}{section.5.5}% 85
+\BOOKMARK [2][-]{subsection.5.5.14}{Webseite auf mehrere Sprachen}{section.5.5}% 86
+\BOOKMARK [1][-]{section.5.6}{Client/Anzeige}{chapter.5}% 87
+\BOOKMARK [2][-]{subsection.5.6.1}{Layout 1}{section.5.6}% 88
+\BOOKMARK [2][-]{subsection.5.6.2}{Layout 3}{section.5.6}% 89
+\BOOKMARK [2][-]{subsection.5.6.3}{Anzeige f\374r die Chatbot-Bilder}{section.5.6}% 90
+\BOOKMARK [2][-]{subsection.5.6.4}{Anzeige f\374r den Supplier plan}{section.5.6}% 91
+\BOOKMARK [1][-]{section.5.7}{Wordpress Webseite API}{chapter.5}% 92
+\BOOKMARK [1][-]{section.5.8}{Bilder Funktionalit\344t bei der Chatbot}{chapter.5}% 93
+\BOOKMARK [1][-]{section.5.9}{Herausforderungen und deren L\366sung}{chapter.5}% 94
+\BOOKMARK [1][-]{section.5.10}{Wertsch\366pfung und Lessons Learned}{chapter.5}% 95
+\BOOKMARK [1][-]{section.5.11}{Evaluierung und Res\374mee}{chapter.5}% 96
+\BOOKMARK [0][-]{chapter.6}{Ausblick}{}% 97
+\BOOKMARK [0][-]{appendix*.137}{Abbildungsverzeichnis}{}% 98
+\BOOKMARK [0][-]{appendix*.138}{Tabellenverzeichnis}{}% 99

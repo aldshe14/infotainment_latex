@@ -25,6 +25,8 @@
 \usepackage{pdfpages}
 \usepackage{float} %für die Platzierung der Bilder
 
+\usepackage[nottoc]{tocbibind}
+
 %------- Listinf 
 \usepackage{listings}
 
@@ -196,9 +198,9 @@
 \lstlistoflistings
 
 \printbibheading%[title=Blub]
-\printbibliography[type=masterthesis, heading=subbibliography,title={Wissenschaftliche Arbeiten}]
-\printbibliography[type=book, heading=subbibliography, title={Fachbücher}]
-\printbibliography[type=report, heading=subbibliography, title={Datenblätter und Applikationsschriften}]
+%\printbibliography[type=masterthesis, heading=subbibliography,title={Wissenschaftliche Arbeiten}]
+\printbibliography[type=book, heading=subbibliography, title={Fachb\"ucher}]
+%\printbibliography[type=report, heading=subbibliography, title={Datenblätter und Applikationsschriften}]
 \printbibliography[type=online, heading=subbibliography, title={Aus dem Netz}]
 \printbibliography[heading=subbibliography,title={Der ganze Rest},nottype=online,nottype=masterthesis,nottype=report,nottype=book,notkeyword=sekundaer]
 

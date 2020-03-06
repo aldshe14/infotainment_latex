@@ -2204,10 +2204,14 @@
     <bcf:citekey order="19">50_SSS</bcf:citekey>
     <bcf:citekey order="20">50_telegram</bcf:citekey>
     <bcf:citekey order="21">40_bootstrap</bcf:citekey>
-    <bcf:citekey order="22">40_js</bcf:citekey>
-    <bcf:citekey order="23">40_datatables</bcf:citekey>
-    <bcf:citekey order="24">40_apache</bcf:citekey>
-    <bcf:citekey order="25">40_sessions_cookies</bcf:citekey>
+    <bcf:citekey order="22">40_php</bcf:citekey>
+    <bcf:citekey order="23">40_js</bcf:citekey>
+    <bcf:citekey order="24">40_datatables</bcf:citekey>
+    <bcf:citekey order="25">40_fontawesome</bcf:citekey>
+    <bcf:citekey order="26">40_mysql1</bcf:citekey>
+    <bcf:citekey order="27">40_apache</bcf:citekey>
+    <bcf:citekey order="28">40_phpmailer</bcf:citekey>
+    <bcf:citekey order="29">40_sessions_cookies</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
