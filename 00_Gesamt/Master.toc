@@ -139,3 +139,4 @@
 \contentsline {section}{\numberline {5.9}Herausforderungen und deren Lösung}{91}{section.5.9}%
 \contentsline {section}{\numberline {5.10}Wertschöpfung und Lessons Learned}{91}{section.5.10}%
 \contentsline {section}{\numberline {5.11}Evaluierung und Resümee}{92}{section.5.11}%
+\contentsline {chapter}{\numberline {6}Ausblick}{93}{chapter.6}%

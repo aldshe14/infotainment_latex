@@ -1,0 +1,52 @@
+%Base ordner for all other ordners (figures, appendix, ....)
+\ifdefined\bordner
+\renewcommand{\bordner}{./../60_zusatzlich/}
+\else
+\newcommand{\bordner}{./../60_zusatzlich/}
+\fi
+
+
+%titelpage first Line
+\ifdefined\titelf
+\renewcommand{\titelf}{Diplomarbeit}
+\else
+\newcommand{\titelf}{Diplomarbeit}
+\fi
+
+
+%Name of Chapter
+\ifdefined\docname
+\renewcommand{\docname}{Ausblick}
+\else
+\newcommand{\docname}{Ausblick}
+\fi
+
+
+
+%titelpage secound Line
+\ifdefined\titels
+\renewcommand{\titels}{\docname}
+\else
+\newcommand{\titels}{\docname}
+\fi
+
+%Check Ordner for Figures
+\ifdefined\ordnerfigures
+\renewcommand{\ordnerfigures}{\bordner figures/}
+\else
+\newcommand{\ordnerfigures}{\bordner figures/}
+\fi
+
+%Check Ordner for Appendix
+\ifdefined\ordnerappendix
+\renewcommand{\ordnerappendix}{\bordner appendix/}
+\else
+\newcommand{\ordnerappendix}{\bordner appendix/}
+\fi
+
+%Check Ordner for Sourcecode
+\ifdefined\ordnersource
+\renewcommand{\ordnersource}{\bordner source/}
+\else
+\newcommand{\ordnersource}{\bordner source/}
+\fi
