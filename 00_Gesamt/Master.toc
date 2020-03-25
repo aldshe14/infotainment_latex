@@ -80,7 +80,7 @@
 \contentsline {subsection}{\numberline {4.15.1}Planung vs Realisierung}{62}{subsection.4.15.1}%
 \contentsline {subsection}{\numberline {4.15.2}Wertschöpfung und Lessons Learned}{63}{subsection.4.15.2}%
 \contentsline {chapter}{\numberline {5}Umsetzung - Aldo Sheldija}{65}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Allgemeine Besschreibung}{65}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Allgemeine Beschreibung}{65}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Technologien}{65}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Bootstrap}{65}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}PHP}{66}{subsection.5.2.2}%
@@ -93,7 +93,7 @@
 \contentsline {section}{\numberline {5.3}Structed Software Design für den Client}{67}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Start}{68}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}Zeitsteuerung}{68}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Daten holen}{68}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.3}Daten holen}{69}{subsection.5.3.3}%
 \contentsline {subsection}{\numberline {5.3.4}Buffer}{69}{subsection.5.3.4}%
 \contentsline {subsection}{\numberline {5.3.5}Anzeige Prepare}{69}{subsection.5.3.5}%
 \contentsline {subsection}{\numberline {5.3.6}Log}{69}{subsection.5.3.6}%
@@ -101,45 +101,45 @@
 \contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{69}{subsection.5.4.1}%
 \contentsline {section}{\numberline {5.5}Admin Webseite}{70}{section.5.5}%
 \contentsline {subsection}{\numberline {5.5.1}Login}{71}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Passwort zurücksetzen}{71}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Menü}{73}{subsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.5.4}Startseite}{74}{subsection.5.5.4}%
-\contentsline {subsubsection}{Anzeige Status}{75}{section*.99}%
-\contentsline {subsubsection}{Timetable}{76}{section*.100}%
-\contentsline {subsubsection}{Layout wählen}{76}{section*.101}%
-\contentsline {subsubsection}{Layout Inhalte hinzufügen}{77}{section*.103}%
-\contentsline {subsubsection}{Pop-up-Fenster}{78}{section*.106}%
-\contentsline {subsection}{\numberline {5.5.5}Anzeige}{79}{subsection.5.5.5}%
-\contentsline {subsection}{\numberline {5.5.6}Bilder}{80}{subsection.5.5.6}%
-\contentsline {subsection}{\numberline {5.5.7}Layouts}{80}{subsection.5.5.7}%
-\contentsline {subsection}{\numberline {5.5.8}Kalendarinfo}{81}{subsection.5.5.8}%
-\contentsline {subsection}{\numberline {5.5.9}Supplier plan}{81}{subsection.5.5.9}%
-\contentsline {subsubsection}{Stundenplan importieren}{82}{section*.112}%
-\contentsline {subsubsection}{Stundenplan }{82}{section*.114}%
-\contentsline {subsubsection}{Fehlendelehrer}{83}{section*.116}%
-\contentsline {subsubsection}{Suppliertabelle}{84}{section*.119}%
-\contentsline {subsection}{\numberline {5.5.10}Benutzer}{85}{subsection.5.5.10}%
-\contentsline {subsubsection}{Neue Benutzer hinzufügen}{86}{section*.122}%
-\contentsline {subsubsection}{Passwort zurücksetzen}{87}{section*.125}%
-\contentsline {subsection}{\numberline {5.5.11}Einstellungen}{87}{subsection.5.5.11}%
-\contentsline {subsection}{\numberline {5.5.12}Logout}{88}{subsection.5.5.12}%
-\contentsline {subsection}{\numberline {5.5.13}Benutzerrechte für die Webseite}{88}{subsection.5.5.13}%
-\contentsline {subsubsection}{Administrator}{89}{section*.128}%
-\contentsline {subsubsection}{Normaler Benutzer}{89}{section*.129}%
-\contentsline {subsection}{\numberline {5.5.14}Webseite auf mehrere Sprachen}{89}{subsection.5.5.14}%
-\contentsline {section}{\numberline {5.6}Client/Anzeige}{89}{section.5.6}%
-\contentsline {subsubsection}{Welcome Seite}{90}{section*.130}%
-\contentsline {subsubsection}{Layout selektieren}{90}{section*.132}%
-\contentsline {subsubsection}{Inhalte Verwaltung}{91}{section*.133}%
-\contentsline {subsection}{\numberline {5.6.1}Layout 1}{91}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Layout 3}{92}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}Anzeige für die Chatbot-Bilder}{92}{subsection.5.6.3}%
-\contentsline {subsection}{\numberline {5.6.4}Anzeige für den Supplier plan}{93}{subsection.5.6.4}%
-\contentsline {section}{\numberline {5.7}Wordpress Webseite API}{93}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Bilder Funktionalität bei der Chatbot}{94}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Herausforderungen und deren Lösung}{94}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Wertschöpfung und Lessons Learned}{94}{section.5.10}%
-\contentsline {section}{\numberline {5.11}Evaluierung und Resümee}{95}{section.5.11}%
-\contentsline {chapter}{\numberline {6}Ausblick}{96}{chapter.6}%
-\contentsline {chapter}{Abbildungsverzeichnis}{97}{appendix*.138}%
-\contentsline {chapter}{Tabellenverzeichnis}{99}{appendix*.139}%
+\contentsline {subsection}{\numberline {5.5.2}Passwort zurücksetzen}{72}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Menü}{74}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Startseite}{75}{subsection.5.5.4}%
+\contentsline {subsubsection}{Anzeige Status}{76}{section*.99}%
+\contentsline {subsubsection}{Timetable}{77}{section*.100}%
+\contentsline {subsubsection}{Layout wählen}{77}{section*.101}%
+\contentsline {subsubsection}{Layout Inhalte hinzufügen}{78}{section*.103}%
+\contentsline {subsubsection}{Pop-up-Fenster}{79}{section*.106}%
+\contentsline {subsection}{\numberline {5.5.5}Anzeige}{80}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.6}Bilder}{81}{subsection.5.5.6}%
+\contentsline {subsection}{\numberline {5.5.7}Layouts}{81}{subsection.5.5.7}%
+\contentsline {subsection}{\numberline {5.5.8}Kalendarinfo}{82}{subsection.5.5.8}%
+\contentsline {subsection}{\numberline {5.5.9}Supplierplan}{82}{subsection.5.5.9}%
+\contentsline {subsubsection}{Stundenplan importieren}{83}{section*.112}%
+\contentsline {subsubsection}{Stundenplan }{83}{section*.114}%
+\contentsline {subsubsection}{Fehlende Lehrer}{84}{section*.116}%
+\contentsline {subsubsection}{Suppliertabelle}{85}{section*.119}%
+\contentsline {subsection}{\numberline {5.5.10}Benutzer}{86}{subsection.5.5.10}%
+\contentsline {subsubsection}{Neue Benutzer hinzufügen}{87}{section*.122}%
+\contentsline {subsubsection}{Passwort zurücksetzen}{88}{section*.125}%
+\contentsline {subsection}{\numberline {5.5.11}Einstellungen}{88}{subsection.5.5.11}%
+\contentsline {subsection}{\numberline {5.5.12}Logout}{89}{subsection.5.5.12}%
+\contentsline {subsection}{\numberline {5.5.13}Benutzerrechte für die Webseite}{89}{subsection.5.5.13}%
+\contentsline {subsubsection}{Administrator}{90}{section*.128}%
+\contentsline {subsubsection}{Normaler Benutzer}{90}{section*.129}%
+\contentsline {subsection}{\numberline {5.5.14}Webseite auf mehrere Sprachen}{90}{subsection.5.5.14}%
+\contentsline {section}{\numberline {5.6}Client/Anzeige}{90}{section.5.6}%
+\contentsline {subsubsection}{Welcome-Seite}{91}{section*.130}%
+\contentsline {subsubsection}{Layout selektieren}{91}{section*.132}%
+\contentsline {subsubsection}{Inhalte Verwaltung}{92}{section*.133}%
+\contentsline {subsection}{\numberline {5.6.1}Layout 1}{92}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Layout 3}{93}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Anzeige für die Chatbot-Bilder}{93}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Anzeige für den Supplierplan}{94}{subsection.5.6.4}%
+\contentsline {section}{\numberline {5.7}Wordpress Webseite API}{94}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Bilder-Funktionalität bei der Chatbot}{95}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Herausforderungen und deren Lösung}{95}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Wertschöpfung und Lessons Learned}{95}{section.5.10}%
+\contentsline {section}{\numberline {5.11}Evaluierung und Resümee}{96}{section.5.11}%
+\contentsline {chapter}{\numberline {6}Ausblick}{97}{chapter.6}%
+\contentsline {chapter}{Abbildungsverzeichnis}{98}{appendix*.138}%
+\contentsline {chapter}{Tabellenverzeichnis}{100}{appendix*.139}%
