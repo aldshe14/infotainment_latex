@@ -605,7 +605,7 @@ Verbindung), und mit dem Server kommunizieren wird. Der RaspberryPi hat einen HD
 In dem Client l\"auft eine Apache Server, MySQL-Datenbank und PHP, die f\"{u}r die Anzeige notwendig ist um die Informationen anzuzeigen. Falls die Anzeige noch nicht von der Admin freigegeben wurde, wird die Anzeige zu eine Welcome-Seite umgeleitet, in dem nur die MAC-Adresse der Anzeige dargestellt wird.
 
 \subsubsection{Welcome-Seite}
-Zur Identifizierung der Anzeige wurde die Willkommensseite  erstellt. Die Anzeige wird automatisch in der Datenbank registriert, wenn die Anzeige zum ersten Mal eingeschaltet wird. Diese Anzeige hat kein Layout und keine Position und erhält einen Standardwert, damit sie sich von den anderen Anzeigen unterscheiden kann. 
+Zur Identifizierung der Anzeige wurde die Willkommensseite  erstellt (auf Abbildung \ref{fi:welcome} dargestellt). Die Anzeige wird automatisch in der Datenbank registriert, wenn die Anzeige zum ersten Mal eingeschaltet wird. Diese Anzeige hat kein Layout und keine Position und erhält einen Standardwert, damit sie sich von den anderen Anzeigen unterscheiden kann. 
 Auf dieser Seite wird auch die ID des Players angezeigt. Dies ist die Mac-Adresse des RaspberryPi.
 \begin{figure}[H]
 	\centering
@@ -631,6 +631,8 @@ Basierend auf dem Layout, das abgespielt werden soll, wird die entsprechende CSS
 Um den Inhalt des Layouts anzuzeigen, wurde eine Funktion erstellt. Die Funktion wird in jedem Teil des Layouts aufgerufen, um den Inhalt zu bekommen. Diese Funktion verwendet als Parameter den Teil, in dem der Inhalt angezeigt werden soll (aufgerufen wurde), die ID und die Mac-Adresse der Anzeige.
 
 Die Funktion gibt den gesamten Inhalt zurück, der auf dem Teil angezeigt werden soll. Für jeden Inhalt (Supplierplan, Bild, Website-Post, Wetterdaten, Chatbot-Bilder) wurde eine spezifische Datei erstellt, die auch das CSS für das Design enthält.
+Auf der Abbildung \ref{fi:beispiel} wird ein mögliches Beispiel dargestellt.
+
 
 \begin{figure}[H]
 	\centering
@@ -652,7 +654,7 @@ Die Anzeige wird unterschiedliche Layouts beinhalten. Eine von denen ist das ers
 	
 \end{itemize}
 
-Auf der Abbildung \ref{fi:layout1} wird ein mögliches Beispiel dargestellt.
+Auf Abbildung \ref{fi:layout1} wird das erste Layout gezeigt.
 
 \begin{figure}[H]
 	\centering
@@ -673,7 +675,7 @@ Dieses Layout besteht aus 3 Hauptteilen: Header, Body und Widget. Hier können a
 
 \subsection{Anzeige für die Chatbot-Bilder}
 
-Bisher haben wir die Informationen nur in der Datenbank gespeichert. Diese Informationen sollten auf dem Display angezeigt werden. Um die Chatbot-Bilder anzuzeigen, wurde eine Datei erstellt. In dieser Datei werden alle Bilder des Tages ausgewählt, die an den Chatbot gesendet wurden. Wenn die Anzahl der Bilder kleiner als 10 ist, werden die Bilder der ganzen Woche angezeigt. Die Bilder werden in einer Slideshow angezeigt und die Bilder ändern sich automatisch alle 10 Sekunden.
+Bisher haben wir die Informationen nur in der Datenbank gespeichert. Diese Informationen sollten auf dem Display angezeigt werden. Um die Chatbot-Bilder (Abbildung \ref{fi:chatbot}) anzuzeigen, wurde eine Datei erstellt. In dieser Datei werden alle Bilder des Tages ausgewählt, die an den Chatbot gesendet wurden. Wenn die Anzahl der Bilder kleiner als 10 ist, werden die Bilder der ganzen Woche angezeigt. Die Bilder werden in einer Slideshow angezeigt und die Bilder ändern sich automatisch alle 10 Sekunden.
 Dort wird die ID des Benutzers angezeigt, der das Bild gesendet hat. Diese ID wird angezeigt, falls jemand ein unpassendes Foto veröffentlicht, damit der Administrator sehen kann, wer es gesendet hat. Er kann dann den Benutzer blockieren, damit das Foto nicht mehr angezeigt wird.
 
 \begin{figure}[H]
@@ -708,10 +710,39 @@ Es wurde beim Chatbot, eine Funktionalität implementiert, wobei die Benutzer di
 
 \section{Herausforderungen und deren Lösung}
 
+In diesem Kapitel sind die Herausforderungen und deren Lösung, die während der Arbeit konfrontiert wurden, beschrieben.
+
+\subsection{Supplierplan}
 Eine der größten Herausforderungen war der Supplierplan. Wie vorher schon erwähnt, dient der Supplierplan  dazu, die fehlenden Lehrer mit anderen Lehrern zu vertreten bzw. zu ersetzen. In diesem Zusammenhang kann es sein, dass ein Lehrer bzw. eine Lehrerin nicht den ganzen Tag fehlen wird. Es gibt Situationen und Tage, in dem ein/e Lehrer/Lehrerin nur für eine bestimmte Zeit fehlt. Beispielweise haben sie etwas Wichtiges zu tun, dass aber nur zwei Unterrichtsstunden dauert. In diesem Fall muss gesichert werden, dass dieser Lehrer von einem Kollegen während dieser Zeit substituiert wird.
 
 
 Um dieses Problem zu lösen und um den Admin die Möglichkeit zu geben, ein Lehrer nur für eine bestimmte Stundenanzahl zu ersetzen, wurde eine kleine Checkbox erstellt. Es geht um eine Dropdown-Liste, bei der alle Lehrer, die zum supplieren bereit sind, stehen. 
+
+\subsection{Übersicht der Layouts}
+
+Eine optimale Art und Weise zu finden, welches Layout bei welcher Anzeige angezeigt wird, war ein wirklich großes Problem. Es wurde nach Lösungen gesucht, und die beste war die Umsetzung eines Zeitplans. Dies war schwierig, da die fortgeschrittenen Kenntnisse von Java-Script für die Implementierung und Programmierung dieser Lösung notwendig waren. 
+
+\subsection{Überschneidungen der Inhalte}
+
+Es war notwendig, vor dem Einfügen der Daten in die Datenbank zu prüfen, ob es Kollisionen zwischen der Start- und Endzeit mit anderen Inhalten gibt. Wenn dies der Fall war, musste ein Fehler angezeigt werden, damit der Benutzer weiß, dass es Kollisionen gibt. Um diese Art von Problemen zu vermeiden, wurde die Startzeit automatisch mit der letzten verfügbaren Zeit gefüllt.
+
+
+\subsection{Neuen Benutzer anlegen}
+
+Das Problem lag hier darin, dass nur der Admin einen neuen Benutzer hinzufügen kann.  Und da der Benutzer keine Wahl für das Passwort hat, musste es eine Möglichkeit sein, dem Benutzer ein Passwort zu geben, das nur er kennt. Wenn der Administrator ein neues Konto erstellt, wird eine E-Mail mit dem neuen Passwort, das automatisch generiert wird, an den neuen Benutzer geschickt. Der Benutzer kann sich dann mit diesem Passwort auf der Webseite anmelden. 
+
+\subsection{Passwort zurücksetzen}
+
+Um das Passwort zurückzusetzen, musste eine Funktion implementiert werden, die es dem Benutzer ermöglicht, das Passwort mit Hilfe eines Links, der per E-Mail versandt wird, zurückzusetzen. Der Link sollte so sicher sein, dass ihn nach einmaliger Benutzung niemand mehr benutzen kann. Dafür wurde eine Funktion implementiert, die den Link nach einmaliger Benutzung als ung\"ultig, so dass ihn niemand mehr benutzen kann.
+
+\subsection{Identifizierung der Anzeigen}
+
+Es war notwendig, die verschiedenen Anzeigen zu identifizieren, damit sie voneinander unterschieden werden können. Der einzige Weg war die Verwendung der Mac-Adresse des Displays. Das Problem ist jedoch, dass die Mac-Adresse mit PHP nur sehr schwer zu finden war. Dieses Skript war auf der Anzeige zu finden. Beim ersten Start der Anzeige kommuniziert diese also mit der Datenbank und fügt die Mac-Adresse ein, wenn sie nicht vorhanden ist. Die Anzeige wird dann auf eine Begrüßungsseite umgeleitet, auf der der Administrator die Mac-Adresse dieser Anzeige sehen und auswählen kann, welche Informationen dort angezeigt werden sollen. 
+
+\subsection{Der letzte Post der Wordpress-Website}
+
+Die letzten Posts zum ersten Mal von der API zu bekommen, die von wordpress zur Verfügung gestellt wird, war nicht so schwer. Der schwierigste Teil war es, die letzten Beiträge nach dem ersten Mal zu erhalten. Hier war es notwendig, einen Vergleich mit allen in der Datenbank gespeicherten Beiträgen durchzuführen. Auf diese Weise konnte es herausfinden, welche Beiträge neu sind und in der Datenbank gespeichert werden sollten.
+
 
 \section{Wertschöpfung und Lessons Learned}
 
@@ -720,4 +751,4 @@ Von dieser Diplomarbeit habe ich Erfahrung in vielen Aspekten gesammelt. Erstens
 
 \section{Evaluierung und Resümee}
 
-Die Anforderungen sind soweit erfüllt. Die Webseite f\"ur den Administrator  wurde programmiert und alle vorher geplanten Funktionen sind dabei. Der Administrator hat die Möglichkeit, die Informationen, die er anzeigen will, dort auswählen. Er kann auch das entsprechende Layout selbst aussuchen. Von dieser Webseite wird nicht nur eine Anzeige, sondern mehrere Anzeigen verwaltet. Es gab eine Funktionalität bei der Webseite, die anders als geplant umgesetzt wurde. Beim Passwort zurücksetzen, wurde vorher so gedacht, dass der Administrator selbst ein Standardpasswort festlegt. Danach wurde das geändert, weil es Sicherheitslücken haben kann. Es wurde so geändert, dass beim Zurücksetzen des Passworts eine Email mit ein Link verschickt wird. Das macht diese Funktion viel besser und sicherer. Es gibt noch einen anderen Punkt, der länger gedauert hat als gedacht, n\"amlich die Bereitstellung von unterschiedlichen Anzeigezeiten für die unterschiedlichen GUI-Bereiche. Es hat viel Zeit beanspruscht, denn es sollte eine benutzerfreundliche Interface implementiert werden. Am Ende wurde das aber erfolgreich abgeschlossen.
+Die Anforderungen sind soweit erfüllt. Die Webseite f\"ur den Administrator  wurde programmiert und alle vorher geplanten Funktionen sind dabei. Der Administrator hat die Möglichkeit, die Informationen, die er anzeigen will, dort auszuwählen. Er kann auch das entsprechende Layout selbst aussuchen. Von dieser Webseite wird nicht nur eine Anzeige, sondern mehrere Anzeigen verwaltet. Es gab eine Funktionalität bei der Webseite, die anders als geplant umgesetzt wurde. Beim Passwort zurücksetzen, wurde vorher so gedacht, dass der Administrator selbst ein Standardpasswort festlegt. Danach wurde das geändert, weil es Sicherheitslücken haben kann. Es wurde so geändert, dass beim Zurücksetzen des Passworts eine Email mit ein Link verschickt wird. Das macht diese Funktion viel besser und sicherer. Es gibt noch einen anderen Punkt, der länger gedauert hat als gedacht, n\"amlich die Bereitstellung von unterschiedlichen Anzeigezeiten für die unterschiedlichen GUI-Bereiche. Es hat viel Zeit beanspruscht, denn es sollte eine benutzerfreundliche Interface implementiert werden. Am Ende wurde das aber erfolgreich abgeschlossen.
