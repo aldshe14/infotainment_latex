@@ -47,15 +47,15 @@
 \contentsline {section}{\numberline {1.11}Probleme, Herausforderungen und deren Lösung}{37}{section.1.11}%
 \contentsline {subsubsection}{APIs}{37}{section*.71}%
 \contentsline {subsubsection}{Anzeige}{37}{section*.72}%
-\contentsline {subsubsection}{Offline Betrieb}{38}{section*.73}%
-\contentsline {subsubsection}{Chatbot}{38}{section*.74}%
+\contentsline {subsubsection}{Offline Betrieb}{37}{section*.73}%
+\contentsline {subsubsection}{Chatbot}{37}{section*.74}%
 \contentsline {subsubsection}{Datenbank}{38}{section*.75}%
 \contentsline {section}{\numberline {1.12}Qualitätssicherung, Controlling}{38}{section.1.12}%
-\contentsline {section}{\numberline {1.13}Ergebnisse - Irena Bala}{39}{section.1.13}%
-\contentsline {subsection}{\numberline {1.13.1}Implementierung}{39}{subsection.1.13.1}%
+\contentsline {section}{\numberline {1.13}Ergebnisse - Irena Bala}{38}{section.1.13}%
+\contentsline {subsection}{\numberline {1.13.1}Implementierung}{38}{subsection.1.13.1}%
 \contentsline {section}{\numberline {1.14}Handbuch für die Bedienung}{39}{section.1.14}%
-\contentsline {subsection}{\numberline {1.14.1}Beschreibung der Bedienung als User}{40}{subsection.1.14.1}%
-\contentsline {subsection}{\numberline {1.14.2}Beschreibung der Bedienung als Administrator}{40}{subsection.1.14.2}%
-\contentsline {section}{\numberline {1.15}Evaluierung und Resümee}{41}{section.1.15}%
-\contentsline {subsection}{\numberline {1.15.1}Planung vs Realisierung}{41}{subsection.1.15.1}%
+\contentsline {subsection}{\numberline {1.14.1}Beschreibung der Bedienung als User}{39}{subsection.1.14.1}%
+\contentsline {subsection}{\numberline {1.14.2}Beschreibung der Bedienung als Administrator}{39}{subsection.1.14.2}%
+\contentsline {section}{\numberline {1.15}Evaluierung und Resümee}{40}{section.1.15}%
+\contentsline {subsection}{\numberline {1.15.1}Planung vs Realisierung}{40}{subsection.1.15.1}%
 \contentsline {subsection}{\numberline {1.15.2}Wertschöpfung und Lessons Learned}{41}{subsection.1.15.2}%
