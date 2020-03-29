@@ -9,17 +9,17 @@ Dies war eine allgemeine Beschreibung von den bisherigen erreichten Ergebnissen.
 \subsection{Chatbot} 
 In diesem Unterkapitel wird eine Einführung in Chatbot gegeben und dessen Umsetzung erklärt.
 \subsubsection{Einführung in Chatbot}
-Chatbot ist eine sehr wichtige Komponente der künstlichen Intelligenz. Es bietet eine Kommunikationsschnittstelle zwischen Menschen und technischen Systemen an. Chatbot empfängt Anweisungen in Textform von Menschen und überträgt diese so, dass die Systeme diesen Anweisungen ausführt und eine Antwort zurückgibt. Basierend auf was Chatbots anbietet, werden diese als sehr schlaue Komponente angesehen, die immer häufiger implementiert werden.
+Chatbot ist eine sehr wichtige Komponente im Bereich der künstlichen Intelligenz. Es bietet eine Kommunikationsschnittstelle zwischen Menschen und technischen Systemen an. Chatbot empfängt Anweisungen in Textform von Menschen und überträgt diese so, dass die Systeme diesen Anweisungen ausführt und eine Antwort zurückgibt. Basierend auf was Chatbots anbietet, werden diese als sehr schlaue Komponente angesehen, die immer häufiger implementiert werden.
 \subsubsection{Umsetzung von Chatbot}
 Chatbot wurde bei dieser Diplomarbeit so implementiert, dass es den Schülern die Möglichkeit gibt, aufgenommene Bilder zum Chatbot zu schicken und diese dann werden automatisch auf dem Bildschirm angezeigt. Das ist auch die wesentliche Funktionalität von Chatbot bei diesem Projekt. \\
 Um den Chatbot zu implementieren, haben viele kleine Prozesse stattgefunden, die als weitere oder zusätzliche Funktionen angesehen werden können.\\
-Zuerst wurde Telegram Bot API als eine Schnittstelle für die Chatbot-Implementierung ausgewählt. Durch diese API können neue Bots erstellt, bearbeitet und verändert werden. Telegram Bot API funktioniert gleich wie die anderen Kommunikationsapplikationen, wie z.B. Whatsapp. Der wesentliche Unterschied ist, dass bei dieser Applikation nicht nur die Möglichkeit angeboten wird, mit anderen Menschen zu chatten, sondern auch mit Chatbots. Jedes Bot, das erstellt wird, bekommt ein Token, dass eindeutig für das Bot ist, wie die Telefonnummer, die für uns eindeutig ist. \\
+Zuerst wurde Telegram Bot API als eine Schnittstelle für die Chatbot-Implementierung ausgewählt. Durch diese API können neue Bots erstellt, bearbeitet und verändert werden. Telegram Bot API funktioniert gleich wie die anderen Kommunikationsapplikationen, wie z.B. Whatsapp. Der wesentliche Unterschied ist, dass bei dieser Applikation nicht nur die Möglichkeit angeboten wird, mit anderen Menschen zu chatten, sondern auch mit Chatbots. Jeder Bot, der erstellt wird, bekommt ein Token, dass eindeutig für den Bot ist, wie die Telefonnummer, die für uns eindeutig ist. \\
 Die komplette Funktionalität des Bots wurde in RaspberryPI Server, mithilfe der Programmiersprache Python programmiert. \\
 Je nachdem ob die Person, die mit dem Bot chatten will, als ein normaler Benutzer oder ein Administrator in der Datenbank definiert ist, werden ihm verschiedene Funktionen im Zusammenhang mit dem Bot zur Verfügung gestellt. Die Nachrichten, die zu dem Bot geschickt werden, werden nach Inhalt überprüft. Basierend auf Inhalt der Nachrichten, wird der Bot auf verschiedene Weisen reagieren.\\
-Die Art der Umsetzung bzw. Realisierung aller dieser Funktionen kann im Unterkapitel 1.9.5 gelesen werden.   
+Die Art der Umsetzung bzw. Realisierung aller dieser Funktionen kann im Unterkapitel 4.10.5 gelesen werden.   
 
 \subsection{Server}
-Das Infotainment System funktioniert wie viele andere technische Systeme auch nach dem Client-Server Prinzip. Das bedeutet, es gibt einen Server und einen Client, die miteinander kommunizieren. Der Client ist in diesem Projekt die Anzeige bzw. das Bildschirm, in dem die von dem Server erhaltene Daten darstellt. \\
+Das Infotainment System funktioniert wie viele andere technische Systeme auch nach dem Client-Server Prinzip. Das bedeutet, es gibt einen Server und einen Client, die miteinander kommunizieren. Der Client ist in diesem Projekt die Anzeige bzw. der Bildschirm, in dem die von dem Server erhaltene Daten dargestellt werden. \\
 Im Server liegen alle benötigten Informationen für die Darstellung. Diese Informationen sind in der Datenbank auf dem Server gespeichert.\\
 Der Server beinhaltet auch die grundlegenden Skripts für die Chatbot-Implementierung und für die Programmierung der Admin-Webseite. Im Server wurde auch das SSL Zertifikat für eine sichere Datenübertragung erstellt.\\
 Die Kommunikation zwischen dem Client und dem Server wird dann aufgebaut, wenn Daten von dem Server ausgewählt und zum Client geschickt werden. 
@@ -56,14 +56,14 @@ Die folgende Tabelle listet die verwendeten Technologien auf und daneben steht a
 \end{center}
 \end{table} 
 \subsubsection{Was ist Apache HTTP Server?} 
-Der Apache HTTP\footnote{Hypertext Transfer Protocol}\nomenclature{HTTP}{Hypertext Transfer Protocol} Server ist ein weltweit verbreitender Webserver. Dieser Server ist Open Source, das bedeutet, dass dafür keine Lizenz gekauft werden muss, um es zu verwenden. Es ist kompatibel auf allen kohärenteren Betriebssystemen, beispielsweise Linux, Windows, Mac OS und andere. Es bietet viele Versionen an, die zu unterschiedlichen Anwendungsgebiete passen und verbesserte Eigenschaften bereitstellen. Durch diesen Webserver können Webseiten erstellt werden. Die Erstellung der Webseiten erfolgt über serverseitige Scriptsprachen, die von dem Server selbst nicht unterstützt werden. Sie werden als Zusatzfunktionen angehängt. \\
-Der Apache HTTP Server bietet viele Funktionalitäten an, die seine Entwicklungsumgebung vergrößern. Die wichtigste davon ist die Möglichkeit der Integration eines SSL \footnote{Secure Socket Layer}\nomenclature{HTTP}{Secure Socket Layer}Zertifikats. Das ermöglicht die Übertragung der Daten in einer verschlüsselten Form. Die detaillierte Funktionsweise eines SSL Zertifikats wird in den Unterkapiteln beschrieben.  \cite{50_apache}
+Der Apache HTTP\footnote{Hypertext Transfer Protocol}\nomenclature{HTTP}{Hypertext Transfer Protocol} Server ist ein weltweit verbreitender Webserver. Dieser Server ist Open Source, das bedeutet, dass dafür keine Lizenz gekauft werden muss, um es zu verwenden. Es ist kompatibel auf allen Betriebssystemen, beispielsweise Linux, Windows, Mac OS und andere. Es bietet viele Versionen an, die zu unterschiedlichen Anwendungsgebiete passen und verbesserte Eigenschaften bereitstellen. Durch diesen Webserver können Webseiten erstellt werden. Die Erstellung der Webseiten erfolgt über serverseitige Scriptsprachen, die von dem Server selbst nicht unterstützt werden. Sie werden als Zusatzfunktionen angehängt. \\
+Der Apache HTTP Server bietet viele Funktionalitäten an, die seine Entwicklungsumgebung vergrößern. Die wichtigste davon ist die Möglichkeit der Integration eines SSL\footnote{Secure Socket Layer}\nomenclature{HTTP}{Secure Socket Layer} Zertifikats. Das ermöglicht die Übertragung der Daten in einer verschlüsselten Form. Die detaillierte Funktionsweise eines SSL Zertifikats wird in dem Unterkapitel 4.5 beschrieben.  \cite{50_apache}
 \subsubsection{Funktionsweise von Apache HTTP Server} 
 „Obwohl Apache als Webserver bezeichnet wird, handelt es sich nicht um einen physischen Server. Apache ist eine Software, die auf einem Server ausgeführt wird. Seine Aufgabe ist es, eine Verbindung zwischen einem physischen Server mit den gespeicherten Webseiten und den Browsern der Internetuser herzustellen. \\
 Wenn ein User eine URL in seinen Webbrowser eingibt, sendet der Browser eine HTTP oder HTTPS \footnote{Hypertext Transfer Protocol Secure}\nomenclature{HTTPS}{Hypertext Transfer Protocol Secure} Anforderung an den Server, auf dem die Webseite gespeichert ist.“ \cite{50_apache} \\
 
 \subsubsection{Was ist MySQL?} 
-MySQL ist ein weitverbreitetes relationales Datenbanksystem. Ein relationales Datenbanksystem dient für die Speicherung der Daten in verschiedenen Tabellen auf einer bestimmten Format. Die Datenbanksysteme werden allgemein zur Datenspeicherung und Datenverwaltung verwendet. Ein wichtiges Kriterium für die Datenspeicherung ist die Performanz. Diese Anforderung wird durch MySQL optimal erfüllt. Das ist auch der Grund, warum dieses Datenbanksystem so populär und bekannt ist. Die von MySQL für die Abarbeitung, Verwaltung und Systematisierung von Daten verwendete Sprache ist SQL\footnote{Structured Query Languague}\nomenclature{SQL}{Structured Query Language}. MySQL ist auch eine Open Source Software,
+MySQL ist ein weitverbreitetes relationales Datenbanksystem. Ein relationales Datenbanksystem dient für die Speicherung der Daten in verschiedenen Tabellen in einem bestimmten Format. Die Datenbanksysteme werden allgemein zur Datenspeicherung und Datenverwaltung verwendet. Ein wichtiges Kriterium für die Datenspeicherung ist die Performance. Diese Anforderung wird durch MySQL optimal erfüllt. Das ist auch der Grund, warum dieses Datenbanksystem so populär und bekannt ist. Die von MySQL für die Abarbeitung, Verwaltung und Systematisierung von Daten verwendete Sprache ist SQL\footnote{Structured Query Languague}\nomenclature{SQL}{Structured Query Language}. MySQL ist auch eine Open Source Software,
 die in meisten Fällen in Verbindung mit serverseitigen Scriptsprachen wie PHP, vorkommt. \cite{50_mysql}
 \subsubsection{Funktionsweise von MySQL} 
 Das MySQL Datenbanksystem wird sehr häufig implementiert. Es gibt viele Unternehmen und Institutionen, die ihre Daten über eine gewisse Zeit speichern wollen. Das MySQL Datenbanksystem, das die Daten beinhaltet, wird als ein Server angesehen. Jeder, der versucht, Zugriff auf diese Daten zu bekommen, wird als ein Client angesehen. Der Server kann die erforderliche Zugänglichkeit erlauben oder nicht. Das hängt von den Clientrechten ab. Die Daten können von den Clients selektiert, bearbeitet oder gelöscht werden. Diese Ereignisse erfolgen durch SQL-Abfragen. Die SQL-Abfragen werden mithilfe der SQL Datenbanksprache erstellt. \cite{50_mysql}
@@ -99,7 +99,7 @@ Mit Hilfe der Skriptsprache JavaScript lassen sich viele dynamische Funktionen r
 	\item Veränderung von Texten oder Grafiken durch den Mauszeiger" \cite{50_javascript}
 \end{itemize}
 \subsubsection{Was ist Python?} 
-Python ist eine objektorientierte Programmiersprache, aber kann auch in prozedurale Programmierung verwendet werden. Sie wurde ausschließlich zum Zweck der einfach einprägsamen Syntax entwickelt. Andererseits haben die Entwickler der Systematisierung des Codes große Bedeutung beigemessen. Wegen dieser angewandten Eigenschaften kann Python in die Gruppe der leichten Programmiersprachen aufgenommen werden. Diese Programmiersprache wird viel verwendet, aber was die Anwendungsumgebung besonders erhöht, ist die Möglichkeit andere Module anzuhängen. Es ist auch eine Open Source Software, der von den Programmierern verwendet, verändert, angepasst bzw. bearbeitet werden kann. Es wird meistens für komplexe Aufgaben verwendet, deswegen wird es als eine Hochsprache betrachtet. \cite{50_python}
+Python ist eine objektorientierte Programmiersprache, aber kann auch als prozedurale Programmierung verwendet werden. Sie wurde ausschließlich zum Zweck der einfach einprägsamen Syntax entwickelt. Andererseits haben die Entwickler der Systematisierung des Codes große Bedeutung beigemessen. Wegen dieser angewandten Eigenschaften kann Python in die Gruppe der leichten Programmiersprachen aufgenommen werden. Diese Programmiersprache wird viel verwendet, aber was die Anwendungsumgebung besonders erhöht, ist die Möglichkeit andere Module anzuhängen. Es ist auch eine Open Source Software, die von den Programmierern verwendet, verändert, angepasst bzw. bearbeitet werden kann. Es wird meistens für komplexe Aufgaben verwendet, deswegen wird es als eine Hochsprache betrachtet. \cite{50_python}
 \subsubsection{Merkmale von Python} 
 \begin{itemize}
 	\item Einfach einprägsame Syntax
@@ -114,21 +114,26 @@ Python ist eine objektorientierte Programmiersprache, aber kann auch in prozedur
 	\item Hohes Niveau der Programmiersprache
 \end{itemize}
 \begin{itemize}
-	\item Leicht veränderbare Programmiersprache\cite{50_python}
+	\item Leicht veränderbare Programmiersprache \cite{50_python}
 \end{itemize}
 \subsubsection{Was ist HTML?} 
-HTML\footnote{HyperText Markup Language}\nomenclature{HTML}{HyperText Markup Language} ist keine Programmiersprache, sondern wird für die Erstellung von Inhalten bei Webseiten verwendet. Diese Inhalte können Texte, Bilder oder andere Komponenten sein. HTML wird als eine Auszeichnungssprache angesehen. Sie ist nicht nur für die Erstellung von Inhalten von Webseiten zuständig, sondern auch für ihr Design. Diese Sprache legt mithilfe von bestimmten Tags die Struktur einer Webseite fest. Im Tag werden die Inhalte gespeichert. Es gibt bestimmte Tags für verschiedene Layout-Elemente.\cite{50_html} %\cite{einstein}
+HTML\footnote{HyperText Markup Language}\nomenclature{HTML}{HyperText Markup Language} ist keine Programmiersprache, sondern wird für die Erstellung von Inhalten bei Webseiten verwendet. Diese Inhalte können Texte, Bilder oder andere Komponenten sein. HTML wird als eine Auszeichnungssprache angesehen. Sie ist nicht nur für die Erstellung von Inhalten von Webseiten zuständig, sondern auch für ihr Design. Diese Sprache legt mithilfe von bestimmten Tags die Struktur einer Webseite fest. Im Tag werden die Inhalte gespeichert. Es gibt bestimmte Tags für verschiedene Layout-Elemente. \cite{50_html} %\cite{einstein}
 \subsubsection{Was ist CSS?} 
 CSS\footnote{Cascading Style Sheets}\nomenclature{CSS}{Cascading Style Sheets} wird im Zusammenhang mit HTML verwendet. Diese Methode wird unten genauer betrachtet. \\
 „CSS steht für Cascading-Style-Sheets und ist eine Möglichkeit für HTML-Dokumente, den Inhalt einer Seite von den Designanweisungen der einzelnen Elemente, wie zum Beispiel Überschriften, Zitate) zu entkoppeln.“ \cite{50_css}
 \subsubsection{Was ist Raspberry PI?} 
-Der Raspberry PI ist ein Minirechner, die zur Linux Programmierung, Shell Scripting und Realisierung von technischen Projekten verwendet wird. Es braucht eine Tastatur, eine Maus, einen Netzteil, VGA\footnote{Video Graphics Array}\nomenclature{VGA}{Video Graphics Array} und HDMI\footnote{High-Definition Multimedia Interface}\nomenclature{HDMI}{High-Definition Multimedia Interface}-VGA Konverter, damit es benutzt werden kann. Die Konfiguration von einem Raspberry PI erfolgt durch eine SD-Karte. Diese SD\footnote{Secure Digital Memory Card}\nomenclature{SD}{Secure Digital Memory Card}-Karte beinhaltet das Image, wo das Betriebssystem liegt. Ein Raspberry PI kann in Zusammenhang mit vielen anderen Komponenten verwendet werden.\cite{50_raspi}
+Der Raspberry PI ist ein SBC\footnote{Single Board Computer}\nomenclature{SBC}{Single Board Computer}-Minirechner, der zur Linux Programmierung, Shell Scripting und Realisierung von technischen Projekten verwendet wird. Es braucht eine Tastatur, eine Maus, einen Netzteil, VGA\footnote{Video Graphics Array}\nomenclature{VGA}{Video Graphics Array}-Kabel und HDMI\footnote{High-Definition Multimedia Interface}\nomenclature{HDMI}{High-Definition Multimedia Interface}-VGA Konverter, damit es benutzt werden kann. Die Konfiguration von einem Raspberry PI erfolgt durch eine SD\footnote{Secure Digital Memory Card}\nomenclature{SD}{Secure Digital Memory Card}-Karte. Diese SD-Karte beinhaltet das Image, wo das Betriebssystem liegt. Ein Raspberry PI kann in Zusammenhang mit vielen anderen Komponenten verwendet werden.\cite{50_raspi}
 \subsubsection{Was ist SSL?} 
-SSL steht für Secure Socket Layer und ist für die verschlüsselte Übertragung der Daten vom Browser zum Server verantwortlich. Die Verbindung zwischen dem Server und dem Browser erfolgt durch das HTTPS-Protokoll. Das ist ein Kommunikationsprotokoll, das eine verschlüsselte Datenübertragung ermöglicht. Heutzutage wird TLS\footnote{Transport Layer Security}\nomenclature{SD}{Transport Layer Security} am meisten verwendet, da es das neueste und modernste Standard von SSL ist.\cite{50_ssl}
+SSL steht für Secure Socket Layer und ist für die verschlüsselte Übertragung der Daten vom Browser zum Server verantwortlich. Die Verbindung zwischen dem Server und dem Browser erfolgt durch das HTTPS-Protokoll. Das ist ein Kommunikationsprotokoll, das eine verschlüsselte Datenübertragung ermöglicht. Heutzutage wird TLS\footnote{Transport Layer Security}\nomenclature{SD}{Transport Layer Security} am meisten verwendet, da es das neueste und modernste Standard von SSL ist. \cite{50_ssl}
 \subsubsection{SSL-Verschlüsselung}
-Um eine verschlüsselte Verbindung zwischen einem Browser und einem Server aufzubauen, werden SSL – Zertifikate integriert. Mittels eines SSL Zertifikats wird die Authentizität einer Webseite überprüft. Das SSL Zertifikat wird von einer Zertifizierungsstelle, erzeugt. Diese Zertifizierungsstelle heißt CA\footnote{Certificate Authority}\nomenclature{CA}{Certificate Authority} und erfordert einige Daten von dem Antragsteller, die für die Erstellung des Zertifikats notwendig sind. Als nächstes, erzeugt der Antragsteller für die Entschlüsselung und Verschlüsselung der übertragenen Daten einen öffentlichen, -und einen privaten Schlüssel. Je grösser die Länge des Schlüssels ist, desto sicherer und besser ist die Verschlüsselung. Meistens werden Schlüssel mit einer Länge von 256 Bit verwendet.\cite{50_ssl}
+Um eine verschlüsselte Verbindung zwischen einem Browser und einem Server aufzubauen, werden SSL – Zertifikate integriert. Mittels eines SSL Zertifikats wird die Authentizität einer Webseite überprüft. Das SSL Zertifikat wird von einer Zertifizierungsstelle, erzeugt. Diese Zertifizierungsstelle heißt CA\footnote{Certificate Authority}\nomenclature{CA}{Certificate Authority} und erfordert einige Daten von dem Antragsteller, die für die Erstellung des Zertifikats notwendig sind. Als nächstes, erzeugt der Antragsteller für die Entschlüsselung und Verschlüsselung der übertragenen Daten einen öffentlichen und einen privaten Schlüssel. Je grösser die Länge des Schlüssels ist, desto sicherer und besser ist die Verschlüsselung. Meistens werden Schlüssel mit einer Länge von 256 Bit verwendet. \cite{50_ssl}
+
 \subsubsection{Was ist Telegram Bot API?} 
-Telegram Bot API\footnote{Application Programming Interface}\nomenclature{API}{Application Programming Interface} ist eine Schnittstelle, die die Implementierung von Chatbot ermöglicht. Es bietet verschiedene Funktionen an, nämlich die Einrichtung, Erstellung und die Verarbeitung von Bots. Die genommenen Funktionen sind in der Dokumentation vom Telegram Bot API klar beschrieben. \cite{50_telegram}  
+Telegram Bot API\footnote{Application Programming Interface}\nomenclature{API}{Application 
+Programming Interface} ist eine Schnittstelle, die die Chatbot-Implementierung ermöglicht. \\
+Es bietet
+verschiedene Funktionen an, nämlich die Einrichtung, Erstellung und die Verarbeitung von Bots. Die genommenen Funktionen sind in der Dokumentation vom Telegram Bot API klar beschrieben. \cite{50_telegram}  
+
 \subsubsection{Was ist Wetter API?} 
 „Wetter APIs sind Schnittstellen, die die Verbindung zu einer großen Wettervorhersage-Datenbank und die Aufnahme benötigter Daten ermöglichen.“ \cite{50_Wetter}
 \subsubsection{Was ist JSON?} 
@@ -158,12 +163,12 @@ In der untenstehenden Tabelle sind alle Technologien, zusammen mit dem Bereich w
 \end{table} 
 \section{Structured Software Design}
 
-Die Abbildung \ref{fig:ersteebene} stellt den Structed Software Design von dem Server dar. Durch diese Methode wird die komplette Funktionalität des Severs dieses Systems geplant. Alle Module, die miteinander verbunden sind, sind die Komponente des Systems, also Teil des Servers. Zwischen der Module erfolgt die Daten\"ubermittlung. 
-Der Pfeil bei der unteren Abbildung, Init genannt, zeigt das Hochfahren des Servers. Nach der Servereinschaltung wird ein Request zu allen Komponenten geschickt, damit sie auch eingeschaltet werden sollen. Diese Komponente sind der Chatbot, die Datenbank und die APIs. 
+Die Abbildung \ref{fig:ersteebene} stellt den Structed Software Design von dem Server dar. Durch diese Methode wird die komplette Funktionalität des Severs dieses Systems geplant. Alle Module, die miteinander verbunden sind, sind die Komponenten des Systems, also Teil des Servers. Zwischen den Modulen erfolgt die Daten\"ubermittlung. 
+Der Pfeil auf Abbildung\ref{fig:ersteebene}, Init genannt, zeigt das Hochfahren des Servers. Nach der Servereinschaltung wird ein Request zu allen Komponenten geschickt, damit sie auch eingeschaltet werden sollen. Diese Komponente sind der Chatbot, die Datenbank und die APIs. 
 Nachdem die Komponenten eingeschalten sind, schicken sie eine Statusmeldung zum Server, wie in der Abbildung \ref{fig:ersteebene} ersichtlich ist. \\
 \\
 Nachdem der Chatbot eingeschalten wird und mit der Arbeit angefangen hat, wird er Daten produzieren, die zuerst überprüft werden sollen, ob sie im richtigen Format sind oder nicht. Falls der Chatbot Bilder kriegt, wird ein SQL-Query erstellt und die Daten werden in die Datenbank gespeichert. Falls nicht, wird alles im Log Modul gespeichert. Der Log Modul hat dieselbe Funktionalität für alle Komponenten. Es speichert einfach alle Daten und alle Ergebnisse.
-Dasselbe passiert mit der APIs auch. Die WetterAPI und Website API speichern ihre Ergebnisse im Log. Wenn sie Daten zurückliefen, werde sie zuerst validiert und dann auf die Datenbank gespeichert.\\
+Dasselbe passiert mit der APIs auch. Die Wetter API und Website API speichern ihre Ergebnisse im Log. Wenn sie Daten zurückliefen, werde sie zuerst validiert und dann auf die Datenbank gespeichert.\\
 Am Ende erfolgt eine Anfrage von dem RaspberryPI Server. Er erfordert die gesammelten Daten aller Komponenten. Sie werden zuerst validiert dann von Log genommen und danach zum Server geschickt.
 \captionsetup{type=figure}
 \includegraphics[width=\linewidth]{\ordnerfigures server.png}
@@ -172,10 +177,10 @@ Am Ende erfolgt eine Anfrage von dem RaspberryPI Server. Er erfordert die gesamm
 \section{Konfiguration von Raspberry PI Server}
 Folgende Schritte sind für die Konfiguration vom RaspberryPI notwendig: \\
 \begin{itemize}
-	\item Zuerst wurde ein Image daraufgespielt, die das Betriebssystem von Raspberry PI beinhaltet.
+	\item Zuerst wurde ein Image auf RaspberryPI gespielt, die das Betriebssystem von Raspberry PI beinhaltet.
 \end{itemize}
 \begin{itemize}
-	\item Danach wurden die folgenden gebrauchten Paketen installiert: git, vim, apache2, python-pip, telepot, php php-mbstring, mariadb-server php-mysql, phpmyadmin.
+	\item Danach wurden die folgenden gebrauchten Paketen installiert: git, vim, apache2, python-pip, telepot, php php-mbstring, mariadb-server php-mysql und phpmyadmin.
 \end{itemize}
 \begin{itemize}
 	\item In der Konfigurationsdatei wurde die IP-Adresse von dem Raspberry PI angelegt.
@@ -227,7 +232,7 @@ Zuerst wurde ein ER\footnote{Entity Relationship}\nomenclature{ER}{Entity Relati
 	\end{itemize}
 
 Basierend auf das ER Diagramm wurden dann die Tabellen mit phpmyadmin erstellt. Dann wurden für alle Tabellen mit MySQL Workbench die entsprechenden gespeicherten Prozeduren erstellt. 
-F\"ur die Anzeige von den leeren Klassen wurde es eine gespeicherte Prozedur erstellt, die als Parameter den Tag und die Stunden nimmt. Danach wurden alle R\"aume aus der Tabelle Unterricht selektiert, die leer sind, indem es kein Unterricht stattfindet. \\
+F\"ur die Anzeige von den leeren Klassen wurde eine gespeicherte Prozedur erstellt, die als Parameter den Tag und die Stunden nimmt. Danach wurden alle R\"aume aus der Tabelle Unterricht selektiert, die leer sind, indem es kein Unterricht stattfindet. \\
 \\
 \captionsetup{type=figure}
 \includegraphics[width=\linewidth]{\ordnerfigures erd_irenaa.png}
@@ -249,7 +254,7 @@ Es wurde ein SSL Zertifikat für den Apache HTTP Server eingerichtet.
 	\item Danach wurde die Datei /etc/apache2/sites-available/default-ssl.conf geöffnet.
 \end{itemize}
 \begin{itemize}
-	\item Unter der Zeile, wo SSL Engine On steht, wurden die erstellten Zertifikatdateien zugefügt
+	\item Unter der Zeile, wo SSL Engine On steht, wurden die erstellten Zertifikatdateien zugefügt.
 \end{itemize}
 \begin{itemize}
 	\item Danach wurde der Virtuellhost mit SSL aktiviert. 
@@ -266,7 +271,7 @@ Auf Abbildung \ref{ss} ist die SSL Zertifikate ersichtlich. Diese ist eine selbs
 	\label{ss} 
 \end{center}
 \section{Layout}
-Es werden verschiedene Layouts f\"ur die Anzeige zur Verf\"ugung gestellt. Diese Layouts wurden mit Css formatiert. Auf Abbildung \ref{f} ist ein Beispiel ersichtlich, wobei die Anzeige in vier Teilbereichen geteilt wird. Der kleinste Bereich, der oben steht, ist f\"ur die Darstellung von Uhr und Datum geeignet. In dem gro\ss{}en Bereich werden z.B. der Stundenplan oder Supplierplan dargestellt. Die anderen Bereiche dienen f\"ur die Darstellung von der letzten Post der Webseite der Schule und f\"ur die Wetter Daten.
+Es werden verschiedene Layouts f\"ur die Anzeige zur Verf\"ugung gestellt. Diese Layouts wurden mit CSS formatiert. Auf Abbildung \ref{f} ist ein Beispiel ersichtlich, wobei die Anzeige in vier Teilbereichen geteilt wird. Der kleinste Bereich, der oben steht, ist f\"ur die Darstellung von Uhr und Datum geeignet. In dem gro\ss{}en Bereich werden z.B. der Stundenplan oder Supplierplan dargestellt. Die anderen Bereiche dienen f\"ur die Darstellung von der letzten Post der Webseite der Schule und f\"ur die Wetterdaten.
 Auf Abbildung \ref{Lerfre} ist ein anderes Beispiel ersichtlich. In diesem Fall wird die Anzeige in Vollbildmodus dargestellt. Hier k\"onnen z.B. die Chatbot-Bilder angezeigt werden.
 \begin{center}
 	\captionsetup{type=figure}
@@ -282,9 +287,9 @@ Auf Abbildung \ref{Lerfre} ist ein anderes Beispiel ersichtlich. In diesem Fall 
 \end{center}
 \section{Anzeige}
 Bei der Anzeige sind die Wetterdaten, Kalenderinformationen, Stundenplan und die leeren Klassen dargestellt. Die Wetterdaten wurden aus dem API Call gelesen, in der Datenbank gespeichert und dann durch ein PHP Skript von der Datenbank abgelesen und angezeigt. Auf die Abbildung \ref{Wetter} ist die Darstellung der Wetterdaten auf dem Bildschirm ersichtlich. \\
-Die Kalenderinformationen sind selbst vom Administrator geschriebene Informationen. Der Administrator kann bei der Webseite die Kalenderinformationen hinzuf\"ugen, wobei er einen Titel, eine Beschreibung, das Datum an diesem ein bestimmtes Ereignis eintritt und die Start, -Endezeit schreiben soll. Diese Daten werden danach in der Kalenderinformationen Tabelle in der Datenbank gespeichert. F\"ur die Anzeige werden die Datens\"atze aus der Datenbank selektiert, sp\"ater werden sie formatiert und dargestellt. Die Schnittstelle mit der Datenbank bietet die PHP Programmiersprache, w\"ahrend CSS f\"ur die Formatierung der Daten gebraucht wurde. Die Kalenderinformationen sind auf die Abbildung \ref{Kalender} ersichtlich. \\
-Um den Stundenplan darzustellen, wurden die Daten von der Tabelle Unterricht mittels eines PHP Skriptes selektiert. Die herausgenommenen Informationen wurden danach f\"ur die Darstellung vorbereitet.  Beim Stundenplan sollten die Klassen, Gruppen, R\"aume und F\"acher dargestellt. Bei der Darstellung wurde die HTML rowspan Attribut f\"ur die Einteilung der Klassen in Gruppen verwendet. Danach wurden die Eintr\"age f\"ur jede Gruppe erf\"ullt. Der Stundenplan ist auf die Abbildung \ref{stundenplann} ersichtlich. \\
-Die leeren Klassen sind durch die Erstellung einer gespeicherten Prozedur von der Unterricht Tabelle herausgenommen. Diese Prozedur bekommt als Parameter den Tag und die Stunde anhand derer die leeren Klassen gefunden sollen. Die Formatierung von den leeren Klassen wurde wie bei den anderen Tabellen auch mit CSS gemacht. Die leeren Klassen sind auf die Abbildung \ref{Leere} ersichtlich. \\
+Die Kalenderinformationen sind selbst vom Administrator geschriebene Informationen. Der Administrator kann bei der Webseite die Kalenderinformationen hinzuf\"ugen, wobei er einen Titel, eine Beschreibung, das Datum, an diesem ein bestimmtes Ereignis eintritt, und die Start, -Endezeit schreibt. Diese Daten werden danach in der Kalenderinformationen Tabelle in der Datenbank gespeichert. F\"ur die Anzeige werden die Datens\"atze aus der Datenbank selektiert, sp\"ater werden sie formatiert und dargestellt. Die Schnittstelle mit der Datenbank bietet die PHP Programmiersprache, w\"ahrend CSS f\"ur die Formatierung der Daten gebraucht wurde. Die Kalenderinformationen sind auf Abbildung \ref{Kalender} ersichtlich. \\
+Um den Stundenplan darzustellen, wurden die Daten von der Tabelle Unterricht mittels eines PHP Skriptes selektiert. Die herausgenommenen Informationen wurden danach f\"ur die Darstellung vorbereitet.  Beim Stundenplan sollten die Klassen, Gruppen, R\"aume und F\"acher dargestellt. Bei der Darstellung wurde die HTML rowspan Attribut f\"ur die Einteilung der Klassen in Gruppen verwendet. Danach wurden die Eintr\"age f\"ur jede Gruppe erf\"ullt. Der Stundenplan ist auf Abbildung \ref{stundenplann} ersichtlich. \\
+Die leeren Klassen sind durch die Erstellung einer gespeicherten Prozedur von der Unterricht Tabelle herausgenommen. Diese Prozedur bekommt als Parameter den Tag und die Stunde anhand derer die leeren Klassen gefunden werden sollen. Die Formatierung von den leeren Klassen wurde, wie bei den anderen Tabellen auch, mit CSS gemacht. Die leeren Klassen sind auf Abbildung \ref{Leere} ersichtlich. \\
 \begin{center}
 	\captionsetup{type=figure}
 	\includegraphics[width=0.8\linewidth]{\ordnerfigures kale.jpg}
@@ -304,15 +309,15 @@ Die leeren Klassen sind durch die Erstellung einer gespeicherten Prozedur von de
 	\label{stundenplann} 
 \end{center}
 \section{Offline Betrieb}
-Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr wichtig. Durch den Offline-Betrieb werden die Displays, die als Clients dienen, bei Stromausfall nicht vollständig ausgeschaltet, sondern weiterhin Informationen anzeigen. Da die Displays die Daten kontinuierlich vom Server empfangen, würde ohne Strom die Verbindung zum Server getrennt und die Bildschirme ausgeschaltet. Daher war die Implementierung von Offline-Betrieb äußerst notwendig. Der Offline-Betrieb dient zur Synchronisierung von Daten zwischen Client und Server. Es ermöglicht ein kontinuierliches Backup. Wenn kein Strom vorhanden ist, zeigen die Bildschirme weiterhin die letzten Daten an, die sie vom Server empfangen haben. Die Datenübertragung erfolgt durch Aufrufen eines Skripts mithilfe von crontab Befehl alle 5 Minuten. Crontab dient dazu, ein bestimmtes Ereigniss regelm\"a\ss{}ig auszuf\"uhren. Der Client erhält also automatisch alle Änderungen, die auf dem Server auftreten. Das Skript zum Synchronisieren von Daten wurde manuell mit der PHP-Programmiersprache erstellt.
+Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr wichtig. Durch den Offline-Betrieb werden die Displays, die als Clients dienen, bei Stromausfall nicht vollständig ausgeschaltet, sondern weiterhin Informationen anzeigen. Da die Displays die Daten kontinuierlich vom Server empfangen, würde ohne Strom die Verbindung zum Server getrennt und die Bildschirme ausgeschaltet. Daher war die Implementierung von Offline-Betrieb äußerst notwendig. Der Offline-Betrieb dient zur Synchronisierung von Daten zwischen Client und Server. Es ermöglicht ein kontinuierliches Backup. Wenn kein Strom vorhanden ist, zeigen die Bildschirme weiterhin die letzten Daten an, die sie vom Server empfangen haben. Die Datenübertragung erfolgt durch Aufrufen eines Skripts - mithilfe von crontab Befehl  - - alle 5 Minuten. Crontab dient dazu, ein bestimmtes Ereigniss regelm\"a\ss{}ig auszuf\"uhren. Der Client erhält also automatisch alle Änderungen, die auf dem Server auftreten. Das Skript zum Synchronisieren von Daten wurde manuell mit der PHP-Programmiersprache erstellt.
 \begin{itemize}
 	\item Es wurde ein PHP-Skript f\"ur die Implementierung von Offline Betrieb erstellt.
-	\item Zuerst wurde ein Array mit Tabellennamen, die ebenfalls an den Client übergeben werden müssen erstellt. Diese sind die Namen der Tabellen, die im Server liegen.
+	\item Zuerst wurde ein Array mit Tabellennamen, die ebenfalls an den Client übergeben werden müssen,  erstellt. Diese sind die Namen der Tabellen, die im Server liegen.
 	\item Es wurde dann eine Verbindung mit dem Server gebaut.
 	\item Es wurde ein SQL-Query gebaut, wo alle Daten von den Displays, oder Clients selektiert wurden.
 	\item Es wurde eine Verbindung mit jedem Display gemacht.
-	\item Nachdem die Verbindung mit den Displays gemacht wurde, wurden die Datens\"tze von den Server-Tabellen, denen Namen im ersten Array sind, selektiert.
-	\item Danach wurden die Spalten von diesen Tabellen mithilfe von dem Befehl "Show Columns" aufgelistet.
+	\item Nachdem die Verbindung mit den Displays gemacht wurde, wurden die Datens\"atze von den Server-Tabellen, denen Namen im ersten Array sind, selektiert.
+	\item Danach wurden die Spalten von diesen Tabellen mithilfe von dem Befehl Show Columns aufgelistet.
 	\begin{lstlisting}[frame=single]
 	$st="SHOW COLUMNS FROM ".$tables[$i].";";
 	$pdo = $con->prepare($st);
@@ -320,7 +325,7 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	$res = $pdo->fetchAll(PDO::FETCH_ASSOC);
 	\end{lstlisting}
 	\captionof{lstlisting}{Implementierung von Offline Betrieb}
-	\item Es wurden dann die Tabellen, die im Client und im Server sind verglichen. Wenn im Client fehlende Tabellen gibt, wurde dann ein Query gebaut, wo alle Tabellen die im Server sind, aber im Client fehlen, erstellt werden und die Spalten auch.
+	\item Es wurden dann die Tabellen, die im Client und im Server sind, verglichen. Wenn im Client fehlende Tabellen gibt, wurde dann ein Query gebaut, wo alle Tabellen die im Server sind, aber im Client fehlen, erstellt werden und die Spalten auch.
 	 \begin{lstlisting}[frame=single]
 	 try{
 	 	$stmt="CREATE TABLE IF NOT EXISTS ".$tables[$i]."(";
@@ -337,9 +342,9 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	 	echo "<br> Create failed:". $e->getMessage();
 	 \end{lstlisting}
 	 \captionof{lstlisting}{Offline Betrieb-Erstellung der fehlenden Tabellen im Client}
-	 \item Mithilfe von dem Funktion arraydiff in Python, wurde ein Vergleich zwischen den Tabellen und deren Datens\"atze im Client und im Server gemacht. Falls diese Funktion nichts zur\"uckgibt, bedeutet es, dass der Client schon auf dem neuesten Stand ist. Falls nicht, wird alles was im Server ist, aber im Client nicht, im Client hinzugef\"ugt.
+	 \item Mithilfe der Funktion arraydiff in Python, wurde ein Vergleich zwischen den Tabellen und deren Datens\"atze im Client und im Server gemacht. Falls diese Funktion nichts zur\"uckgibt, bedeutet es, dass der Client schon auf dem neuesten Stand ist. Falls nicht, wird alles was im Server ist, aber im Client nicht, im Client hinzugef\"ugt.
 \end{itemize}
-\subsection{Konkrete Beispiele mit Bildern}
+\subsection{Konkrete Beispiele}
 \begin{itemize}
 	\item In der folgenden Abbildung ist phpMyAdmin von einem Display mit fehlenden Tabellen ersichtlich. Die Infotainment Datenbank existiert schon, aber die Tabellen und deren Datens\"atze fehlen. Es wurde ein Select-Query aufgebaut, wobei alle Tabellen von Infotainment System Datenbank selektiert worden sind, aber es kommt eine leere Ergebnissmenge zur\"uck. Das bedeutet, dass momentan die Datenbank leer ist.
 \end{itemize}
@@ -355,11 +360,11 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 \begin{center}
 	\captionsetup{type=figure}
 	\includegraphics[width=0.9\linewidth]{\ordnerfigures offlinebetrieb2.jpg}
-	\caption{Offline Betrieb Skript Ausf\"uhrung}
+	\caption{Ausf\"uhrung Offline Betrieb Skript}
 	\label{Ofl} 
 \end{center}
 \begin{itemize}
-	\item Nachdem dieses Skript ausgef\"uhrt wird, werden die Tabellen, die in der Datenbank von Server liegen, auch im Client nacheinander erstellt. In der folgenden Abbildung ist die Erstellung von den ersten zehn Tabellen ersichtlich.  
+	\item Nachdem dieses Skript ausgef\"uhrt wird, werden die Tabellen, die in der Datenbank von Server liegen, im Client nacheinander erstellt. In der folgenden Abbildung ist die Erstellung von den ersten zehn Tabellen ersichtlich.  
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -368,7 +373,7 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	\label{stundenplanfsn} 
 \end{center}
 \begin{itemize}
-	\item Auf der Abbildung \ref{studenplanfsn} ist die Erstellung von 16 Tabellen im Client ersichtlich. Das Skript wird weiter ausgef\"uhrt. 
+	\item Auf Abbildung \ref{studenplanfsn} ist die Erstellung von 16 Tabellen im Client ersichtlich. Das Skript wird weiter ausgef\"uhrt. 
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -377,7 +382,7 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	\label{studenplanfsn} 
 \end{center}
 \begin{itemize}
-	\item Auf der Abbildung \ref{studenlanfsn} ist die vollst\"andige Erstellung von 18 Tabellen im Client ersichtlich. Also, das Display/der Client hat alle Tabellen vom Server bekommen.
+	\item Auf Abbildung \ref{studenlanfsn} ist die vollst\"andige Erstellung von 18 Tabellen im Client ersichtlich. Also, das Display/der Client hat alle Tabellen vom Server bekommen.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -411,7 +416,7 @@ Als letztens werden mithilfe von PHP die in der Datenbank gespeicherten Paramete
 In diesem Unterkapitel wird der Chatbot und dessen Umsetzung erklärt.
 \subsection{Chatbot Einrichtung}
 \begin{itemize}
-	\item Zuerst wurde die Applikation Telegram auf dem Handy heruntergeladen
+	\item Zuerst wurde die Applikation Telegram auf dem Handy heruntergeladen.
 \end{itemize}
 \begin{itemize}
 	\item Als nächstes wurde nach einem Benutzer mit der Name Botfather gesucht. Der Botfather ist der Verwalter von Bots und ist für die Einrichtung des Chatbots zuständig.
@@ -420,16 +425,16 @@ In diesem Unterkapitel wird der Chatbot und dessen Umsetzung erklärt.
 	\item Danach wurde zum Botfather eine Anfrage mit dem Befehl /newbot geschickt, um einen neuen Bot zu erstellen. 
 \end{itemize}
 \begin{itemize}
-	\item Der Botfather fragte danach nach, wie das neue Bot genannt wird und was für ein Benutzername es haben wird.  
+	\item Der Botfather fragte danach, wie das neue Bot genannt wird und was für ein Benutzername es haben wird.  
 \end{itemize}
 \begin{itemize}
 	\item Anschliessend wurde von dem Botfather das Token des neuen Bots bekannt gegeben, mit dem der Bot weiterentwickelt werden kann. 
 \end{itemize}
 \begin{itemize}
-	\item Nach der Durchführung von diesen Schritten, ist der Bot fertig erstellt geworden. Es könnte dann mit dem angegebenen Benutzernamen durchsucht werden und der entsprechende Chat damit geöffnet werden. 
+	\item Nach der Durchführung dieser Schritten, ist der Bot fertig erstellt geworden. Es könnte dann mit dem angegebenen Benutzernamen durchsucht werden und der entsprechende Chat damit geöffnet werden. 
 \end{itemize}
 \subsection{Einrichtung des Chatbots in RaspberryPI}
-Die Entwicklung und die Programmierung von Chatbot wurde am RaspberryPI Server gemacht. Damit der RaspberryPI mit dem Telegram Bot API verbunden werden kann, sollten im Raspberry PI zwei Pakete installiert werden. Diese Pakete sind telepot und python-pip. Telepot ist ein Paket, dass die Verbindung zum Telegram Bot API erstellt und mit einem Python-Framework funktioniert. Python-pip ist die Programmierschnittstelle für Python.\cite{50_telegram}
+Die Entwicklung und die Programmierung von Chatbot wurde am RaspberryPI Server gemacht. Damit der RaspberryPI mit dem Telegram Bot API verbunden werden kann, sollten im Raspberry PI zwei Pakete installiert werden. Diese Pakete sind telepot und python-pip. Telepot ist ein Paket, dass die Verbindung zum Telegram Bot API erstellt und mit einem Python-Framework funktioniert. Python-pip ist die Programmierschnittstelle für Python. \cite{50_telegram}
 \subsection{Grundlagen für die Umsetzung von Chatbot}
 
 Als erstens muss ein Python Skript erstellt werden. Danach wurden die benötigten Module für den Python Interpreter importiert.  Der Wichtigste davon ist der, der die Schnittstelle zum Telegram Bot API bildet.
@@ -438,15 +443,15 @@ Der Token, den wir von dem Botfather bekommen haben, wurde in einer Variable ges
 \subsection{Funktionalitäten von Chatbot}
 Je nachdem ob die Person, die eine Nachricht zu dem Infotainment Bot schickt, ein Administrator, ein normaler Benutzer oder ein unregistrierter Benutzer ist, werden ihn verschiedene Funktionalitäten angeboten. 
 \subsubsection{Unregistrierte Benutzer}
-Wenn eine Person zum ersten Mal eine Nachricht zum Infotainment Bot schickt, ist er noch nicht in der Datenbank registriert. Der Bot wird ihn fragen ob er registrieren will oder nicht. Die Möglichkeit zur Registrierung erfolgt durch zwei Buttons, die im Bot integriert werden. Falls der unregistrierte Benutzer Ja druckt, bittet er ihn die Telefonnummer einzugeben. Durch diese Telefonnummer wird dann der Benutzer in der Datenbank gespeichert. Falls nein, wird ihm nur eine Nachricht vom Chatbot zurückgeschickt, ("Registrierung nicht durchgeführt, Interaktion nicht möglich").\\
+Wenn eine Person zum ersten Mal eine Nachricht zum Infotainment Bot schickt, ist er noch nicht in der Datenbank registriert. Der Bot wird ihn fragen ob er registrieren will oder nicht. Die Möglichkeit zur Registrierung erfolgt durch zwei Buttons, die im Bot integriert werden. Falls der unregistrierte Benutzer Ja druckt, bittet er ihn die Telefonnummer einzugeben. Durch diese Telefonnummer wird dann der Benutzer in der Datenbank gespeichert. Falls Nein, wird ihm nur eine Nachricht vom Chatbot zurückgeschickt, ("Registrierung nicht durchgeführt, Interaktion nicht möglich").\\
 Die Telefonnummer, die von dem unregistrierten Benutzer eingegeben wird, soll nach Inhalt überprüft werden. Wenn der Benutzer z.B. Text eingibt, wird das nicht genehmigt und nicht gespeichert. Falls es eine Zahl ist, soll es zwischen 10 und 12 Ziffern lang sein und mit einem Prefix anfangen. Ansonsten wird es nicht genehmigt und der unregistrierter Benutzer bekommt wieder die Möglichkeit vom Chatbot die Nummer richtig zu schreiben. \\
 Der Infotainment Bot bietet dem unregistrierten Benutzer die M\"oglichkeit, die Sprache zu \"andern. Dieser Benutzer kann zwischen zwei Sprachen w\"ahlen, n\"amlich zwischen Englisch und Deutsch.
-Basierend auf der ausgewählten Sprache, erm\"oglicht der Infotainment Bot die Interaktion mit dem Benutzer in dieser Sprache. Daher werden alle Nachrichten in der ausgewählten Sprache an Benutzer geschickt. Momentan stellt der Infotainment Bot nur diese zwei Sprachen zur Verf\"ugung. Das System ist aber skalierbar, was bedeutet, dass es leicht erweitert und adaptiert werden kann. Das hei\ss{}t, dass es k\"onnen dem Benutzer auch andere Sprachen angeboten werden. \\
+Basierend auf der ausgewählten Sprache, erm\"oglicht der Infotainment Bot die Interaktion mit dem Benutzer in dieser Sprache. Daher werden alle Nachrichten in der ausgewählten Sprache an Benutzer geschickt. Momentan stellt der Infotainment Bot nur diese zwei Sprachen zur Verf\"ugung. Das System ist aber skalierbar, was bedeutet, dass es leicht erweitert und adaptiert werden kann. Das hei\ss{}t, es k\"onnen dem Benutzer auch andere Sprachen angeboten werden. \\
 Die Informationen über den unregistrierten Benutzer wird der Administrator bekommen. Er soll dann die Genehmigung geben, ob diese Person schon eine Interaktion mit dem Chatbot haben darf oder nicht. 
 \subsubsection{Normale Benutzer}
 Die Daten über die normalen Benutzer sind nach der Registrierung in der Datenbank gespeichert. Diese Benutzer sind vom Administrator genehmigt. Die Nachrichten, die diese normalen Benutzer zum Chatbot schicken werden nach Inhalt überprüft. Falls sie ein Bild schicken, wird dieses Bild auf die Datenbank gespeichert und auf dem Bildschirm angezeigt. \\
 Wenn aber der Benutzer eine Nachricht schickt, die kein Bild ist, wird es keine Interaktion mit dem Bot geben, weil dem Bot die anderen Nachrichtformate nicht interessieren. \\
-Au\ss{}erdem hat der normale Benutzer, die M\"oglichkeit, die Sprache auszuw\"ahlen. Der Infotainment Bot stellt die Sprachen Englisch und Deutsch zur Verf\"ugung. Je nachdem was man w\"ahtl, wird die Interaktion zwischen Infotainment Bot und den Benutzter in der ausgew\"hlten Sprache gemacht. 
+Au\ss{}erdem hat der normale Benutzer, die M\"oglichkeit, die Sprache auszuw\"ahlen. Der Infotainment Bot stellt die Sprachen Englisch und Deutsch zur Verf\"ugung. Je nachdem was man w\"ahlt, wird die Interaktion zwischen Infotainment Bot und den Benutzter in der ausgew\"ahlten Sprache gemacht. 
 
 \subsubsection{Administrator}
 Dem Administrator werden andere Möglichkeiten zur Verfügung gestellt. Er ist in der Lage die normalen und die unregistrierten Benutzer zu sehen. Die werden von der Datenbank selektiert und durch den Bot dargestellt. Dort kann er die Genehmigung für die unregistrierten Benutzer geben. Er kann auch die normalen Benutzer blockieren, wenn sie einmal ein unpassendes Bild geschickt haben. Der Administrator kann im Falle eines Notfalls eine Nachricht zu allen Benutzern schicken, um sie zu benachrichtigen. \\
@@ -454,9 +459,8 @@ Wie alle anderen Benutzer, kann der Administrator die Sprache auswählen, in der
 \\
 \subsection{Umsetzung der Funktionalitäten}
 \begin{itemize}
-	\item Zuerst wurde ein Query geschrieben, um zu überprüfen ob die Person, die eine Nachricht zum Bot geschrieben hat, schon in der Datenbank registriert ist oder nicht. \\
+	\item Zuerst wurde ein Query geschrieben, um zu überprüfen ob die Person, die eine Nachricht zum Bot geschrieben hat, schon in der Datenbank registriert ist oder nicht. 
 \end{itemize} 
-
 \begin{lstlisting}[frame=single]
 query=("SELECT c_id, role, user_status, checked, telefonnummer 
 from  tb_infotainment_system_chatbot_users 
@@ -467,10 +471,10 @@ if count > 0:
 \end{lstlisting}
 \captionof{lstlisting}{Select Query für die registrierten Benutzer in die Datenbank}
 \begin{itemize}
-	\item Falls diese Person registriert ist, wird überprüft was f\"ur Rechte er hat. Falls er ein Administrator ist, werden die Nachrichten, die er zum Chatbot sendet analysiert und die entsprechenden Ergebnisse zurückgeschickt. 
+	\item Falls diese Person registriert ist, wird überprüft welche Rechte er hat. Falls er ein Administrator ist, werden die Nachrichten, die er zum Chatbot sendet analysiert und die entsprechenden Ergebnisse zurückgeschickt. 
 \end{itemize}	
 \begin{itemize}
-	\item Wenn der Administrator /users zum Bot schreibt, bedeutet dass er alle Benutzer sehen will. Es wird ein Query geschrieben, die diese Benutzer aus der Datenbank selektiert. An dem Administrator wird die ID der Benutzer und deren Telefonnummer geschickt. Wenn es keine Benutzer gibt, wird ihm eine Nachricht zur\"uckgeschickt, dass momentan im System keine Benutzer sind.
+	\item Wenn der Administrator /users zum Bot schreibt, bedeutet dass er alle Benutzer sehen will. Es wird ein Query geschrieben, die alle Benutzer aus der Datenbank selektiert. An dem Administrator wird die ID der Benutzer und deren Telefonnummer geschickt. Wenn es keine Benutzer gibt, wird ihm eine Nachricht zur\"uckgeschickt, dass es momentan im System keine Benutzer gibt.
 \end{itemize}
 \begin{lstlisting}[frame=single]
 if command == '/users':
@@ -490,7 +494,7 @@ if command == '/users':
 \end{lstlisting}
 \captionof{lstlisting}{Darstellung aller  Benutzer}
 \begin{itemize}
-	\item Wenn der Administrator /SeeUnregisteredUsers zum Chatbot schreibt, bedeutet es dass er die unregistrierten Benutzer sehen will. Ihm werden dann die ID und die Telefonnummer von diesen Benutzern zurückgeschickt. Wenn es keine unregistrierte Benutzer im System sind, wird dem Administrator eine Nachricht geschickt: "Es gibt keine unregistrierte Benutzer". 
+	\item Wenn der Administrator /SeeUnregisteredUsers zum Chatbot schreibt, bedeutet es dass er die unregistrierten Benutzer sehen will. Ihm werden dann die ID und die Telefonnummer von diesen Benutzern zurückgeschickt. Wenn es keine unregistrierte Benutzer im System gibt, wird dem Administrator eine Nachricht geschickt: Es gibt keine unregistrierte Benutzer. 
 \end{itemize}
 \begin{lstlisting}[frame=single]
 if command == '/see_unregistered_users':
@@ -511,7 +515,7 @@ if command == '/see_unregistered_users':
 \end{lstlisting}
 \captionof{lstlisting}{Darstellung der unregistrierten Benutzer}
 \begin{itemize}
-	\item Wenn der Administrator /DoNotAccept und eine bestimmte Chat ID zum Chatbot schreibt, bedeutet, dass der einen unregistrierten Benutzer nicht genehmigen will. Das bedeutet, dass alle von diesem Benutzer empfangenen Nachrichten werden vom ChatBot nicht berücksichtigt. Wenn der Benutzer, der vom Administrator nicht akzeptiert wurde, versucht, Interaktion mit dem Infotainment Bot zu haben, wird ihm eine Nachricht geschickt, dass die Interaktion nicht m\"oglich ist, weil er einfach nicht genehmigt wurde.
+	\item Wenn der Administrator /DoNotAccept und eine bestimmte Chat ID zum Chatbot schreibt, bedeutet, dass der einen unregistrierten Benutzer nicht genehmigen wird. Das bedeutet, dass alle von diesem Benutzer empfangenen Nachrichten werden vom ChatBot nicht berücksichtigt. Wenn der Benutzer, der vom Administrator nicht akzeptiert wurde, versucht, Interaktion mit dem Infotainment Bot zu haben, wird ihm eine Nachricht geschickt, dass die Interaktion nicht m\"oglich ist, weil er nicht genehmigt wurde.
 \end{itemize}	
 \begin{lstlisting}[frame=single]
 if usermng[0]=='/DoNotAccept':
@@ -594,7 +598,7 @@ if command=='/info':
 	\item Falls ein normaler Benutzer die oberen Befehle probiert, wird er vom Chatbot eine Nachricht erhalten, dass er nicht der Administrator ist.
 \end{itemize}
 \begin{itemize}
-	\item Durch diese Funktion wird überprüft, ob die Person, die den Button Ja gedruckt hat, registriert ist oder nicht. Falls nein, bittet Chatbot ihn die Telefonnummer einzuschreiben.
+	\item Durch diese Funktion wird überprüft, ob die Person, die den Button Ja gedruckt hat, registriert ist oder nicht. Falls nein, bittet Chatbot ihn die Telefonnummer einzutragen.
 \end{itemize}
 \begin{lstlisting}[frame=single]
 def on_callback_query(msg):
@@ -634,15 +638,15 @@ conn.commit()
 \captionof{lstlisting}{Hinzufügen eines neuen Benutzers zur Datenbank} 
 \begin{itemize}
 	\item Chatbot wird in zwei Sprachen angeboten, n\"amlich in Deutsch und in Englisch. Die Umsetzung wurde so gemacht: \\
-		Zuerst wurde eine Tabelle in der Datenbank erstellt. Diese Tabelle hat drei Spalten; id, englisch und deutsch. In den letzten Spalten wurden alle Nachrichten, die Chatbot zu den Benutzern schickt in den jeweiligen Sprachen gespeichert.	Diese Tabelle ist in der Abbildung \ref{fig:menudmn} ersichtlich. 
-		Es wurde in dem Python-Skript, wo Chatbot programmiert wurde, eine Variable erstellt, die mit dem Wert 1 initialisiert ist. Solange diese Variable das Wert 1 hat, werden zu den Benutzern nur Nachrichten auf Englisch geschickt, weil das Wert 1, bedeutet, dass es nur die Datens\"atze von der ersten Spalte der Tabelle genommen werden. Die erste Spalte der Tabelle ist die Spalte "englisch". Wenn der Benutzer die Sprache auf deutsch umstellt, dann wird die Variable mit dem Wert 2 initialisiert. Es werden dann nur Nachrichten auf deutsch zu den Benutzern geschickt. \\
+		Zuerst wurde eine Tabelle in der Datenbank erstellt. Diese Tabelle hat drei Spalten: id, englisch und deutsch. In den letzten Spalten wurden alle Nachrichten, die Chatbot zu den Benutzern schickt, in den jeweiligen Sprachen gespeichert. Diese Tabelle ist auf Abbildung \ref{fig:menudmn} ersichtlich. 
+		Es wurde in dem Python-Skript, wo Chatbot programmiert wurde, eine Variable erstellt, die mit dem Wert 1 initialisiert ist. Solange diese Variable dass Wert 1 hat, werden zu den Benutzern nur Nachrichten auf Englisch geschickt, weil dieser Wert, bedeutet, dass nur die Datens\"atze von der ersten Spalte der Tabelle genommen werden. Die erste Spalte der Tabelle ist die Spalte Englisch. Wenn der Benutzer die Sprache auf Deutsch umstellt, dann wird die Variable mit dem Wert 2 initialisiert. Es werden dann nur Nachrichten auf Deutsch zu den Benutzern geschickt. \\
 		\\
 		\captionsetup{type=figure}
 		\includegraphics[width=\linewidth]{\ordnerfigures multilanguage.jpg}
 		\caption{Chatbot Multilanguage} 
 		\label{fig:menudmn}
 \end{itemize}
-\subsection{Konkrete Beispiele mit Bildern} 
+\subsection{Konkrete Beispiele} 
 In den folgenden Abbildungen werden die Funktionalitäten des Administrators beim Chatbot dargestellt.
 \begin{itemize}
 	\item Hauptmen\"u f\"ur den Administrator
@@ -672,7 +676,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\label{chatbotben}
 \end{center}
 \begin{itemize}
-	\item Falls es keine unregistrierte Benutzer gibt, schickt der Infotainment Bot eine Nachricht zum Administrator, dass es bereits keine unregistrierte Benutzer im System sind.
+	\item Falls es keine unregistrierte Benutzer gibt, schickt der Infotainment Bot eine Nachricht zum Administrator, dass keine unregistrierte Benutzer im System gibt.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -681,7 +685,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\label{chatbotbenf}
 \end{center}
 \begin{itemize}
-	\item Der Administrator hat die M\"oglichkeit, die Benutzer zu genehmigen. Er kriegt von Chatbot eine Nachricht zur\"urck, wenn die Genehmigung erfolgreich war. Der Benutzer, der von dem Administrator akzeptiert wurde wird von Chatbot als ein normaler Benutzer angesehen.
+	\item Der Administrator hat die M\"oglichkeit, die Benutzer zu genehmigen. Er kriegt von Chatbot eine Nachricht zur\"urck, wenn die Genehmigung erfolgreich war. Der Benutzer, der von dem Administrator akzeptiert wurde, wird von Chatbot als ein normaler Benutzer angesehen.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -718,7 +722,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\captionsetup{type=figure} 
 \end{center}
 \begin{itemize}
-	\item Funktion des Administrators, die Sprache zu \"andern. In der folgenden Abbildung wurde die Sprache von dem Administrator auf deutsch ge\"andert. Er kriegt eine Best\"atigungsnachricht vom Chatbot, dass die Sprache auf deutsch eingestellt wurde. Das bedeutet, dass die Interaktion wird in der ausgew\"ahlten Sprache folgen und der Administrator wird alle Meldungen nur in dieser Sprache vom Chatbot bekommen.
+	\item Funktion des Administrators, die Sprache zu \"andern. In der folgenden Abbildung wurde die Sprache von dem Administrator auf Deutsch ge\"andert. Er kriegt eine Best\"atigungsnachricht vom Chatbot, dass die Sprache auf Deutsch eingestellt wurde. Das bedeutet, dass die Interaktion wird in der ausgew\"ahlten Sprache folgen und der Administrator wird alle Meldungen nur in dieser Sprache vom Chatbot erhalten.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -738,7 +742,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des unregistrierten Be
 	\label{fig:chaftboregistr}
 \end{center}
 \begin{itemize}
-	\item Chatbot gibt den Benutzer die Möglichkeit, sich beim Chatbot zu registrieren. Der Benuter hat zwei Buttons zur Wahl. In diesem Fall hat der Benutzer auf "Ja" gedruckt. Der Benutzer soll die Telefonnummer eingeben. Der Chatbot schickt eine Nachricht, wo es erkl\"rt ist, in welcher Format die Telefonnummer geschrieben werden soll.
+	\item Chatbot gibt den Benutzer die Möglichkeit, sich beim Chatbot zu registrieren. Der Benuter hat zwei Buttons zur Wahl. In diesem Fall hat der Benutzer auf "Ja" gedruckt. Der Benutzer soll die Telefonnummer eingeben. Der Chatbot schickt eine Nachricht, wo es erkl\"art wird, in welcher Format die Telefonnummer geschrieben werden soll.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -756,7 +760,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des unregistrierten Be
 	\label{fig:chfdsatboregistrfds}
 \end{center}
 \begin{itemize}
-	\item Wenn die Laenge der Telefonnummer nicht korrekt ist, bekommt der Benutzer eine Fehlermeldung von Chatbot.
+	\item Wenn die L\"ange der Telefonnummer nicht korrekt ist, bekommt der Benutzer eine Fehlermeldung von Chatbot.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -765,7 +769,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des unregistrierten Be
 	\label{fig:crboregistrfds}
 \end{center}
 \begin{itemize}
-	\item Wenn die Telefonnummer von dem Benutzer korrekt eingegeben wird, kriegt er eine Meldung von Chatbot und er kann keine Interaktion mit dem Chatbot haben, bis er die Genehmigung von Administrator kriegt.
+	\item Wenn die Telefonnummer von dem Benutzer korrekt eingegeben wird, bekommt er eine Meldung von Chatbot und er kann keine Interaktion mit dem Chatbot haben, bis er die Genehmigung von Administrator kriegt.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -774,16 +778,16 @@ In den folgenden Abbildungen werden die Funktionalitäten des unregistrierten Be
 	\label{fig:crboreistrfds}
 \end{center}
 \begin{itemize}
-	\item Falls der Benutzer versucht, nachdem er einmal die Telefonnummer eingegeben hat, eine andere Telefonnummer einzugeben, wird der Chatbot ihm eine Nachricht schicken, dass er auf die Genehmigung des Administrators warten soll. Die andere Nachrichte, die später kommen werden nicht berücksichtigt bis der Administrator die Genehmigung gegeben hat.
+	\item Falls der Benutzer versucht, nachdem er einmal die Telefonnummer eingegeben hat, eine andere Telefonnummer einzugeben, wird der Chatbot ihm eine Nachricht schicken, dass er auf die Genehmigung des Administrators warten soll. Die anderen Nachrichten, die später kommen, werden nicht berücksichtigt bis der Administrator die Genehmigung gegeben hat.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
 	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbild7.jpeg}
-	\caption{Das Warten der Benutzer auf die Administrator Bestätigung}
+	\caption{Das Warten der Benutzer auf die Bestätigung des Administrators}
 	\label{fig:chat232bo53}
 \end{center}
 \begin{itemize}
-	\item Falls der Benutzer auf "Nein" druckt, schickt der Chatbot ihm eine Meldung zur\"uck, dass die Interaktion mit dem Chatbot ohne Registrierung nicht m\"oglich ist.
+	\item Falls der Benutzer auf "Nein" dr\"uckt, schickt der Chatbot ihm eine Meldung zur\"uck, dass die Interaktion mit dem Chatbot ohne Registrierung nicht m\"oglich ist.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -801,9 +805,9 @@ In den folgenden Abbildungen werden die Funktionalitäten des unregistrierten Be
 	\caption{Spracheinstellungen f\"ur unregistrierte Benutzer}
 	\label{fig:chatfd3}
 \end{center}
-In den folgenden Abbildungen wird die Interaktion eines normalen Benutzer mit dem Chatbot dargestellt.
+In den folgenden Abbildungen wird die Interaktion eines normalen Benutzers mit dem Chatbot dargestellt.
 \begin{itemize}
-	\item Hauptmen\"ur f\"ur einen normalen Benutzer
+	\item Hauptmen\"u f\"ur einen normalen Benutzer
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -851,7 +855,7 @@ In der folgenden Abbildung wird die Interaktion eines blockierten Benutzer mit d
 \end{center}
 In der folgenden Abbildung wird die Interaktion eines nicht akzeptierten Benutzer mit dem Chatbot dargestellt.
 \begin{itemize}
-	\item Wenn ein Benutzer von dem Administrator nicht akzeptiert ist und trotzdem versucht eine Nachricht zum Chatbot zu schicken, wird der Chatbot ihm eine Meldung schicken, dass die von diesem Benutzer erhaltene Nachrichten nicht ber\"ucksichtigt werden, weil er blockiert ist. 
+	\item Wenn ein Benutzer von dem Administrator nicht akzeptiert ist und trotzdem versucht eine Nachricht zum Chatbot zu schicken, wird der Chatbot ihm eine Meldung schicken, dass die von diesem Benutzer erhaltene Nachrichten nicht ber\"ucksichtigt werden, weil er noch nicht akzeptiert ist. 
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -872,34 +876,34 @@ In der folgenden Abbildung wird die Interaktion eines akzeptierten Benutzer mit 
 \section{Probleme, Herausforderungen und deren Lösung}
 Während der Umsetzung des Projekts gab es einige Probleme und Herausforderungen, die aber am Ende gelöst wurden.
 \subsubsection{APIs}
-Die APIs haben einige Herausforderungen gebracht. Zuerst sollten die richtigen APIs gefunden werden. Danach sollte nachgeschaut werden, wie sie genau funktionieren. Es sollte genau analysiert, auf welchem Format die API die Daten zurückliefert, damit diese Daten an dem Bildschirm angezeigt werden konnten. Nach vielen Versuche, wurden die richtigen APIs gefunden.
+Die APIs haben einige Herausforderungen gebracht. Zuerst sollten die richtigen APIs gefunden werden. Danach sollte nachgeschaut werden, wie diese genau funktionieren. Es sollte genau analysiert werden, auf welchem Format die API die Daten zurückliefert, damit diese Daten an dem Bildschirm angezeigt werden konnten. Nach vielen Versuchen wurden die richtigen APIs gefunden.
 
 \subsubsection{Anzeige}
-Die Design Vorbereitung hat viele Probleme gebracht. Die Darstellung von den Daten auf die Anzeige war nicht einfach. Die Darstellung wurde mit der Programmiersprache PHP und HTML durchgeführt, wobei die Kenntnisse beider Sprachen kombiniert werden mussten. Das Anpassen der Daten auf dem Bildschirm war ein weiteres Problem, da einige Tabellen zu viele Daten enthielten und einige weniger. Diese mussten aber am Bildschirm passen. Eine gro\ss{}e Herausforderung war die Darstellung von dem Stundenplan. Wenn der Unterricht in zwei Gruppen geteilt war, sollte die Klasse in zwei Zellen geteilt sein, wobei f\"ur jede Gruppe die Eintr\"age(Fach, Lehrer, Raum) dargestellt werden sollten. Das war eine schwierige und aufwendige Aufgabe. Es wurden Beispiele im Internet nachgeschaut, um diese Aufgabe zu l\"osen.
+Die Design Vorbereitung hat viele Probleme gebracht. Die Darstellung von den Daten auf die Anzeige war nicht einfach. Die Darstellung wurde mit der Programmiersprache PHP und HTML durchgeführt, wobei die Kenntnisse beider Sprachen kombiniert werden mussten. Das Anpassen der Daten auf dem Bildschirm war ein weiteres Problem, da einige Tabellen zu viele Daten enthielten und einige weniger. Diese mussten aber am Bildschirm passen. Eine gro\ss{}e Herausforderung war die Darstellung von dem Stundenplan. Wenn der Unterricht in zwei Gruppen geteilt war, sollte die Klasse in zwei Zellen geteilt sein, wobei f\"ur jede Gruppe die Eintr\"age(Fach, Lehrer, Raum) dargestellt werden sollten. Das war eine schwierige und aufwendige Aufgabe. Es wurden Beispiele im Internet angeschaut und analysiert, um diese Aufgabe zu l\"osen.
 
 \subsubsection{Offline Betrieb}
-Die Implementierung von Offline Betrieb war eine eigene Herausforderung. Zuerst sollte das Prinzip und der Weg der Programmierung genau \"uberlegen werden. Am Ende hat es funktioniert, aber das einzige Problem war bei der Tabelle Chatbot Bilder. Dort wurden die Bilder mit einem bestimmten Format, n\"amlich mit blob datentyp gespeichert, deswegen gab es Probleme bei der \"Ubertragung der Daten von dieser Tabelle vom Server zum Client.  Deswegen wurde es entschieden, die Tabelle Chatbot Bilder nicht vom Server zum Client \"ubetragen, da es Probleme gab. Die Daten anderer Tabellen konnten alle \"ubertragen werden.
+Die Implementierung von Offline Betrieb war die gr\"o{\ss}te Herausforderung. Zuerst sollte das Prinzip und der Weg der Programmierung genau \"uberlegt werden. Am Ende hat es funktioniert, aber das einzige Problem war bei der Tabelle Chatbot Bilder. Dort wurden die Bilder mit einem bestimmten Format, n\"amlich mit blob Datentyp gespeichert, deswegen gab es Probleme bei der \"Ubertragung der Daten von dieser Tabelle vom Server zum Client. Deswegen wurde entschieden, die Tabelle Chatbot Bilder nicht vom Server zum Client zu \"ubertragen, da es Probleme gab. Die Daten anderer Tabellen konnten alle \"ubertragen werden.
 
 \subsubsection{Chatbot}
 
-Chatbot war auch ein neues Konzept. Die Herausforderungen im Bezug auf Chatbot waren nur am Beginn. Es sollte die richtige API gewählt werden und auch die Einrichtung musste passen. Der Chatbot sollte kontinuierlich getestet werden, weil es konnte sein, dass der Chatbot die falschen Nachrichten zu den Benutzern schickte und die Funktionalit\"aten stimmten dann nicht ganz. F\"ur die L\"osung der Probleme beim Chatbot habe ich viele Tutorials geschaut und viele Beispiele im Internet nachgeschaut. 
+Chatbot war auch ein neues Konzept. Die Herausforderungen im Bezug auf Chatbot waren nur am Beginn. Es sollte die richtige API gewählt werden und auch die Einrichtung musste passen. Der Chatbot sollte kontinuierlich getestet werden, weil es k\"onnte sein, dass der Chatbot die falschen Nachrichten zu den Benutzern schickt und die Funktionalit\"aten stimmten dann nicht ganz. F\"ur die L\"osung der Probleme beim Chatbot habe ich viele Tutorials geschaut und viele Beispiele im Internet nachgeschaut. 
 
 \subsubsection{Datenbank}
 
 Die Datenbank war problematisch, weil es sollte genau überlegt werden, welche Tabellen notwendig sind und wie sie verwendet werden. \\
-Die richtige Erstellung der Prozeduren war auch ein Thema. Es sollte eine Prozedur erstellt werden, die dem Administrator der Webseite mit einer Drop Down Liste alle Lehrer anzeigte, die nicht fehlen, die bereit zum supplieren sind und kein Unterricht haben. Diese Lehrer wurden dann als Supplierer eingetragen. Aber die richtige Kombination der Daten und die Erstellung dieser Prozedur sehr komplex und hat viel Zeit benötigt, bis eine Lösung gefunden wurde. 
+Die richtige Erstellung der Prozeduren war auch ein Thema. Es sollte eine Prozedur erstellt werden, die dem Administrator der Webseite mit einer Drop Down Liste alle Lehrer anzeigte, die nicht fehlen, die bereit zum supplieren sind und kein Unterricht haben. Diese Lehrer wurden dann als Supplierer eingetragen. Aber die richtige Kombination der Daten und die Erstellung dieser Prozedur war sehr komplex und hat viel Zeit im Anspruch genommen, bis eine Lösung gefunden wurde. 
 
 \section{Qualitätssicherung, Controlling}
 Qualität wurde sicher gestellt, damit die Hauptanforderungen des Auftraggebers vollständig erfüllt werden. Diese Anforderung war die Entwicklung eines Systems, die die wichtigsten Ankündigungen des Tages auf dem Bildschirm in einer digitalisierten Form darstellt. Es sollten auch die Schuldaten angezeigt werden. \\
-Zusätzlich zu den Hauptfunktionen wurden auch andere Punkte implementiert, wie Chatbot, die Darstellung von Wetterdaten auf dem Bildschirm oder die Implementierung von Offline Betrieb. Chatbot ist eine wichtige Komponente für die Qualitätsicherung, weil es viele Funktionen anbietet. Die wichtigste Funktionalit\"at des Chatbots ist die Interaktion mit dem Benutzer. Da es keine Interaktion der Benutzer mit dem Bildschirm, wo die Informationen dargestellt werden, gibt, wurde mittels Chatbot diese Funktion angeboten. 
-Um sicherzustellen, dass es keine Fehler auftreten wurden alle Komponenten viel getestet.  
+Zusätzlich zu den Hauptfunktionen wurden auch andere Punkte implementiert, wie Chatbot, die Darstellung von Wetterdaten auf dem Bildschirm oder die Implementierung von Offline Betrieb. Chatbot ist eine wichtige Komponente für die Qualitätsicherung, weil es viele Funktionen anbietet. Die wichtigste Funktionalit\"at des Chatbots ist die Interaktion mit dem Benutzer. Da es sonst keine Interaktion der Benutzer mit dem Bildschirm, wo die Informationen dargestellt werden, gibt, wurde mittels Chatbot diese Funktion angeboten. 
+Um sicherzustellen, dass es keine Fehler auftreten wurden alle Komponenten sehr oft getestet.  
 
 \section{Ergebnisse - Irena Bala}
 In diesem Kapitel werden die Ergebnisse der Arbeit zusammengefasst.
 \subsection{Implementierung}
 Die wichtigsten Ergebnisse der Arbeit sind: 
 \begin{itemize}
-	\item Die Implementierung von einer Hauptkomponente der künstlichen Intelligenz wie Chatbot, die das entwickelte System interessanter macht. Diese Komponente wird multisprachig angeboten.
+	\item Die Implementierung von einer Hauptkomponente der künstlichen Intelligenz wie Chatbot, die das entwickelte System interessanter macht. Diese Komponente wird mehrsprachig angeboten.
 \end{itemize}
 \begin{itemize}
 	\item Die Anzeige der leeren Klassen, Stundenplan, Kalenderinformationen und Wetterdaten.
@@ -912,33 +916,33 @@ Die wichtigsten Ergebnisse der Arbeit sind:
 \end{itemize}
 \begin{itemize}
 	\item 
-	Einrichtung und Anlegung eines Servers, dass auch der Hauptteil des Systems ist und die Basis für die Zusammensetzung aller Komponenten anbietet
+	Einrichtung und Anlegung eines Servers, dass auch der Hauptteil des Systems ist und als Basis für die Zusammensetzung aller Komponenten dient.
 \end{itemize}
 \begin{itemize}
 	\item 
-	Integration des Systems, damit alle Komponenten miteinander verbunden werden können
+	Integration des Systems, damit alle Komponenten miteinander verbunden werden können.
 \end{itemize}
 \begin{itemize}
 	\item 
-	Implementierung von Offline Betrieb
+	Implementierung von Offline Betrieb.
 \end{itemize}
 \begin{itemize}
 	\item 
-	SSL-Verschl\"usselung f\"ur eine sichere Daten\"ubertragung
+	SSL-Verschl\"usselung f\"ur eine sichere Daten\"ubertragung.
 \end{itemize}
 \begin{itemize}
 	\item 
-	Einrichtung des Systems
+	Einrichtung des Systems. Dieser Punkt erfolgt ganz am Ende. Es geht hier um die LAN\footnote{Local Area Network}\nomenclature{LAN}{Local Area Network} Verbindung zum System. Es wird dann die Verbindung zur Datenbank \"uberpr\"uft. 
 \end{itemize}
 \section{Handbuch für die Bedienung}
 In diesem Kapitel ist das Handbuch für die Bedienung von Chatbot beschrieben.
 \subsection{Beschreibung der Bedienung als User}
-Die Bedienung von Chatbot ist eigentlich sehr leicht. Ein normaler Benutzer ist in der Lage, Bilder zum Chatbot zu schicken die zuerst in die Datenbank gespeichert und automatisch auf dem Bildschirm angezeigt. \\
+Die Bedienung von Chatbot ist eigentlich sehr leicht. Ein normaler Benutzer ist in der Lage, Bilder zum Chatbot zu schicken die zuerst in die Datenbank gespeichert und automatisch auf dem Bildschirm angezeigt werden. \\
 Zuerst soll am Handy die Applikation Telegram heruntergeladen werden. Danach soll nach dem Benutzername Infotainment gesucht werden. Der Chat mit dem Infotainment Bot wird geöffnet. 
 Jeder Benutzer, die eine Interaktion mit Chatbot haben will, soll sich zuerst registrieren. \\
-Sobald der Chatbot eine Nachricht von jemandem, der für das erste Mal an ihm etwas schickt, wird der Chatbot ihm fragen ob er sich registrieren will oder nicht. Die Wahl kommt in Form von 2 Buttons, die die Antworten Ja und Nein beinhalten.\\
+Sobald der Chatbot eine Nachricht von jemandem erh\"alt, der für das erste Mal an ihm etwas schickt, wird der Chatbot ihm fragen ob er sich registrieren will oder nicht. Die Wahl kommt in Form von zwei Buttons, die die Antworten Ja und Nein beinhalten.\\
 Für die Registrierung soll Ja geklickt werden und dann muss die Telefonnummer eingegeben werden. \\
-Danach soll gewartet, bis der Administrator die Genehmigung für die neue Registrierung gegeben hat. Sobald der Administrator diese Genehmigung gegeben hat, wird dieser Benutzer eine Nachricht bekommen und nur dann kann er Bilder zum Chatbot schicken, die an dem Bildschirm angezeigt werden. Die Benutzer haben die M\"oglichkeit, selbst die Sprache auszuw\"ahlen, in der die Interaktion mit dem Chatbot erfolgen soll.
+Danach wird gewartet, bis der Administrator die Genehmigung für die neue Registrierung gegeben hat. Sobald der Administrator diese Genehmigung gegeben hat, wird dieser Benutzer benachrichtigt und nur dann kann er Bilder zum Chatbot schicken, die an dem Bildschirm angezeigt werden. Die Benutzer haben die M\"oglichkeit, selbst die Sprache auszuw\"ahlen, in der die Interaktion mit dem Chatbot erfolgen soll.
 \subsection{Beschreibung der Bedienung als Administrator}
 Der Administrator von Chatbot hat andere Funktionalitäten im Vergleich mit einem Benutzer. 
 \begin{itemize}
@@ -963,7 +967,7 @@ Der Administrator von Chatbot hat andere Funktionalitäten im Vergleich mit eine
 	\item Wenn der Administrator die Sprache \"andern will, soll er die folgende Eingabe schicken: /setLanguage[DE/EN]
 \end{itemize}
 \begin{itemize}
-	\item Wenn der Administrator das Hauptmen\"u schauen will, soll er /info eingeben.
+	\item Wenn der Administrator das Hauptmen\"u sehen will, soll er /info eingeben.
 \end{itemize}
 \section{Evaluierung und Resümee}
 \subsection{Planung vs Realisierung}
@@ -985,11 +989,11 @@ Diese Funktionen sind:
 	\item Implementierung der Notfallwarnungen
 \end{itemize}
 Die Anforderungen bei der Anzeige sind auch erfüllt worden. Dort können verschiedene Informationen angezeigt werden. Für die Anzeige gibt es auch verschiedene Layouts. \\
-Die Datenbank wurde anders als geplant, gebaut. Während der Arbeit wurden viele Adaptierungen gemacht. Es sind mehrere Tabellen als geplant erstellt. Eine Tabelle davon ist die Tabelle für die Chatbot Benutzer. Diese war früher nicht geplant, weil es wurde auch die Anlegung von mehreren User-Rechte beim Chatbot nicht geplant. Au\ss{}erdem wurden auch Views und gespeicherte Prozeduren erstellt, z.B. f\"ur den Stundenplan und die lereen Klasse, was nicht im Voraus geplant war. Beim Offline Betrieb, es wurde gedacht, dass es eine automatische Methode f\"ur die Datensynchronisation zwischen Server und Client gibt, aber dass passte so nicht und alles wurde manuell implementiert und programmiert. Bei der Implementierung von Offline Betrieb liegte auch eine gro\ss{}e Herausforderung, weil die Programmierung dieser F\"unktionalit\"at sehr aufwendig war. Das bedeutet, dass alle Komponente des Systems miteinander in Zusammenhang sind und wenn eine davon geändert wurde, hatte diese Konsequenzen auf andere Komponenten. Es gab viele \"Anderungen in der Art und Weise, wie die Aufgaben gel\"ost wurde, aber am Ende sind die Ziele erfolgreich abgeschlossen. 
+Die Datenbank wurde anders als geplant, aufgebaut. Während der Arbeit wurden viele Adaptierungen gemacht. Es sind mehrer Tabellen als geplant erstellt worden. Eine Tabelle davon ist die Tabelle für die Chatbot Benutzer. Diese war früher nicht geplant, weil die Anlegung von mehreren User-Rechte beim Chatbot nicht geplant war. Au\ss{}erdem wurden auch Views und gespeicherte Prozeduren erstellt, z.B. f\"ur den Stundenplan und die leeren Klassen, was nicht im Voraus geplant war. Beim Offline Betrieb, wurde gedacht, dass es eine automatische Methode f\"ur die Datensynchronisation zwischen Server und Client gibt, aber dass passte so nicht und alles wurde manuell implementiert und programmiert. Bei der Implementierung von Offline Betrieb lag auch die gro\ss{}e Herausforderung, weil die Programmierung dieser Funktionalit\"at sehr aufwendig war. Das bedeutet, dass alle Komponenten des Systems verkn\"upft sind und wenn eine davon geändert wurde, hatte diese Konsequenzen auf andere Komponenten. Es gab viele \"Anderungen auf diese Art und Weise, um die Aufgaben zu l\"osen. Aber am Ende sind die Ziele erfolgreich abgeschlossen worden. 
 \subsection{Wertschöpfung und Lessons Learned}
 Es wurde das Wissen in den folgenden Bereichen erweitert: \\
 \begin{itemize}
-	\item HTML: 
+	\item HTML
 \end{itemize}
 \begin{itemize}
 	\item CSS
@@ -1012,7 +1016,7 @@ Es wurde das Wissen in den folgenden Bereichen erweitert: \\
  \begin{itemize}
  	\item Verwendung von APIs
  \end{itemize}
-HTML, CSS, PHP, Javascript wurden f\"ur die Anzeige sehr oft ben\"otigt. Sie sind wichtig f\"ur die Darstellung der Daten. PHP bietet eine Schnittstelle zur Datenbank und kann zusammen mit HTMl verwendet, deswegen war diese Programmiersprache sehr hilfsreich und ist sehr oft vorgekommen. Die Konfiguration vom Raspberry PI Server hat das Wissen in allgeimeine Konfiguration von Systemen erweitert. Programmierung in Python ist am meisten vorgekommen, weil der ganze Chatbot wurde mit Python programmiert. Es wurden f\"ur die Darstellung der Wetterdaten APIs verwendet, daher wurde das Wissen auch in diesem Bereich erweitert. 
+HTML, CSS, PHP, Javascript wurden f\"ur die Anzeige sehr oft ben\"otigt. Sie sind wichtig f\"ur die Darstellung der Daten. PHP bietet eine Schnittstelle zur Datenbank und kann zusammen mit HTML verwendet werden. Deswegen war diese Programmiersprache sehr hilfsreich. Die Konfiguration vom Raspberry PI Server hat das Wissen in allgeimeine Konfiguration von Systemen erweitert. Programmierung in Python ist am meisten vorgekommen, weil der ganze Chatbot wurde mit Python programmiert. Es wurden f\"ur die Darstellung der Wetterdaten APIs verwendet, daher wurde das Wissen auch in diesem Bereich erweitert. 
 Diese Diplomarbeit hat nicht nur geholfen, die technischen Fähigkeiten bzw. Kompetenzen zu entwickeln, sondern auch in Bezug auf organisatorischen Teil, Teamwork, Kommunikation und Engagement. Es gab w\"ahrend der Umsetzung h\"aufig Probleme, aber durch Ausdauer, Entschlossenheit und Zusammenarbeit wurden die beabsichtigten Ziele erreicht. 
 \label{\docname}
 

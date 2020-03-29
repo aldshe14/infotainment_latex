@@ -5,6 +5,7 @@
 \nomenclatureentry{aPHP@[{PHP}]\begingroup Parallel History Project\nomeqref {1.0}|nompageref}{4}
 \nomenclatureentry{aHTML@[{HTML}]\begingroup HyperText Markup Language\nomeqref {1.0}|nompageref}{6}
 \nomenclatureentry{aCSS@[{CSS}]\begingroup Cascading Style Sheets\nomeqref {1.0}|nompageref}{6}
+\nomenclatureentry{aSBC@[{SBC}]\begingroup Single Board Computer\nomeqref {1.0}|nompageref}{7}
 \nomenclatureentry{aVGA@[{VGA}]\begingroup Video Graphics Array\nomeqref {1.0}|nompageref}{7}
 \nomenclatureentry{aHDMI@[{HDMI}]\begingroup High-Definition Multimedia Interface\nomeqref {1.0}|nompageref}{7}
 \nomenclatureentry{aSD@[{SD}]\begingroup Secure Digital Memory Card\nomeqref {1.0}|nompageref}{7}
@@ -15,3 +16,4 @@
 \nomenclatureentry{aSSH@[{SSH}]\begingroup Secure Shell\nomeqref {1.0}|nompageref}{10}
 \nomenclatureentry{aER@[{ER}]\begingroup Entity Relationship\nomeqref {1.0}|nompageref}{10}
 \nomenclatureentry{aCA@[{CA}]\begingroup Certificate Authorities\nomeqref {1.0}|nompageref}{12}
+\nomenclatureentry{aLAN@[{LAN}]\begingroup Local Area Network\nomeqref {1.0}|nompageref}{39}

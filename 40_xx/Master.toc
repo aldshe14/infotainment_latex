@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{Was ist SSL?}{7}{section*.18}%
 \contentsline {subsubsection}{SSL-Verschlüsselung}{7}{section*.19}%
 \contentsline {subsubsection}{Was ist Telegram Bot API?}{7}{section*.20}%
-\contentsline {subsubsection}{Was ist Wetter API?}{7}{section*.21}%
+\contentsline {subsubsection}{Was ist Wetter API?}{8}{section*.21}%
 \contentsline {subsubsection}{Was ist JSON?}{8}{section*.22}%
 \contentsline {section}{\numberline {1.2}Structured Software Design}{8}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Konfiguration von Raspberry PI Server}{9}{section.1.3}%
@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {1.6}Layout}{12}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Anzeige}{13}{section.1.7}%
 \contentsline {section}{\numberline {1.8}Offline Betrieb}{15}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Konkrete Beispiele mit Bildern}{16}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.1}Konkrete Beispiele}{16}{subsection.1.8.1}%
 \contentsline {section}{\numberline {1.9}Wetterdaten}{19}{section.1.9}%
 \contentsline {section}{\numberline {1.10}Chatbot}{20}{section.1.10}%
 \contentsline {subsection}{\numberline {1.10.1}Chatbot Einrichtung}{20}{subsection.1.10.1}%
@@ -43,7 +43,7 @@
 \contentsline {subsubsection}{Normale Benutzer}{22}{section*.42}%
 \contentsline {subsubsection}{Administrator}{22}{section*.43}%
 \contentsline {subsection}{\numberline {1.10.5}Umsetzung der Funktionalitäten}{22}{subsection.1.10.5}%
-\contentsline {subsection}{\numberline {1.10.6}Konkrete Beispiele mit Bildern}{27}{subsection.1.10.6}%
+\contentsline {subsection}{\numberline {1.10.6}Konkrete Beispiele}{27}{subsection.1.10.6}%
 \contentsline {section}{\numberline {1.11}Probleme, Herausforderungen und deren Lösung}{37}{section.1.11}%
 \contentsline {subsubsection}{APIs}{37}{section*.71}%
 \contentsline {subsubsection}{Anzeige}{37}{section*.72}%
@@ -54,8 +54,8 @@
 \contentsline {section}{\numberline {1.13}Ergebnisse - Irena Bala}{39}{section.1.13}%
 \contentsline {subsection}{\numberline {1.13.1}Implementierung}{39}{subsection.1.13.1}%
 \contentsline {section}{\numberline {1.14}Handbuch für die Bedienung}{39}{section.1.14}%
-\contentsline {subsection}{\numberline {1.14.1}Beschreibung der Bedienung als User}{39}{subsection.1.14.1}%
+\contentsline {subsection}{\numberline {1.14.1}Beschreibung der Bedienung als User}{40}{subsection.1.14.1}%
 \contentsline {subsection}{\numberline {1.14.2}Beschreibung der Bedienung als Administrator}{40}{subsection.1.14.2}%
-\contentsline {section}{\numberline {1.15}Evaluierung und Resümee}{40}{section.1.15}%
-\contentsline {subsection}{\numberline {1.15.1}Planung vs Realisierung}{40}{subsection.1.15.1}%
+\contentsline {section}{\numberline {1.15}Evaluierung und Resümee}{41}{section.1.15}%
+\contentsline {subsection}{\numberline {1.15.1}Planung vs Realisierung}{41}{subsection.1.15.1}%
 \contentsline {subsection}{\numberline {1.15.2}Wertschöpfung und Lessons Learned}{41}{subsection.1.15.2}%
