@@ -99,7 +99,7 @@ Mit Hilfe der Skriptsprache JavaScript lassen sich viele dynamische Funktionen r
 	\item Veränderung von Texten oder Grafiken durch den Mauszeiger" \cite{50_javascript}
 \end{itemize}
 \subsubsection{Was ist Python?} 
-Python ist eine objektorientierte Programmiersprache, aber kann auch als prozedurale Programmierung verwendet werden. Sie wurde ausschließlich zum Zweck der einfach einprägsamen Syntax entwickelt. Andererseits haben die Entwickler der Systematisierung des Codes große Bedeutung beigemessen. Wegen dieser angewandten Eigenschaften kann Python in die Gruppe der leichten Programmiersprachen aufgenommen werden. Diese Programmiersprache wird viel verwendet, aber was die Anwendungsumgebung besonders erhöht, ist die Möglichkeit andere Module anzuhängen. Es ist auch eine Open Source Software, die von den Programmierern verwendet, verändert, angepasst bzw. bearbeitet werden kann. Es wird meistens für komplexe Aufgaben verwendet, deswegen wird es als eine Hochsprache betrachtet. \cite{50_python}
+Python ist eine objektorientierte Programmiersprache, aber kann auch als prozedurale Programmierung verwendet werden. Sie wurde ausschließlich zum Zweck der einfach einprägsamen Syntax entwickelt. Andererseits haben die Entwickler der Systematisierung des Codes große Bedeutung beigemessen. Wegen dieser angewandten Eigenschaften kann Python in die Gruppe der leichten Programmiersprachen aufgenommen werden. Diese Programmiersprache wird viel verwendet, aber was die Benutzerfreundlichkeit besonders erhöht, ist die Möglichkeit andere Module anzuhängen. Es ist auch eine Open Source Software, die von den Programmierern verwendet, verändert, angepasst bzw. bearbeitet werden kann. Es wird meistens für komplexe Aufgaben verwendet, deswegen wird es als eine Hochsprache betrachtet. \cite{50_python}
 \subsubsection{Merkmale von Python} 
 \begin{itemize}
 	\item Einfach einprägsame Syntax
@@ -171,7 +171,7 @@ Nachdem der Chatbot eingeschalten wird und mit der Arbeit angefangen hat, wird e
 Dasselbe passiert mit der APIs auch. Die Wetter API und Website API speichern ihre Ergebnisse im Log. Wenn sie Daten zurückliefen, werde sie zuerst validiert und dann auf die Datenbank gespeichert.\\
 Am Ende erfolgt eine Anfrage von dem RaspberryPI Server. Er erfordert die gesammelten Daten aller Komponenten. Sie werden zuerst validiert dann von Log genommen und danach zum Server geschickt.
 \captionsetup{type=figure}
-\includegraphics[width=\linewidth]{\ordnerfigures server.png}
+\includegraphics[width=\linewidth]{\ordnerfigures serverr.png}
 \caption{Structured Software Design vom Server}
 \label{fig:ersteebene}
 \section{Konfiguration von Raspberry PI Server}
@@ -189,10 +189,13 @@ Folgende Schritte sind für die Konfiguration vom RaspberryPI notwendig: \\
 	\item Der nächste Schritt war die Erstellung der Datenbank und der dazugehörigen Tabellen.
 \end{itemize}
 \begin{itemize}
-	\item Dann wurden die Benutzer angelegt und die Rechte vergeben.
+	\item Dann wurden die Benutzer angelegt und die Datenbankrechte vergeben.
 \end{itemize}
 \begin{itemize}
-	\item Als letztens wurde SSH\footnote{Secure Shell}\nomenclature{SSH}{Secure Shell} aktiviert, damit eine sichere Verbindung zu diesem Server von einem externen Gerät ermöglicht werden kann.
+	\item Danach wurde SSH\footnote{Secure Shell}\nomenclature{SSH}{Secure Shell} aktiviert, damit eine sichere Verbindung zu diesem Server von einem externen Gerät ermöglicht werden kann.
+\end{itemize}
+\begin{itemize}
+	\item Als letztens erfolgte die SSL Verschl\"usselung.
 \end{itemize}
 \section{Datenbank}
 Zuerst wurde ein ER\footnote{Entity Relationship}\nomenclature{ER}{Entity Relationship} Diagramm auf Papier gezeichnet. Das Ziel war die richtige Erstellung der benötigten Tabellen. Die Tabellen wurden mit den Spalten und ihren Datentypen erstellt. Es wurden auch die Kardinalitäten dazwischen gezeichnet. Die erstellten Tabellen sind:
@@ -271,18 +274,18 @@ Auf Abbildung \ref{ss} ist die SSL Zertifikate ersichtlich. Diese ist eine selbs
 	\label{ss} 
 \end{center}
 \section{Layout}
-Es werden verschiedene Layouts f\"ur die Anzeige zur Verf\"ugung gestellt. Diese Layouts wurden mit CSS formatiert. Auf Abbildung \ref{f} ist ein Beispiel ersichtlich, wobei die Anzeige in vier Teilbereichen geteilt wird. Der kleinste Bereich, der oben steht, ist f\"ur die Darstellung von Uhr und Datum geeignet. In dem gro\ss{}en Bereich werden z.B. der Stundenplan oder Supplierplan dargestellt. Die anderen Bereiche dienen f\"ur die Darstellung von der letzten Post der Webseite der Schule und f\"ur die Wetterdaten.
-Auf Abbildung \ref{Lerfre} ist ein anderes Beispiel ersichtlich. In diesem Fall wird die Anzeige in Vollbildmodus dargestellt. Hier k\"onnen z.B. die Chatbot-Bilder angezeigt werden.
+Es werden verschiedene Layouts f\"ur die Anzeige zur Verf\"ugung gestellt. Diese Layouts wurden mit CSS formatiert. Auf Abbildung \ref{f} ist Layout 2 ersichtlich, wobei die Anzeige in vier Teilbereichen geteilt wird. Der kleinste Bereich, der oben steht, ist f\"ur die Darstellung von Uhr und Datum geeignet. In dem gro\ss{}en Bereich werden z.B. der Stundenplan oder Supplierplan dargestellt. Die anderen Bereiche dienen f\"ur die Darstellung von der letzten Post der Webseite der Schule und f\"ur die Wetterdaten.
+Auf Abbildung \ref{Lerfre} ist Layout 4 ersichtlich. In diesem Fall wird die Anzeige in Vollbildmodus dargestellt. Hier k\"onnen z.B. die Chatbot-Bilder angezeigt werden.
 \begin{center}
 	\captionsetup{type=figure}
 	\includegraphics[width=0.8\linewidth]{\ordnerfigures layout2.png}
-	\caption{Erstes Layout}
+	\caption{Layout 2}
 	\label{f} 
 \end{center}
 \begin{center}
 	\captionsetup{type=figure}
 	\includegraphics[width=0.8\linewidth]{\ordnerfigures layout4.png}
-	\caption{Zweites Layout}
+	\caption{Layout 4}
 	\label{Lerfre} 
 \end{center}
 \section{Anzeige}
@@ -309,7 +312,7 @@ Die leeren Klassen sind durch die Erstellung einer gespeicherten Prozedur von de
 	\label{stundenplann} 
 \end{center}
 \section{Offline Betrieb}
-Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr wichtig. Durch den Offline-Betrieb werden die Displays, die als Clients dienen, bei Stromausfall nicht vollständig ausgeschaltet, sondern weiterhin Informationen anzeigen. Da die Displays die Daten kontinuierlich vom Server empfangen, würde ohne Strom die Verbindung zum Server getrennt und die Bildschirme ausgeschaltet. Daher war die Implementierung von Offline-Betrieb äußerst notwendig. Der Offline-Betrieb dient zur Synchronisierung von Daten zwischen Client und Server. Es ermöglicht ein kontinuierliches Backup. Wenn kein Strom vorhanden ist, zeigen die Bildschirme weiterhin die letzten Daten an, die sie vom Server empfangen haben. Die Datenübertragung erfolgt durch Aufrufen eines Skripts - mithilfe von crontab Befehl  - - alle 5 Minuten. Crontab dient dazu, ein bestimmtes Ereigniss regelm\"a\ss{}ig auszuf\"uhren. Der Client erhält also automatisch alle Änderungen, die auf dem Server auftreten. Das Skript zum Synchronisieren von Daten wurde manuell mit der PHP-Programmiersprache erstellt.
+Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr wichtig. Durch den Offline-Betrieb werden die Displays, die als Clients dienen, bei Verbindungsausfall nicht vollständig ausgeschaltet, sondern weiterhin Informationen anzeigen. Da die Displays die Daten kontinuierlich vom Server empfangen, würde ohne Strom die Verbindung zum Server getrennt und die Bildschirme ausgeschaltet. Daher war die Implementierung von Offline-Betrieb äußerst notwendig. Der Offline-Betrieb dient zur Synchronisierung von Daten zwischen Client und Server. Es ermöglicht ein kontinuierliches Backup. Wenn kein Strom vorhanden ist, zeigen die Bildschirme weiterhin die letzten Daten an, die sie vom Server empfangen haben. Die Datenübertragung erfolgt durch Aufrufen eines Skripts - mithilfe von crontab Befehl  - - alle 5 Minuten. Crontab dient dazu, ein bestimmtes Ereigniss regelm\"a\ss{}ig auszuf\"uhren. Der Client erhält also automatisch alle Änderungen, die auf dem Server auftreten. Das Skript zum Synchronisieren von Daten wurde manuell mit der PHP-Programmiersprache erstellt.
 \begin{itemize}
 	\item Es wurde ein PHP-Skript f\"ur die Implementierung von Offline Betrieb erstellt.
 	\item Zuerst wurde ein Array mit Tabellennamen, die ebenfalls an den Client übergeben werden müssen,  erstellt. Diese sind die Namen der Tabellen, die im Server liegen.
@@ -317,7 +320,7 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	\item Es wurde ein SQL-Query gebaut, wo alle Daten von den Displays, oder Clients selektiert wurden.
 	\item Es wurde eine Verbindung mit jedem Display gemacht.
 	\item Nachdem die Verbindung mit den Displays gemacht wurde, wurden die Datens\"atze von den Server-Tabellen, denen Namen im ersten Array sind, selektiert.
-	\item Danach wurden die Spalten von diesen Tabellen mithilfe von dem Befehl Show Columns aufgelistet.
+	\item Danach wurden die Spalten von diesen Tabellen mithilfe von dem Befehl Show Columns aufgelistet. Auf listing \ref{a} ist die Aufflistung der Spalten ersichtlich. 
 	\begin{lstlisting}[frame=single]
 	$st="SHOW COLUMNS FROM ".$tables[$i].";";
 	$pdo = $con->prepare($st);
@@ -325,7 +328,8 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	$res = $pdo->fetchAll(PDO::FETCH_ASSOC);
 	\end{lstlisting}
 	\captionof{lstlisting}{Implementierung von Offline Betrieb}
-	\item Es wurden dann die Tabellen, die im Client und im Server sind, verglichen. Wenn im Client fehlende Tabellen gibt, wurde dann ein Query gebaut, wo alle Tabellen die im Server sind, aber im Client fehlen, erstellt werden und die Spalten auch.
+	\label{a}
+	\item Es wurden dann die Tabellen, die im Client und im Server sind, verglichen. Wenn im Client fehlende Tabellen gibt, wurde dann ein Query gebaut, wo alle Tabellen die im Server sind, aber im Client fehlen, erstellt werden und die Spalten auch. Auf listing \ref{zw} ist die Erstellung der fehlenden Tabellen im Client ersichtlich.
 	 \begin{lstlisting}[frame=single]
 	 try{
 	 	$stmt="CREATE TABLE IF NOT EXISTS ".$tables[$i]."(";
@@ -342,11 +346,12 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	 	echo "<br> Create failed:". $e->getMessage();
 	 \end{lstlisting}
 	 \captionof{lstlisting}{Offline Betrieb-Erstellung der fehlenden Tabellen im Client}
+	 \label{zw}
 	 \item Mithilfe der Funktion arraydiff in Python, wurde ein Vergleich zwischen den Tabellen und deren Datens\"atze im Client und im Server gemacht. Falls diese Funktion nichts zur\"uckgibt, bedeutet es, dass der Client schon auf dem neuesten Stand ist. Falls nicht, wird alles was im Server ist, aber im Client nicht, im Client hinzugef\"ugt.
 \end{itemize}
 \subsection{Konkrete Beispiele}
 \begin{itemize}
-	\item In der folgenden Abbildung ist phpMyAdmin von einem Display mit fehlenden Tabellen ersichtlich. Die Infotainment Datenbank existiert schon, aber die Tabellen und deren Datens\"atze fehlen. Es wurde ein Select-Query aufgebaut, wobei alle Tabellen von Infotainment System Datenbank selektiert worden sind, aber es kommt eine leere Ergebnissmenge zur\"uck. Das bedeutet, dass momentan die Datenbank leer ist.
+	\item In der folgenden Abbildung \ref{dsp} ist phpMyAdmin von einem Display mit fehlenden Tabellen ersichtlich. Die Infotainment Datenbank existiert schon, aber die Tabellen und deren Datens\"atze fehlen. Es wurde ein Select-Query aufgebaut, wobei alle Tabellen von Infotainment System Datenbank selektiert worden sind, aber es kommt eine leere Ergebnissmenge zur\"uck. Das bedeutet, dass momentan die Datenbank leer ist.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -355,7 +360,7 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	\label{dsp} 
 \end{center}
 \begin{itemize}
-	\item Dieses Display/Client soll die Daten vom Server \"ubernehmen, deswegen wurde das Offline Betrieb Skript ausgef\"uhrt, damit dieses Display den gleichen Zustand wie der Server bekommt.
+	\item Dieses Display/Client soll die Daten vom Server \"ubernehmen, deswegen wurde das Offline Betrieb Skript ausgef\"uhrt, damit dieses Display den gleichen Zustand wie der Server bekommt. Auf Abbildung \ref{Ofl} ist die Ausf\"uhrung von Offline Betrieb Skript ersichtlich.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -364,7 +369,7 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	\label{Ofl} 
 \end{center}
 \begin{itemize}
-	\item Nachdem dieses Skript ausgef\"uhrt wird, werden die Tabellen, die in der Datenbank von Server liegen, im Client nacheinander erstellt. In der folgenden Abbildung ist die Erstellung von den ersten zehn Tabellen ersichtlich.  
+	\item Nachdem dieses Skript ausgef\"uhrt wird, werden die Tabellen, die in der Datenbank von Server liegen, im Client nacheinander erstellt. In der folgenden Abbildung \ref{stundenplanfsn} ist die Erstellung von den ersten zehn Tabellen ersichtlich. 
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -391,7 +396,7 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 	\label{studenlanfsn} 
 \end{center}
 \begin{itemize}
-	\item Auf dieser Abbildung ist das Hinzuf\"ugen von Datens\"atzen zu den Tabellen ersichtlich. In diesem Fall wurde die Tabelle Kalenderinformationen als Beispiel genommen. Es werden also nicht nur die Tabellen im Client erstellt, sondern auch die entsprechende Datens\"atze zu den Tabellen hinzugef\"ugt.
+	\item Auf Abbildung \ref{stuenlanfsn} ist das Hinzuf\"ugen von Datens\"atzen zu den Tabellen ersichtlich. In diesem Fall wurde die Tabelle Kalenderinformationen als Beispiel genommen. Es werden also nicht nur die Tabellen im Client erstellt, sondern auch die entsprechende Datens\"atze zu den Tabellen hinzugef\"ugt.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -403,8 +408,7 @@ Der Offline-Betrieb ist aus mehreren Gründen für das Infotainment-System sehr 
 
 Als erster Schritt erfolgte die Registrierung bei openweathermap.org. Danach wurde ein API Key bekannt gegeben, mit dem die API Call gemacht werden kann. Die Antwort von API Call wird im JSON-Format gegeben.
 Danach erfolgt die Speicherung der bestimmten Parameter, die von dem API CALL kommen, in der Datenbank.
-Als letztens werden mithilfe von PHP die in der Datenbank gespeicherten Parameter aufgerufen und auf dem Bildschirm angezeigt.
-
+Als letztens werden mithilfe von PHP die in der Datenbank gespeicherten Parameter aufgerufen und auf dem Bildschirm angezeigt. 
 \begin{center}
 	\captionsetup{type=figure}
 	\includegraphics[width=0.7\linewidth]{\ordnerfigures weather.jpeg}
@@ -450,12 +454,8 @@ Basierend auf der ausgewählten Sprache, erm\"oglicht der Infotainment Bot die I
 Die Informationen über den unregistrierten Benutzer wird der Administrator bekommen. Er soll dann die Genehmigung geben, ob diese Person schon eine Interaktion mit dem Chatbot haben darf oder nicht. 
 \subsubsection{Normale Benutzer}
 Die Daten über die normalen Benutzer sind nach der Registrierung in der Datenbank gespeichert. Diese Benutzer sind vom Administrator genehmigt. Die Nachrichten, die diese normalen Benutzer zum Chatbot schicken werden nach Inhalt überprüft. Falls sie ein Bild schicken, wird dieses Bild auf die Datenbank gespeichert und auf dem Bildschirm angezeigt. \\
-<<<<<<< HEAD
 Wenn aber der Benutzer eine Nachricht schickt, die kein Bild ist, wird es keine Interaktion mit dem Bot geben, weil dem Bot die anderen Nachrichtformate nicht interessieren. \\
 Au\ss{}erdem hat der normale Benutzer, die M\"oglichkeit, die Sprache auszuw\"ahlen. Der Infotainment Bot stellt die Sprachen Englisch und Deutsch zur Verf\"ugung. Je nachdem was man w\"ahlt, wird die Interaktion zwischen Infotainment Bot und den Benutzter in der ausgew\"ahlten Sprache gemacht. 
-=======
-Au\ss{}erdem hat der normale Benutzer, die M\"oglichkeit, die Sprache auszuw\"ahlen. Der Infotainment Bot stellt die Sprachen Englisch und Deutsch zur Verf\"ugung. Je nachdem was man w\"ahtl, wird die Interaktion zwischen Infotainment Bot und den Benutzter in der ausgew\"hlten Sprache gemacht. 
->>>>>>> 1fb135157fb0b82d037e66a326a8793910bde85d
 
 \subsubsection{Administrator}
 Dem Administrator werden andere Möglichkeiten zur Verfügung gestellt. Er ist in der Lage die normalen und die unregistrierten Benutzer zu sehen. Die werden von der Datenbank selektiert und durch den Bot dargestellt. Dort kann er die Genehmigung für die unregistrierten Benutzer geben. Er kann auch die normalen Benutzer blockieren, wenn sie einmal ein unpassendes Bild geschickt haben. Der Administrator kann im Falle eines Notfalls eine Nachricht zu allen Benutzern schicken, um sie zu benachrichtigen. \\
@@ -463,7 +463,7 @@ Wie alle anderen Benutzer, kann der Administrator die Sprache auswählen, in der
 \\
 \subsection{Umsetzung der Funktionalitäten}
 \begin{itemize}
-	\item Zuerst wurde ein Query geschrieben, um zu überprüfen ob die Person, die eine Nachricht zum Bot geschrieben hat, schon in der Datenbank registriert ist oder nicht. 
+	\item Zuerst wurde ein Query geschrieben, um zu überprüfen ob die Person, die eine Nachricht zum Bot geschrieben hat, schon in der Datenbank registriert ist oder nicht. Auf listing \ref{ffd} ist das Select Query für die registrierten Benutzer in die Datenbank ersichtlich.
 \end{itemize} 
 \begin{lstlisting}[frame=single]
 query=("SELECT c_id, role, user_status, checked, telefonnummer 
@@ -474,11 +474,12 @@ if count > 0:
 	user=curs.fetchone()
 \end{lstlisting}
 \captionof{lstlisting}{Select Query für die registrierten Benutzer in die Datenbank}
+\label{ffd}
 \begin{itemize}
 	\item Falls diese Person registriert ist, wird überprüft welche Rechte er hat. Falls er ein Administrator ist, werden die Nachrichten, die er zum Chatbot sendet analysiert und die entsprechenden Ergebnisse zurückgeschickt. 
 \end{itemize}	
 \begin{itemize}
-	\item Wenn der Administrator /users zum Bot schreibt, bedeutet dass er alle Benutzer sehen will. Es wird ein Query geschrieben, die alle Benutzer aus der Datenbank selektiert. An dem Administrator wird die ID der Benutzer und deren Telefonnummer geschickt. Wenn es keine Benutzer gibt, wird ihm eine Nachricht zur\"uckgeschickt, dass es momentan im System keine Benutzer gibt.
+	\item Wenn der Administrator /users zum Bot schreibt, bedeutet dass er alle Benutzer sehen will. Es wird ein Query geschrieben, die alle Benutzer aus der Datenbank selektiert. An dem Administrator wird die ID der Benutzer und deren Telefonnummer geschickt. Wenn es keine Benutzer gibt, wird ihm eine Nachricht zur\"uckgeschickt, dass es momentan im System keine Benutzer gibt. Auf listing \ref{kuje} ist die Umsetzung der Darstellung aller Benutzer ersichtlich. 
 \end{itemize}
 \begin{lstlisting}[frame=single]
 if command == '/users':
@@ -497,8 +498,9 @@ if command == '/users':
 	
 \end{lstlisting}
 \captionof{lstlisting}{Darstellung aller  Benutzer}
+\label{kuje}
 \begin{itemize}
-	\item Wenn der Administrator /SeeUnregisteredUsers zum Chatbot schreibt, bedeutet es dass er die unregistrierten Benutzer sehen will. Ihm werden dann die ID und die Telefonnummer von diesen Benutzern zurückgeschickt. Wenn es keine unregistrierte Benutzer im System gibt, wird dem Administrator eine Nachricht geschickt: Es gibt keine unregistrierte Benutzer. 
+	\item Wenn der Administrator /SeeUnregisteredUsers zum Chatbot schreibt, bedeutet es dass er die unregistrierten Benutzer sehen will. Ihm werden dann die ID und die Telefonnummer von diesen Benutzern zurückgeschickt. Wenn es keine unregistrierte Benutzer im System gibt, wird dem Administrator eine Nachricht geschickt: Es gibt keine unregistrierte Benutzer. Auf \ref{kujeti} ist die Umsetzung der Darstellung der unregistrierten Benutzer ersichtlich.
 \end{itemize}
 \begin{lstlisting}[frame=single]
 if command == '/see_unregistered_users':
@@ -518,8 +520,9 @@ if command == '/see_unregistered_users':
 		bot.sendMessage(chat_id, txt[23][language])	
 \end{lstlisting}
 \captionof{lstlisting}{Darstellung der unregistrierten Benutzer}
+\label{kujeti}
 \begin{itemize}
-	\item Wenn der Administrator /DoNotAccept und eine bestimmte Chat ID zum Chatbot schreibt, bedeutet, dass der einen unregistrierten Benutzer nicht genehmigen wird. Das bedeutet, dass alle von diesem Benutzer empfangenen Nachrichten werden vom ChatBot nicht berücksichtigt. Wenn der Benutzer, der vom Administrator nicht akzeptiert wurde, versucht, Interaktion mit dem Infotainment Bot zu haben, wird ihm eine Nachricht geschickt, dass die Interaktion nicht m\"oglich ist, weil er nicht genehmigt wurde.
+	\item Wenn der Administrator /DoNotAccept und eine bestimmte Chat ID zum Chatbot schreibt, bedeutet, dass der einen unregistrierten Benutzer nicht genehmigen wird. Das bedeutet, dass alle von diesem Benutzer empfangenen Nachrichten werden vom ChatBot nicht berücksichtigt. Wenn der Benutzer, der vom Administrator nicht akzeptiert wurde, versucht, Interaktion mit dem Infotainment Bot zu haben, wird ihm eine Nachricht geschickt, dass die Interaktion nicht m\"oglich ist, weil er nicht genehmigt wurde. Auf listing \ref{fwe} ist die Umsetzung von diesem Fall ersichtlich. 
 \end{itemize}	
 \begin{lstlisting}[frame=single]
 if usermng[0]=='/DoNotAccept':
@@ -531,8 +534,9 @@ donotacceptquery=("update tb_infotainment_chatbot_users
 	bot.sendMessage(chat_id, txt[20][language])
 \end{lstlisting}
 \captionof{lstlisting}{Genehmigungen für die neue Registrierungen}
+\label{fwe}
 \begin{itemize}
-	\item Wenn der Administrator /Accept und eine bestimmte Chat ID zum Chatbot schreibt, bedeutet, dass der einen unregistrierten Benutzer genehmigen will. Das bedeutet, dass dieser Benutzer hat den Status von einem normalen Benutzer gekriegt. Dieser Benutzer bekommt auch eine Nachricht vom Chatbot, dass er vom Administrator akzeptiert wurde und dadurch ist die Interaktion mit dem Infotainment Bot m\"oglich.
+	\item Wenn der Administrator /Accept und eine bestimmte Chat ID zum Chatbot schreibt, bedeutet, dass der einen unregistrierten Benutzer genehmigen will. Das bedeutet, dass dieser Benutzer hat den Status von einem normalen Benutzer gekriegt. Dieser Benutzer bekommt auch eine Nachricht vom Chatbot, dass er vom Administrator akzeptiert wurde und dadurch ist die Interaktion mit dem Infotainment Bot m\"oglich. Auf listing \ref{fwwq} ist die Umsetzung der Genehmigungen des Administrators für die neue Registrierungen ersichtlich.
 \end{itemize}	
 \begin{lstlisting}[frame=single]
 if usermng[0]=='/Accept':
@@ -544,8 +548,9 @@ if usermng[0]=='/Accept':
 	bot.sendMessage(chat_id, txt[18][language])
 \end{lstlisting}
 \captionof{lstlisting}{Genehmigungen für die neue Registrierungen}
+\label{fwwq}
 \begin{itemize}
-	\item Der Administrator kann bestimmte Benutzer blockieren, wenn er ‘/Block’ und eine bestimmte Chat ID zum Chatbot schreibt. Wenn die Benutzer, die von dem Administrator blockiert wurden, versuchen, Interaktion mit dem Infotainment Bot zu haben, wird denen eine Nachricht geschickt, dass sie blockiert sind und die Interaktion nicht m\"oglich ist.
+	\item Der Administrator kann bestimmte Benutzer blockieren, wenn er ‘/Block’ und eine bestimmte Chat ID zum Chatbot schreibt. Wenn die Benutzer, die von dem Administrator blockiert wurden, versuchen, Interaktion mit dem Infotainment Bot zu haben, wird denen eine Nachricht geschickt, dass sie blockiert sind und die Interaktion nicht m\"oglich ist. Auf \ref{fblock} ist die Umsetzung der Benutzer-Blockierung ersichtlich. 
 \end{itemize}
 \begin{lstlisting}[frame=single]
 if usermng[0] == '/block':
@@ -556,8 +561,9 @@ if usermng[0] == '/block':
 	bot.sendMessage(chat_id, txt[24][language])
 \end{lstlisting}
 \captionof{lstlisting}{Blockierung der Benutzer}
+\label{fblock}
 \begin{itemize}
-	\item Im Falle eines Notfalles, kann der Administrator an alle Benutzer eine Nachricht schicken, um sie vorher zu warnen.   
+	\item Im Falle eines Notfalles, kann der Administrator an alle Benutzer eine Nachricht schicken, um sie vorher zu warnen. Auf listing \ref{notfallnach} ist die Umsetzung der Notfall Nachrichten ersichtlich.
 \end{itemize}
 \begin{lstlisting}[frame=single]
 if command=='/notfall':
@@ -570,8 +576,9 @@ for not in variablenotfall:
 bot.sendMessage(chat_id, txt[27][language])
 \end{lstlisting}
 \captionof{lstlisting}{Notfall Nachricht}
+\label{notfallnach}
 \begin{itemize}
-	\item Wie vorher erw\"ahnt, kann der Administrator auch die Sprache \"andern. Danach folgt die Interaktion mit dem Chatbot in der ausgew\"ahlten Sprache.   
+	\item Wie vorher erw\"ahnt, kann der Administrator auch die Sprache \"andern. Danach folgt die Interaktion mit dem Chatbot in der ausgew\"ahlten Sprache. Auf listing \ref{sor} ist die Umsetzung der Spracheinstellungen ersichtlich.
 \end{itemize}
 \begin{lstlisting}[frame=single]
 if usermng[0]=='/setLanguage':
@@ -587,8 +594,9 @@ if usermng[0]=='/setLanguage':
 		bot.sendMessage(chat_id, txt[17][language])
 \end{lstlisting}
 \captionof{lstlisting}{Spracheinstellungen}
+\label{sor}
 \begin{itemize}
-	\item Wenn der Administrator eine Nachricht zum Chatbot schickt, dass keine der oberen Befehle ist, dann schickt der Infotainment Bot eine Nachricht zur\"uck, die besagt, dass die von ihm gesendete Nachricht falsch ist, und weist ihn an, zum Menü zu gehen, in dem er alle verfügbaren Optionen sehen kann. Die Men\"u wird dann angezeigt, wenn der Benutzer /info eingibt.
+	\item Wenn der Administrator eine Nachricht zum Chatbot schickt, dass keine der oberen Befehle ist, dann schickt der Infotainment Bot eine Nachricht zur\"uck, die besagt, dass die von ihm gesendete Nachricht falsch ist, und weist ihn an, zum Menü zu gehen, in dem er alle verfügbaren Optionen sehen kann. Die Men\"u wird dann angezeigt, wenn der Benutzer /info eingibt. Auf listing \ref{fshap} ist die Erstellung von dem Hauptmen\"u f\"ur den Administrator ersichtlich.
 \end{itemize}
 \begin{lstlisting}[frame=single]
 if command=='/info':
@@ -598,11 +606,12 @@ if command=='/info':
 		bot.sendMessage(chat_id, defaultadminmsgde)
 \end{lstlisting}
 \captionof{lstlisting}{Hauptmen\"u f\"ur den Administrator}
+\label{fshap}
 \begin{itemize}
 	\item Falls ein normaler Benutzer die oberen Befehle probiert, wird er vom Chatbot eine Nachricht erhalten, dass er nicht der Administrator ist.
 \end{itemize}
 \begin{itemize}
-	\item Durch diese Funktion wird überprüft, ob die Person, die den Button Ja gedruckt hat, registriert ist oder nicht. Falls nein, bittet Chatbot ihn die Telefonnummer einzutragen.
+	\item Durch diese Funktion wird überprüft, ob die Person, die den Button Ja gedruckt hat, registriert ist oder nicht. Falls nein, bittet Chatbot ihn die Telefonnummer einzutragen. Auf listing \ref{gfeee} ist die Überprüfung der Eingabe der Benutzer ersichtlich.  
 \end{itemize}
 \begin{lstlisting}[frame=single]
 def on_callback_query(msg):
@@ -628,8 +637,9 @@ else:
 	bot.sendMessage(from_id, text='Registrierung nicht moeglich')
 \end{lstlisting}
 \captionof{lstlisting}{Überprüfung der Eingabe der Benutzer}
+\label{fgeee}
 \begin{itemize}
-	\item Danach erfolgt die Überprüfung ob die Telefonnummer richtig eingegeben ist oder nicht. Falls ja, wird diese Person in die Datenbank hinzugefügt. Dieser wartet aber auf die Genehmigung des Administrators.
+	\item Danach erfolgt die Überprüfung ob die Telefonnummer richtig eingegeben ist oder nicht. Falls ja, wird diese Person in die Datenbank hinzugefügt. Dieser wartet aber auf die Genehmigung des Administrators. Auf listing \ref{ftt} ist das Hinzufügen eines neuen Benutzers zur Datenbank.
 \end{itemize}
 \begin{lstlisting}[frame=single] 
 query3=("insert into tb_infotainment_chatbot_users" \
@@ -640,11 +650,11 @@ curs.execute(query3,execute)
 conn.commit()
 \end{lstlisting}
 \captionof{lstlisting}{Hinzufügen eines neuen Benutzers zur Datenbank} 
+\label{ftt}
 \begin{itemize}
 	\item Chatbot wird in zwei Sprachen angeboten, n\"amlich in Deutsch und in Englisch. Die Umsetzung wurde so gemacht: \\
-		Zuerst wurde eine Tabelle in der Datenbank erstellt. Diese Tabelle hat drei Spalten: id, englisch und deutsch. In den letzten Spalten wurden alle Nachrichten, die Chatbot zu den Benutzern schickt, in den jeweiligen Sprachen gespeichert. Diese Tabelle ist auf Abbildung \ref{fig:menudmn} ersichtlich. 
+		Zuerst wurde eine Tabelle in der Datenbank erstellt, die auf Abbildung \ref{fig:menudmn} ersichtlich ist. Diese Tabelle hat drei Spalten: id, englisch und deutsch. In den letzten Spalten wurden alle Nachrichten, die Chatbot zu den Benutzern schickt, in den jeweiligen Sprachen gespeichert. Diese Tabelle ist auf Abbildung \ref{fig:menudmn} ersichtlich. 
 		Es wurde in dem Python-Skript, wo Chatbot programmiert wurde, eine Variable erstellt, die mit dem Wert 1 initialisiert ist. Solange diese Variable dass Wert 1 hat, werden zu den Benutzern nur Nachrichten auf Englisch geschickt, weil dieser Wert, bedeutet, dass nur die Datens\"atze von der ersten Spalte der Tabelle genommen werden. Die erste Spalte der Tabelle ist die Spalte Englisch. Wenn der Benutzer die Sprache auf Deutsch umstellt, dann wird die Variable mit dem Wert 2 initialisiert. Es werden dann nur Nachrichten auf Deutsch zu den Benutzern geschickt. \\
-		\\
 		\captionsetup{type=figure}
 		\includegraphics[width=\linewidth]{\ordnerfigures multilanguage.jpg}
 		\caption{Chatbot Multilanguage} 
@@ -653,7 +663,7 @@ conn.commit()
 \subsection{Konkrete Beispiele} 
 In den folgenden Abbildungen werden die Funktionalitäten des Administrators beim Chatbot dargestellt.
 \begin{itemize}
-	\item Hauptmen\"u f\"ur den Administrator
+	\item Auf Abbildung \ref{fig:menuadmin} ist das Hauptmen\"u f\"ur den Administrator ersichtlich. Dieses Men\"u enth\"alt alle Funktionalit\"aten, die dem Administrator zur Verf\"ugung gestellt sind. Der Administrator kann die Benutzer anschauen, die Benutzer akzeptieren, die Benutzer blockieren, Notfall Nachrichten schicken und die Sprache umstellen. 
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -662,7 +672,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\label{fig:menuadmin}
 \end{center}
 \begin{itemize}
-	\item Funktion des Administrators, die Benutzer anzuschauen: Chatbot schickt die Chat ID des Benutzers zurück, die für jeden Benutzer eindeutig ist, und auch die Telefonnummer. Diese Daten sind in der Datenbank gespeichert und werden davon selektiert.
+	\item Funktion des Administrators, die Benutzer anzuschauen: Chatbot schickt die Chat ID des Benutzers zurück, die für jeden Benutzer eindeutig ist, und auch die Telefonnummer. Diese Daten sind in der Datenbank gespeichert und werden davon selektiert. Diese Funktionalit\"at ist auf Abbildung \ref{fig:chatbotbenutzer} ersichtlich.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -671,7 +681,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\label{fig:chatbotbenutzer}
 \end{center}
 \begin{itemize}
-	\item Funktion des Administrators, die unregistrierten Benutzer anzuschauen: Chatbot schickt die eindeutige Chat ID des Benutzers zurück, die für jeden Benutzer eindeutig ist, und auch die Telefonnummer. Diese Daten sind in der Datenbank gespeichert und werden davon selektiert.
+	\item Funktion des Administrators, die unregistrierten Benutzer anzuschauen: Chatbot schickt die eindeutige Chat ID des Benutzers zurück, die für jeden Benutzer eindeutig ist, und auch die Telefonnummer. Diese Daten sind in der Datenbank gespeichert und werden davon selektiert. Diese Funktion ist auf Abbildung \ref{chatbotben} ersichtlich.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -680,7 +690,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\label{chatbotben}
 \end{center}
 \begin{itemize}
-	\item Falls es keine unregistrierte Benutzer gibt, schickt der Infotainment Bot eine Nachricht zum Administrator, dass keine unregistrierte Benutzer im System gibt.
+	\item Falls es keine unregistrierte Benutzer gibt, schickt der Infotainment Bot eine Nachricht zum Administrator, dass keine unregistrierte Benutzer im System gibt. Dieser Fall ist auf Abbildung \ref{chatbotbenf} ersichtlich.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -689,7 +699,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\label{chatbotbenf}
 \end{center}
 \begin{itemize}
-	\item Der Administrator hat die M\"oglichkeit, die Benutzer zu genehmigen. Er kriegt von Chatbot eine Nachricht zur\"urck, wenn die Genehmigung erfolgreich war. Der Benutzer, der von dem Administrator akzeptiert wurde, wird von Chatbot als ein normaler Benutzer angesehen.
+	\item Der Administrator hat die M\"oglichkeit, die Benutzer zu genehmigen. Er kriegt von Chatbot eine Nachricht zur\"urck, wenn die Genehmigung erfolgreich war. Der Benutzer, der von dem Administrator akzeptiert wurde, wird von Chatbot als ein normaler Benutzer angesehen. Diese Funktion ist auf Abbildung \ref{chatbotbenjdf} ersichtlich.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -698,7 +708,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\label{chatbotbenjdf}
 \end{center}
 \begin{itemize}
-	\item Der Administrator hat die M\"oglichkeit, die Benutzer nicht zu akzeptieren. Er kriegt von Chatbot eine Nachricht zur\"urck, wenn die Ablehnung erfolgreich war. Der Benutzer, der von dem Administrator nicht akzeptiert wurde, kann keine Interaktion mit dem Chatbot machen.
+	\item Der Administrator hat die M\"oglichkeit, die Benutzer nicht zu akzeptieren. Er kriegt von Chatbot eine Nachricht zur\"urck, wenn die Ablehnung erfolgreich war. Der Benutzer, der von dem Administrator nicht akzeptiert wurde, kann keine Interaktion mit dem Chatbot machen. Diese Funktion ist auf Abbildung \ref{chatbotbenjjdf} ersichtlich.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -707,7 +717,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\label{chatbotbenjjdf}
 \end{center}
 \begin{itemize}
-	\item Funktion des Administrators, eine Notfallwarnmeldung an alle Benutzern zu schicken. Der Administrator erhält dann eine Bestätigungsnachricht vom Chatbot.
+	\item Funktion des Administrators, eine Notfallwarnmeldung an alle Benutzern zu schicken. Der Administrator erhält dann eine Bestätigungsnachricht vom Chatbot. Diese Funktion ist auf Abbildung \ref{chatbfotbenjjdf} ersichtlich.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -716,7 +726,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\label{chatbfotbenjjdf}
 \end{center}
 \begin{itemize}
-	\item Funktion des Administrators, die Benutzer zu blockieren: Der Administrator schreibt einfach das Befehl /block und die Chat-ID des Benutzers. Chatbot schickt eine Nachricht zurück, dass dieser Benutzer geblockt wurde.
+	\item Funktion des Administrators, die Benutzer zu blockieren: Der Administrator schreibt einfach das Befehl /block und die Chat-ID des Benutzers. Chatbot schickt eine Nachricht zurück, dass dieser Benutzer geblockt wurde. Diese Funktion ist auf Abbildung \ref{fig:chatbotblock} ersichtlich.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -726,7 +736,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des Administrators bei
 	\captionsetup{type=figure} 
 \end{center}
 \begin{itemize}
-	\item Funktion des Administrators, die Sprache zu \"andern. In der folgenden Abbildung wurde die Sprache von dem Administrator auf Deutsch ge\"andert. Er kriegt eine Best\"atigungsnachricht vom Chatbot, dass die Sprache auf Deutsch eingestellt wurde. Das bedeutet, dass die Interaktion wird in der ausgew\"ahlten Sprache folgen und der Administrator wird alle Meldungen nur in dieser Sprache vom Chatbot erhalten.
+	\item Funktion des Administrators, die Sprache zu \"andern. In der folgenden Abbildung \ref{fig:sprachek} wurde die Sprache von dem Administrator auf Deutsch ge\"andert. Er kriegt eine Best\"atigungsnachricht vom Chatbot, dass die Sprache auf Deutsch eingestellt wurde. 
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
@@ -754,6 +764,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des unregistrierten Be
 	\caption{Registrierung beim Chatbot}
 	\label{fig:chfdsatboregistr}
 \end{center}
+\newpage
 \begin{itemize}
 	\item Wenn der Benutzer, statt die Telefonnummer Text eingibt, bekommt er eine Fehlermeldung von Chatbot.
 \end{itemize}
@@ -786,7 +797,7 @@ In den folgenden Abbildungen werden die Funktionalitäten des unregistrierten Be
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
-	\includegraphics[width=0.7\linewidth]{\ordnerfigures chatbotbild7.jpeg}
+	\includegraphics[width=0.6\linewidth]{\ordnerfigures chatbotbild7.jpeg}
 	\caption{Das Warten der Benutzer auf die Bestätigung des Administrators}
 	\label{fig:chat232bo53}
 \end{center}
@@ -795,11 +806,10 @@ In den folgenden Abbildungen werden die Funktionalitäten des unregistrierten Be
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
-	\includegraphics[width=0.6\linewidth]{\ordnerfigures chatbotipy.png}
+	\includegraphics[width=0.5\linewidth]{\ordnerfigures chatbotipy.png}
 	\caption{Keine Registrierung}
 	\label{fig:chatffd3}
 \end{center}
-\newpage
 \begin{itemize}
 	\item Funktion von einem unregistrierten Benutzer, die Sprache zu \"andern.
 \end{itemize}
@@ -815,11 +825,10 @@ In den folgenden Abbildungen wird die Interaktion eines normalen Benutzers mit d
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
-	\includegraphics[width=0.7\linewidth]{\ordnerfigures chat1.jpeg}
+	\includegraphics[width=0.6\linewidth]{\ordnerfigures chat1.jpeg}
 	\caption{Hauptmen\"ur f\"ur einen normalen Benutzer} 
 	\label{fig:chgtfd3}
 \end{center}
-\newpage
 \begin{itemize}
 	\item Bilderfunktionalit\"at
 \end{itemize}
@@ -843,7 +852,7 @@ In den folgenden Abbildungen wird die Interaktion eines normalen Benutzers mit d
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
-	\includegraphics[width=0.7\linewidth]{\ordnerfigures notfalllll.jpeg}
+	\includegraphics[width=0.7\linewidth]{\ordnerfigures notfaliu.jpeg}
 	\caption{Notfallwarmeldung vom Administrator} 
 	\label{fig:chgf43}
 \end{center}
@@ -869,11 +878,11 @@ In der folgenden Abbildung wird die Interaktion eines nicht akzeptierten Benutze
 \end{center}
 In der folgenden Abbildung wird die Interaktion eines akzeptierten Benutzer mit dem Chatbot dargestellt.
 \begin{itemize}
-	\item Wenn ein Benutzer von dem Administrator akzeptiert wird, wird der Infotainment Bot ihm eine Nachricht schicken, dass er gerade genehmigt wurde und dass die Interaktion mit dem Chatbot m\"oglich ist. Dieser Benutzer kriegt den Status einer normalen Benutzer.
+	\item Wenn ein Benutzer von dem Administrator akzeptiert wird, kriegt er den Status einer normalen Benutzer.
 \end{itemize}
 \begin{center}
 	\captionsetup{type=figure}
-	\includegraphics[width=0.7\linewidth]{\ordnerfigures aky.jpeg}
+	\includegraphics[width=0.6\linewidth]{\ordnerfigures aky.jpeg}
 	\caption{Akzeptierter Benutzer }
 	\label{fig:chatbodged53}
 \end{center}
@@ -943,7 +952,7 @@ In diesem Kapitel ist das Handbuch für die Bedienung von Chatbot beschrieben.
 \subsection{Beschreibung der Bedienung als User}
 Die Bedienung von Chatbot ist eigentlich sehr leicht. Ein normaler Benutzer ist in der Lage, Bilder zum Chatbot zu schicken die zuerst in die Datenbank gespeichert und automatisch auf dem Bildschirm angezeigt werden. \\
 Zuerst soll am Handy die Applikation Telegram heruntergeladen werden. Danach soll nach dem Benutzername Infotainment gesucht werden. Der Chat mit dem Infotainment Bot wird geöffnet. 
-Jeder Benutzer, die eine Interaktion mit Chatbot haben will, soll sich zuerst registrieren. \\
+Jeder Benutzer, der eine Interaktion mit Chatbot haben will, soll sich zuerst registrieren. \\
 Sobald der Chatbot eine Nachricht von jemandem erh\"alt, der für das erste Mal an ihm etwas schickt, wird der Chatbot ihm fragen ob er sich registrieren will oder nicht. Die Wahl kommt in Form von zwei Buttons, die die Antworten Ja und Nein beinhalten.\\
 Für die Registrierung soll Ja geklickt werden und dann muss die Telefonnummer eingegeben werden. \\
 Danach wird gewartet, bis der Administrator die Genehmigung für die neue Registrierung gegeben hat. Sobald der Administrator diese Genehmigung gegeben hat, wird dieser Benutzer benachrichtigt und nur dann kann er Bilder zum Chatbot schicken, die an dem Bildschirm angezeigt werden. Die Benutzer haben die M\"oglichkeit, selbst die Sprache auszuw\"ahlen, in der die Interaktion mit dem Chatbot erfolgen soll.
