@@ -166,7 +166,7 @@ Zuerst wurde ein ER-Diagramm\footnote{Entity Relationship Diagram} (Abbildung \r
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[angle=90,height=19cm,width=0.8\textwidth]{\ordnerfigures erd_1.png}
+	\includegraphics[angle=90,height=20cm,width=0.8\textwidth]{\ordnerfigures erd_1.png}
 	\caption{ERD Diagramm}
 	\label{fi:erd}
 \end{figure}
@@ -738,6 +738,20 @@ Um das Passwort zurückzusetzen, musste eine Funktion implementiert werden, die 
 \subsection{Identifizierung der Anzeigen}
 
 Es war notwendig, die verschiedenen Anzeigen zu identifizieren, damit sie voneinander unterschieden werden können. Der einzige Weg war die Verwendung der Mac-Adresse des Displays. Das Problem ist jedoch, dass die Mac-Adresse mit PHP nur sehr schwer zu finden war. Dieses Skript war auf der Anzeige zu finden. Beim ersten Start der Anzeige kommuniziert diese also mit der Datenbank und fügt die Mac-Adresse ein, wenn sie nicht vorhanden ist. Die Anzeige wird dann auf eine Begrüßungsseite umgeleitet, auf der der Administrator die Mac-Adresse dieser Anzeige sehen und auswählen kann, welche Informationen dort angezeigt werden sollen. 
+
+\subsection{Die Verwaltung der Anzeigeinformationen}
+
+
+Die Informationen werden über die Admin-Webseite in der Datenbank gespeichert und sollten nun korrekt auf dem Display angezeigt werden. Es gibt verschiedene Layouts, die vom Admin ausgewählt werden können, und sie sollten jetzt auf dem Display integriert werden. Jedes Layout hat unterschiedliche Teile und kann unterschiedliche Informationen anzeigen. Die Verwaltung all dieser Informationen und Inhalte war wirklich schwierig. Die Anfrage an die Datenbank musste mit dem Javascript erfolgen, damit die Seite nicht neu geladen werden muss. 
+
+\subsection{Kein Inhalt für die Anzeige}
+
+Wenn es keinen Inhalt für die Anzeige gibt, dann wäre die Anzeige leer. Es macht keinen Sinn, eine Anzeige ohne Information zu haben. In diesem Fall wurde ein Standard-Layout definiert, das angezeigt wird, wenn es keinen Inhalt für ein Display gibt.
+
+\subsection{Die Anzeige des Supplierplanplans}
+
+
+Beim ersten Mal wurde nicht über den Fall nachgedacht, wenn mehr Einträge im Supplierplanplan so sind, wie sie angezeigt werden können. Dies wurde bei den durchgeführten Tests festgestellt. Als dies der Fall war, konnten einige Informationen nicht mehr angezeigt werden. Die Tabelle wurde dann in mehrere Seiten aufgeteilt, die sich nach einiger Zeit automatisch ändern. 
 
 \subsection{Der letzte Post der Wordpress-Website}
 
