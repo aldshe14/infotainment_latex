@@ -166,7 +166,7 @@ Zuerst wurde ein ER-Diagramm\footnote{Entity Relationship Diagram} (Abbildung \r
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[angle=90,height=18cm]{\ordnerfigures erd_1.png}
+	\includegraphics[angle=90,height=19cm,width=0.8\textwidth]{\ordnerfigures erd_1.png}
 	\caption{ERD Diagramm}
 	\label{fi:erd}
 \end{figure}
@@ -214,7 +214,7 @@ In dieser E-Mail findet man einen Link, über den man das Passwort zurücksetzen
 	\label{fi:resetemail}
 \end{figure}
 
-Falls der Benutzer auf den Link klickt, wird ein neuer Tab geöffnet und er wird auf die Seite weitergeleitet, auf der er sein neues Passwort schreiben kann. Er sollte das neue Passwort zweimal schreiben, um eine falsche Eingabe zu vermeiden. Wenn beide Passwörter übereinstimmen, wird das Passwort über die Länge geprüft. Das Passwort sollte aus 8 bis maximal 20 Zeichen bestehen und nicht gleich 12345678 sein.
+Falls der Benutzer auf den Link klickt, wird ein neuer Tab geöffnet und er wird auf die Seite weitergeleitet, auf der er sein neues Passwort schreiben kann (Abbildung \ref{fi:reset-password}). Er sollte das neue Passwort zweimal schreiben, um eine falsche Eingabe zu vermeiden. Wenn beide Passwörter übereinstimmen, wird das Passwort über die Länge geprüft. Das Passwort sollte aus 8 bis maximal 20 Zeichen bestehen und nicht gleich 12345678 sein.
 Wenn alle genannten Kriterien erfüllt sind, wird das Passwort geändert und der Benutzer wird zur Startseite weitergeleitet.
 \begin{figure}[H]
 	\centering
@@ -223,7 +223,7 @@ Wenn alle genannten Kriterien erfüllt sind, wird das Passwort geändert und der
 	\label{fi:reset-password}
 \end{figure}
 
-Wenn jemand versucht, einen Link zu verwenden, der zuvor einmal verwendet wurde, nicht mehr gültig oder falsch ist, wird dem Benutzer eine Fehlermeldung angezeigt. Diese Fehlermeldung ist auf der Abbildung \ref{fi:invalidlink} zu sehen. In dieser Fehlermeldung sind auch zwei Links enthalten, die als Option verwendet werden können, um entweder einen neuen Link anzufordern oder den Benutzer zur Anmeldeseite umzuleiten.
+Wenn jemand versucht, einen Link zu verwenden, der zuvor einmal verwendet wurde, nicht mehr gültig oder falsch ist, wird dem Benutzer eine Fehlermeldung angezeigt. Diese Fehlermeldung ist auf Abbildung \ref{fi:invalidlink} zu sehen. In dieser Fehlermeldung sind auch zwei Links enthalten, die als Option verwendet werden können, um entweder einen neuen Link anzufordern oder den Benutzer zur Anmeldeseite umzuleiten.
 
 
 
@@ -280,7 +280,7 @@ Dieses Menü ist auch für mobile Benutzer geeignet. Wenn der Benutzer ein Mobil
 
 \subsection{Startseite}
 
-Die Startseite ist die Zusammenfassung des gesamten Systems. Auf dieser Seite kann der Administrator einen Überblick von Anzeigen erhalten. Wie man auf der Abbildung \ref{fi:home} sehen kann, werden die Clients mithilfe einer Dropdown-Liste angezeigt. Im ersten Moment, in dem diese Seite geöffnet wird, ist automatisch die erste Anzeige der Dropdown-Liste ausgewählt. Nachdem die Anzeige ausgewählt wurde, werden dem Benutzer einige Informationen angezeigt.
+Die Startseite ist die Zusammenfassung des gesamten Systems. Auf dieser Seite kann der Administrator einen Überblick von Anzeigen erhalten. Wie man auf Abbildung \ref{fi:home} sehen kann, werden die Clients mithilfe einer Dropdown-Liste angezeigt. Im ersten Moment, in dem diese Seite geöffnet wird, ist automatisch die erste Anzeige der Dropdown-Liste ausgewählt. Nachdem die Anzeige ausgewählt wurde, werden dem Benutzer einige Informationen angezeigt.
 
 Der Gerätestatus wird mit Hilfe eines ausgefüllten Kreises angezeigt. Abhängig vom Status des Geräts kann dieser Kreis entweder grün sein, was bedeutet, dass das Gerät aktiv und online ist, oder rot, wenn das Gerät offline ist. In der Nähe des Status des Geräts wird das Datum angezeigt, an dem die Anzeige zuletzt auf den Server geantwortet hat.
 Sowohl die IP-Adresse als auch die MAC-Adresse des Displays sind weitere Informationen, die auf der Startseite angezeigt werden.
@@ -319,7 +319,7 @@ Man kann auf jedes Layout (Feld) klicken, um ein Popup-Fenster zu öffnen, in de
 
 \subsubsection{Layout wählen}
 
-Auf dieser Seite ist es möglich, ein bestimmtes Layout für einen bestimmten Zeitraum auszuwählen. Mit Hilfe eines Dropdowns werden alle verfügbaren Layouts angezeigt. Der Benutzer muss eine Start- und Endzeit auswählen, zu der dieses Layout angezeigt werden soll. Eine andere Möglichkeit besteht darin, bestimmte Tage auszuwählen, an denen dieses Layout angezeigt werden soll. Es kann ein bestimmter Tag, bestimmte Tage oder die ganze Woche sein.
+Auf dieser Seite (siehe Abbildung \ref{fi:chooseLayout}) ist es möglich, ein bestimmtes Layout für einen bestimmten Zeitraum auszuwählen. Mit Hilfe eines Dropdowns werden alle verfügbaren Layouts angezeigt. Der Benutzer muss eine Start- und Endzeit auswählen, zu der dieses Layout angezeigt werden soll. Eine andere Möglichkeit besteht darin, bestimmte Tage auszuwählen, an denen dieses Layout angezeigt werden soll. Es kann ein bestimmter Tag, bestimmte Tage oder die ganze Woche sein.
 
 Über dem Button Layout hinzufügen werden die Daten gesendet. Als erstes wird die Start- und Endzeit überprüft. Die Startzeit sollte früher als die Endzeit sein. Wenn diese Bedingung erfüllt ist, wird geprüft, ob der Zeitplan während dieser Stunde leer ist. Dies wird für jeden ausgewählten Tag überprüft.
 
@@ -338,12 +338,19 @@ dieser Anzeige eingefügt, in dem der Benutzer sehen kann, welche Zeiten leer un
 
 \subsubsection{Layout Inhalte hinzufügen}
 Die Informationen, die auf den Bildschirmen angezeigt werden, sollten irgendwo eingefügt werden. Bisher haben wir nur ausgewählt, welches Layout diese Anzeige haben soll.
-Um den Inhalt der Anzeige auszuwählen, benötigt man die Ansicht viewLayout. Auf dieser Seite werden der Name der Anzeige, der Name des Layouts, die Uhrzeit und die Tage angezeigt, an denen dieses Layout angezeigt werden soll.
+Um den Inhalt der Anzeige auszuwählen, benötigt man die Ansicht viewLayout. Auf dieser Seite (Abbildung \ref{fi:viewLayout}) werden der Name der Anzeige, der Name des Layouts, die Uhrzeit und die Tage angezeigt, an denen dieses Layout angezeigt werden soll.
 
 Man kann verschiedene Inhalte für verschiedene Teile des Layouts auswählen.
 Jeder Teil zeigt auch den Inhalt an, der diesem Teil bereits zugeordnet war, zusammen mit der entsprechenden Zeit.
 
-In jedem Teil befindet sich ein kleines Pluszeichen. Wenn man auf dieses Symbol klicken, wird ein Popup-Fenster geöffnet, in dem es m\"oglich ist neue Inhalte hinzufügen.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.89\textwidth]{\ordnerfigures viewLayout.png}
+	\caption{Inhalt für ein bestimmtes Layout wählen}
+	\label{fi:viewLayout}
+\end{figure}
+
+In jedem Teil befindet sich ein kleines Pluszeichen. Wenn man auf dieses Symbol klicken, wird ein Popup-Fenster (siehe Abbildung \ref{fi:popup-content}) geöffnet, in dem es m\"oglich ist neue Inhalte hinzufügen.
 
 Einige Inhalte sind nur in einigen Teilen des Layouts verfügbar. Zum Beispiel wäre es nicht sinnvoll, den letzten Post der Schulhomepage in der Kopfzeile anzuzeigen. Die Kopfzeile ist klein und der Inhalt passt nicht hinein. Dies gilt auch für andere Inhalte, die nicht in alle Teile des Layouts passen.
 
@@ -354,12 +361,6 @@ Nachdem der Inhalt ausgewählt wurde, muss der Zeitpunkt ausgewählt werden, zu 
 Als letztes muss ausgefüllt werden, an welchen Tagen dieser Inhalt angezeigt wird. Zur Auswahl stehen nur Tage, an denen das Layout angezeigt wird.
 Der Button Submit speichert die Daten in der Datenbank und das Popup-Fenster wird geschlossen.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.89\textwidth]{\ordnerfigures viewLayout.png}
-	\caption{Inhalt für ein bestimmtes Layout wählen}
-	\label{fi:viewLayout}
-\end{figure}
 
 \begin{figure}[H]
 	\centering
@@ -371,7 +372,7 @@ Der Button Submit speichert die Daten in der Datenbank und das Popup-Fenster wir
 
 \subsubsection{Pop-up-Fenster}
 
-Der Zeitplan ist nur die Übersicht der Zeitplan, aber das sind nicht genug Informationen für den Benutzer. Man kann auf jedes Layout klicken, wenn man weitere Informationen zu diesem Layout haben möchte. Ein Pop-up-Fenster wird geöffnet. 
+Der Zeitplan ist nur die Übersicht der Zeitplan, aber das sind nicht genug Informationen für den Benutzer. Man kann auf jedes Layout klicken, wenn man weitere Informationen zu diesem Layout haben möchte. Ein Pop-up-Fenster wird geöffnet (Abbildung \ref{fi:popup}). 
 
 Dieses Fenster besteht aus zwei Teilen. Im linken Teil werden die Start- und Endzeit des Layouts sowie ein Name angezeigt, der vom Benutzer ausgewählt werden kann, wenn er ein neues Layout hinzufügt.
 
@@ -391,7 +392,7 @@ Am unteren Rand des Fensters befinden sich zwei Buttons. Der erste besteht darin
 
 \subsection{Anzeige}
 
-In der Anzeige Seite sind die registrierten Anzeigen bzw. Clients dargestellt. In dieser Tabelle sind die Spalten Name, Mac-Adresse, IP-Adresse, Standort und Layout dargestellt. Die Datensätze von dieser Tabelle können editiert und gelöscht werden. 
+In der Anzeige Seite (auf Abbildung \ref{fi:anzeige} dargestellt) sind die registrierten Anzeigen bzw. Clients dargestellt. In dieser Tabelle sind die Spalten Name, Mac-Adresse, IP-Adresse, Standort und Layout dargestellt. Die Datensätze von dieser Tabelle können editiert und gelöscht werden. 
 
 Im oberen Bereich besteht die Möglichkeit, andere Anzeigen hinzuzufügen.
 Wenn dieses Button gedr\"uckt wird, sollten danach die Eingaben für die Anzeige selbst geschrieben werden. Am Ende, nachdem die Anzeige hinzugefügt worden ist, wird es noch einmal zur Anzeige-Seite weitergeleitet.
@@ -408,7 +409,7 @@ Die Anzeigen können editiert bzw. geändert werden, wobei man noch einmal die M
 
 \subsection{Bilder}
 
-Die nächste Seite ist die Bilder-Seite. Hier sind der Name der Bilder und der Datentyp dargestellt. Diese Spalten können editiert und gelöscht werden. Man hat die Möglichkeit, Bilder hinzuzufügen, wobei selbst ein Bild aus dem Computer gewählt werden kann.
+Die nächste Seite ist die Bilder-Seite (Abbildung \ref{fi:images}). Hier sind der Name der Bilder und der Datentyp dargestellt. Diese Spalten können editiert und gelöscht werden. Man hat die Möglichkeit, Bilder hinzuzufügen, wobei selbst ein Bild aus dem Computer gewählt werden kann.
 
 \begin{figure}[H]
 	\centering
@@ -419,7 +420,7 @@ Die nächste Seite ist die Bilder-Seite. Hier sind der Name der Bilder und der D
 
 
 \subsection{Layouts}
-Ein andere Seite ist die Layout-Seite. Dort sind Layouts ersichtlich. Es gibt 3 Spalten; nämlich Name, Beschreibung und Datei. Hier gibt es wieder die Möglichkeit, Layouts hinzuzufügen, wo man selbst die Einträge füllen muss.
+Ein andere Seite ist die Layout-Seite (siehe Abbinldung \ref{fi:layouts}). Dort sind Layouts ersichtlich. Es gibt 3 Spalten; nämlich Name, Beschreibung und Datei. Hier gibt es wieder die Möglichkeit, Layouts hinzuzufügen, wo man selbst die Einträge füllen muss.
 
 \begin{figure}[H]
 	\centering
@@ -430,7 +431,7 @@ Ein andere Seite ist die Layout-Seite. Dort sind Layouts ersichtlich. Es gibt 3 
 
 \subsection{Kalendarinfo}
 
-In der Kalendarinfo-Seite sind die Kalenderinformationen ersichtlich. Es gibt die Spalten Titel, Beschreibung und Datum. Diese können editiert und gelöscht werden. Die Kalenderinformationen können selbst hinzugefügt werden und die Änderungen werden dann gespeichert.
+In der Kalendarinfo-Seite sind die Kalenderinformationen ersichtlich (Abbildung \ref{fi:kalendar}). Es gibt die Spalten Titel, Beschreibung und Datum. Diese können editiert und gelöscht werden. Die Kalenderinformationen können selbst hinzugefügt werden und die Änderungen werden dann gespeichert.
 
 \begin{figure}[H]
 	\centering
@@ -443,7 +444,7 @@ In der Kalendarinfo-Seite sind die Kalenderinformationen ersichtlich. Es gibt di
 Für die Schule ist der Supplierplan eine der wichtigsten Komponenten. Dies hilft den Schülern zu erkennen, welche Lehrer fehlen und wer sie ersetzen wird.
 
 \subsubsection{Stundenplan importieren}
-Unsere Schule verwendet Untis als Plattform für die Verwaltung der Stundenpl\"ane. Um Zeit zu sparen und alle Daten erneut in unsere Website einzufügen, wurde die Importfunktion implementiert. In Untis gibt es eine Option zum Exportieren des Stundeplans als txt-Datei. Diese Datei kann dann auf unserer Website verwendet und importiert werden.
+Unsere Schule verwendet Untis als Plattform für die Verwaltung der Stundenpl\"ane. Um Zeit zu sparen und alle Daten erneut in unsere Website einzufügen, wurde die Importfunktion implementiert (Abbildung \ref{fi:import}). In Untis gibt es eine Option zum Exportieren des Stundeplans als txt-Datei. Diese Datei kann dann auf unserer Website verwendet und importiert werden.
 Um diese Daten zu importieren, sollte die von Untis erstellte txt-Datei hochgeladen werden. Diese Daten werden über eine Stored Procedure in der Datenbank gespeichert. Die Stored Procedure wurde ausgewählt, weil sie den Import der Daten schneller und sicherer macht.
 
 Es kommt vor, dass sich der Stundenplan ändert und alle Daten erneut geändert werden sollten. Es besteht die Möglichkeit, alle alten Daten zu löschen und dann die neuen zu importieren.
@@ -456,7 +457,7 @@ Es kommt vor, dass sich der Stundenplan ändert und alle Daten erneut geändert 
 
 \subsubsection{Stundenplan }
 
-Auf dieser Seite werden alle Lehrer aufgelistet, die am ausgewählten Tag Unterricht haben. Wenn ein Lehrer als fehlend hinzugefügt wird, wird er auf dieser Seite nicht mehr angezeigt.
+Auf dieser Seite (Abbildung \ref{fi:supplierplan}) werden alle Lehrer aufgelistet, die am ausgewählten Tag Unterricht haben. Wenn ein Lehrer als fehlend hinzugefügt wird, wird er auf dieser Seite nicht mehr angezeigt.
 
 Als Hilfe für den Benutzer, der den Supplierplan erstellt, werden das Datum des ausgewählten Tages und die Wochennummer des Jahres angezeigt.
 Der Defaultwert des Tages in der Dropdown-Liste ist auf der aktuellen Tag festgelegt. Der Benutzer kann auch einen anderen Tag auswählen, um den Supplierplan für diesen Tag zu erstellen. Wenn es Wochenende ist, wird der Montag automatisch ausgewählt und der Supplierplan kann für die folgende Woche erstellt werden.
@@ -468,7 +469,7 @@ Der Defaultwert des Tages in der Dropdown-Liste ist auf der aktuellen Tag festge
 \end{figure}
 
 \subsubsection{Fehlende Lehrer}
-Nachdem die fehlende Lehrer eingegeben wurden, können die Ersatzlehrer für diese Lehrer ausgewählt werden.
+Nachdem die fehlende Lehrer eingegeben wurden, können die Ersatzlehrer für diese Lehrer ausgewählt werden (Abbildung \ref{fi:fehlendeLehrer}).
 
 In der Nähe jedes Lehrers besteht die Möglichkeit, seine Stunden zu ersetzen. Diese Option öffnet eine neue Seite mit dem Stundenplan des Lehrers an diesem Tag.
 
@@ -479,7 +480,7 @@ In der Nähe jedes Lehrers besteht die Möglichkeit, seine Stunden zu ersetzen. 
 	\label{fi:fehlendeLehrer}
 \end{figure}
 
-Aus dem Stundenplan kann eingegeben werden, zu welchen Stunden der Lehrer fehlen wird. Dies kann über das Kontrollkästchen an der Seite jeder Stunde erfolgen. Die Stunden, Lehrer, Fach, Klasse und das Raum werden automatisch gefüllt und können nicht geändert werden.
+Aus dem Stundenplan kann eingegeben werden, zu welchen Stunden der Lehrer fehlen wird. Dies kann über das Kontrollkästchen an der Seite jeder Stunde erfolgen (auf Abb. \ref{fi:supplieren} ersichtlich). Die Stunden, Lehrer, Fach, Klasse und das Raum werden automatisch gefüllt und können nicht geändert werden.
 
 Es gibt eine Dropdown-Liste zur Auswahl des Supplierers. Wenn es nur eine Gruppe der Klasse ist, wird in der Dropdown-Liste der Lehrer angezeigt, der Unterricht bei der andere Gruppe hat. Nachfolgend sind alle Lehrer aufgelistet, die zum Supplieren bereit sind. 
 
@@ -497,7 +498,7 @@ Zusätzlich kann auch eine Beschreibung für diese Stunde hinzugefügt werden
 \end{figure} 
 
 \subsubsection{Suppliertabelle}
-Die folgende Tabelle stellt den Supplierplan dar. Mit einer Dropdown-Liste wird die Möglichkeit zur Verfügung gestellt, den Tag von dem der Supplierplan angezeigt wird, auszuwählen. Normalerweise wird automatisch der aktuelle Tag angezeigt. Unten wird die aktuelle Datum und die Kalenderwoche angezeigt. Es werden die Stunde, Klasse, Raum, Lehrer, Supplierer und auch die Beschreibung dargestellt. Alle diese Informationen können einzeln geändert oder auch gelöscht werden.
+Die folgende Tabelle stellt den Supplierplan dar (siehe Abbildung \ref{fi:Suppliertabelle}). Mit einer Dropdown-Liste wird die Möglichkeit zur Verfügung gestellt, den Tag von dem der Supplierplan angezeigt wird, auszuwählen. Normalerweise wird automatisch der aktuelle Tag angezeigt. Unten wird die aktuelle Datum und die Kalenderwoche angezeigt. Es werden die Stunde, Klasse, Raum, Lehrer, Supplierer und auch die Beschreibung dargestellt. Alle diese Informationen können einzeln geändert oder auch gelöscht werden.
 
 \begin{figure}[H]
 	\centering
@@ -542,9 +543,9 @@ Wenn der Benutzer erstellt wird, wird eine E-Mail an diesen Benutzer gesendet (s
 
 \subsubsection{Passwort zurücksetzen}
 
-Es kann vorkommen, dass der Benutzer das Kennwort aus verschiedenen Gründen nicht zurücksetzen kann. Auf diese Weise kann er sich nicht mehr anmelden. Benutzer mit Administratorrechten können das Kennwort jedes Benutzers zurücksetzen. Um das Passwort eines Benutzers zurückzusetzen, sollte der Administrator auf das \textit{reset\_password} neben dem Benutzer klicken, den er zurücksetzen möchte.
+Es kann vorkommen, dass der Benutzer das Kennwort aus verschiedenen Gründen nicht zurücksetzen kann. Auf diese Weise kann er sich nicht mehr anmelden. Benutzer mit Administratorrechten können das Kennwort jedes Benutzers zurücksetzen. Um das Passwort eines Benutzers zurückzusetzen, sollte der Administrator auf das \textit{reset\_password} (siehe Abbildung \ref{fi:users}) neben dem Benutzer klicken, den er zurücksetzen möchte.
 
-Das neue Passwort wird mit derselben Funktion generiert, mit der das Passwort eines neuen Benutzers generiert wird. Dieses Passwort überschreibt das alte Passwort und ist das einzige Passwort, mit dem er sich auf der Webseite anmelden kann.
+Das neue Passwort wird mit derselben Funktion generiert, mit der das Passwort eines neuen Benutzers generiert wird. Dieses Passwort überschreibt das alte Passwort und ist das einzige Passwort, mit dem er sich auf der Webseite anmelden kann. Das neue Passwort wird \"uber E-Mail an dem Benutzer geschickt (Abbildung \ref{fi:password_reset}).
 
 \begin{figure}[H]
 	\centering
