@@ -142,7 +142,7 @@ Dieser Teil ist verantwortlich f\"{u}r die automatische Darstellung der Informat
 Beim Hochfahren des Systems am Client wird ein Signal geschickt um das Programm zu starten. Dieses Signal wird Init bezeichnet. Dieser Funktionsblock wird dann die Grundinitialisierung des Systems vornehmen. Es wird versucht eine Verbindung mit der Datenbank aufzubauen. In der Datenbank wird nachgeschaut ob diese Anzeige schon registriert ist. Falls das nicht der Fall ist, wird diese Anzeige registriert und die Anzeige kann die Daten bekommen. Start schickt auch ein Signal an die Zeitsteuerung, damit er zu arbeiten beginnen kann. Sobald diese Schritte abgeschlossen sind, ist der Startblock fertig und das System ist bereit f\"ur die darstellung der Daten.
 
 \subsection{Zeitsteuerung}
-Die Zeitsteuerung wird gestartet, wenn das Signal vom Start gekommen ist. Nach erhalt der Signales wird der Block gestartet. Dieser Block schaut, wann soll er die neuen Informationen von der Datenbank bekommen und macht eine Anfrage. Dieser Teil l\"auft st\"andig, damit die Anzeige die aktuellste Informationen beinhaltet.
+Die Zeitsteuerung wird gestartet, wenn das Signal vom Start gekommen ist. Nach erhalt des Signales wird der Block gestartet. Dieser Block schaut, wann soll er die neuen Informationen von der Datenbank bekommen und macht eine Anfrage. Dieser Teil l\"auft st\"andig, damit die Anzeige die aktuellste Informationen beinhaltet.
 
 \subsection{Daten holen}
 Daten holen, wie der Name schon sagt, beschäftigt sich mit dem Erhalt der Datensätze aus der Datenbank. Es werden die Queries aufgebaut, um die gewünschten Daten zu bekommen. Diese Query werden zu den Daten, die auf dem Server liegen, weitergeleitet. Die Response vonm Server wird auch von diesem Teil behandelt. Die Daten werden in den richtigen Format umgewandelt und weitergearbeitet.
@@ -713,14 +713,14 @@ Es wurde beim Chatbot, eine Funktionalität implementiert, wobei die Benutzer di
 In diesem Kapitel sind die Herausforderungen und deren Lösung, die während der Arbeit konfrontiert wurden, beschrieben.
 
 \subsection{Supplierplan}
-Eine der größten Herausforderungen war der Supplierplan. Wie vorher schon erwähnt, dient der Supplierplan  dazu, die fehlenden Lehrer mit anderen Lehrern zu vertreten bzw. zu ersetzen. In diesem Zusammenhang kann es sein, dass ein Lehrer bzw. eine Lehrerin nicht den ganzen Tag fehlen wird. Es gibt Situationen und Tage, in dem ein/e Lehrer/Lehrerin nur für eine bestimmte Zeit fehlt. Beispielweise haben sie etwas Wichtiges zu tun, dass aber nur zwei Unterrichtsstunden dauert. In diesem Fall muss gesichert werden, dass dieser Lehrer von einem Kollegen während dieser Zeit substituiert wird.
+Eine der größten Herausforderungen war der Supplierplan. Wie vorher schon erwähnt, dient der Supplierplan dazu, die fehlenden Lehrer durch andere Lehrern zu vertreten bzw. zu ersetzen. In diesem Zusammenhang kann es sein, dass ein Lehrer bzw. eine Lehrerin nicht den ganzen Tag fehlen wird. Es gibt Situationen und Tage, in dem ein/e Lehrer/Lehrerin nur für eine bestimmte Zeit fehlt. Beispielweise haben sie etwas Wichtiges zu tun, dass aber nur zwei Unterrichtsstunden dauert. In diesem Fall muss gesichert werden, dass dieser Lehrer von einem Kollegen während dieser Zeit substituiert wird.
 
 
 Um dieses Problem zu lösen und um den Admin die Möglichkeit zu geben, ein Lehrer nur für eine bestimmte Stundenanzahl zu ersetzen, wurde eine kleine Checkbox erstellt. Es geht um eine Dropdown-Liste, bei der alle Lehrer, die zum supplieren bereit sind, stehen. 
 
 \subsection{Übersicht der Layouts}
 
-Eine optimale Art und Weise zu finden, welches Layout bei welcher Anzeige angezeigt wird, war ein wirklich großes Problem. Es wurde nach Lösungen gesucht, und die beste war die Umsetzung eines Zeitplans. Dies war schwierig, da die fortgeschrittenen Kenntnisse von Java-Script für die Implementierung und Programmierung dieser Lösung notwendig waren. 
+Eine optimale Art und Weise zu finden, welches Layout bei welcher Anzeige angezeigt wird, war ein wirklich großes Problem. Es wurde nach Lösungen gesucht, und die beste war die Umsetzung eines Zeitplans. Dies war schwierig, da die Fortschritte bestimmte Kenntnisse von Java-Script für die Implementierung und Programmierung dieser Lösung notwendig waren. 
 
 \subsection{Überschneidungen der Inhalte}
 
@@ -733,7 +733,7 @@ Das Problem lag hier darin, dass nur der Admin einen neuen Benutzer hinzufügen 
 
 \subsection{Passwort zurücksetzen}
 
-Um das Passwort zurückzusetzen, musste eine Funktion implementiert werden, die es dem Benutzer ermöglicht, das Passwort mit Hilfe eines Links, der per E-Mail versandt wird, zurückzusetzen. Der Link sollte so sicher sein, dass ihn nach einmaliger Benutzung niemand mehr benutzen kann. Dafür wurde eine Funktion implementiert, die den Link nach einmaliger Benutzung als ung\"ultig, so dass ihn niemand mehr benutzen kann.
+Um das Passwort zurückzusetzen, musste eine Funktion implementiert werden, die es dem Benutzer ermöglicht, das Passwort mit Hilfe eines Links, der per E-Mail versandt wird, zurückzusetzen. Der Link sollte so sicher sein, dass ihn nach einer  einmaliger Benutzung niemand mehr benutzen kann. Dafür wurde eine Funktion implementiert, die den Link nach einmaliger Benutzung als ung\"ultig, so dass ihn niemand mehr benutzen kann.
 
 \subsection{Identifizierung der Anzeigen}
 
@@ -755,7 +755,7 @@ Beim ersten Mal wurde nicht über den Fall nachgedacht, wenn mehr Einträge im S
 
 \subsection{Der letzte Post der Wordpress-Website}
 
-Die letzten Posts zum ersten Mal von der API zu bekommen, die von wordpress zur Verfügung gestellt wird, war nicht so schwer. Der schwierigste Teil war es, die letzten Beiträge nach dem ersten Mal zu erhalten. Hier war es notwendig, einen Vergleich mit allen in der Datenbank gespeicherten Beiträgen durchzuführen. Auf diese Weise konnte es herausfinden, welche Beiträge neu sind und in der Datenbank gespeichert werden sollten.
+Die letzten Posts zum ersten Mal von der API zu bekommen, die von Wordpress zur Verfügung gestellt wird, war nicht so schwer. Der schwierigste Teil war es, die letzten Beiträge nach dem ersten Mal zu erhalten. Hier war es notwendig, einen Vergleich mit allen in der Datenbank gespeicherten Beiträgen durchzuführen. Auf diese Weise konnte man herausfinden, welche Beiträge neu sind und diese in die Datenbank speichern.
 
 
 \section{Wertschöpfung und Lessons Learned}
