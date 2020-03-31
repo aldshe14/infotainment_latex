@@ -611,7 +611,7 @@ if command=='/info':
 	\item Falls ein normaler Benutzer die oberen Befehle probiert, wird er vom Chatbot eine Nachricht erhalten, dass er nicht der Administrator ist.
 \end{itemize}
 \begin{itemize}
-	\item Durch diese Funktion wird überprüft, ob die Person, die den Button Ja gedruckt hat, registriert ist oder nicht. Falls nein, bittet Chatbot ihn die Telefonnummer einzutragen. Auf listing \ref{gfeee} ist die Überprüfung der Eingabe der Benutzer ersichtlich.  
+	\item Durch diese Funktion wird überprüft, ob die Person, die den Button Ja gedruckt hat, registriert ist oder nicht. Falls nein, bittet Chatbot ihn die Telefonnummer einzutragen. Auf listing \ref{fgeee} ist die Überprüfung der Eingabe der Benutzer ersichtlich.  
 \end{itemize}
 \begin{lstlisting}[frame=single]
 def on_callback_query(msg):
@@ -653,7 +653,7 @@ conn.commit()
 \label{ftt}
 \begin{itemize}
 	\item Chatbot wird in zwei Sprachen angeboten, n\"amlich in Deutsch und in Englisch. Die Umsetzung wurde so gemacht: \\
-		Zuerst wurde eine Tabelle in der Datenbank erstellt, die auf Abbildung \ref{fig:menudmn} ersichtlich ist. Diese Tabelle hat drei Spalten: id, englisch und deutsch. In den letzten Spalten wurden alle Nachrichten, die Chatbot zu den Benutzern schickt, in den jeweiligen Sprachen gespeichert. Diese Tabelle ist auf Abbildung \ref{fig:menudmn} ersichtlich. 
+		Zuerst wurde eine Tabelle in der Datenbank erstellt. Diese Tabelle hat drei Spalten: id, englisch und deutsch. In den letzten Spalten wurden alle Nachrichten, die Chatbot zu den Benutzern schickt, in den jeweiligen Sprachen gespeichert. Diese Tabelle ist auf Abbildung \ref{fig:menudmn} ersichtlich. 
 		Es wurde in dem Python-Skript, wo Chatbot programmiert wurde, eine Variable erstellt, die mit dem Wert 1 initialisiert ist. Solange diese Variable dass Wert 1 hat, werden zu den Benutzern nur Nachrichten auf Englisch geschickt, weil dieser Wert, bedeutet, dass nur die Datens\"atze von der ersten Spalte der Tabelle genommen werden. Die erste Spalte der Tabelle ist die Spalte Englisch. Wenn der Benutzer die Sprache auf Deutsch umstellt, dann wird die Variable mit dem Wert 2 initialisiert. Es werden dann nur Nachrichten auf Deutsch zu den Benutzern geschickt. \\
 		\captionsetup{type=figure}
 		\includegraphics[width=\linewidth]{\ordnerfigures multilanguage.jpg}
