@@ -6,9 +6,17 @@
 %\includegraphics[]{./figures/Header_Seite.png}
 %\end{picture}
 
-\begin{picture}(1,1)
-	\centering
-	\includegraphics[width=0.3\linewidth]{\ordnerfigures Header_Seite.png}
+%\begin{picture}(10,6)
+%	\centering
+%	\includegraphics[width=0.3\linewidth]{\ordnerfigures Header_Seite.png}
+%\end{picture}
+\setlength{\unitlength}{0.5cm}
+\begin{picture}(10,0)
+	\put(8,0){
+
+		{\transparent{0.9}\includegraphics[width=0.4\textwidth]{\ordnerfigures Header_Seite.png}}%
+
+	}
 \end{picture}
 
 \AddToShipoutPicture*{
@@ -16,7 +24,7 @@
 		\parbox[b][\paperheight]{\paperwidth}{%
 			\vfill
 			\centering
-			{\transparent{0.9}\includegraphics[width=0.8\textwidth]{\ordnerfigures logo.png}}%
+			{\transparent{0.9}\includegraphics[width=0.5\textwidth]{\ordnerfigures logo.png}}%
 			\vfill
 		}
 	}
@@ -36,7 +44,7 @@
 
 \begin{flushleft}
 \begin{center}
-		\textbf{\LARGE \datitle} \\
+		\textbf{\Huge \datitle} \\
 		\vspace{10mm}
 
 	\textbf{Diplomarbeit Nr. \danumber} \\
@@ -49,23 +57,39 @@
 \end{flushleft}
 
 \vfill
+\vspace{48mm}
 \begin{table}[htbp]
 	\Large
-	\begin{tabular}{rl}
-		Ausgeführt von: & \ifthenelse{\equal{\daschuelereins}{SchülerName1}}{}{\daschuelereins } \\ 
-		& \ifthenelse{\equal{\daschuelerzwei}{SchülerName2}}{}{\daschuelerzwei } \\ 
-		& \ifthenelse{\equal{\daschuelerdrei}{SchülerName3}}{}{\daschuelerdrei } \\ 
+	\centering
+	\begin{tabular}{rc}
+		\vspace{5mm}
+		 & Ausgeführt von: \\ 
+		& \ifthenelse{\equal{\daschuelereins}{SchülerName1}}{}{\daschuelereins } \\ 
+		 
+		&
+		\ifthenelse{\equal{\daschuelerzwei}{SchülerName2}}{}{\daschuelerzwei } \\  
+		&
+		\ifthenelse{\equal{\daschuelerdrei}{SchülerName3}}{}{\daschuelerdrei } \\ 
 		& \ifthenelse{\equal{\daschuelervier}{SchülerName4}}{}{\daschuelervier } \\ 
 		& \ifthenelse{\equal{\daschuelerfuenf}{SchülerName5}}{}{\daschuelerfuenf } \\ 
 	\end{tabular}
 \end{table}
-\end{center}
-\vspace{10mm}
-\large Projektbetreuer 1: \dabetreuereins \\
-\large Projektbetreuer 2: \dabetreuerzwei \\
-\large Projektbetreuer 3: \dabetreuerdrei \\
-\vspace{10mm}
+
+%\vspace{10mm}
+\begin{table}[htbp]
+	\large
+	\centering
+	\begin{tabular}{rl}
+	 Projektbetreuer 1: & \dabetreuereins \\
+	Projektbetreuer 2: & \dabetreuerzwei \\
+	Projektbetreuer 3: & \dabetreuerdrei \\
+	
+\end{tabular}
+\end{table}
+\vspace{5mm}
+
 \large \daort{}, \dadate
+\end{center}
 
 
 

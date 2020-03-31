@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.6)  31 MAR 2020 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.6)  1 APR 2020 01:35
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -945,16 +945,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: ./../00_Gesamt/figures/Header_Seite.png Graphic file (type png)
 <use ./../00_Gesamt/figures/Header_Seite.png>
 Package pdftex.def Info: ./../00_Gesamt/figures/Header_Seite.png  used on input
- line 11.
-(pdftex.def)             Requested size: 132.30666pt x 46.52867pt.
+ line 19.
+(pdftex.def)             Requested size: 176.40439pt x 62.037pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 54.
+(Font)              <17.28> on input line 64.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 82.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 82.
 <./../00_Gesamt/figures/logo.png, id=436, 1093.9269pt x 247.4043pt>
 File: ./../00_Gesamt/figures/logo.png Graphic file (type png)
 <use ./../00_Gesamt/figures/logo.png>
-Package pdftex.def Info: ./../00_Gesamt/figures/logo.png  used on input line 73
+Package pdftex.def Info: ./../00_Gesamt/figures/logo.png  used on input line 97
 .
-(pdftex.def)             Requested size: 352.81552pt x 79.79387pt.
+(pdftex.def)             Requested size: 220.50887pt x 49.8688pt.
  [1
 
 
@@ -986,7 +990,7 @@ No file Master.nls.
 ] (Master.toc [6
 
 ]
-<./figures/Header_Seite.png, id=546, 137.01187pt x 48.18pt>
+<./figures/Header_Seite.png, id=547, 137.01187pt x 48.18pt>
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 98.
@@ -1037,7 +1041,7 @@ Kapitel 2.
 [3
 
 ]
-<./../20_planung/figures/psp.png, id=617, 659.46375pt x 305.64188pt>
+<./../20_planung/figures/psp.png, id=618, 659.46375pt x 305.64188pt>
 File: ./../20_planung/figures/psp.png Graphic file (type png)
 <use ./../20_planung/figures/psp.png>
 Package pdftex.def Info: ./../20_planung/figures/psp.png  used on input line 10
@@ -1089,7 +1093,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 166.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [8]
-<./../20_planung/figures/client.png, id=647, 1040.88875pt x 803.0pt>
+<./../20_planung/figures/client.png, id=648, 1040.88875pt x 803.0pt>
 File: ./../20_planung/figures/client.png Graphic file (type png)
 <use ./../20_planung/figures/client.png>
 Package pdftex.def Info: ./../20_planung/figures/client.png  used on input line
@@ -1100,7 +1104,7 @@ Overfull \hbox (27.37788pt too wide) in paragraph at lines 171--173
  [][] 
  []
 
-<./../20_planung/figures/server.png, id=648, 1324.95pt x 1213.53375pt>
+<./../20_planung/figures/server.png, id=649, 1324.95pt x 1213.53375pt>
 File: ./../20_planung/figures/server.png Graphic file (type png)
 <use ./../20_planung/figures/server.png>
 Package pdftex.def Info: ./../20_planung/figures/server.png  used on input line
@@ -1116,7 +1120,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 191.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [9 <./../20_planung/figures/client.png>]
-<./../20_planung/figures/wasserfall.png, id=659, 1002.74625pt x 419.5675pt>
+<./../20_planung/figures/wasserfall.png, id=660, 1002.74625pt x 419.5675pt>
 File: ./../20_planung/figures/wasserfall.png Graphic file (type png)
 <use ./../20_planung/figures/wasserfall.png>
 Package pdftex.def Info: ./../20_planung/figures/wasserfall.png  used on input 
@@ -1138,7 +1142,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 1.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [11 <./../20_planung/figures/wasserfall.png>]
 Kapitel 3.
-<./../30_doku/figures/irena.pdf, id=673, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/irena.pdf, id=674, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/irena.pdf>
 Package pdftex.def Info: ./../30_doku/figures/irena.pdf  used on input line 8.
@@ -1147,7 +1151,7 @@ File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/irena.pdf>
 Package pdftex.def Info: ./../30_doku/figures/irena.pdf  used on input line 8.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./../30_doku/figures/irena.pdf, id=676, page=1, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/irena.pdf, id=677, page=1, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/irena.pdf, page 1>
 Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page1 used on input l
@@ -1189,7 +1193,7 @@ File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/irena.pdf>
 Package pdftex.def Info: ./../30_doku/figures/irena.pdf  used on input line 9.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./../30_doku/figures/irena.pdf, id=701, page=2, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/irena.pdf, id=702, page=2, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/irena.pdf, page 2>
 Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page2 used on input l
@@ -1220,7 +1224,7 @@ Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page2 used on input l
 ine 9.
 (pdftex.def)             Requested size: 492.94463pt x 697.15958pt.
  [14 <./../30_doku/figures/irena.pdf>]
-<./../30_doku/figures/irena.pdf, id=707, page=3, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/irena.pdf, id=708, page=3, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/irena.pdf, page 3>
 Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page3 used on input l
@@ -1241,7 +1245,7 @@ Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page3 used on input l
 ine 9.
 (pdftex.def)             Requested size: 492.94463pt x 697.15958pt.
  [15 <./../30_doku/figures/irena.pdf>]
-<./../30_doku/figures/irena.pdf, id=714, page=4, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/irena.pdf, id=715, page=4, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/irena.pdf, page 4>
 Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page4 used on input l
@@ -1262,7 +1266,7 @@ Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page4 used on input l
 ine 9.
 (pdftex.def)             Requested size: 492.94463pt x 697.15958pt.
  [16 <./../30_doku/figures/irena.pdf>]
-<./../30_doku/figures/irena.pdf, id=720, page=5, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/irena.pdf, id=721, page=5, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/irena.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/irena.pdf, page 5>
 Package pdftex.def Info: ./../30_doku/figures/irena.pdf , page5 used on input l
@@ -1284,7 +1288,7 @@ ine 9.
 (pdftex.def)             Requested size: 492.94463pt x 697.15958pt.
 
 [17 <./../30_doku/figures/irena.pdf>]
-<./../30_doku/figures/aldo.pdf, id=726, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/aldo.pdf, id=727, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 12.
@@ -1293,7 +1297,7 @@ File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 12.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./../30_doku/figures/aldo.pdf, id=729, page=1, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/aldo.pdf, id=730, page=1, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf, page 1>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page1 used on input li
@@ -1332,7 +1336,7 @@ File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf  used on input line 13.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./../30_doku/figures/aldo.pdf, id=750, page=2, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/aldo.pdf, id=751, page=2, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf, page 2>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page2 used on input li
@@ -1364,7 +1368,7 @@ ne 13.
 (pdftex.def)             Requested size: 492.94463pt x 697.15958pt.
 
 [19 <./../30_doku/figures/aldo.pdf>]
-<./../30_doku/figures/aldo.pdf, id=756, page=3, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/aldo.pdf, id=757, page=3, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf, page 3>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page3 used on input li
@@ -1385,7 +1389,7 @@ Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page3 used on input li
 ne 13.
 (pdftex.def)             Requested size: 492.94463pt x 697.15958pt.
  [20 <./../30_doku/figures/aldo.pdf>]
-<./../30_doku/figures/aldo.pdf, id=762, page=4, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/aldo.pdf, id=763, page=4, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf, page 4>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page4 used on input li
@@ -1407,7 +1411,7 @@ ne 13.
 (pdftex.def)             Requested size: 492.94463pt x 697.15958pt.
 
 [21 <./../30_doku/figures/aldo.pdf>]
-<./../30_doku/figures/aldo.pdf, id=769, page=5, 597.51233pt x 845.0471pt>
+<./../30_doku/figures/aldo.pdf, id=770, page=5, 597.51233pt x 845.0471pt>
 File: ./../30_doku/figures/aldo.pdf Graphic file (type pdf)
 <use ./../30_doku/figures/aldo.pdf, page 5>
 Package pdftex.def Info: ./../30_doku/figures/aldo.pdf , page5 used on input li
@@ -1444,8 +1448,6 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 27.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [24]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 59.
-LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 59.
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
@@ -1481,7 +1483,7 @@ Package caption Warning: \captionsetup{type=...}
 (caption)                outside box or environment on input line 173.
 See the caption package documentation for explanation.
 
-<./../40_xx/figures/serverr.png, id=892, 481.04718pt x 440.39531pt>
+<./../40_xx/figures/serverr.png, id=893, 481.04718pt x 440.39531pt>
 File: ./../40_xx/figures/serverr.png Graphic file (type png)
 <use ./../40_xx/figures/serverr.png>
 Package pdftex.def Info: ./../40_xx/figures/serverr.png  used on input line 174
@@ -1524,7 +1526,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 190.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [31 <./../40_xx/figures/serverr.png>]
-<./../40_xx/figures/erd_irenaa.png, id=913, 907.39pt x 835.12pt>
+<./../40_xx/figures/erd_irenaa.png, id=914, 907.39pt x 835.12pt>
 File: ./../40_xx/figures/erd_irenaa.png Graphic file (type png)
 <use ./../40_xx/figures/erd_irenaa.png>
 Package pdftex.def Info: ./../40_xx/figures/erd_irenaa.png  used on input line 
@@ -1550,12 +1552,12 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 267.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [33 <./../40_xx/figures/erd_irenaa.png>]
-<./../40_xx/figures/ssl.png, id=932, 279.29344pt x 257.46187pt>
+<./../40_xx/figures/ssl.png, id=933, 279.29344pt x 257.46187pt>
 File: ./../40_xx/figures/ssl.png Graphic file (type png)
 <use ./../40_xx/figures/ssl.png>
 Package pdftex.def Info: ./../40_xx/figures/ssl.png  used on input line 272.
 (pdftex.def)             Requested size: 264.61333pt x 243.93916pt.
-<./../40_xx/figures/layout2.png, id=935, 1927.2pt x 1284.7197pt>
+<./../40_xx/figures/layout2.png, id=936, 1927.2pt x 1284.7197pt>
 File: ./../40_xx/figures/layout2.png Graphic file (type png)
 <use ./../40_xx/figures/layout2.png>
 Package pdftex.def Info: ./../40_xx/figures/layout2.png  used on input line 281
@@ -1566,7 +1568,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 282.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [34 <./../40_xx/figures/ssl.png>]
-<./../40_xx/figures/layout4.png, id=947, 1927.2pt x 1284.7197pt>
+<./../40_xx/figures/layout4.png, id=948, 1927.2pt x 1284.7197pt>
 File: ./../40_xx/figures/layout4.png Graphic file (type png)
 <use ./../40_xx/figures/layout4.png>
 Package pdftex.def Info: ./../40_xx/figures/layout4.png  used on input line 287
@@ -1582,18 +1584,18 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 296.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [35 <./../40_xx/figures/layout2.png> <./../40_xx/figures/layout4.png>]
-<./../40_xx/figures/kale.jpg, id=960, 472.01344pt x 60.97781pt>
+<./../40_xx/figures/kale.jpg, id=961, 472.01344pt x 60.97781pt>
 File: ./../40_xx/figures/kale.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/kale.jpg>
 Package pdftex.def Info: ./../40_xx/figures/kale.jpg  used on input line 298.
 (pdftex.def)             Requested size: 352.81552pt x 45.5797pt.
-<./../40_xx/figures/leereklassen.jpg, id=961, 319.94531pt x 17.31468pt>
+<./../40_xx/figures/leereklassen.jpg, id=962, 319.94531pt x 17.31468pt>
 File: ./../40_xx/figures/leereklassen.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/leereklassen.jpg>
 Package pdftex.def Info: ./../40_xx/figures/leereklassen.jpg  used on input lin
 e 304.
 (pdftex.def)             Requested size: 308.71106pt x 16.70695pt.
-<./../40_xx/figures/stundenplan.png, id=962, 1028.34187pt x 578.16pt>
+<./../40_xx/figures/stundenplan.png, id=963, 1028.34187pt x 578.16pt>
 File: ./../40_xx/figures/stundenplan.png Graphic file (type png)
 <use ./../40_xx/figures/stundenplan.png>
 Package pdftex.def Info: ./../40_xx/figures/stundenplan.png  used on input line
@@ -1622,13 +1624,13 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 343.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [38]
-<./../40_xx/figures/offlinebetrieb1.jpg, id=999, 1011.78pt x 469.755pt>
+<./../40_xx/figures/offlinebetrieb1.jpg, id=1000, 1011.78pt x 469.755pt>
 File: ./../40_xx/figures/offlinebetrieb1.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/offlinebetrieb1.jpg>
 Package pdftex.def Info: ./../40_xx/figures/offlinebetrieb1.jpg  used on input 
 line 358.
 (pdftex.def)             Requested size: 396.91325pt x 184.28606pt.
-<./../40_xx/figures/offlinebetrieb2.jpg, id=1001, 1010.27437pt x 545.03625pt>
+<./../40_xx/figures/offlinebetrieb2.jpg, id=1002, 1010.27437pt x 545.03625pt>
 File: ./../40_xx/figures/offlinebetrieb2.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/offlinebetrieb2.jpg>
 Package pdftex.def Info: ./../40_xx/figures/offlinebetrieb2.jpg  used on input 
@@ -1639,13 +1641,13 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 368.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [39 <./../40_xx/figures/offlinebetrieb1.jpg>]
-<./../40_xx/figures/offlinebetrieb3.jpg, id=1018, 825.0825pt x 386.19281pt>
+<./../40_xx/figures/offlinebetrieb3.jpg, id=1019, 825.0825pt x 386.19281pt>
 File: ./../40_xx/figures/offlinebetrieb3.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/offlinebetrieb3.jpg>
 Package pdftex.def Info: ./../40_xx/figures/offlinebetrieb3.jpg  used on input 
 line 376.
 (pdftex.def)             Requested size: 396.91325pt x 185.78293pt.
-<./../40_xx/figures/offlinebetrieb4.jpg, id=1020, 1008.01593pt x 454.69875pt>
+<./../40_xx/figures/offlinebetrieb4.jpg, id=1021, 1008.01593pt x 454.69875pt>
 File: ./../40_xx/figures/offlinebetrieb4.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/offlinebetrieb4.jpg>
 Package pdftex.def Info: ./../40_xx/figures/offlinebetrieb4.jpg  used on input 
@@ -1657,13 +1659,13 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 386.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [40 <./../40_xx/figures/offlinebetrieb2.jpg> <./../40_xx/figures/offlinebetrie
 b3.jpg>]
-<./../40_xx/figures/offlinebetrieb5.jpg, id=1029, 995.21812pt x 441.14813pt>
+<./../40_xx/figures/offlinebetrieb5.jpg, id=1030, 995.21812pt x 441.14813pt>
 File: ./../40_xx/figures/offlinebetrieb5.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/offlinebetrieb5.jpg>
 Package pdftex.def Info: ./../40_xx/figures/offlinebetrieb5.jpg  used on input 
 line 394.
 (pdftex.def)             Requested size: 396.91325pt x 175.9378pt.
-<./../40_xx/figures/offlinebetrieb6.jpg, id=1031, 764.8575pt x 396.7322pt>
+<./../40_xx/figures/offlinebetrieb6.jpg, id=1032, 764.8575pt x 396.7322pt>
 File: ./../40_xx/figures/offlinebetrieb6.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/offlinebetrieb6.jpg>
 Package pdftex.def Info: ./../40_xx/figures/offlinebetrieb6.jpg  used on input 
@@ -1675,7 +1677,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 404.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [41 <./../40_xx/figures/offlinebetrieb4.jpg> <./../40_xx/figures/offlinebetrie
 b5.jpg>]
-<./../40_xx/figures/weather.jpeg, id=1039, 540.0175pt x 269.005pt>
+<./../40_xx/figures/weather.jpeg, id=1040, 540.0175pt x 269.005pt>
 File: ./../40_xx/figures/weather.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/weather.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/weather.jpeg  used on input line 41
@@ -1721,7 +1723,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 631.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [48]
-<./../40_xx/figures/multilanguage.jpg, id=1191, 407.27156pt x 142.28156pt>
+<./../40_xx/figures/multilanguage.jpg, id=1192, 407.27156pt x 142.28156pt>
 File: ./../40_xx/figures/multilanguage.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/multilanguage.jpg>
 Package pdftex.def Info: ./../40_xx/figures/multilanguage.jpg  used on input li
@@ -1737,13 +1739,13 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 660.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
 [49]
-<./../40_xx/figures/chatbotbildnew.jpeg, id=1218, 1246.6575pt x 1065.9825pt>
+<./../40_xx/figures/chatbotbildnew.jpeg, id=1219, 1246.6575pt x 1065.9825pt>
 File: ./../40_xx/figures/chatbotbildnew.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildnew.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildnew.jpeg  used on input 
 line 670.
 (pdftex.def)             Requested size: 308.71106pt x 263.9738pt.
-<./../40_xx/figures/chatbotbildnew1.jpeg, id=1220, 1246.6575pt x 669.50125pt>
+<./../40_xx/figures/chatbotbildnew1.jpeg, id=1221, 1246.6575pt x 669.50125pt>
 File: ./../40_xx/figures/chatbotbildnew1.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildnew1.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildnew1.jpeg  used on input
@@ -1755,19 +1757,19 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 680.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [50 <./../40_xx/figures/multilanguage.jpg> <./../40_xx/figures/chatbotbildnew.
 jpeg>]
-<./../40_xx/figures/chatbotbildnew2.jpeg, id=1229, 1246.6575pt x 427.5975pt>
+<./../40_xx/figures/chatbotbildnew2.jpeg, id=1230, 1246.6575pt x 427.5975pt>
 File: ./../40_xx/figures/chatbotbildnew2.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildnew2.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildnew2.jpeg  used on input
  line 688.
 (pdftex.def)             Requested size: 308.71106pt x 105.88779pt.
-<./../40_xx/figures/chatbotbildnew3.jpeg, id=1231, 1246.6575pt x 311.1625pt>
+<./../40_xx/figures/chatbotbildnew3.jpeg, id=1232, 1246.6575pt x 311.1625pt>
 File: ./../40_xx/figures/chatbotbildnew3.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildnew3.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildnew3.jpeg  used on input
  line 697.
 (pdftex.def)             Requested size: 308.71106pt x 77.05449pt.
-<./../40_xx/figures/chatbotbildnew4.jpeg, id=1233, 1246.6575pt x 323.2075pt>
+<./../40_xx/figures/chatbotbildnew4.jpeg, id=1234, 1246.6575pt x 323.2075pt>
 File: ./../40_xx/figures/chatbotbildnew4.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildnew4.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildnew4.jpeg  used on input
@@ -1779,25 +1781,25 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 707.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [51 <./../40_xx/figures/chatbotbildnew1.jpeg> <./../40_xx/figures/chatbotbildn
 ew2.jpeg> <./../40_xx/figures/chatbotbildnew3.jpeg>]
-<./../40_xx/figures/chatbotbildnew5.jpeg, id=1244, 1246.6575pt x 288.07625pt>
+<./../40_xx/figures/chatbotbildnew5.jpeg, id=1245, 1246.6575pt x 288.07625pt>
 File: ./../40_xx/figures/chatbotbildnew5.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildnew5.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildnew5.jpeg  used on input
  line 715.
 (pdftex.def)             Requested size: 308.71106pt x 71.33754pt.
-<./../40_xx/figures/chatbotbildnew7.jpeg, id=1246, 1246.6575pt x 304.13625pt>
+<./../40_xx/figures/chatbotbildnew7.jpeg, id=1247, 1246.6575pt x 304.13625pt>
 File: ./../40_xx/figures/chatbotbildnew7.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildnew7.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildnew7.jpeg  used on input
  line 724.
 (pdftex.def)             Requested size: 308.71106pt x 75.31454pt.
-<./../40_xx/figures/chatbotbildnew8.jpeg, id=1248, 1246.6575pt x 258.9675pt>
+<./../40_xx/figures/chatbotbildnew8.jpeg, id=1249, 1246.6575pt x 258.9675pt>
 File: ./../40_xx/figures/chatbotbildnew8.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildnew8.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildnew8.jpeg  used on input
  line 733.
 (pdftex.def)             Requested size: 308.71106pt x 64.12921pt.
-<./../40_xx/figures/chatbotbildnew6.jpeg, id=1250, 1158.3275pt x 1284.8pt>
+<./../40_xx/figures/chatbotbildnew6.jpeg, id=1251, 1158.3275pt x 1284.8pt>
 File: ./../40_xx/figures/chatbotbildnew6.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildnew6.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildnew6.jpeg  used on input
@@ -1810,7 +1812,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 744.
  [52 <./../40_xx/figures/chatbotbildnew4.jpeg> <./../40_xx/figures/chatbotbildn
 ew5.jpeg> <./../40_xx/figures/chatbotbildnew7.jpeg> <./../40_xx/figures/chatbot
 bildnew8.jpeg>]
-<./../40_xx/figures/chatbotbildunre6.jpeg, id=1260, 1246.6575pt x 741.77126pt>
+<./../40_xx/figures/chatbotbildunre6.jpeg, id=1261, 1246.6575pt x 741.77126pt>
 File: ./../40_xx/figures/chatbotbildunre6.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildunre6.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildunre6.jpeg  used on inpu
@@ -1823,19 +1825,19 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 760.
 
 [53 <./../40_xx/figures/chatbotbildnew6.jpeg> <./../40_xx/figures/chatbotbildun
 re6.jpeg>]
-<./../40_xx/figures/chatbotbildunre5.jpeg, id=1269, 1246.6575pt x 929.4725pt>
+<./../40_xx/figures/chatbotbildunre5.jpeg, id=1270, 1246.6575pt x 929.4725pt>
 File: ./../40_xx/figures/chatbotbildunre5.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildunre5.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildunre5.jpeg  used on inpu
 t line 763.
 (pdftex.def)             Requested size: 308.71106pt x 230.16925pt.
-<./../40_xx/figures/chatbotbildunre4.jpeg, id=1270, 1246.6575pt x 410.53375pt>
+<./../40_xx/figures/chatbotbildunre4.jpeg, id=1271, 1246.6575pt x 410.53375pt>
 File: ./../40_xx/figures/chatbotbildunre4.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildunre4.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildunre4.jpeg  used on inpu
 t line 772.
 (pdftex.def)             Requested size: 308.71106pt x 101.66222pt.
-<./../40_xx/figures/chatbotbildunre3.jpeg, id=1271, 1246.6575pt x 508.90125pt>
+<./../40_xx/figures/chatbotbildunre3.jpeg, id=1272, 1246.6575pt x 508.90125pt>
 File: ./../40_xx/figures/chatbotbildunre3.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildunre3.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildunre3.jpeg  used on inpu
@@ -1847,25 +1849,25 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 782.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [54 <./../40_xx/figures/chatbotbildunre5.jpeg> <./../40_xx/figures/chatbotbild
 unre4.jpeg> <./../40_xx/figures/chatbotbildunre3.jpeg>]
-<./../40_xx/figures/chatbotbildunre2.jpeg, id=1280, 1246.6575pt x 392.46625pt>
+<./../40_xx/figures/chatbotbildunre2.jpeg, id=1281, 1246.6575pt x 392.46625pt>
 File: ./../40_xx/figures/chatbotbildunre2.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildunre2.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildunre2.jpeg  used on inpu
 t line 790.
 (pdftex.def)             Requested size: 308.71106pt x 97.18808pt.
-<./../40_xx/figures/chatbotbild7.jpeg, id=1281, 1246.6575pt x 537.00626pt>
+<./../40_xx/figures/chatbotbild7.jpeg, id=1282, 1246.6575pt x 537.00626pt>
 File: ./../40_xx/figures/chatbotbild7.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbild7.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbild7.jpeg  used on input li
 ne 799.
 (pdftex.def)             Requested size: 264.61333pt x 113.97916pt.
-<./../40_xx/figures/chatbotipy.png, id=1282, 659.46375pt x 303.38344pt>
+<./../40_xx/figures/chatbotipy.png, id=1283, 659.46375pt x 303.38344pt>
 File: ./../40_xx/figures/chatbotipy.png Graphic file (type png)
 <use ./../40_xx/figures/chatbotipy.png>
 Package pdftex.def Info: ./../40_xx/figures/chatbotipy.png  used on input line 
 808.
 (pdftex.def)             Requested size: 220.50887pt x 101.44543pt.
-<./../40_xx/figures/chatbotbildunre1.jpeg, id=1283, 1228.59pt x 1284.8pt>
+<./../40_xx/figures/chatbotbildunre1.jpeg, id=1284, 1228.59pt x 1284.8pt>
 File: ./../40_xx/figures/chatbotbildunre1.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chatbotbildunre1.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chatbotbildunre1.jpeg  used on inpu
@@ -1877,13 +1879,13 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 818.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [55 <./../40_xx/figures/chatbotbildunre2.jpeg> <./../40_xx/figures/chatbotbild
 7.jpeg> <./../40_xx/figures/chatbotipy.png>]
-<./../40_xx/figures/chat1.jpeg, id=1293, 1246.6575pt x 790.955pt>
+<./../40_xx/figures/chat1.jpeg, id=1294, 1246.6575pt x 790.955pt>
 File: ./../40_xx/figures/chat1.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chat1.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chat1.jpeg  used on input line 827.
 
 (pdftex.def)             Requested size: 264.61333pt x 167.8796pt.
-<./../40_xx/figures/chat.jpeg, id=1294, 467.49657pt x 113.67468pt>
+<./../40_xx/figures/chat.jpeg, id=1295, 467.49657pt x 113.67468pt>
 File: ./../40_xx/figures/chat.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chat.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chat.jpeg  used on input line 836.
@@ -1894,19 +1896,19 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 837.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [56 <./../40_xx/figures/chatbotbildunre1.jpeg> <./../40_xx/figures/chat1.jpeg>
  <./../40_xx/figures/chat.jpeg>]
-<./../40_xx/figures/chat2.jpeg, id=1303, 1246.6575pt x 1062.97125pt>
+<./../40_xx/figures/chat2.jpeg, id=1304, 1246.6575pt x 1062.97125pt>
 File: ./../40_xx/figures/chat2.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/chat2.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/chat2.jpeg  used on input line 845.
 
 (pdftex.def)             Requested size: 264.61333pt x 225.61484pt.
-<./../40_xx/figures/notfaliu.jpeg, id=1304, 879.285pt x 226.8475pt>
+<./../40_xx/figures/notfaliu.jpeg, id=1305, 879.285pt x 226.8475pt>
 File: ./../40_xx/figures/notfaliu.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/notfaliu.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/notfaliu.jpeg  used on input line 8
 54.
 (pdftex.def)             Requested size: 308.71106pt x 79.64357pt.
-<./../40_xx/figures/nota.jpeg, id=1305, 1150.2975pt x 1284.8pt>
+<./../40_xx/figures/nota.jpeg, id=1306, 1150.2975pt x 1284.8pt>
 File: ./../40_xx/figures/nota.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/nota.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/nota.jpeg  used on input line 864.
@@ -1916,7 +1918,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 865.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [57 <./../40_xx/figures/chat2.jpeg> <./../40_xx/figures/notfaliu.jpeg>]
-<./../40_xx/figures/blocked.jpeg, id=1314, 1060.96375pt x 1284.8pt>
+<./../40_xx/figures/blocked.jpeg, id=1315, 1060.96375pt x 1284.8pt>
 File: ./../40_xx/figures/blocked.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/blocked.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/blocked.jpeg  used on input line 87
@@ -1927,7 +1929,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 875.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [58 <./../40_xx/figures/nota.jpeg>]
-<./../40_xx/figures/aky.jpeg, id=1321, 1246.6575pt x 937.5025pt>
+<./../40_xx/figures/aky.jpeg, id=1322, 1246.6575pt x 937.5025pt>
 File: ./../40_xx/figures/aky.jpeg Graphic file (type jpg)
 <use ./../40_xx/figures/aky.jpeg>
 Package pdftex.def Info: ./../40_xx/figures/aky.jpeg  used on input line 884.
@@ -1982,7 +1984,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 86.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [66]
-<./../50_aldosheldija/figures/client.png, id=1392, 1040.88875pt x 803.0pt>
+<./../50_aldosheldija/figures/client.png, id=1393, 1040.88875pt x 803.0pt>
 File: ./../50_aldosheldija/figures/client.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/client.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/client.png  used on input
@@ -2003,7 +2005,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 166.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [69]
-<./../50_aldosheldija/figures/erd_1.png, id=1424, 1593.955pt x 794.97pt>
+<./../50_aldosheldija/figures/erd_1.png, id=1425, 1593.955pt x 794.97pt>
 File: ./../50_aldosheldija/figures/erd_1.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/erd_1.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/erd_1.png  used on input 
@@ -2014,7 +2016,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 176.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [70 <./../50_aldosheldija/figures/erd_1.png>]
-<./../50_aldosheldija/figures/login.png, id=1432, 845.0772pt x 332.2011pt>
+<./../50_aldosheldija/figures/login.png, id=1433, 845.0772pt x 332.2011pt>
 File: ./../50_aldosheldija/figures/login.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/login.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/login.png  used on input 
@@ -2025,7 +2027,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 197.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [71]
-<./../50_aldosheldija/figures/reset_1.png, id=1441, 845.0772pt x 332.2011pt>
+<./../50_aldosheldija/figures/reset_1.png, id=1442, 845.0772pt x 332.2011pt>
 File: ./../50_aldosheldija/figures/reset_1.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/reset_1.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/reset_1.png  used on inpu
@@ -2037,14 +2039,14 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 209.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [72 <./../50_aldosheldija/figures/login.png> <./../50_aldosheldija/figures/res
 et_1.png>]
-<./../50_aldosheldija/figures/reset-email.png, id=1454, 605.26125pt x 264.99pt>
+<./../50_aldosheldija/figures/reset-email.png, id=1455, 605.26125pt x 264.99pt>
 
 File: ./../50_aldosheldija/figures/reset-email.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/reset-email.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/reset-email.png  used on 
 input line 212.
 (pdftex.def)             Requested size: 436.60997pt x 191.15251pt.
-<./../50_aldosheldija/figures/changepassword.png, id=1456, 278.54062pt x 301.87
+<./../50_aldosheldija/figures/changepassword.png, id=1457, 278.54062pt x 301.87
 78pt>
 File: ./../50_aldosheldija/figures/changepassword.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/changepassword.png>
@@ -2056,7 +2058,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 225.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [73 <./../50_aldosheldija/figures/reset-email.png (PNG copy)>]
-<./../50_aldosheldija/figures/reset-email-notvalid.png, id=1465, 553.31718pt x 
+<./../50_aldosheldija/figures/reset-email-notvalid.png, id=1466, 553.31718pt x 
 43.66313pt>
 File: ./../50_aldosheldija/figures/reset-email-notvalid.png Graphic file (type 
 png)
@@ -2064,13 +2066,13 @@ png)
 Package pdftex.def Info: ./../50_aldosheldija/figures/reset-email-notvalid.png 
  used on input line 232.
 (pdftex.def)             Requested size: 436.60997pt x 34.4535pt.
-<./../50_aldosheldija/figures/header.png, id=1468, 978.65625pt x 51.94406pt>
+<./../50_aldosheldija/figures/header.png, id=1469, 978.65625pt x 51.94406pt>
 File: ./../50_aldosheldija/figures/header.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/header.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/header.png  used on input
  line 244.
 (pdftex.def)             Requested size: 436.60997pt x 23.17407pt.
-<./../50_aldosheldija/figures/normalUser.png, id=1469, 974.13937pt x 50.43843pt
+<./../50_aldosheldija/figures/normalUser.png, id=1470, 974.13937pt x 50.43843pt
 >
 File: ./../50_aldosheldija/figures/normalUser.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/normalUser.png>
@@ -2084,14 +2086,14 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 257.
  [74 <./../50_aldosheldija/figures/changepassword.png> <./../50_aldosheldija/fi
 gures/reset-email-notvalid.png> <./../50_aldosheldija/figures/header.png> <./..
 /50_aldosheldija/figures/normalUser.png>]
-<./../50_aldosheldija/figures/mobilemenu.png, id=1483, 310.91156pt x 325.215pt>
+<./../50_aldosheldija/figures/mobilemenu.png, id=1484, 310.91156pt x 325.215pt>
 
 File: ./../50_aldosheldija/figures/mobilemenu.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/mobilemenu.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/mobilemenu.png  used on i
 nput line 260.
 (pdftex.def)             Requested size: 216.1011pt x 226.0461pt.
-<./../50_aldosheldija/figures/home.png, id=1485, 843.90282pt x 514.17094pt>
+<./../50_aldosheldija/figures/home.png, id=1486, 843.90282pt x 514.17094pt>
 File: ./../50_aldosheldija/figures/home.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/home.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/home.png  used on input l
@@ -2108,7 +2110,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 312.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [76 <./../50_aldosheldija/figures/home.png>]
-<./../50_aldosheldija/figures/chooseLayout.png, id=1507, 475.7775pt x 313.17pt>
+<./../50_aldosheldija/figures/chooseLayout.png, id=1508, 475.7775pt x 313.17pt>
 
 File: ./../50_aldosheldija/figures/chooseLayout.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/chooseLayout.png>
@@ -2120,7 +2122,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 338.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [77]
-<./../50_aldosheldija/figures/viewLayout.png, id=1518, 794.2172pt x 462.22687pt
+<./../50_aldosheldija/figures/viewLayout.png, id=1519, 794.2172pt x 462.22687pt
 >
 File: ./../50_aldosheldija/figures/viewLayout.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/viewLayout.png>
@@ -2133,7 +2135,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 354.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [78 <./../50_aldosheldija/figures/chooseLayout.png> <./../50_aldosheldija/figu
 res/viewLayout.png>]
-<./../50_aldosheldija/figures/popup-content.png, id=1529, 335.00156pt x 341.024
+<./../50_aldosheldija/figures/popup-content.png, id=1530, 335.00156pt x 341.024
 06pt>
 File: ./../50_aldosheldija/figures/popup-content.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/popup-content.png>
@@ -2145,13 +2147,13 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 379.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [79 <./../50_aldosheldija/figures/popup-content.png>]
-<./../50_aldosheldija/figures/popup.png, id=1540, 599.99156pt x 359.09157pt>
+<./../50_aldosheldija/figures/popup.png, id=1541, 599.99156pt x 359.09157pt>
 File: ./../50_aldosheldija/figures/popup.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/popup.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/popup.png  used on input 
 line 385.
 (pdftex.def)             Requested size: 304.3033pt x 182.12608pt.
-<./../50_aldosheldija/figures/display.png, id=1542, 859.71187pt x 472.01344pt>
+<./../50_aldosheldija/figures/display.png, id=1543, 859.71187pt x 472.01344pt>
 File: ./../50_aldosheldija/figures/display.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/display.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/display.png  used on inpu
@@ -2162,13 +2164,13 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 408.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [80 <./../50_aldosheldija/figures/popup.png>]
-<./../50_aldosheldija/figures/images.png, id=1551, 915.42pt x 515.67656pt>
+<./../50_aldosheldija/figures/images.png, id=1552, 915.42pt x 515.67656pt>
 File: ./../50_aldosheldija/figures/images.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/images.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/images.png  used on input
  line 416.
 (pdftex.def)             Requested size: 348.40103pt x 196.25813pt.
-<./../50_aldosheldija/figures/layouts.png, id=1553, 915.42pt x 534.49687pt>
+<./../50_aldosheldija/figures/layouts.png, id=1554, 915.42pt x 534.49687pt>
 File: ./../50_aldosheldija/figures/layouts.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/layouts.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/layouts.png  used on inpu
@@ -2180,7 +2182,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 431.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [81 <./../50_aldosheldija/figures/display.png> <./../50_aldosheldija/figures/i
 mages.png>]
-<./../50_aldosheldija/figures/kalendarinfo.png, id=1565, 854.44218pt x 432.1143
+<./../50_aldosheldija/figures/kalendarinfo.png, id=1566, 854.44218pt x 432.1143
 8pt>
 File: ./../50_aldosheldija/figures/kalendarinfo.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/kalendarinfo.png>
@@ -2194,7 +2196,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 449.
 
 [82 <./../50_aldosheldija/figures/layouts.png> <./../50_aldosheldija/figures/ka
 lendarinfo.png>]
-<./../50_aldosheldija/figures/importStundenplan.png, id=1575, 286.82156pt x 224
+<./../50_aldosheldija/figures/importStundenplan.png, id=1576, 286.82156pt x 224
 .33812pt>
 File: ./../50_aldosheldija/figures/importStundenplan.png Graphic file (type png
 )
@@ -2202,7 +2204,7 @@ File: ./../50_aldosheldija/figures/importStundenplan.png Graphic file (type png
 Package pdftex.def Info: ./../50_aldosheldija/figures/importStundenplan.png  us
 ed on input line 453.
 (pdftex.def)             Requested size: 216.1011pt x 169.0268pt.
-<./../50_aldosheldija/figures/supplierplan.png, id=1577, 861.2175pt x 359.84438
+<./../50_aldosheldija/figures/supplierplan.png, id=1578, 861.2175pt x 359.84438
 pt>
 File: ./../50_aldosheldija/figures/supplierplan.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/supplierplan.png>
@@ -2214,7 +2216,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 470.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [83 <./../50_aldosheldija/figures/importStundenplan.png>]
-<./../50_aldosheldija/figures/supplierplan1.png, id=1589, 844.65562pt x 423.080
+<./../50_aldosheldija/figures/supplierplan1.png, id=1590, 844.65562pt x 423.080
 63pt>
 File: ./../50_aldosheldija/figures/supplierplan1.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/supplierplan1.png>
@@ -2228,14 +2230,14 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 488.
 
 [84 <./../50_aldosheldija/figures/supplierplan.png> <./../50_aldosheldija/figur
 es/supplierplan1.png>]
-<./../50_aldosheldija/figures/supplierplan2.png, id=1601, 670.00313pt x 461.474
+<./../50_aldosheldija/figures/supplierplan2.png, id=1602, 670.00313pt x 461.474
 06pt>
 File: ./../50_aldosheldija/figures/supplierplan2.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/supplierplan2.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/supplierplan2.png  used o
 n input line 495.
 (pdftex.def)             Requested size: 392.50551pt x 270.33795pt.
-<./../50_aldosheldija/figures/supplierplan3.png, id=1603, 856.70062pt x 456.957
+<./../50_aldosheldija/figures/supplierplan3.png, id=1604, 856.70062pt x 456.957
 18pt>
 File: ./../50_aldosheldija/figures/supplierplan3.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/supplierplan3.png>
@@ -2247,7 +2249,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 509.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [85 <./../50_aldosheldija/figures/supplierplan2.png>]
-<./../50_aldosheldija/figures/users.png, id=1612, 867.24pt x 459.96844pt>
+<./../50_aldosheldija/figures/users.png, id=1613, 867.24pt x 459.96844pt>
 File: ./../50_aldosheldija/figures/users.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/users.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/users.png  used on input 
@@ -2260,13 +2262,13 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 522.
 
 [86 <./../50_aldosheldija/figures/supplierplan3.png> <./../50_aldosheldija/figu
 res/users.png>]
-<./../50_aldosheldija/figures/addUser.png, id=1622, 344.78813pt x 307.90031pt>
+<./../50_aldosheldija/figures/addUser.png, id=1623, 344.78813pt x 307.90031pt>
 File: ./../50_aldosheldija/figures/addUser.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/addUser.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/addUser.png  used on inpu
 t line 529.
 (pdftex.def)             Requested size: 216.1011pt x 192.9822pt.
-<./../50_aldosheldija/figures/addUser_email.png, id=1624, 356.83313pt x 197.236
+<./../50_aldosheldija/figures/addUser_email.png, id=1625, 356.83313pt x 197.236
 88pt>
 File: ./../50_aldosheldija/figures/addUser_email.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/addUser_email.png>
@@ -2279,14 +2281,14 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 547.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [87 <./../50_aldosheldija/figures/addUser.png> <./../50_aldosheldija/figures/a
 ddUser_email.png>]
-<./../50_aldosheldija/figures/password_reset.png, id=1638, 454.69875pt x 191.96
+<./../50_aldosheldija/figures/password_reset.png, id=1639, 454.69875pt x 191.96
 72pt>
 File: ./../50_aldosheldija/figures/password_reset.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/password_reset.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/password_reset.png  used 
 on input line 552.
 (pdftex.def)             Requested size: 348.40103pt x 147.09167pt.
-<./../50_aldosheldija/figures/settings.png, id=1643, 971.12813pt x 517.18219pt>
+<./../50_aldosheldija/figures/settings.png, id=1644, 971.12813pt x 517.18219pt>
 
 File: ./../50_aldosheldija/figures/settings.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/settings.png>
@@ -2308,7 +2310,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 604.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [90]
-<./../50_aldosheldija/figures/welcome.png, id=1685, 1157.07281pt x 551.05875pt>
+<./../50_aldosheldija/figures/welcome.png, id=1686, 1157.07281pt x 551.05875pt>
 
 File: ./../50_aldosheldija/figures/welcome.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/welcome.png>
@@ -2320,13 +2322,13 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 632.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [91 <./../50_aldosheldija/figures/welcome.png>]
-<./../50_aldosheldija/figures/layout1-tv.jpg, id=1696, 1205.2528pt x 674.52pt>
+<./../50_aldosheldija/figures/layout1-tv.jpg, id=1697, 1205.2528pt x 674.52pt>
 File: ./../50_aldosheldija/figures/layout1-tv.jpg Graphic file (type jpg)
 <use ./../50_aldosheldija/figures/layout1-tv.jpg>
 Package pdftex.def Info: ./../50_aldosheldija/figures/layout1-tv.jpg  used on i
 nput line 639.
 (pdftex.def)             Requested size: 396.91325pt x 222.12914pt.
-<./../50_aldosheldija/figures/layout1.png, id=1698, 1927.2pt x 1284.7197pt>
+<./../50_aldosheldija/figures/layout1.png, id=1699, 1927.2pt x 1284.7197pt>
 File: ./../50_aldosheldija/figures/layout1.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/layout1.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/layout1.png  used on inpu
@@ -2337,7 +2339,7 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 665.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [92 <./../50_aldosheldija/figures/layout1-tv.jpg>]
-<./../50_aldosheldija/figures/layout3.png, id=1707, 1927.2pt x 1284.7197pt>
+<./../50_aldosheldija/figures/layout3.png, id=1708, 1927.2pt x 1284.7197pt>
 File: ./../50_aldosheldija/figures/layout3.png Graphic file (type png)
 <use ./../50_aldosheldija/figures/layout3.png>
 Package pdftex.def Info: ./../50_aldosheldija/figures/layout3.png  used on inpu
@@ -2349,7 +2351,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 680.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [93 <./../50_aldosheldija/figures/layout1.png> <./../50_aldosheldija/figures/l
 ayout3.png>]
-<./../50_aldosheldija/figures/chatbot-tv.jpg, id=1720, 1205.2528pt x 674.52pt>
+<./../50_aldosheldija/figures/chatbot-tv.jpg, id=1721, 1205.2528pt x 674.52pt>
 File: ./../50_aldosheldija/figures/chatbot-tv.jpg Graphic file (type jpg)
 <use ./../50_aldosheldija/figures/chatbot-tv.jpg>
 Package pdftex.def Info: ./../50_aldosheldija/figures/chatbot-tv.jpg  used on i
@@ -2375,7 +2377,7 @@ Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 728.
  [95]
 File: ./figures/Header_Seite.png Graphic file (type png)
 <use ./figures/Header_Seite.png>
-Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 755.
+Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 751.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [96])
 File: ./figures/Header_Seite.png Graphic file (type png)
@@ -2444,17 +2446,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 2449F0EE94F167ABDDBCB56FC216CD39;7513.
+(rerunfilecheck)             Checksum: C0103411CEEFE80EC1F37ABA04101A16;7513.
 Package logreq Info: Writing requests to 'Master.run.xml'.
 \openout1 = `Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26341 strings out of 481277
- 494158 string characters out of 2916501
- 1416063 words of memory out of 3000000
- 40758 multiletter control sequences out of 15000+200000
- 544660 words of font info for 68 fonts, out of 3000000 for 9000
+ 26346 strings out of 481277
+ 494242 string characters out of 2916501
+ 1416064 words of memory out of 3000000
+ 40762 multiletter control sequences out of 15000+200000
+ 545444 words of font info for 71 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  59i,19n,122p,1669b,3473s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Aldo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\t
@@ -2474,9 +2476,9 @@ fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 msfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Master.pdf (115 pages, 8430408 bytes).
+Output written on Master.pdf (115 pages, 8432571 bytes).
 PDF statistics:
- 2098 PDF objects out of 2487 (max. 8388607)
- 564 named destinations out of 1000 (max. 500000)
+ 2100 PDF objects out of 2487 (max. 8388607)
+ 565 named destinations out of 1000 (max. 500000)
  1370 words of extra memory for PDF output out of 10000 (max. 10000000)
 
