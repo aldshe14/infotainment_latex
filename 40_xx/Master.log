@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  29 MAR 2020 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  31 MAR 2020 12:13
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1340,9 +1340,6 @@ File: ./figures/Header_Seite.png Graphic file (type png)
 Package pdftex.def Info: ./figures/Header_Seite.png  used on input line 612.
 (pdftex.def)             Requested size: 68.50577pt x 24.08992pt.
  [25]
-
-LaTeX Warning: Reference `gfeee' on page 26 undefined on input line 614.
-
 <./../40_xx/figures/multilanguage.jpg, id=581, 407.27156pt x 142.28156pt>
 File: ./../40_xx/figures/multilanguage.jpg Graphic file (type jpg)
 <use ./../40_xx/figures/multilanguage.jpg>
@@ -1656,18 +1653,15 @@ Package rerunfilecheck Info: File `Master.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'Master.run.xml'.
 \openout1 = `Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23480 strings out of 481277
- 436161 string characters out of 2907010
+ 23479 strings out of 481277
+ 436154 string characters out of 2907010
  1268200 words of memory out of 3000000
- 38262 multiletter control sequences out of 15000+200000
+ 38261 multiletter control sequences out of 15000+200000
  542082 words of font info for 59 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  59i,17n,122p,1186b,2571s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1686,7 +1680,7 @@ e1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/USER/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Master.pdf (48 pages, 4147647 bytes).
+Output written on Master.pdf (48 pages, 4147569 bytes).
 PDF statistics:
  960 PDF objects out of 1000 (max. 8388607)
  325 named destinations out of 1000 (max. 500000)
