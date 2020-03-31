@@ -166,13 +166,13 @@ Zuerst wurde ein ER-Diagramm\footnote{Entity Relationship Diagram} (Abbildung \r
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[angle=90,height=20cm,width=0.8\textwidth]{\ordnerfigures erd_1.png}
+	\includegraphics[angle=90,height=19cm,width=0.8\textwidth]{\ordnerfigures erd_1.png}
 	\caption{ERD Diagramm}
 	\label{fi:erd}
 \end{figure}
 
 \section{Admin Webseite}
-Ein sehr wichtiger Teil dieser Diplomarbeit ist auch die Admin Webseite. Auf dieser Webseite hat der Admin die M\"{o}glichkeit, alle Anzeigen zu verwalten und diese mit unterschiedlichen Inhalten zu bef\"{u}llen. Durch diese Webseite wird die Verwaltung einfacher und \"{u}bersichtlicher gemacht. Dort wird dem Admin die Gelegenheit gegeben, Anzeige hinzuf\"{u}gen, \"{a}ndern oder zu l\"{o}schen, verschiedenen Layouts f\"{u}r unterschiedliche Anzeigen anzuordnen, Bilder zu verwalten und Benutzer zu administrieren. Ein anderes Feature dieser Webseite ist auch der Supplierplan. Hier kann der Stundeplan f\"{u}r bestimmte Tagen gemacht werden, damit er in die Anzeige dargestellt werden kann. Es wurde so gemacht, dass der Admin nur mit einigen Klicks das erledigen kann. Da unsere Diplomarbeit nicht nur aus dieser Webseite besteht, wird unsere Webseite eine Schnittstelle haben, um die API\footnote{Application Programming Interface}-Key vom Wetterbericht, URL der Wordpress Webseite, von dem die letzten Posts gespeichert werden, und Chatbot Token zu verwalten.
+Ein sehr wichtiger Teil dieser Diplomarbeit ist auch die Admin Webseite. Auf dieser Webseite hat der Admin die M\"{o}glichkeit, alle Anzeigen zu verwalten und diese mit unterschiedlichen Inhalten zu bef\"{u}llen. Durch diese Webseite wird die Verwaltung einfacher und \"{u}bersichtlicher gemacht. Dort wird dem Admin die Gelegenheit gegeben, Anzeige hinzuf\"{u}gen, \"{a}ndern oder zu l\"{o}schen, verschiedenen Layouts f\"{u}r unterschiedliche Anzeigen anzuordnen, Bilder zu verwalten und Benutzer zu administrieren. Ein anderes Feature dieser Webseite ist auch der Supplierplan. Hier kann der Stundeplan f\"{u}r bestimmte Tagen gemacht werden, damit er in die Anzeige dargestellt werden kann. Es wurde so gemacht, dass der Admin nur mit einigen Klicks das erledigen kann. Da unsere Diplomarbeit nicht nur aus dieser Webseite besteht, wird unsere Webseite eine Schnittstelle haben, um die API\footnote{Application Programming Interface}-Key vom Wetterbericht, URL der Wordpress Webseite (Webseite der Schule), von dem die letzten Posts gespeichert werden, und Chatbot Token zu verwalten.
 
 
 Diese Webseite wurde so konzipiert, dass der Benutzer, der das verwenden wird, die Informationen und die Bedienung dieser Webseite sehr leicht und ohne Probleme durchf\"uhren kann. Die Webseite wird auch in mehreren Sprachen angeboten, so dass es noch leichter bzw. benutzerfreundlich ist.
@@ -205,7 +205,7 @@ Ab und zu passiert es, dass die Benutzer ihr Passwort vergessen, egal aus welche
 	\label{fi:reset}
 \end{figure}
 
-In dieser E-Mail findet man einen Link, über den man das Passwort zurücksetzen werden kann (siehe Abbildung \ref{fi:resetemail}). Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch ungültig und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Der Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Passwortes anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden. Diese Links werden auf ungültig gesetzt, wobei das Ablaufdatum auf ein älteres Datum geändert wird (siehe Abbildung \ref{fi:erd} Tabelle tb\_infotainment\_password\_reset). 
+In dieser E-Mail findet man einen Link, über den man das Passwort zurücksetzen kann (siehe Abbildung \ref{fi:resetemail}). Dieser Link ist nur während der nächsten 24 Stunden gültig. Wenn der Link einmal verwendet wurde, ist er automatisch ungültig und kann nicht mehr verwendet werden. Auf diese Weise ist es sicherer und verhindert, dass andere Personen es erneut verwenden. Der Link wird über die MD5\footnote{Message-Digest Algorithm }-Hash-Funktion generiert, die einen 128-Bit-Hashwert erzeugt. Wenn der Benutzer mehr als einen Link zum Zurücksetzen des Passwortes anfordert, ist nur der zuletzt angeforderte Link gültig. Alle zuvor gesendeten Links können nicht mehr verwendet werden. Diese Links werden auf ungültig gesetzt, wobei das Ablaufdatum auf ein älteres Datum geändert wird (siehe Abbildung \ref{fi:erd} Tabelle tb\_infotainment\_password\_reset). 
 
 \begin{figure}[H]
 	\centering
@@ -215,7 +215,7 @@ In dieser E-Mail findet man einen Link, über den man das Passwort zurücksetzen
 \end{figure}
 
 Falls der Benutzer auf den Link klickt, wird ein neuer Tab geöffnet und er wird auf die Seite weitergeleitet, auf der er sein neues Passwort schreiben kann (Abbildung \ref{fi:reset-password}). Er sollte das neue Passwort zweimal schreiben, um eine falsche Eingabe zu vermeiden. Wenn beide Passwörter übereinstimmen, wird das Passwort über die Länge geprüft. Das Passwort sollte aus 8 bis maximal 20 Zeichen bestehen und nicht gleich 12345678 sein.
-Wenn alle genannten Kriterien erfüllt sind, wird das Passwort geändert und der Benutzer wird zur Startseite weitergeleitet.
+Wenn alle diesen Kriterien erfüllt sind, wird das Passwort geändert und der Benutzer wird zur Startseite weitergeleitet.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.49\textwidth]{\ordnerfigures changepassword.png}
@@ -301,8 +301,8 @@ Um den Gerätestatus herauszufinden, wurde ein Skript in Python erstellt. Dieses
 	\item Es wird eine Verbindung mit der Datenbank hergestellt
 	\item Aus der Tabelle tb\_infotainment\_display (auf Abbildung \ref{fi:erd}) werden alle Anzeigen selektiert.
 	\item Zu jeder Anzeige in der Tabelle wird nur ein Ping gesendet.
-	\item Wenn das Paket erfolgreich gesendet wurde, bedeutet dies, dass die Anzeige online ist und der Status zusammen und das Datum aktualisiert werden müssen. 
-	\item Wurde das Paket nicht gesendet, zeigt uns dies, dass das Gerät entweder nicht mit dem Internet verbunden oder ausgeschaltet ist. Auch in diesem Fall müssen der Status des Geräts mit dem Datum aktualisiert werden.
+	\item Wenn das Paket erfolgreich gesendet wurde, bedeutet dies, dass die Anzeige online ist und der Status zusammen mit dem Datum aktualisiert werden müssen. 
+	\item Wurde das Paket nicht gesendet, zeigt uns dies, dass das Gerät entweder nicht mit dem Internet verbunden oder ausgeschaltet ist. Auch in diesem Fall müssen der Status des Geräts und das Datum aktualisiert werden.
 \end{itemize}
 
 
@@ -350,7 +350,7 @@ Jeder Teil zeigt auch den Inhalt an, der diesem Teil bereits zugeordnet war, zus
 	\label{fi:viewLayout}
 \end{figure}
 
-In jedem Teil befindet sich ein kleines Pluszeichen. Wenn man auf dieses Symbol klicken, wird ein Popup-Fenster (siehe Abbildung \ref{fi:popup-content}) geöffnet, in dem es m\"oglich ist neue Inhalte hinzufügen.
+In jedem Teil befindet sich ein kleines Pluszeichen. Wenn man auf dieses Symbol klickt, wird ein Popup-Fenster (siehe Abbildung \ref{fi:popup-content}) geöffnet, in dem es m\"oglich ist neue Inhalte hinzufügen.
 
 Einige Inhalte sind nur in einigen Teilen des Layouts verfügbar. Zum Beispiel wäre es nicht sinnvoll, den letzten Post der Schulhomepage in der Kopfzeile anzuzeigen. Die Kopfzeile ist klein und der Inhalt passt nicht hinein. Dies gilt auch für andere Inhalte, die nicht in alle Teile des Layouts passen.
 
@@ -402,7 +402,7 @@ Die Anzeigen können editiert bzw. geändert werden, wobei man noch einmal die M
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.79\textwidth]{\ordnerfigures display.png}
-	\caption{Anzeige Seite}
+	\caption{Anzeige-Seite}
 	\label{fi:anzeige}
 \end{figure}
 
@@ -664,7 +664,7 @@ Auf Abbildung \ref{fi:layout1} wird das erste Layout gezeigt.
 \end{figure}
 
 \subsection{Layout 3}
-Dieses Layout besteht aus 3 Hauptteilen: Header, Body und Widget. Hier können alle Informationen wie im Layout 1 angezeigt werden. Hier haben wir ein Widget und keine Fußzeile. Dieses Layout eignet sich für kleinere Bildschirme oder wenn der Bildschirm in einer bestimmten Höhe platziert wird, damit der Text größer wird und einfacher gelesen werden kann. Auf der Abbildung \ref{fi:layout3} wird das Layout 3 dargestellt.
+Dieses Layout besteht aus 3 Hauptteilen: Header, Body und Widget. Hier können alle Informationen wie im Layout 1 angezeigt werden. Hier haben wir hier ein Widget und keine Fußzeile. Dieses Layout eignet sich für kleinere Bildschirme oder wenn der Bildschirm in einer bestimmten Höhe platziert wird, damit der Text größer wird und einfacher gelesen werden kann. Auf der Abbildung \ref{fi:layout3} wird das Layout 3 dargestellt.
 
 \begin{figure}[H]
 	\centering
@@ -765,4 +765,4 @@ Von dieser Diplomarbeit habe ich Erfahrung in vielen Aspekten gesammelt. Erstens
 
 \section{Evaluierung und Resümee}
 
-Die Anforderungen sind soweit erfüllt. Die Webseite f\"ur den Administrator  wurde programmiert und alle vorher geplanten Funktionen sind dabei. Der Administrator hat die Möglichkeit, die Informationen, die er anzeigen will, dort auszuwählen. Er kann auch das entsprechende Layout selbst aussuchen. Von dieser Webseite wird nicht nur eine Anzeige, sondern mehrere Anzeigen verwaltet. Es gab eine Funktionalität bei der Webseite, die anders als geplant umgesetzt wurde. Beim Passwort zurücksetzen, wurde vorher so gedacht, dass der Administrator selbst ein Standardpasswort festlegt. Danach wurde das geändert, weil es Sicherheitslücken haben kann. Es wurde so geändert, dass beim Zurücksetzen des Passworts eine Email mit ein Link verschickt wird. Das macht diese Funktion viel besser und sicherer. Es gibt noch einen anderen Punkt, der länger gedauert hat als gedacht, n\"amlich die Bereitstellung von unterschiedlichen Anzeigezeiten für die unterschiedlichen GUI-Bereiche. Es hat viel Zeit beanspruscht, denn es sollte eine benutzerfreundliche Interface implementiert werden. Am Ende wurde das aber erfolgreich abgeschlossen.
+Die Anforderungen sind soweit erfüllt. Die Webseite f\"ur den Administrator  wurde programmiert und alle vorher geplanten Funktionen sind dabei. Der Administrator hat die Möglichkeit, die Informationen, die er anzeigen will, dort auszuwählen. Er kann auch das entsprechende Layout selbst aussuchen. Von dieser Webseite wird nicht nur eine Anzeige, sondern mehrere Anzeigen verwaltet. Es gab eine Funktionalität bei der Webseite, die anders als geplant umgesetzt wurde. Beim Passwort zurücksetzen, wurde vorher so gedacht, dass der Administrator selbst ein Standardpasswort festlegt. Danach wurde das geändert, weil es Sicherheitslücken haben kann. Es wurde dementsprechend so geändert, dass beim Zurücksetzen des Passworts eine Email mit ein Link verschickt wird. Das macht diese Funktion viel besser und sicherer. Es gibt noch einen anderen Punkt, der länger gedauert hat als gedacht, n\"amlich die Bereitstellung von unterschiedlichen Anzeigezeiten für die unterschiedlichen GUI-Bereiche. Es hat viel Zeit beanspruscht, denn es sollte eine benutzerfreundliche Interface implementiert werden. Am Ende wurde das aber erfolgreich abgeschlossen.

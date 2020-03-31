@@ -99,56 +99,56 @@
 \contentsline {section}{\numberline {5.4}Datenbank}{69}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}ER Diagramm}{69}{subsection.5.4.1}%
 \contentsline {section}{\numberline {5.5}Admin Webseite}{71}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Login}{72}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Passwort zurücksetzen}{73}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Menü}{75}{subsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.5.4}Startseite}{76}{subsection.5.5.4}%
-\contentsline {subsubsection}{Anzeige Status}{77}{section*.99}%
-\contentsline {subsubsection}{Timetable}{78}{section*.100}%
-\contentsline {subsubsection}{Layout wählen}{78}{section*.101}%
-\contentsline {subsubsection}{Layout Inhalte hinzufügen}{79}{section*.103}%
-\contentsline {subsubsection}{Pop-up-Fenster}{80}{section*.106}%
-\contentsline {subsection}{\numberline {5.5.5}Anzeige}{81}{subsection.5.5.5}%
-\contentsline {subsection}{\numberline {5.5.6}Bilder}{82}{subsection.5.5.6}%
-\contentsline {subsection}{\numberline {5.5.7}Layouts}{82}{subsection.5.5.7}%
-\contentsline {subsection}{\numberline {5.5.8}Kalendarinfo}{83}{subsection.5.5.8}%
-\contentsline {subsection}{\numberline {5.5.9}Supplierplan}{83}{subsection.5.5.9}%
-\contentsline {subsubsection}{Stundenplan importieren}{84}{section*.112}%
-\contentsline {subsubsection}{Stundenplan }{84}{section*.114}%
-\contentsline {subsubsection}{Fehlende Lehrer}{85}{section*.116}%
-\contentsline {subsubsection}{Suppliertabelle}{86}{section*.119}%
-\contentsline {subsection}{\numberline {5.5.10}Benutzer}{87}{subsection.5.5.10}%
-\contentsline {subsubsection}{Neue Benutzer hinzufügen}{88}{section*.122}%
-\contentsline {subsubsection}{Passwort zurücksetzen}{89}{section*.125}%
-\contentsline {subsection}{\numberline {5.5.11}Einstellungen}{89}{subsection.5.5.11}%
-\contentsline {subsection}{\numberline {5.5.12}Logout}{90}{subsection.5.5.12}%
-\contentsline {subsection}{\numberline {5.5.13}Benutzerrechte für die Webseite}{90}{subsection.5.5.13}%
-\contentsline {subsubsection}{Administrator}{91}{section*.128}%
-\contentsline {subsubsection}{Normaler Benutzer}{91}{section*.129}%
-\contentsline {subsection}{\numberline {5.5.14}Webseite auf mehrere Sprachen}{91}{subsection.5.5.14}%
-\contentsline {section}{\numberline {5.6}Client/Anzeige}{91}{section.5.6}%
-\contentsline {subsubsection}{Welcome-Seite}{92}{section*.130}%
-\contentsline {subsubsection}{Layout selektieren}{92}{section*.132}%
-\contentsline {subsubsection}{Inhalte Verwaltung}{93}{section*.133}%
-\contentsline {subsection}{\numberline {5.6.1}Layout 1}{93}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Layout 3}{94}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}Anzeige für die Chatbot-Bilder}{94}{subsection.5.6.3}%
-\contentsline {subsection}{\numberline {5.6.4}Anzeige für den Supplierplan}{95}{subsection.5.6.4}%
-\contentsline {section}{\numberline {5.7}Wordpress Webseite API}{95}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Bilder-Funktionalität bei der Chatbot}{96}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Herausforderungen und deren Lösung}{96}{section.5.9}%
-\contentsline {subsection}{\numberline {5.9.1}Supplierplan}{96}{subsection.5.9.1}%
-\contentsline {subsection}{\numberline {5.9.2}Übersicht der Layouts}{96}{subsection.5.9.2}%
-\contentsline {subsection}{\numberline {5.9.3}Überschneidungen der Inhalte}{96}{subsection.5.9.3}%
-\contentsline {subsection}{\numberline {5.9.4}Neuen Benutzer anlegen}{97}{subsection.5.9.4}%
-\contentsline {subsection}{\numberline {5.9.5}Passwort zurücksetzen}{97}{subsection.5.9.5}%
-\contentsline {subsection}{\numberline {5.9.6}Identifizierung der Anzeigen}{97}{subsection.5.9.6}%
-\contentsline {subsection}{\numberline {5.9.7}Die Verwaltung der Anzeigeinformationen}{97}{subsection.5.9.7}%
-\contentsline {subsection}{\numberline {5.9.8}Kein Inhalt für die Anzeige}{97}{subsection.5.9.8}%
-\contentsline {subsection}{\numberline {5.9.9}Die Anzeige des Supplierplanplans}{98}{subsection.5.9.9}%
-\contentsline {subsection}{\numberline {5.9.10}Der letzte Post der Wordpress-Website}{98}{subsection.5.9.10}%
-\contentsline {section}{\numberline {5.10}Wertschöpfung und Lessons Learned}{98}{section.5.10}%
-\contentsline {section}{\numberline {5.11}Evaluierung und Resümee}{98}{section.5.11}%
-\contentsline {chapter}{\numberline {6}Ausblick}{100}{chapter.6}%
-\contentsline {chapter}{Abbildungsverzeichnis}{101}{appendix*.138}%
-\contentsline {chapter}{Tabellenverzeichnis}{103}{appendix*.139}%
+\contentsline {subsection}{\numberline {5.5.1}Login}{71}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Passwort zurücksetzen}{72}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Menü}{74}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Startseite}{75}{subsection.5.5.4}%
+\contentsline {subsubsection}{Anzeige Status}{76}{section*.99}%
+\contentsline {subsubsection}{Timetable}{77}{section*.100}%
+\contentsline {subsubsection}{Layout wählen}{77}{section*.101}%
+\contentsline {subsubsection}{Layout Inhalte hinzufügen}{78}{section*.103}%
+\contentsline {subsubsection}{Pop-up-Fenster}{79}{section*.106}%
+\contentsline {subsection}{\numberline {5.5.5}Anzeige}{80}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.6}Bilder}{81}{subsection.5.5.6}%
+\contentsline {subsection}{\numberline {5.5.7}Layouts}{81}{subsection.5.5.7}%
+\contentsline {subsection}{\numberline {5.5.8}Kalendarinfo}{82}{subsection.5.5.8}%
+\contentsline {subsection}{\numberline {5.5.9}Supplierplan}{82}{subsection.5.5.9}%
+\contentsline {subsubsection}{Stundenplan importieren}{83}{section*.112}%
+\contentsline {subsubsection}{Stundenplan }{83}{section*.114}%
+\contentsline {subsubsection}{Fehlende Lehrer}{84}{section*.116}%
+\contentsline {subsubsection}{Suppliertabelle}{85}{section*.119}%
+\contentsline {subsection}{\numberline {5.5.10}Benutzer}{86}{subsection.5.5.10}%
+\contentsline {subsubsection}{Neue Benutzer hinzufügen}{87}{section*.122}%
+\contentsline {subsubsection}{Passwort zurücksetzen}{88}{section*.125}%
+\contentsline {subsection}{\numberline {5.5.11}Einstellungen}{88}{subsection.5.5.11}%
+\contentsline {subsection}{\numberline {5.5.12}Logout}{89}{subsection.5.5.12}%
+\contentsline {subsection}{\numberline {5.5.13}Benutzerrechte für die Webseite}{89}{subsection.5.5.13}%
+\contentsline {subsubsection}{Administrator}{90}{section*.128}%
+\contentsline {subsubsection}{Normaler Benutzer}{90}{section*.129}%
+\contentsline {subsection}{\numberline {5.5.14}Webseite auf mehrere Sprachen}{90}{subsection.5.5.14}%
+\contentsline {section}{\numberline {5.6}Client/Anzeige}{90}{section.5.6}%
+\contentsline {subsubsection}{Welcome-Seite}{91}{section*.130}%
+\contentsline {subsubsection}{Layout selektieren}{91}{section*.132}%
+\contentsline {subsubsection}{Inhalte Verwaltung}{92}{section*.133}%
+\contentsline {subsection}{\numberline {5.6.1}Layout 1}{92}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Layout 3}{93}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Anzeige für die Chatbot-Bilder}{93}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Anzeige für den Supplierplan}{94}{subsection.5.6.4}%
+\contentsline {section}{\numberline {5.7}Wordpress Webseite API}{94}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Bilder-Funktionalität bei der Chatbot}{95}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Herausforderungen und deren Lösung}{95}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Supplierplan}{95}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Übersicht der Layouts}{95}{subsection.5.9.2}%
+\contentsline {subsection}{\numberline {5.9.3}Überschneidungen der Inhalte}{95}{subsection.5.9.3}%
+\contentsline {subsection}{\numberline {5.9.4}Neuen Benutzer anlegen}{96}{subsection.5.9.4}%
+\contentsline {subsection}{\numberline {5.9.5}Passwort zurücksetzen}{96}{subsection.5.9.5}%
+\contentsline {subsection}{\numberline {5.9.6}Identifizierung der Anzeigen}{96}{subsection.5.9.6}%
+\contentsline {subsection}{\numberline {5.9.7}Die Verwaltung der Anzeigeinformationen}{96}{subsection.5.9.7}%
+\contentsline {subsection}{\numberline {5.9.8}Kein Inhalt für die Anzeige}{96}{subsection.5.9.8}%
+\contentsline {subsection}{\numberline {5.9.9}Die Anzeige des Supplierplanplans}{97}{subsection.5.9.9}%
+\contentsline {subsection}{\numberline {5.9.10}Der letzte Post der Wordpress-Website}{97}{subsection.5.9.10}%
+\contentsline {section}{\numberline {5.10}Wertschöpfung und Lessons Learned}{97}{section.5.10}%
+\contentsline {section}{\numberline {5.11}Evaluierung und Resümee}{97}{section.5.11}%
+\contentsline {chapter}{\numberline {6}Ausblick}{99}{chapter.6}%
+\contentsline {chapter}{Abbildungsverzeichnis}{100}{appendix*.138}%
+\contentsline {chapter}{Tabellenverzeichnis}{102}{appendix*.139}%
